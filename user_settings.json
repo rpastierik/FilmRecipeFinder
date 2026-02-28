@@ -1,7 +1,7 @@
 {
-    "theme": "dark",
+    "theme": "light",
     "show_histogram": true,
     "rgb_histogram": true,
-    "histogram_type": "bar",
+    "histogram_type": "step",
     "last_dir": "G:/Photos/2026/20260228_test/jpg"
 }

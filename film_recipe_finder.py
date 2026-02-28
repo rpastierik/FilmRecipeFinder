@@ -1166,22 +1166,30 @@ class MainWindow(QMainWindow):
             btn = QPushButton(symbol)
             btn.setToolTip(tooltip)
             btn.setFixedSize(40, 40)
-            #btn.setStyleSheet("QPushButton { font-size: 18px; border: none; background: transparent; }")
-            btn.setStyleSheet("""
-                QPushButton { 
+            
+            if self.dark_mode:
+                hover_color = "#3c3836"
+                pressed_color = "#504945"
+            else:
+                hover_color = "#ccd0da"   # QMenuBar::item:selected z LIGHT_THEME
+                pressed_color = "#bcc0cc" # o stupeň tmavšia
+
+            btn.setStyleSheet(f"""
+                QPushButton {{ 
                     font-size: 18px; 
                     border: none; 
                     background: transparent;
                     border-radius: 6px;
                     padding: 4px;
-                }
-                QPushButton:hover {
-                    background-color: #3c3836;
-                }
-                QPushButton:pressed {
-                    background-color: #504945;
-                }
+                }}
+                QPushButton:hover {{
+                    background-color: {hover_color};
+                }}
+                QPushButton:pressed {{
+                    background-color: {pressed_color};
+                }}
             """)
+            
             btn.setCursor(QCursor(Qt.CursorShape.PointingHandCursor))
             btn.clicked.connect(slot)
             toolbar.addWidget(btn)
@@ -1229,6 +1237,12 @@ class MainWindow(QMainWindow):
         self.settings["theme"] = "dark" if self.dark_mode else "light"
         SettingsManager.save(self.settings)
         self.theme_action.setText("Switch to Light Mode" if self.dark_mode else "Switch to Dark Mode")
+
+        for toolbar in self.findChildren(QToolBar):
+            self.removeToolBar(toolbar)
+            toolbar.deleteLater()
+        self._build_toolbar()
+
         self._apply_theme()
 
     # ── STATUS BAR ────────────────────────────
