@@ -16,7 +16,7 @@ A desktop application for identifying and managing Fujifilm film simulation reci
 - **Drag & Drop** support – simply drag photos into the application window
 - **Recipe browser** – browse, search, add, edit and delete recipes
 - **Histogram** – RGB or luminance histogram for each photo (optional)
-- **Full EXIF viewer** – view short or full EXIF data for any photo
+- **Full EXIF viewer** – view full EXIF data for any photo
 - **Detail view** – click on any image card to open a full-size detail with complete EXIF
 - **Dark / Light theme** – Gruvbox-inspired dark theme and clean light theme
 - **Persistent settings** – remembers last directory, theme, and histogram preferences
