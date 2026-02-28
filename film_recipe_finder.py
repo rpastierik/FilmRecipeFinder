@@ -1060,6 +1060,7 @@ class MainWindow(QMainWindow):
 
     def __init__(self):
         super().__init__()
+        self.setWindowIcon(QIcon(resource_path("icon.png")))
         self.setWindowTitle("Film Recipe Finder")
         self.resize(1200, 850)
 
@@ -1308,7 +1309,13 @@ class MainWindow(QMainWindow):
 
     # ── ABOUT ─────────────────────────────────
     def _about(self):
-        QMessageBox.information(self, "About",
+        msg = QMessageBox(self)
+        msg.setWindowTitle("About")
+        msg.setWindowIcon(QIcon(resource_path("icon.png")))
+        msg.setIconPixmap(QPixmap(resource_path("icon.png")).scaled(
+            64, 64, Qt.AspectRatioMode.KeepAspectRatio, Qt.TransformationMode.SmoothTransformation
+        ))
+        msg.setText(
             "Film Recipe Finder\n\n"
             "Version 0.2.0  (February 2026)\n"
             "© 2026 Roman Pastierik\n\n"
@@ -1318,6 +1325,7 @@ class MainWindow(QMainWindow):
             "Uses ExifTool by Phil Harvey\n"
             "philharvey66@gmail.com"
         )
+        msg.exec()
 
     # ── DRAG & DROP ───────────────────────────
     def dragEnterEvent(self, event):
