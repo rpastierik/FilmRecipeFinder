@@ -10,7 +10,7 @@ from PyQt6.QtWidgets import (
     QApplication, QMainWindow, QWidget, QVBoxLayout, QHBoxLayout,
     QLabel, QScrollArea, QStatusBar, QFileDialog,
     QMessageBox, QFrame, QSizePolicy, QDialog, QFormLayout, QLineEdit,
-    QComboBox, QPushButton, QScrollArea as QSA,
+    QComboBox, QPushButton, QScrollArea,
     QCheckBox, QRadioButton, QButtonGroup, QTextEdit
 )
 from PyQt6.QtGui import QPixmap, QImage, QAction, QIcon, QFont, QColor, QTextCharFormat, QCursor
