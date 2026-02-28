@@ -32,7 +32,7 @@ A desktop application for identifying and managing Fujifilm film simulation reci
 ![Recipe Browser](screenshots/recipe_browser_dark_theme.png)
 
 ### Recipe Browser - Light Theme
-![Recipe Browser](screenshots/recipe_browser_dark_theme.png)
+![Recipe Browser](screenshots/recipe_browser_light_theme.png)
 
 ### Detail View with Full Exif
 ![Detail View](screenshots/detail_view_with_full_exif.png)
