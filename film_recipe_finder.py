@@ -1,3 +1,29 @@
+# ──────────────────────────────────────────────────────────────────────────────
+# Film Recipe Finder
+# ──────────────────────────────────────────────────────────────────────────────
+# Version  : 0.2.1
+# Author   : Roman Pastierik
+# Date     : February 2026
+# License  : GNU General Public License v3
+#
+# Description:
+#   Desktop application for Fujifilm photographers.
+#   Identifies film simulation recipes from image EXIF data and matches
+#   them against a local XML database of saved recipes.
+#
+# Dependencies:
+#   PyQt6, Pillow, NumPy, Matplotlib, ExifTool (Phil Harvey)
+#
+# Repository:
+#   https://github.com/rpastierik/FilmRecipeFinder
+#
+# Support:
+#   https://ko-fi.com/rpastierik
+#
+# Uses ExifTool by Phil Harvey (philharvey66@gmail.com)
+# ExifTool is licensed under the Artistic License / GPL
+# ──────────────────────────────────────────────────────────────────────────────
+
 import os
 import sys
 import subprocess
