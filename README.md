@@ -65,7 +65,7 @@ pip install PyQt6 Pillow numpy matplotlib
 4. Run the application:
 
 ```bash
-python fuji_app.py
+python film_recipe_finder.py
 ```
 
 ---
