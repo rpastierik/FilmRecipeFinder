@@ -2,7 +2,6 @@
 
 A desktop application for identifying and managing Fujifilm film simulation recipes from JPEG photos using EXIF metadata.
 
-> ⚠️ **Platform support:** Currently Windows only. Linux support coming soon.
 
 ![Python](https://img.shields.io/badge/Python-3.10+-blue)
 ![PyQt6](https://img.shields.io/badge/PyQt6-6.x-green)
