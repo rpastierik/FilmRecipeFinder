@@ -1139,10 +1139,12 @@ class MainWindow(QMainWindow):
                 toolbar.addSeparator()
                 continue
             symbol, tooltip, slot = item
-            action = QAction(symbol, self)
-            action.setToolTip(tooltip)
-            action.triggered.connect(slot)
-            toolbar.addAction(action)
+            btn = QPushButton(symbol)
+            btn.setToolTip(tooltip)
+            btn.setFixedSize(40, 40)
+            btn.setStyleSheet("QPushButton { font-size: 18px; border: none; background: transparent; }")
+            btn.clicked.connect(slot)
+            toolbar.addWidget(btn)
 
     # ── MENU BUILD ────────────────────────────
     def _build_menu(self):
