@@ -942,7 +942,8 @@ class SettingsDialog(QDialog):
         btn_row.addWidget(cancel_btn)
         btn_row.addStretch()
         layout.addLayout(btn_row)
-
+       
+       
     def _save(self):
         self.settings["show_histogram"] = self.show_hist_cb.isChecked()
         self.settings["rgb_histogram"] = self.rgb_hist_cb.isChecked()
@@ -950,6 +951,9 @@ class SettingsDialog(QDialog):
         SettingsManager.save(self.settings)
         self.accept()
         self.on_success()
+        self.settings["active_sensors"] = [
+            s for s, cb in self.sensor_checks.items() if cb.isChecked()
+        ]
 
 
 # ──────────────────────────────────────────────
@@ -1025,12 +1029,38 @@ class RecipeBrowserDialog(QDialog):
         self._display(filtered)
 
     def _display(self, simulations):
+        parent_settings = getattr(self.parent(), 'settings', {})
+        all_sensors = ["X-Trans I", "X-Trans II", "X-Trans III", "X-Trans IV", "X-Trans V"]
+        active_sensors = parent_settings.get("active_sensors", all_sensors)
+
+        filtered = {
+            name: data for name, data in simulations.items()
+            if data.get("Sensor", "") in active_sensors
+        }
+
         parent_dark = getattr(self.parent(), 'dark_mode', True)
         name_color = "#b8bb26" if parent_dark else "#4c9a2a"
         text_color = "#ebdbb2" if parent_dark else "#4c4f69"
+        header_color = "#458588" if parent_dark else "#1e66f5"  # modra pre hlavicku
 
         self.text_area.clear()
         cursor = self.text_area.textCursor()
+
+        # ── Hlavička so senzorom ──
+        header_fmt = QTextCharFormat()
+        header_fmt.setFontWeight(QFont.Weight.Bold)
+        header_fmt.setFontPointSize(11)
+        header_fmt.setForeground(QColor(header_color))
+
+        if len(active_sensors) == len(all_sensors):
+            sensor_label = "All sensors"
+        elif len(active_sensors) == 1:
+            sensor_label = active_sensors[0]
+        else:
+            sensor_label = ", ".join(active_sensors)
+
+        cursor.insertText(f"  Showing: {sensor_label}  ({len(filtered)} recipes)\n", header_fmt)
+        cursor.insertText("\n", header_fmt)
 
         bold_fmt = QTextCharFormat()
         bold_fmt.setFontWeight(QFont.Weight.Bold)
@@ -1040,16 +1070,14 @@ class RecipeBrowserDialog(QDialog):
         normal_fmt.setFontWeight(QFont.Weight.Normal)
         normal_fmt.setForeground(QColor(text_color))
 
-        for name, data in sorted(simulations.items()):
+        for name, data in sorted(filtered.items()):
             cursor.insertText(f"  # {name}\n", bold_fmt)
             for key, value in data.items():
                 cursor.insertText(f"    - {key}: {value}\n", normal_fmt)
             cursor.insertText("\n", normal_fmt)
 
         self.text_area.setTextCursor(cursor)
-        self.text_area.moveCursor(
-            self.text_area.textCursor().MoveOperation.Start
-        )
+        self.text_area.moveCursor(self.text_area.textCursor().MoveOperation.Start)
 
     def _refresh(self):
         self.on_change()
@@ -1141,9 +1169,14 @@ class MainWindow(QMainWindow):
         toolbar.setMovable(False)
         toolbar.setToolButtonStyle(Qt.ToolButtonStyle.ToolButtonTextOnly)
         self.addToolBar(toolbar)
-
-        # Nastav velkost pisma pre toolbar
         toolbar.setStyleSheet("QToolButton { font-size: 18px; padding: 1px 1px; }")
+
+        if self.dark_mode:
+            hover_color = "#3c3836"
+            pressed_color = "#504945"
+        else:
+            hover_color = "#ccd0da"
+            pressed_color = "#bcc0cc"
 
         actions = [
             ("🔍", "Identify Recipe",  self.identify_recipe),
@@ -1155,7 +1188,6 @@ class MainWindow(QMainWindow):
             None,
             ("⚙️", "Settings",         self.open_settings),
             ("🌙", "Toggle Theme",     self.toggle_theme),
-            
         ]
 
         for item in actions:
@@ -1166,14 +1198,6 @@ class MainWindow(QMainWindow):
             btn = QPushButton(symbol)
             btn.setToolTip(tooltip)
             btn.setFixedSize(40, 40)
-            
-            if self.dark_mode:
-                hover_color = "#3c3836"
-                pressed_color = "#504945"
-            else:
-                hover_color = "#ccd0da"   # QMenuBar::item:selected z LIGHT_THEME
-                pressed_color = "#bcc0cc" # o stupeň tmavšia
-
             btn.setStyleSheet(f"""
                 QPushButton {{ 
                     font-size: 18px; 
@@ -1189,10 +1213,30 @@ class MainWindow(QMainWindow):
                     background-color: {pressed_color};
                 }}
             """)
-            
             btn.setCursor(QCursor(Qt.CursorShape.PointingHandCursor))
             btn.clicked.connect(slot)
             toolbar.addWidget(btn)
+
+        # ── Sensor filter — raz, na konci ──
+        toolbar.addSeparator()
+
+        sensor_label = QLabel("  Sensor: ")
+        toolbar.addWidget(sensor_label)
+
+        self.sensor_combo = QComboBox()
+        all_sensors = ["X-Trans I", "X-Trans II", "X-Trans III", "X-Trans IV", "X-Trans V"]
+        self.sensor_combo.addItem("All")
+        self.sensor_combo.addItems(all_sensors)
+        self.sensor_combo.setMinimumWidth(120)
+
+        active = self.settings.get("active_sensors", all_sensors)
+        if len(active) == 1:
+            idx = self.sensor_combo.findText(active[0])
+            if idx >= 0:
+                self.sensor_combo.setCurrentIndex(idx)
+
+        self.sensor_combo.currentTextChanged.connect(self._on_sensor_combo_changed)
+        toolbar.addWidget(self.sensor_combo)
 
     # ── MENU BUILD ────────────────────────────
     def _build_menu(self):
@@ -1222,6 +1266,14 @@ class MainWindow(QMainWindow):
         help_menu = menubar.addMenu("Help")
         help_menu.addAction(self._action("About", self._about))
 
+    def _on_sensor_combo_changed(self, text):
+        sensors = ["X-Trans I", "X-Trans II", "X-Trans III", "X-Trans IV", "X-Trans V"]
+        if text == "All":
+            self.settings["active_sensors"] = sensors
+        else:
+            self.settings["active_sensors"] = [text]
+        SettingsManager.save(self.settings)
+    
     def _action(self, name, slot):
         action = QAction(name, self)
         action.triggered.connect(slot)
@@ -1357,9 +1409,19 @@ class MainWindow(QMainWindow):
         self._update_status()
 
     def open_settings(self):
-        dlg = SettingsDialog(self, self.settings, lambda: None)
+        dlg = SettingsDialog(self, self.settings, self._on_settings_saved)
         dlg.exec()
-
+        
+    def _on_settings_saved(self):
+        active = self.settings.get("active_sensors", [])
+        if hasattr(self, 'sensor_combo'):
+            all_sensors = ["X-Trans I", "X-Trans II", "X-Trans III", "X-Trans IV", "X-Trans V"]
+            if len(active) == 1:
+                idx = self.sensor_combo.findText(active[0])
+                self.sensor_combo.setCurrentIndex(idx if idx >= 0 else 0)
+            else:
+                self.sensor_combo.setCurrentIndex(0)  # "All"
+            
     # ── ABOUT ─────────────────────────────────
     def _about(self):
         msg = QMessageBox(self)
@@ -1370,7 +1432,7 @@ class MainWindow(QMainWindow):
         ))
         msg.setText(
             "Film Recipe Finder\n\n"
-            "Version 0.2.0  (February 2026)\n"
+            "Version 0.2.1  (February 2026)\n"
             "© 2026 Roman Pastierik\n\n"
             "Support development:\n"
             "Ko-fi: ko-fi.com/rpastierik\n\n"

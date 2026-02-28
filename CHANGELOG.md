@@ -7,3 +7,6 @@ All notable changes to this project will be documented in this file.
 
 ## [0.2.0] - 2026.02.27
 - Added: Image Detail Dialog
+
+## [0.2.1] - 2026.02.28
+- Added: Sensors
