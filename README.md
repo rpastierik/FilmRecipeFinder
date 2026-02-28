@@ -10,7 +10,7 @@ A desktop application for identifying and managing Fujifilm film simulation reci
 
 ---
 
-## ✨ Features
+## Features
 
 - **Identify film simulation recipes** from Fujifilm JPEG photos by reading EXIF data
 - **Drag & Drop** support – simply drag photos into the application window
@@ -22,7 +22,7 @@ A desktop application for identifying and managing Fujifilm film simulation reci
 - **Persistent settings** – remembers last directory, theme, and histogram preferences
 
 ---
-## 📸 Screenshots
+## Screenshots
 
 ### Dark Theme
 ![Dark Theme](screenshots/dark_theme.png)
@@ -50,7 +50,7 @@ A desktop application for identifying and managing Fujifilm film simulation reci
 
 ---
 
-## 📋 Requirements
+## Requirements
 
 - Python 3.10 or newer
 - [ExifTool](https://exiftool.org/) by Phil Harvey (must be in system PATH or placed in app directory)
@@ -72,7 +72,7 @@ pip install PyQt6 Pillow numpy matplotlib
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 1. Clone the repository:
 
@@ -99,7 +99,7 @@ python film_recipe_finder.py
 
 ---
 
-## 📁 File Structure
+## File Structure
 
 ```
 FilmRecipeFinder/
@@ -115,7 +115,7 @@ FilmRecipeFinder/
 
 ---
 
-## 🎛 Usage
+## Usage
 
 ### Identify a Recipe
 - Go to **Recipes → Identify Recipe** or drag & drop photos directly into the window
@@ -135,7 +135,7 @@ FilmRecipeFinder/
 
 ---
 
-## 🗄 Recipe Database
+## Recipe Database
 
 Recipes are stored in `film_simulations.xml`. Each recipe contains:
 
@@ -158,21 +158,21 @@ Recipes are stored in `film_simulations.xml`. Each recipe contains:
 
 ---
 
-## 📜 License
+## License
 
 This project is licensed under the **GNU General Public License v3**.
 See [LICENSE](LICENSE) for details.
 
 ---
 
-## 🙏 Credits
+## Credits
 
 - **ExifTool** by Phil Harvey (philharvey66@gmail.com) – [exiftool.org](https://exiftool.org/)
 - Themes inspired by [Gruvbox](https://github.com/morhetz/gruvbox) and [Catppuccin](https://github.com/catppuccin/catppuccin)
 
 ---
 
-## 💛 Support
+## Support
 
 If you find this tool useful, consider supporting development:
 
