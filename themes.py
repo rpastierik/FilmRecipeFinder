@@ -34,19 +34,23 @@ DARK_THEME = """
         border: none;
         background-color: #282828;
     }
+    
     QScrollBar:vertical {
-        background: #1d2021;
-        width: 10px;
-        border-radius: 5px;
+    background: #1d2021;
+    width: 10px;
+    border-radius: 7px;
     }
+    
     QScrollBar::handle:vertical {
-        background: #504945;
-        border-radius: 5px;
-        min-height: 20px;
+        background: #928374;
+        border-radius: 7px;
+        min-height: 30px;
     }
+    
     QScrollBar::handle:vertical:hover {
-        background: #665c54;
+        background: #ebdbb2;
     }
+    
     QScrollBar::add-line:vertical, QScrollBar::sub-line:vertical {
         height: 0px;
     }
@@ -131,19 +135,22 @@ LIGHT_THEME = """
         border: none;
         background-color: #eff1f5;
     }
+    
     QScrollBar:vertical {
-        background: #dce0e8;
-        width: 10px;
-        border-radius: 5px;
+    background: #dce0e8;
+    width: 10px;
+    border-radius: 7px;
     }
+    
     QScrollBar::handle:vertical {
-        background: #acb0be;
-        border-radius: 5px;
-        min-height: 20px;
+        background: #6c6f85;
+        border-radius: 7px;
+        min-height: 30px;
     }
     QScrollBar::handle:vertical:hover {
-        background: #9ca0b0;
+        background: #4c4f69;
     }
+    
     QScrollBar::add-line:vertical, QScrollBar::sub-line:vertical {
         height: 0px;
     }

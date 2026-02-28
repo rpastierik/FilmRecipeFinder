@@ -318,7 +318,8 @@ class HistogramWidget(FigureCanvas):
 # IMAGE DETAIL DIALOG
 # ──────────────────────────────────────────────
 class ImageDetailDialog(QDialog):
-    def __init__(self, parent, filename, sim_data, exif_fallback, settings, dark=True):
+    def __init__(self, parent, filename, sim_data, full_exif, settings, dark=True):
+        
         super().__init__(parent)
         self.setWindowTitle(os.path.basename(filename))
         self.setMinimumSize(1800, 1150)
@@ -375,10 +376,10 @@ class ImageDetailDialog(QDialog):
         if sim_data:
             for key, value in sim_data.items():
                 text += f"{key}: {value}<br>"
-        else:
-            text += "<i>No matching simulation found</i><br><br>"
-            for key, value in exif_fallback.items():
-                text += f"{key}: {value}<br>"
+            text += "<br><hr><br>"
+        # Vzdy zobraz full exif
+        for key, value in full_exif.items():  # exif_fallback je tu full_exif
+            text += f"{key}: {value}<br>"
 
         info_label.setText(text)
 
@@ -388,17 +389,6 @@ class ImageDetailDialog(QDialog):
         info_scroll.setWidget(info_label)
         info_scroll.setFixedWidth(280)
         right_col.addWidget(info_scroll)
-
-        # ── Histogram ──
-        if settings.get("show_histogram", True):
-            hist = HistogramWidget(
-                img_pil,
-                rgb=settings.get("rgb_histogram", True),
-                hist_type=settings.get("histogram_type", "step"),
-                dark=dark,
-                size=(280, 200)
-            )
-            right_col.addWidget(hist)
 
         top_row.addLayout(right_col)
         main_layout.addLayout(top_row)
@@ -499,9 +489,14 @@ class ImageCard(QFrame):
 
     def mousePressEvent(self, event):
         if event.button() == Qt.MouseButton.LeftButton:
+            try:
+                full_exif = ExifManager.get_exif(self.filename, 'full')
+            except Exception:
+                full_exif = self.exif_fallback
             dlg = ImageDetailDialog(
                 self.parent(), self.filename, self.sim_data,
-                self.exif_fallback, self.settings, self.dark
+                full_exif,  # namiesto self.exif_fallback
+                self.settings, self.dark
             )
             dlg.exec()
 
@@ -1127,9 +1122,9 @@ class MainWindow(QMainWindow):
         recipes_menu.addSeparator()
         recipes_menu.addAction(self._action("Exit", self.close))
 
-        exif_menu = menubar.addMenu("Exif")
-        exif_menu.addAction(self._action("Show Full Exif", lambda: self.show_exif(full=True)))
-        exif_menu.addAction(self._action("Show Short Exif", lambda: self.show_exif(full=False)))
+        # exif_menu = menubar.addMenu("Exif")
+        # exif_menu.addAction(self._action("Show Full Exif", lambda: self.show_exif(full=True)))
+        # exif_menu.addAction(self._action("Show Short Exif", lambda: self.show_exif(full=False)))
 
         view_menu = menubar.addMenu("View")
         self.theme_action = QAction("Switch to Light Mode" if self.dark_mode else "Switch to Dark Mode", self)
