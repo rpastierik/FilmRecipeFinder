@@ -20,6 +20,23 @@ A desktop application for identifying and managing Fujifilm film simulation reci
 - **Persistent settings** – remembers last directory, theme, and histogram preferences
 
 ---
+## 📸 Screenshots
+
+### Dark Theme
+![Dark Theme](screenshots/dark_theme.png)
+
+### Light Theme  
+![Light Theme](screenshots/light_theme.png)
+
+### Recipe Browser - Dark Theme
+![Recipe Browser](screenshots/recipe_browser_dark_theme.png)
+
+### Recipe Browser - Light Theme
+![Recipe Browser](screenshots/recipe_browser_dark_theme.png)
+
+### Detail View
+![Detail View](screenshots/detail_view.png)
+---
 
 ## 📋 Requirements
 
