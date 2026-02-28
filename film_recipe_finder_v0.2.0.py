@@ -1099,11 +1099,19 @@ class MainWindow(QMainWindow):
 
         self.scroll_area.setWidget(self.cards_widget)
         main_layout.addWidget(self.scroll_area)
+        
+        # Placeholder text
+        self.placeholder = QLabel("⬇  Drag & Drop pictures here  ⬇")
+        self.placeholder.setAlignment(Qt.AlignmentFlag.AlignCenter)
+        self.placeholder.setStyleSheet("color: #504945; padding: 350px; font-size: 20px;")       
+        self.cards_layout.insertWidget(0, self.placeholder)
+        self.cards_layout.addStretch()
 
         self.status_bar = QStatusBar()
         self.setStatusBar(self.status_bar)
         self.status_label = QLabel()
         self.status_bar.addPermanentWidget(self.status_label)
+        
 
     # ── MENU BUILD ────────────────────────────
     def _build_menu(self):
@@ -1173,9 +1181,10 @@ class MainWindow(QMainWindow):
 
     # ── CLEAR CARDS ───────────────────────────
     def _clear_cards(self):
+        self.placeholder.show()
         while self.cards_layout.count() > 1:
             item = self.cards_layout.takeAt(0)
-            if item.widget():
+            if item.widget() and item.widget() is not self.placeholder:
                 item.widget().deleteLater()
 
     def _refresh_cards(self):
@@ -1183,6 +1192,7 @@ class MainWindow(QMainWindow):
 
     # ── IDENTIFY RECIPE ───────────────────────
     def identify_recipe(self):
+        self.placeholder.hide()
         filenames, _ = QFileDialog.getOpenFileNames(
             self, "Choose pictures", self.last_dir,
             "Pictures (*.jpg *.jpeg *.png *.raf *.nef)"
@@ -1217,6 +1227,7 @@ class MainWindow(QMainWindow):
 
     # ── SHOW EXIF ─────────────────────────────
     def show_exif(self, full=False):
+        self.placeholder.hide()
         filenames, _ = QFileDialog.getOpenFileNames(
             self, "Choose picture(s)", self.last_dir,
             "Pictures (*.jpg *.jpeg *.png *.raf *.nef)"
@@ -1284,6 +1295,7 @@ class MainWindow(QMainWindow):
             event.ignore()
 
     def dropEvent(self, event):
+        self.placeholder.hide()
         filenames = []
         for url in event.mimeData().urls():
             path = url.toLocalFile()
