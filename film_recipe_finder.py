@@ -1320,7 +1320,7 @@ class MainWindow(QMainWindow):
             "Version 0.2.0  (February 2026)\n"
             "© 2026 Roman Pastierik\n\n"
             "Support development:\n"
-            "PayPal: pastierik@gmail.com\n\n"
+            "Ko-fi: ko-fi.com/rpastierik\n\n"
             "License: GNU General Public License v3\n\n"
             "Uses ExifTool by Phil Harvey\n"
             "philharvey66@gmail.com"

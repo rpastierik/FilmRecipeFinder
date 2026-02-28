@@ -144,4 +144,4 @@ See [LICENSE](LICENSE) for details.
 
 If you find this tool useful, consider supporting development:
 
-**PayPal:** pastierik@gmail.com
+[![Ko-fi](https://img.shields.io/badge/Ko--fi-Support%20me-ff5e5b?logo=ko-fi)](https://ko-fi.com/rpastierik)
