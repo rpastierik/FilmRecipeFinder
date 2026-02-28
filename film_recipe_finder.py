@@ -1166,7 +1166,23 @@ class MainWindow(QMainWindow):
             btn = QPushButton(symbol)
             btn.setToolTip(tooltip)
             btn.setFixedSize(40, 40)
-            btn.setStyleSheet("QPushButton { font-size: 18px; border: none; background: transparent; }")
+            #btn.setStyleSheet("QPushButton { font-size: 18px; border: none; background: transparent; }")
+            btn.setStyleSheet("""
+                QPushButton { 
+                    font-size: 18px; 
+                    border: none; 
+                    background: transparent;
+                    border-radius: 6px;
+                    padding: 4px;
+                }
+                QPushButton:hover {
+                    background-color: #3c3836;
+                }
+                QPushButton:pressed {
+                    background-color: #504945;
+                }
+            """)
+            btn.setCursor(QCursor(Qt.CursorShape.PointingHandCursor))
             btn.clicked.connect(slot)
             toolbar.addWidget(btn)
 
