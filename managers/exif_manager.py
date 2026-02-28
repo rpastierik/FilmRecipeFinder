@@ -6,7 +6,7 @@ import shutil
 import subprocess
 import sys
 
-from utils import resource_path
+from utils import resource_path, parse_wbft
 
 
 def _find_exiftool():
@@ -35,6 +35,23 @@ def _find_exiftool():
     )
 
 
+def _parse_lines(lines, filter_keys=None):
+    """Parsuje riadky exiftool výstupu do slovníka, konvertuje WBFT ÷20."""
+    exif_data = {}
+    for line in lines:
+        if ':' not in line:
+            continue
+        key, value = line.split(':', 1)
+        key = key.strip()
+        value = value.strip()
+        if filter_keys and key not in filter_keys:
+            continue
+        if key == 'WhiteBalanceFineTune':
+            value = parse_wbft(value)
+        exif_data[key] = value
+    return exif_data
+
+
 class ExifManager:
     @staticmethod
     def get_exif_data(filename, relevant_keys):
@@ -44,13 +61,7 @@ class ExifManager:
             [exiftool_path, '-s', filename],
             capture_output=True, text=True
         )
-        exif_data = {}
-        for line in result.stdout.splitlines():
-            if ':' in line:
-                key, value = line.split(':', 1)
-                if key.strip() in relevant_keys:
-                    exif_data[key.strip()] = value.strip()
-        return exif_data
+        return _parse_lines(result.stdout.splitlines(), filter_keys=relevant_keys)
 
     @staticmethod
     def get_exif(filename, exif_type='short'):
@@ -73,9 +84,4 @@ class ExifManager:
             ]
 
         result = subprocess.run(cmd, capture_output=True, text=True)
-        exif_data = {}
-        for line in result.stdout.splitlines():
-            if ':' in line:
-                key, value = line.split(':', 1)
-                exif_data[key.strip()] = value.strip()
-        return exif_data
+        return _parse_lines(result.stdout.splitlines())

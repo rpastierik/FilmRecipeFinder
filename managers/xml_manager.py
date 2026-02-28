@@ -13,6 +13,7 @@ from utils import resource_path
 class XMLManager:
     @staticmethod
     def load_simulations(filename):
+        """Načíta recepty z XML — hodnoty sú uložené priamo v ÷20 formáte."""
         full_path = resource_path(filename)
         if not os.path.exists(full_path):
             return {}
@@ -27,12 +28,14 @@ class XMLManager:
             sim_name = name_el.text
             simulations[sim_name] = {}
             for param in profile.iter():
-                if param.tag != 'profile':
-                    simulations[sim_name][param.tag] = param.text
+                if param.tag == 'profile':
+                    continue
+                simulations[sim_name][param.tag] = param.text or ""
         return simulations
 
     @staticmethod
     def add_recipe(recipe_data):
+        """Pridá recept do XML — WhiteBalanceFineTune sa ukladá v ÷20 formáte."""
         xml_file = resource_path(Constants.XML_FILE)
         try:
             tree = ET.parse(xml_file)
@@ -50,6 +53,7 @@ class XMLManager:
 
     @staticmethod
     def update_recipe(recipe_data):
+        """Aktualizuje recept v XML."""
         xml_file = resource_path(Constants.XML_FILE)
         try:
             tree = ET.parse(xml_file)
@@ -77,6 +81,7 @@ class XMLManager:
 
     @staticmethod
     def delete_recipe(recipe_name):
+        """Vymaže recept z XML."""
         xml_file = resource_path(Constants.XML_FILE)
         try:
             tree = ET.parse(xml_file)

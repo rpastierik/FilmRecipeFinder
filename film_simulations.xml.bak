@@ -13,7 +13,7 @@
     <ColorChromeEffect>Strong</ColorChromeEffect>
     <ColorChromeFXBlue>Off</ColorChromeFXBlue>
     <WhiteBalance>Auto</WhiteBalance>
-    <WhiteBalanceFineTune>Red +1, Blue -2</WhiteBalanceFineTune>
+    <WhiteBalanceFineTune>Red +20, Blue -40</WhiteBalanceFineTune>
     <DevelopmentDynamicRange>200</DevelopmentDynamicRange>
     <HighlightTone>-1 (medium soft)</HighlightTone>
     <ShadowTone>-1 (medium soft)</ShadowTone>
@@ -50,7 +50,7 @@
     <ColorChromeFXBlue>Off</ColorChromeFXBlue>
     <WhiteBalance>Kelvin</WhiteBalance>
     <ColorTemperature>5000</ColorTemperature>
-    <WhiteBalanceFineTune>Red +0, Blue -2</WhiteBalanceFineTune>
+    <WhiteBalanceFineTune>Red +0, Blue -40</WhiteBalanceFineTune>
     <DevelopmentDynamicRange>400</DevelopmentDynamicRange>
     <HighlightTone>-1 (medium soft)</HighlightTone>
     <ShadowTone>-0.5</ShadowTone>
@@ -69,7 +69,7 @@
     <ColorChromeFXBlue>Weak</ColorChromeFXBlue>
     <WhiteBalance>Kelvin</WhiteBalance>
     <ColorTemperature>5500</ColorTemperature>
-    <WhiteBalanceFineTune>Red -1, Blue -1</WhiteBalanceFineTune>
+    <WhiteBalanceFineTune>Red -20, Blue -20</WhiteBalanceFineTune>
     <DevelopmentDynamicRange>400</DevelopmentDynamicRange>
     <HighlightTone>-1 (medium soft)</HighlightTone>
     <ShadowTone>-0.5</ShadowTone>
@@ -88,7 +88,7 @@
     <ColorChromeFXBlue>Off</ColorChromeFXBlue>
     <WhiteBalance>Kelvin</WhiteBalance>
     <ColorTemperature>3100</ColorTemperature>
-    <WhiteBalanceFineTune>Red +8, Blue -8</WhiteBalanceFineTune>
+    <WhiteBalanceFineTune>Red +160, Blue -160</WhiteBalanceFineTune>
     <DevelopmentDynamicRange>400</DevelopmentDynamicRange>
     <HighlightTone>0.5</HighlightTone>
     <ShadowTone>+1.5</ShadowTone>
@@ -106,7 +106,7 @@
     <ColorChromeEffect>Strong</ColorChromeEffect>
     <ColorChromeFXBlue>Strong</ColorChromeFXBlue>
     <WhiteBalance>Daylight Fluorescent</WhiteBalance>
-    <WhiteBalanceFineTune>Red -3, Blue -2</WhiteBalanceFineTune>
+    <WhiteBalanceFineTune>Red -60, Blue -40</WhiteBalanceFineTune>
     <DevelopmentDynamicRange>200</DevelopmentDynamicRange>
     <HighlightTone>1.5</HighlightTone>
     <ShadowTone>+2 (hard)</ShadowTone>
@@ -124,7 +124,7 @@
     <ColorChromeEffect>Strong</ColorChromeEffect>
     <ColorChromeFXBlue>Weak</ColorChromeFXBlue>
     <WhiteBalance>Daylight</WhiteBalance>
-    <WhiteBalanceFineTune>Red +3, Blue -3</WhiteBalanceFineTune>
+    <WhiteBalanceFineTune>Red +60, Blue -60</WhiteBalanceFineTune>
     <DevelopmentDynamicRange>400</DevelopmentDynamicRange>
     <HighlightTone>-1 (medium soft)</HighlightTone>
     <ShadowTone>+1 (medium hard)</ShadowTone>
@@ -142,7 +142,7 @@
     <ColorChromeEffect>Strong</ColorChromeEffect>
     <ColorChromeFXBlue>Off</ColorChromeFXBlue>
     <WhiteBalance>Auto</WhiteBalance>
-    <WhiteBalanceFineTune>Red +2, Blue -3</WhiteBalanceFineTune>
+    <WhiteBalanceFineTune>Red +40, Blue -60</WhiteBalanceFineTune>
     <DevelopmentDynamicRange>400</DevelopmentDynamicRange>
     <HighlightTone>+2 (hard)</HighlightTone>
     <ShadowTone>-2 (soft)</ShadowTone>
@@ -161,7 +161,7 @@
     <ColorChromeFXBlue>Off</ColorChromeFXBlue>
     <WhiteBalance>Kelvin</WhiteBalance>
     <ColorTemperature>5000</ColorTemperature>
-    <WhiteBalanceFineTune>Red -1, Blue +3</WhiteBalanceFineTune>
+    <WhiteBalanceFineTune>Red -20, Blue +60</WhiteBalanceFineTune>
     <DevelopmentDynamicRange>100</DevelopmentDynamicRange>
     <HighlightTone>1.5</HighlightTone>
     <ShadowTone>1.5</ShadowTone>
@@ -179,7 +179,7 @@
     <ColorChromeEffect>Strong</ColorChromeEffect>
     <ColorChromeFXBlue>Off</ColorChromeFXBlue>
     <WhiteBalance>Daylight Fluorescent</WhiteBalance>
-    <WhiteBalanceFineTune>Red -5, Blue +0</WhiteBalanceFineTune>
+    <WhiteBalanceFineTune>Red -100, Blue +0</WhiteBalanceFineTune>
     <DevelopmentDynamicRange>200</DevelopmentDynamicRange>
     <HighlightTone>+4 (hardest)</HighlightTone>
     <ShadowTone>+3 (very hard)</ShadowTone>
@@ -198,7 +198,7 @@
     <ColorChromeFXBlue>Weak</ColorChromeFXBlue>
     <WhiteBalance>Kelvin</WhiteBalance>
     <ColorTemperature>5200</ColorTemperature>
-    <WhiteBalanceFineTune>Red +2, Blue -2</WhiteBalanceFineTune>
+    <WhiteBalanceFineTune>Red +40, Blue -40</WhiteBalanceFineTune>
     <DevelopmentDynamicRange>400</DevelopmentDynamicRange>
     <HighlightTone>-1.5</HighlightTone>
     <ShadowTone>0 (normal)</ShadowTone>
@@ -217,7 +217,7 @@
     <ColorChromeFXBlue>Weak</ColorChromeFXBlue>
     <WhiteBalance>Kelvin</WhiteBalance>
     <ColorTemperature>5800</ColorTemperature>
-    <WhiteBalanceFineTune>Red -3, Blue -3</WhiteBalanceFineTune>
+    <WhiteBalanceFineTune>Red -60, Blue -60</WhiteBalanceFineTune>
     <DevelopmentDynamicRange>400</DevelopmentDynamicRange>
     <HighlightTone>1.5</HighlightTone>
     <ShadowTone>+1 (medium hard)</ShadowTone>
@@ -235,7 +235,7 @@
     <ColorChromeEffect>Strong</ColorChromeEffect>
     <ColorChromeFXBlue>Off</ColorChromeFXBlue>
     <WhiteBalance>Daylight</WhiteBalance>
-    <WhiteBalanceFineTune>Red +2, Blue -1</WhiteBalanceFineTune>
+    <WhiteBalanceFineTune>Red +40, Blue -20</WhiteBalanceFineTune>
     <DevelopmentDynamicRange>400</DevelopmentDynamicRange>
     <HighlightTone>-2 (soft)</HighlightTone>
     <ShadowTone>+2 (hard)</ShadowTone>
@@ -254,7 +254,7 @@
     <ColorChromeFXBlue>Strong</ColorChromeFXBlue>
     <WhiteBalance>Kelvin</WhiteBalance>
     <ColorTemperature>5250</ColorTemperature>
-    <WhiteBalanceFineTune>Red -3, Blue -5</WhiteBalanceFineTune>
+    <WhiteBalanceFineTune>Red -60, Blue -100</WhiteBalanceFineTune>
     <DevelopmentDynamicRange>400</DevelopmentDynamicRange>
     <HighlightTone>+4 (hardest)</HighlightTone>
     <ShadowTone>+2 (hard)</ShadowTone>
@@ -272,7 +272,7 @@
     <ColorChromeEffect>Strong</ColorChromeEffect>
     <ColorChromeFXBlue>Off</ColorChromeFXBlue>
     <WhiteBalance>Auto</WhiteBalance>
-    <WhiteBalanceFineTune>Red +2, Blue -4</WhiteBalanceFineTune>
+    <WhiteBalanceFineTune>Red +40, Blue -80</WhiteBalanceFineTune>
     <DevelopmentDynamicRange>200</DevelopmentDynamicRange>
     <HighlightTone>1.5</HighlightTone>
     <ShadowTone>+3 (very hard)</ShadowTone>
@@ -291,7 +291,7 @@
     <ColorChromeFXBlue>Strong</ColorChromeFXBlue>
     <WhiteBalance>Kelvin</WhiteBalance>
     <ColorTemperature>6500</ColorTemperature>
-    <WhiteBalanceFineTune>Red -1, Blue -4</WhiteBalanceFineTune>
+    <WhiteBalanceFineTune>Red -20, Blue -80</WhiteBalanceFineTune>
     <DevelopmentDynamicRange>400</DevelopmentDynamicRange>
     <HighlightTone>-2 (soft)</HighlightTone>
     <ShadowTone>-0.5</ShadowTone>
@@ -310,7 +310,7 @@
     <ColorChromeFXBlue>Off</ColorChromeFXBlue>
     <WhiteBalance>Kelvin</WhiteBalance>
     <ColorTemperature>5800</ColorTemperature>
-    <WhiteBalanceFineTune>Red -2, Blue -4</WhiteBalanceFineTune>
+    <WhiteBalanceFineTune>Red -40, Blue -80</WhiteBalanceFineTune>
     <DevelopmentDynamicRange>200</DevelopmentDynamicRange>
     <HighlightTone>-1 (medium soft)</HighlightTone>
     <ShadowTone>-1.5</ShadowTone>
@@ -329,7 +329,7 @@
     <ColorChromeFXBlue>Strong</ColorChromeFXBlue>
     <WhiteBalance>Kelvin</WhiteBalance>
     <ColorTemperature>3000</ColorTemperature>
-    <WhiteBalanceFineTune>Red +8, Blue -9</WhiteBalanceFineTune>
+    <WhiteBalanceFineTune>Red +160, Blue -180</WhiteBalanceFineTune>
     <DevelopmentDynamicRange>100</DevelopmentDynamicRange>
     <HighlightTone>-2 (soft)</HighlightTone>
     <ShadowTone>-1 (medium soft)</ShadowTone>
@@ -347,7 +347,7 @@
     <ColorChromeEffect>Off</ColorChromeEffect>
     <ColorChromeFXBlue>Off</ColorChromeFXBlue>
     <WhiteBalance>Auto</WhiteBalance>
-    <WhiteBalanceFineTune>Red +1, Blue -4</WhiteBalanceFineTune>
+    <WhiteBalanceFineTune>Red +20, Blue -80</WhiteBalanceFineTune>
     <DevelopmentDynamicRange>400</DevelopmentDynamicRange>
     <HighlightTone>-0.5</HighlightTone>
     <ShadowTone>2.5</ShadowTone>
@@ -366,7 +366,7 @@
     <ColorChromeFXBlue>Weak</ColorChromeFXBlue>
     <WhiteBalance>Kelvin</WhiteBalance>
     <ColorTemperature>6700</ColorTemperature>
-    <WhiteBalanceFineTune>Red -1, Blue -6</WhiteBalanceFineTune>
+    <WhiteBalanceFineTune>Red -20, Blue -120</WhiteBalanceFineTune>
     <DevelopmentDynamicRange>400</DevelopmentDynamicRange>
     <HighlightTone>-2 (soft)</HighlightTone>
     <ShadowTone>-1 (medium soft)</ShadowTone>
@@ -385,7 +385,7 @@
     <ColorChromeFXBlue>Weak</ColorChromeFXBlue>
     <WhiteBalance>Kelvin</WhiteBalance>
     <ColorTemperature>4350</ColorTemperature>
-    <WhiteBalanceFineTune>Red +6, Blue -8</WhiteBalanceFineTune>
+    <WhiteBalanceFineTune>Red +120, Blue -160</WhiteBalanceFineTune>
     <DRangePriority>Fixed</DRangePriority>
     <DRangePriorityAuto>Strong</DRangePriorityAuto>
     <Saturation>+4 (highest)</Saturation>
@@ -403,7 +403,7 @@
     <ColorChromeFXBlue>Weak</ColorChromeFXBlue>
     <WhiteBalance>Kelvin</WhiteBalance>
     <ColorTemperature>5800</ColorTemperature>
-    <WhiteBalanceFineTune>Red +1, Blue -3</WhiteBalanceFineTune>
+    <WhiteBalanceFineTune>Red +20, Blue -60</WhiteBalanceFineTune>
     <DevelopmentDynamicRange>400</DevelopmentDynamicRange>
     <HighlightTone>-2 (soft)</HighlightTone>
     <ShadowTone>+3 (very hard)</ShadowTone>
@@ -421,7 +421,7 @@
     <ColorChromeEffect>Weak</ColorChromeEffect>
     <ColorChromeFXBlue>Weak</ColorChromeFXBlue>
     <WhiteBalance>Auto (white priority)</WhiteBalance>
-    <WhiteBalanceFineTune>Red -3, Blue -1</WhiteBalanceFineTune>
+    <WhiteBalanceFineTune>Red -60, Blue -20</WhiteBalanceFineTune>
     <DevelopmentDynamicRange>400</DevelopmentDynamicRange>
     <HighlightTone>-1 (medium soft)</HighlightTone>
     <ShadowTone>+1 (medium hard)</ShadowTone>
@@ -439,7 +439,7 @@
     <ColorChromeEffect>Strong</ColorChromeEffect>
     <ColorChromeFXBlue>Off</ColorChromeFXBlue>
     <WhiteBalance>Daylight</WhiteBalance>
-    <WhiteBalanceFineTune>Red +0, Blue -1</WhiteBalanceFineTune>
+    <WhiteBalanceFineTune>Red +0, Blue -20</WhiteBalanceFineTune>
     <HighlightTone>-1 (medium soft)</HighlightTone>
     <ShadowTone>-2 (soft)</ShadowTone>
     <Saturation>+1 (medium high)</Saturation>
@@ -456,7 +456,7 @@
     <ColorChromeEffect>Strong</ColorChromeEffect>
     <ColorChromeFXBlue>Strong</ColorChromeFXBlue>
     <WhiteBalance>Auto</WhiteBalance>
-    <WhiteBalanceFineTune>Red +1, Blue +1</WhiteBalanceFineTune>
+    <WhiteBalanceFineTune>Red +20, Blue +20</WhiteBalanceFineTune>
     <DevelopmentDynamicRange>400</DevelopmentDynamicRange>
     <HighlightTone>-1.5</HighlightTone>
     <ShadowTone>-2 (soft)</ShadowTone>
@@ -492,7 +492,7 @@
     <ColorChromeEffect>Off</ColorChromeEffect>
     <ColorChromeFXBlue>Weak</ColorChromeFXBlue>
     <WhiteBalance>Auto</WhiteBalance>
-    <WhiteBalanceFineTune>Red +3, Blue -5</WhiteBalanceFineTune>
+    <WhiteBalanceFineTune>Red +60, Blue -100</WhiteBalanceFineTune>
     <DevelopmentDynamicRange>400</DevelopmentDynamicRange>
     <HighlightTone>0 (normal)</HighlightTone>
     <ShadowTone>-1 (medium soft)</ShadowTone>
@@ -511,7 +511,7 @@
     <ColorChromeFXBlue>Weak</ColorChromeFXBlue>
     <WhiteBalance>Kelvin</WhiteBalance>
     <ColorTemperature>5500</ColorTemperature>
-    <WhiteBalanceFineTune>Red -1, Blue -2</WhiteBalanceFineTune>
+    <WhiteBalanceFineTune>Red -20, Blue -40</WhiteBalanceFineTune>
     <DevelopmentDynamicRange>400</DevelopmentDynamicRange>
     <HighlightTone>-1.5</HighlightTone>
     <ShadowTone>1.5</ShadowTone>
@@ -529,7 +529,7 @@
     <ColorChromeEffect>Strong</ColorChromeEffect>
     <ColorChromeFXBlue>Weak</ColorChromeFXBlue>
     <WhiteBalance>Daylight</WhiteBalance>
-    <WhiteBalanceFineTune>Red +3, Blue +1</WhiteBalanceFineTune>
+    <WhiteBalanceFineTune>Red +60, Blue +20</WhiteBalanceFineTune>
     <DevelopmentDynamicRange>400</DevelopmentDynamicRange>
     <HighlightTone>0 (normal)</HighlightTone>
     <ShadowTone>+2 (hard)</ShadowTone>
@@ -548,7 +548,7 @@
     <ColorChromeFXBlue>Off</ColorChromeFXBlue>
     <WhiteBalance>Kelvin</WhiteBalance>
     <ColorTemperature>6600</ColorTemperature>
-    <WhiteBalanceFineTune>Red -1, Blue -3</WhiteBalanceFineTune>
+    <WhiteBalanceFineTune>Red -20, Blue -60</WhiteBalanceFineTune>
     <DevelopmentDynamicRange>400</DevelopmentDynamicRange>
     <HighlightTone>-2 (soft)</HighlightTone>
     <ShadowTone>-0.5</ShadowTone>
@@ -567,7 +567,7 @@
     <ColorChromeFXBlue>Off</ColorChromeFXBlue>
     <WhiteBalance>Kelvin</WhiteBalance>
     <ColorTemperature>5200</ColorTemperature>
-    <WhiteBalanceFineTune>Red +1, Blue -6</WhiteBalanceFineTune>
+    <WhiteBalanceFineTune>Red +20, Blue -120</WhiteBalanceFineTune>
     <DevelopmentDynamicRange>400</DevelopmentDynamicRange>
     <HighlightTone>0 (normal)</HighlightTone>
     <ShadowTone>-2 (soft)</ShadowTone>
@@ -585,7 +585,7 @@
     <ColorChromeEffect>Weak</ColorChromeEffect>
     <ColorChromeFXBlue>Weak</ColorChromeFXBlue>
     <WhiteBalance>Daylight</WhiteBalance>
-    <WhiteBalanceFineTune>Red +4, Blue -5</WhiteBalanceFineTune>
+    <WhiteBalanceFineTune>Red +80, Blue -100</WhiteBalanceFineTune>
     <HighlightTone>0 (normal)</HighlightTone>
     <ShadowTone>0 (normal)</ShadowTone>
     <Saturation>0 (normal)</Saturation>
@@ -602,7 +602,7 @@
     <ColorChromeEffect>Weak</ColorChromeEffect>
     <ColorChromeFXBlue>Off</ColorChromeFXBlue>
     <WhiteBalance>Auto</WhiteBalance>
-    <WhiteBalanceFineTune>Red +1, Blue -5</WhiteBalanceFineTune>
+    <WhiteBalanceFineTune>Red +20, Blue -100</WhiteBalanceFineTune>
     <HighlightTone>+1 (medium hard)</HighlightTone>
     <ShadowTone>+1 (medium hard)</ShadowTone>
     <Saturation>+4 (highest)</Saturation>
@@ -619,7 +619,7 @@
     <ColorChromeEffect>Weak</ColorChromeEffect>
     <ColorChromeFXBlue>Off</ColorChromeFXBlue>
     <WhiteBalance>Daylight</WhiteBalance>
-    <WhiteBalanceFineTune>Red +4, Blue -5</WhiteBalanceFineTune>
+    <WhiteBalanceFineTune>Red +80, Blue -100</WhiteBalanceFineTune>
     <HighlightTone>-1.5</HighlightTone>
     <ShadowTone>0.5</ShadowTone>
     <Saturation>+3 (very high)</Saturation>
@@ -636,7 +636,7 @@
     <ColorChromeEffect>Strong</ColorChromeEffect>
     <ColorChromeFXBlue>Weak</ColorChromeFXBlue>
     <WhiteBalance>Cloudy</WhiteBalance>
-    <WhiteBalanceFineTune>Red +3, Blue +5</WhiteBalanceFineTune>
+    <WhiteBalanceFineTune>Red +60, Blue +100</WhiteBalanceFineTune>
     <HighlightTone>-1 (medium soft)</HighlightTone>
     <ShadowTone>+1 (medium hard)</ShadowTone>
     <Saturation>+4 (highest)</Saturation>
@@ -654,7 +654,7 @@
     <ColorChromeFXBlue>Weak</ColorChromeFXBlue>
     <WhiteBalance>Kelvin</WhiteBalance>
     <ColorTemperature>5300</ColorTemperature>
-    <WhiteBalanceFineTune>Red +0, Blue -6</WhiteBalanceFineTune>
+    <WhiteBalanceFineTune>Red +0, Blue -120</WhiteBalanceFineTune>
     <HighlightTone>-0.5</HighlightTone>
     <ShadowTone>-2 (soft)</ShadowTone>
     <Saturation>+3 (very high)</Saturation>
@@ -671,7 +671,7 @@
     <ColorChromeEffect>Strong</ColorChromeEffect>
     <ColorChromeFXBlue>Off</ColorChromeFXBlue>
     <WhiteBalance>Daylight</WhiteBalance>
-    <WhiteBalanceFineTune>Red +2, Blue -5</WhiteBalanceFineTune>
+    <WhiteBalanceFineTune>Red +40, Blue -100</WhiteBalanceFineTune>
     <DevelopmentDynamicRange>200</DevelopmentDynamicRange>
     <HighlightTone>0 (normal)</HighlightTone>
     <ShadowTone>0.5</ShadowTone>
@@ -688,7 +688,7 @@
     <ColorChromeEffect>Strong</ColorChromeEffect>
     <ColorChromeFXBlue>Weak</ColorChromeFXBlue>
     <WhiteBalance>Daylight</WhiteBalance>
-    <WhiteBalanceFineTune>Red +2, Blue -4</WhiteBalanceFineTune>
+    <WhiteBalanceFineTune>Red +40, Blue -80</WhiteBalanceFineTune>
     <DevelopmentDynamicRange>200</DevelopmentDynamicRange>
     <HighlightTone>0.5</HighlightTone>
     <ShadowTone>-0.5</ShadowTone>
@@ -706,7 +706,7 @@
     <ColorChromeEffect>Strong</ColorChromeEffect>
     <ColorChromeFXBlue>Strong</ColorChromeFXBlue>
     <WhiteBalance>Auto</WhiteBalance>
-    <WhiteBalanceFineTune>Red +2, Blue -2</WhiteBalanceFineTune>
+    <WhiteBalanceFineTune>Red +40, Blue -40</WhiteBalanceFineTune>
     <DevelopmentDynamicRange>400</DevelopmentDynamicRange>
     <HighlightTone>+1 (medium hard)</HighlightTone>
     <ShadowTone>+1 (medium hard)</ShadowTone>
@@ -725,7 +725,7 @@
     <ColorChromeFXBlue>Strong</ColorChromeFXBlue>
     <WhiteBalance>Kelvin</WhiteBalance>
     <ColorTemperature>5150</ColorTemperature>
-    <WhiteBalanceFineTune>Red +3, Blue -3</WhiteBalanceFineTune>
+    <WhiteBalanceFineTune>Red +60, Blue -60</WhiteBalanceFineTune>
     <DevelopmentDynamicRange>400</DevelopmentDynamicRange>
     <HighlightTone>1.5</HighlightTone>
     <ShadowTone>0.5</ShadowTone>
@@ -743,7 +743,7 @@
     <ColorChromeEffect>Strong</ColorChromeEffect>
     <ColorChromeFXBlue>Strong</ColorChromeFXBlue>
     <WhiteBalance>Daylight Fluorescent</WhiteBalance>
-    <WhiteBalanceFineTune>Red -6, Blue -3</WhiteBalanceFineTune>
+    <WhiteBalanceFineTune>Red -120, Blue -60</WhiteBalanceFineTune>
     <DevelopmentDynamicRange>200</DevelopmentDynamicRange>
     <HighlightTone>+3 (very hard)</HighlightTone>
     <ShadowTone>+1 (medium hard)</ShadowTone>
@@ -761,7 +761,7 @@
     <ColorChromeEffect>Strong</ColorChromeEffect>
     <ColorChromeFXBlue>Weak</ColorChromeFXBlue>
     <WhiteBalance>Daylight Fluorescent</WhiteBalance>
-    <WhiteBalanceFineTune>Red -2, Blue +4</WhiteBalanceFineTune>
+    <WhiteBalanceFineTune>Red -40, Blue +80</WhiteBalanceFineTune>
     <DevelopmentDynamicRange>200</DevelopmentDynamicRange>
     <HighlightTone>-2 (soft)</HighlightTone>
     <ShadowTone>0 (normal)</ShadowTone>
@@ -780,7 +780,7 @@
     <ColorChromeFXBlue>Weak</ColorChromeFXBlue>
     <WhiteBalance>Kelvin</WhiteBalance>
     <ColorTemperature>7700</ColorTemperature>
-    <WhiteBalanceFineTune>Red -9, Blue +5</WhiteBalanceFineTune>
+    <WhiteBalanceFineTune>Red -180, Blue +100</WhiteBalanceFineTune>
     <DevelopmentDynamicRange>400</DevelopmentDynamicRange>
     <HighlightTone>-0.5</HighlightTone>
     <ShadowTone>1.5</ShadowTone>
@@ -799,7 +799,7 @@
     <ColorChromeFXBlue>Weak</ColorChromeFXBlue>
     <WhiteBalance>Kelvin</WhiteBalance>
     <ColorTemperature>6000</ColorTemperature>
-    <WhiteBalanceFineTune>Red -9, Blue -6</WhiteBalanceFineTune>
+    <WhiteBalanceFineTune>Red -180, Blue -120</WhiteBalanceFineTune>
     <DevelopmentDynamicRange>400</DevelopmentDynamicRange>
     <HighlightTone>0.5</HighlightTone>
     <ShadowTone>-1 (medium soft)</ShadowTone>
@@ -817,7 +817,7 @@
     <ColorChromeEffect>Strong</ColorChromeEffect>
     <ColorChromeFXBlue>Weak</ColorChromeFXBlue>
     <WhiteBalance>Auto (ambiance priority)</WhiteBalance>
-    <WhiteBalanceFineTune>Red -2, Blue -6</WhiteBalanceFineTune>
+    <WhiteBalanceFineTune>Red -40, Blue -120</WhiteBalanceFineTune>
     <DevelopmentDynamicRange>400</DevelopmentDynamicRange>
     <HighlightTone>-2 (soft)</HighlightTone>
     <ShadowTone>-2 (soft)</ShadowTone>
@@ -835,7 +835,7 @@
     <ColorChromeEffect>Strong</ColorChromeEffect>
     <ColorChromeFXBlue>Weak</ColorChromeFXBlue>
     <WhiteBalance>Day White Fluorescent</WhiteBalance>
-    <WhiteBalanceFineTune>Red -8, Blue -1</WhiteBalanceFineTune>
+    <WhiteBalanceFineTune>Red -160, Blue -20</WhiteBalanceFineTune>
     <DevelopmentDynamicRange>200</DevelopmentDynamicRange>
     <HighlightTone>-1 (medium soft)</HighlightTone>
     <ShadowTone>-1.5</ShadowTone>
@@ -853,7 +853,7 @@
     <ColorChromeEffect>Strong</ColorChromeEffect>
     <ColorChromeFXBlue>Weak</ColorChromeFXBlue>
     <WhiteBalance>White Fluorescent</WhiteBalance>
-    <WhiteBalanceFineTune>Red -6, Blue -4</WhiteBalanceFineTune>
+    <WhiteBalanceFineTune>Red -120, Blue -80</WhiteBalanceFineTune>
     <DevelopmentDynamicRange>400</DevelopmentDynamicRange>
     <HighlightTone>0 (normal)</HighlightTone>
     <ShadowTone>+2 (hard)</ShadowTone>
@@ -871,7 +871,7 @@
     <ColorChromeEffect>Off</ColorChromeEffect>
     <ColorChromeFXBlue>Off</ColorChromeFXBlue>
     <WhiteBalance>Daylight</WhiteBalance>
-    <WhiteBalanceFineTune>Red +6, Blue -8</WhiteBalanceFineTune>
+    <WhiteBalanceFineTune>Red +120, Blue -160</WhiteBalanceFineTune>
     <DevelopmentDynamicRange>200</DevelopmentDynamicRange>
     <HighlightTone>0 (normal)</HighlightTone>
     <ShadowTone>-1 (medium soft)</ShadowTone>
@@ -889,7 +889,7 @@
     <ColorChromeEffect>Off</ColorChromeEffect>
     <ColorChromeFXBlue>Weak</ColorChromeFXBlue>
     <WhiteBalance>Auto</WhiteBalance>
-    <WhiteBalanceFineTune>Red +2, Blue -5</WhiteBalanceFineTune>
+    <WhiteBalanceFineTune>Red +40, Blue -100</WhiteBalanceFineTune>
     <DevelopmentDynamicRange>100</DevelopmentDynamicRange>
     <HighlightTone>+3 (very hard)</HighlightTone>
     <ShadowTone>-1 (medium soft)</ShadowTone>
@@ -908,7 +908,7 @@
     <ColorChromeFXBlue>Off</ColorChromeFXBlue>
     <WhiteBalance>Kelvin</WhiteBalance>
     <ColorTemperature>4900</ColorTemperature>
-    <WhiteBalanceFineTune>Red +3, Blue +3</WhiteBalanceFineTune>
+    <WhiteBalanceFineTune>Red +60, Blue +60</WhiteBalanceFineTune>
     <DevelopmentDynamicRange>400</DevelopmentDynamicRange>
     <HighlightTone>+3 (very hard)</HighlightTone>
     <ShadowTone>-2 (soft)</ShadowTone>
@@ -926,7 +926,7 @@
     <ColorChromeEffect>Strong</ColorChromeEffect>
     <ColorChromeFXBlue>Off</ColorChromeFXBlue>
     <WhiteBalance>Daylight Fluorescent</WhiteBalance>
-    <WhiteBalanceFineTune>Red -2, Blue -4</WhiteBalanceFineTune>
+    <WhiteBalanceFineTune>Red -40, Blue -80</WhiteBalanceFineTune>
     <DevelopmentDynamicRange>400</DevelopmentDynamicRange>
     <HighlightTone>-2 (soft)</HighlightTone>
     <ShadowTone>-1 (medium soft)</ShadowTone>
@@ -944,7 +944,7 @@
     <ColorChromeEffect>Strong</ColorChromeEffect>
     <ColorChromeFXBlue>Weak</ColorChromeFXBlue>
     <WhiteBalance>Daylight</WhiteBalance>
-    <WhiteBalanceFineTune>Red +3, Blue -7</WhiteBalanceFineTune>
+    <WhiteBalanceFineTune>Red +60, Blue -140</WhiteBalanceFineTune>
     <DevelopmentDynamicRange>200</DevelopmentDynamicRange>
     <HighlightTone>2.5</HighlightTone>
     <ShadowTone>0 (normal)</ShadowTone>
@@ -962,7 +962,7 @@
     <ColorChromeEffect>Off</ColorChromeEffect>
     <ColorChromeFXBlue>Off</ColorChromeFXBlue>
     <WhiteBalance>Daylight</WhiteBalance>
-    <WhiteBalanceFineTune>Red +6, Blue -8</WhiteBalanceFineTune>
+    <WhiteBalanceFineTune>Red +120, Blue -160</WhiteBalanceFineTune>
     <DevelopmentDynamicRange>200</DevelopmentDynamicRange>
     <HighlightTone>-0.5</HighlightTone>
     <ShadowTone>-1.5</ShadowTone>
@@ -980,7 +980,7 @@
     <ColorChromeEffect>Off</ColorChromeEffect>
     <ColorChromeFXBlue>Off</ColorChromeFXBlue>
     <WhiteBalance>Daylight</WhiteBalance>
-    <WhiteBalanceFineTune>Red -6, Blue -3</WhiteBalanceFineTune>
+    <WhiteBalanceFineTune>Red -120, Blue -60</WhiteBalanceFineTune>
     <DevelopmentDynamicRange>200</DevelopmentDynamicRange>
     <HighlightTone>-0.5</HighlightTone>
     <ShadowTone>1.5</ShadowTone>
@@ -999,7 +999,7 @@
     <ColorChromeFXBlue>Off</ColorChromeFXBlue>
     <WhiteBalance>Kelvin</WhiteBalance>
     <ColorTemperature>5500</ColorTemperature>
-    <WhiteBalanceFineTune>Red +4, Blue +7</WhiteBalanceFineTune>
+    <WhiteBalanceFineTune>Red +80, Blue +140</WhiteBalanceFineTune>
     <BWAdjustment>-1</BWAdjustment>
     <BWMagentaGreen>-1</BWMagentaGreen>
     <DevelopmentDynamicRange>400</DevelopmentDynamicRange>
@@ -1019,7 +1019,7 @@
     <ColorChromeEffect>Strong</ColorChromeEffect>
     <ColorChromeFXBlue>Off</ColorChromeFXBlue>
     <WhiteBalance>Daylight</WhiteBalance>
-    <WhiteBalanceFineTune>Red +9, Blue -9</WhiteBalanceFineTune>
+    <WhiteBalanceFineTune>Red +180, Blue -180</WhiteBalanceFineTune>
     <DevelopmentDynamicRange>200</DevelopmentDynamicRange>
     <HighlightTone>0 (normal)</HighlightTone>
     <ShadowTone>+3 (very hard)</ShadowTone>
@@ -1039,7 +1039,7 @@
     <ColorChromeFXBlue>Weak</ColorChromeFXBlue>
     <ColorTemperature>6500</ColorTemperature>
     <WhiteBalance>Kelvin</WhiteBalance>
-    <WhiteBalanceFineTune>Red +2, Blue -6</WhiteBalanceFineTune>
+    <WhiteBalanceFineTune>Red +40, Blue -120</WhiteBalanceFineTune>
     <HighlightTone>-2 (soft)</HighlightTone>
     <ShadowTone>-0.5</ShadowTone>
     <Saturation>+4 (highest)</Saturation>
@@ -1057,7 +1057,7 @@
     <ColorChromeEffect>Strong</ColorChromeEffect>
     <ColorChromeFXBlue>Weak</ColorChromeFXBlue>
     <WhiteBalance>Auto (white priority)</WhiteBalance>
-    <WhiteBalanceFineTune>Red +2, Blue -4</WhiteBalanceFineTune>
+    <WhiteBalanceFineTune>Red +40, Blue -80</WhiteBalanceFineTune>
     <HighlightTone>-1.5</HighlightTone>
     <ShadowTone>-1 (medium soft)</ShadowTone>
     <Saturation>+3 (very high)</Saturation>
@@ -1099,7 +1099,7 @@
     <ColorChromeEffect>Strong</ColorChromeEffect>
     <ColorChromeFXBlue>Weak</ColorChromeFXBlue>
     <WhiteBalance>Daylight</WhiteBalance>
-    <WhiteBalanceFineTune>Red +2, Blue -5</WhiteBalanceFineTune>
+    <WhiteBalanceFineTune>Red +40, Blue -100</WhiteBalanceFineTune>
     <DevelopmentDynamicRange>200</DevelopmentDynamicRange>
     <HighlightTone>0 (normal)</HighlightTone>
     <ShadowTone>0 (normal)</ShadowTone>
@@ -1116,7 +1116,7 @@
     <ColorChromeEffect>Strong</ColorChromeEffect>
     <ColorChromeFXBlue>Strong</ColorChromeFXBlue>
     <WhiteBalance>Daylight</WhiteBalance>
-    <WhiteBalanceFineTune>Red +2, Blue -4</WhiteBalanceFineTune>
+    <WhiteBalanceFineTune>Red +40, Blue -80</WhiteBalanceFineTune>
     <DevelopmentDynamicRange>400</DevelopmentDynamicRange>
     <HighlightTone>0.5</HighlightTone>
     <ShadowTone>-0.5</ShadowTone>
@@ -1133,7 +1133,7 @@
     <ColorChromeEffect>Strong</ColorChromeEffect>
     <ColorChromeFXBlue>Weak</ColorChromeFXBlue>
     <WhiteBalance>Auto</WhiteBalance>
-    <WhiteBalanceFineTune>Red +2, Blue -4</WhiteBalanceFineTune>
+    <WhiteBalanceFineTune>Red +40, Blue -80</WhiteBalanceFineTune>
     <DevelopmentDynamicRange>400</DevelopmentDynamicRange>
     <HighlightTone>+4 (hardest)</HighlightTone>
     <ShadowTone>-2 (soft)</ShadowTone>
@@ -1151,7 +1151,7 @@
     <ColorChromeEffect>Strong</ColorChromeEffect>
     <ColorChromeFXBlue>Weak</ColorChromeFXBlue>
     <WhiteBalance>Auto</WhiteBalance>
-    <WhiteBalanceFineTune>Red +3, Blue -4</WhiteBalanceFineTune>
+    <WhiteBalanceFineTune>Red +60, Blue -80</WhiteBalanceFineTune>
     <DevelopmentDynamicRange>200</DevelopmentDynamicRange>
     <HighlightTone>+1 (medium hard)</HighlightTone>
     <ShadowTone>+2 (hard)</ShadowTone>
@@ -1170,7 +1170,7 @@
     <ColorChromeFXBlue>Off</ColorChromeFXBlue>
     <WhiteBalance>Kelvin</WhiteBalance>
     <ColorTemperature>5900</ColorTemperature>
-    <WhiteBalanceFineTune>Red -1, Blue +4</WhiteBalanceFineTune>
+    <WhiteBalanceFineTune>Red -20, Blue +80</WhiteBalanceFineTune>
     <DevelopmentDynamicRange>100</DevelopmentDynamicRange>
     <HighlightTone>0 (normal)</HighlightTone>
     <ShadowTone>0 (normal)</ShadowTone>
@@ -1188,7 +1188,7 @@
     <ColorChromeEffect>Strong</ColorChromeEffect>
     <ColorChromeFXBlue>Off</ColorChromeFXBlue>
     <WhiteBalance>Daylight Fluorescent</WhiteBalance>
-    <WhiteBalanceFineTune>Red -3, Blue -1</WhiteBalanceFineTune>
+    <WhiteBalanceFineTune>Red -60, Blue -20</WhiteBalanceFineTune>
     <DevelopmentDynamicRange>100</DevelopmentDynamicRange>
     <HighlightTone>+3 (very hard)</HighlightTone>
     <ShadowTone>+4 (hardest)</ShadowTone>
@@ -1207,7 +1207,7 @@
     <ColorChromeFXBlue>Strong</ColorChromeFXBlue>
     <WhiteBalance>Kelvin</WhiteBalance>
     <ColorTemperature>4900</ColorTemperature>
-    <WhiteBalanceFineTune>Red +4, Blue -6</WhiteBalanceFineTune>
+    <WhiteBalanceFineTune>Red +80, Blue -120</WhiteBalanceFineTune>
     <DevelopmentDynamicRange>400</DevelopmentDynamicRange>
     <HighlightTone>-1 (medium soft)</HighlightTone>
     <ShadowTone>-2 (soft)</ShadowTone>
@@ -1225,7 +1225,7 @@
     <ColorChromeEffect>Strong</ColorChromeEffect>
     <ColorChromeFXBlue>Weak</ColorChromeFXBlue>
     <WhiteBalance>Daylight</WhiteBalance>
-    <WhiteBalanceFineTune>Red +3, Blue -5</WhiteBalanceFineTune>
+    <WhiteBalanceFineTune>Red +60, Blue -100</WhiteBalanceFineTune>
     <HighlightTone>-1 (medium soft)</HighlightTone>
     <ShadowTone>-2 (soft)</ShadowTone>
     <Saturation>+2 (high)</Saturation>
@@ -1243,7 +1243,7 @@
     <ColorChromeFXBlue>Weak</ColorChromeFXBlue>
     <WhiteBalance>Kelvin</WhiteBalance>
     <ColorTemperature>5200</ColorTemperature>
-    <WhiteBalanceFineTune>Red +1, Blue -6</WhiteBalanceFineTune>
+    <WhiteBalanceFineTune>Red +20, Blue -120</WhiteBalanceFineTune>
     <DevelopmentDynamicRange>400</DevelopmentDynamicRange>
     <HighlightTone>0 (normal)</HighlightTone>
     <ShadowTone>-2 (soft)</ShadowTone>
@@ -1262,7 +1262,7 @@
     <ColorChromeFXBlue>Off</ColorChromeFXBlue>
     <WhiteBalance>Kelvin</WhiteBalance>
     <ColorTemperature>5500</ColorTemperature>
-    <WhiteBalanceFineTune>Red +0, Blue -7</WhiteBalanceFineTune>
+    <WhiteBalanceFineTune>Red +0, Blue -140</WhiteBalanceFineTune>
     <DevelopmentDynamicRange>400</DevelopmentDynamicRange>
     <HighlightTone>-1 (medium soft)</HighlightTone>
     <ShadowTone>-2 (soft)</ShadowTone>
@@ -1280,7 +1280,7 @@
     <ColorChromeEffect>Strong</ColorChromeEffect>
     <ColorChromeFXBlue>Weak</ColorChromeFXBlue>
     <WhiteBalance>Auto</WhiteBalance>
-    <WhiteBalanceFineTune>Red +2, Blue -4</WhiteBalanceFineTune>
+    <WhiteBalanceFineTune>Red +40, Blue -80</WhiteBalanceFineTune>
     <DevelopmentDynamicRange />
     <HighlightTone>-1 (medium soft)</HighlightTone>
     <ShadowTone>-1 (medium soft)</ShadowTone>
@@ -1299,7 +1299,7 @@
     <ColorChromeFXBlue>Weak</ColorChromeFXBlue>
     <WhiteBalance>Kelvin</WhiteBalance>
     <ColorTemperature>5000</ColorTemperature>
-    <WhiteBalanceFineTune>Red +2, Blue -6</WhiteBalanceFineTune>
+    <WhiteBalanceFineTune>Red +40, Blue -120</WhiteBalanceFineTune>
     <HighlightTone>0 (normal)</HighlightTone>
     <ShadowTone>0 (normal)</ShadowTone>
     <Saturation>+1 (medium high)</Saturation>
@@ -1317,7 +1317,7 @@
     <ColorChromeFXBlue>Weak</ColorChromeFXBlue>
     <WhiteBalance>Kelvin</WhiteBalance>
     <ColorTemperature>5200</ColorTemperature>
-    <WhiteBalanceFineTune>Red +1, Blue -5</WhiteBalanceFineTune>
+    <WhiteBalanceFineTune>Red +20, Blue -100</WhiteBalanceFineTune>
     <HighlightTone>+1 (medium hard)</HighlightTone>
     <ShadowTone>0 (normal)</ShadowTone>
     <Saturation>+3 (very high)</Saturation>
@@ -1334,7 +1334,7 @@
     <ColorChromeEffect>Strong</ColorChromeEffect>
     <ColorChromeFXBlue>Strong</ColorChromeFXBlue>
     <WhiteBalance>Daylight</WhiteBalance>
-    <WhiteBalanceFineTune>Red +3, Blue -6</WhiteBalanceFineTune>
+    <WhiteBalanceFineTune>Red +60, Blue -120</WhiteBalanceFineTune>
     <HighlightTone>0 (normal)</HighlightTone>
     <ShadowTone>-2 (soft)</ShadowTone>
     <Saturation>-4 (lowest)</Saturation>
@@ -1352,7 +1352,7 @@
     <ColorChromeFXBlue>Weak</ColorChromeFXBlue>
     <WhiteBalance>Kelvin</WhiteBalance>
     <ColorTemperature>6600</ColorTemperature>
-    <WhiteBalanceFineTune>Red -1, Blue -3</WhiteBalanceFineTune>
+    <WhiteBalanceFineTune>Red -20, Blue -60</WhiteBalanceFineTune>
     <HighlightTone>-2 (soft)</HighlightTone>
     <ShadowTone>-0.5</ShadowTone>
     <Saturation>+3 (very high)</Saturation>
@@ -1370,7 +1370,7 @@
     <ColorChromeFXBlue>Off</ColorChromeFXBlue>
     <WhiteBalance>Kelvin</WhiteBalance>
     <ColorTemperature>5800</ColorTemperature>
-    <WhiteBalanceFineTune>Red +2, Blue +4</WhiteBalanceFineTune>
+    <WhiteBalanceFineTune>Red +40, Blue +80</WhiteBalanceFineTune>
     <HighlightTone>0 (normal)</HighlightTone>
     <ShadowTone>-1 (medium soft)</ShadowTone>
     <Saturation>-1 (medium low)</Saturation>
@@ -1387,7 +1387,7 @@
     <ColorChromeEffect>Weak</ColorChromeEffect>
     <ColorChromeFXBlue>Weak</ColorChromeFXBlue>
     <WhiteBalance>Auto</WhiteBalance>
-    <WhiteBalanceFineTune>Red +1, Blue -5</WhiteBalanceFineTune>
+    <WhiteBalanceFineTune>Red +20, Blue -100</WhiteBalanceFineTune>
     <HighlightTone>+1 (medium hard)</HighlightTone>
     <ShadowTone>+1 (medium hard)</ShadowTone>
     <Saturation>+4 (highest)</Saturation>
@@ -1405,7 +1405,7 @@
     <ColorChromeFXBlue>Off</ColorChromeFXBlue>
     <WhiteBalance>Kelvin</WhiteBalance>
     <ColorTemperature>7300</ColorTemperature>
-    <WhiteBalanceFineTune>Red -5, Blue -2</WhiteBalanceFineTune>
+    <WhiteBalanceFineTune>Red -100, Blue -40</WhiteBalanceFineTune>
     <HighlightTone>-2 (soft)</HighlightTone>
     <ShadowTone>+1 (medium hard)</ShadowTone>
     <Saturation>-1 (medium low)</Saturation>
@@ -1422,7 +1422,7 @@
     <ColorChromeEffect>Strong</ColorChromeEffect>
     <ColorChromeFXBlue>Strong</ColorChromeFXBlue>
     <WhiteBalance>Cloudy</WhiteBalance>
-    <WhiteBalanceFineTune>Red +3, Blue +5</WhiteBalanceFineTune>
+    <WhiteBalanceFineTune>Red +60, Blue +100</WhiteBalanceFineTune>
     <DevelopmentDynamicRange>400</DevelopmentDynamicRange>
     <HighlightTone>-1 (medium soft)</HighlightTone>
     <ShadowTone>+1 (medium hard)</ShadowTone>
@@ -1441,7 +1441,7 @@
     <ColorChromeFXBlue>Weak</ColorChromeFXBlue>
     <WhiteBalance>Kelvin</WhiteBalance>
     <ColorTemperature>6050</ColorTemperature>
-    <WhiteBalanceFineTune>Red +3, Blue +0</WhiteBalanceFineTune>
+    <WhiteBalanceFineTune>Red +60, Blue +0</WhiteBalanceFineTune>
     <HighlightTone>+1 (medium hard)</HighlightTone>
     <ShadowTone>-2 (soft)</ShadowTone>
     <Saturation>+4 (highest)</Saturation>
@@ -1467,7 +1467,7 @@
     <ColorChromeEffect>Strong</ColorChromeEffect>
     <ColorChromeFXBlue>Weak</ColorChromeFXBlue>
     <WhiteBalance>Daylight</WhiteBalance>
-    <WhiteBalanceFineTune>Red -1, Blue -3</WhiteBalanceFineTune>
+    <WhiteBalanceFineTune>Red -20, Blue -60</WhiteBalanceFineTune>
     <Sensor>X-Trans IV</Sensor>
   </profile>
   <profile>
@@ -1486,7 +1486,7 @@
     <ColorChromeFXBlue>Weak</ColorChromeFXBlue>
     <ColorTemperature>4800</ColorTemperature>
     <WhiteBalance>Kelvin</WhiteBalance>
-    <WhiteBalanceFineTune>Red -2, Blue -7</WhiteBalanceFineTune>
+    <WhiteBalanceFineTune>Red -40, Blue -140</WhiteBalanceFineTune>
     <Sensor>X-Trans IV</Sensor>
   </profile>
   <profile>
@@ -1504,7 +1504,7 @@
     <ColorChromeEffect>Strong</ColorChromeEffect>
     <ColorChromeFXBlue>Strong</ColorChromeFXBlue>
     <WhiteBalance>Auto (white priority)</WhiteBalance>
-    <WhiteBalanceFineTune>Red +1, Blue -6</WhiteBalanceFineTune>
+    <WhiteBalanceFineTune>Red +20, Blue -120</WhiteBalanceFineTune>
     <Sensor>X-Trans IV</Sensor>
   </profile>
   <profile>
@@ -1522,7 +1522,7 @@
     <ColorChromeEffect>Strong</ColorChromeEffect>
     <ColorChromeFXBlue>Off</ColorChromeFXBlue>
     <WhiteBalance>Auto</WhiteBalance>
-    <WhiteBalanceFineTune>Red +6, Blue -6</WhiteBalanceFineTune>
+    <WhiteBalanceFineTune>Red +120, Blue -120</WhiteBalanceFineTune>
     <Sensor>X-Trans IV</Sensor>
   </profile>
   <profile>
@@ -1540,7 +1540,7 @@
     <ColorChromeEffect>Strong</ColorChromeEffect>
     <ColorChromeFXBlue>Weak</ColorChromeFXBlue>
     <WhiteBalance>Daylight</WhiteBalance>
-    <WhiteBalanceFineTune>Red +2, Blue -1</WhiteBalanceFineTune>
+    <WhiteBalanceFineTune>Red +40, Blue -20</WhiteBalanceFineTune>
     <Sensor>X-Trans IV</Sensor>
   </profile>
   <profile>
@@ -1553,7 +1553,7 @@
     <ColorChromeFXBlue>Strong</ColorChromeFXBlue>
     <ColorTemperature>5300</ColorTemperature>
     <WhiteBalance>Kelvin</WhiteBalance>
-    <WhiteBalanceFineTune>Red +0, Blue -6</WhiteBalanceFineTune>
+    <WhiteBalanceFineTune>Red +0, Blue -120</WhiteBalanceFineTune>
     <HighlightTone>-0.5</HighlightTone>
     <ShadowTone>-2 (soft)</ShadowTone>
     <Saturation>+3 (very high)</Saturation>
@@ -1577,7 +1577,7 @@
     <ColorChromeEffect>Off</ColorChromeEffect>
     <ColorChromeFXBlue>Off</ColorChromeFXBlue>
     <WhiteBalance>Auto</WhiteBalance>
-    <WhiteBalanceFineTune>Red +0, Blue +2</WhiteBalanceFineTune>
+    <WhiteBalanceFineTune>Red +0, Blue +40</WhiteBalanceFineTune>
     <Sensor>X-Trans IV</Sensor>
   </profile>
   <profile>
@@ -1595,7 +1595,7 @@
     <ColorChromeEffect>Weak</ColorChromeEffect>
     <ColorChromeFXBlue>Off</ColorChromeFXBlue>
     <WhiteBalance>Auto</WhiteBalance>
-    <WhiteBalanceFineTune>Red +1, Blue -2</WhiteBalanceFineTune>
+    <WhiteBalanceFineTune>Red +20, Blue -40</WhiteBalanceFineTune>
     <Sensor>X-Trans IV</Sensor>
   </profile>
   <profile>
@@ -1613,7 +1613,7 @@
     <ColorChromeEffect>Strong</ColorChromeEffect>
     <ColorChromeFXBlue>Strong</ColorChromeFXBlue>
     <WhiteBalance>Daylight</WhiteBalance>
-    <WhiteBalanceFineTune>Red -3, Blue +1</WhiteBalanceFineTune>
+    <WhiteBalanceFineTune>Red -60, Blue +20</WhiteBalanceFineTune>
     <Sensor>X-Trans IV</Sensor>
   </profile>
   <profile>
@@ -1632,7 +1632,7 @@
     <ColorChromeFXBlue>Strong</ColorChromeFXBlue>
     <ColorTemperature>2950</ColorTemperature>
     <WhiteBalance>Kelvin</WhiteBalance>
-    <WhiteBalanceFineTune>Red +7, Blue -9</WhiteBalanceFineTune>
+    <WhiteBalanceFineTune>Red +140, Blue -180</WhiteBalanceFineTune>
     <Sensor>X-Trans IV</Sensor>
   </profile>
   <profile>
@@ -1651,7 +1651,7 @@
     <ColorChromeFXBlue>Weak</ColorChromeFXBlue>
     <ColorTemperature>5500</ColorTemperature>
     <WhiteBalance>Kelvin</WhiteBalance>
-    <WhiteBalanceFineTune>Red +3, Blue -7</WhiteBalanceFineTune>
+    <WhiteBalanceFineTune>Red +60, Blue -140</WhiteBalanceFineTune>
     <Sensor>X-Trans IV</Sensor>
   </profile>
   <profile>
@@ -1670,7 +1670,7 @@
     <ColorChromeFXBlue>Strong</ColorChromeFXBlue>
     <ColorTemperature>5800</ColorTemperature>
     <WhiteBalance>Kelvin</WhiteBalance>
-    <WhiteBalanceFineTune>Red +1, Blue -3</WhiteBalanceFineTune>
+    <WhiteBalanceFineTune>Red +20, Blue -60</WhiteBalanceFineTune>
     <Sensor>X-Trans IV</Sensor>
   </profile>
   <profile>
@@ -1689,7 +1689,7 @@
     <ColorChromeFXBlue>Weak</ColorChromeFXBlue>
     <ColorTemperature>6700</ColorTemperature>
     <WhiteBalance>Kelvin</WhiteBalance>
-    <WhiteBalanceFineTune>Red -4, Blue -1</WhiteBalanceFineTune>
+    <WhiteBalanceFineTune>Red -80, Blue -20</WhiteBalanceFineTune>
     <Sensor>X-Trans IV</Sensor>
   </profile>
   <profile>
@@ -1708,7 +1708,7 @@
     <ColorChromeFXBlue>Weak</ColorChromeFXBlue>
     <ColorTemperature>4700</ColorTemperature>
     <WhiteBalance>Kelvin</WhiteBalance>
-    <WhiteBalanceFineTune>Red -3, Blue -4</WhiteBalanceFineTune>
+    <WhiteBalanceFineTune>Red -60, Blue -80</WhiteBalanceFineTune>
     <Sensor>X-Trans IV</Sensor>
   </profile>
   <profile>
@@ -1727,7 +1727,7 @@
     <ColorChromeFXBlue>Strong</ColorChromeFXBlue>
     <ColorTemperature>10000</ColorTemperature>
     <WhiteBalance>Kelvin</WhiteBalance>
-    <WhiteBalanceFineTune>Red -6, Blue -5</WhiteBalanceFineTune>
+    <WhiteBalanceFineTune>Red -120, Blue -100</WhiteBalanceFineTune>
     <Sensor>X-Trans IV</Sensor>
   </profile>
   <profile>
@@ -1746,7 +1746,7 @@
     <ColorChromeFXBlue>Strong</ColorChromeFXBlue>
     <ColorTemperature>7350</ColorTemperature>
     <WhiteBalance>Kelvin</WhiteBalance>
-    <WhiteBalanceFineTune>Red -1, Blue -4</WhiteBalanceFineTune>
+    <WhiteBalanceFineTune>Red -20, Blue -80</WhiteBalanceFineTune>
     <Sensor>X-Trans IV</Sensor>
   </profile>
   <profile>
@@ -1765,7 +1765,7 @@
     <ColorChromeFXBlue>Weak</ColorChromeFXBlue>
     <ColorTemperature>9100</ColorTemperature>
     <WhiteBalance>Kelvin</WhiteBalance>
-    <WhiteBalanceFineTune>Red -4, Blue +4</WhiteBalanceFineTune>
+    <WhiteBalanceFineTune>Red -80, Blue +80</WhiteBalanceFineTune>
     <Sensor>X-Trans IV</Sensor>
   </profile>
   <profile>
@@ -1777,7 +1777,7 @@
     <ColorChromeEffect>Strong</ColorChromeEffect>
     <ColorChromeFXBlue>Strong</ColorChromeFXBlue>
     <WhiteBalance>Daylight</WhiteBalance>
-    <WhiteBalanceFineTune>Red +3, Blue -6</WhiteBalanceFineTune>
+    <WhiteBalanceFineTune>Red +60, Blue -120</WhiteBalanceFineTune>
     <HighlightTone>+2 (hard)</HighlightTone>
     <ShadowTone>-2 (soft)</ShadowTone>
     <Saturation>-4 (lowest)</Saturation>
@@ -1802,7 +1802,7 @@
     <ColorChromeFXBlue>Weak</ColorChromeFXBlue>
     <ColorTemperature>5200</ColorTemperature>
     <WhiteBalance>Kelvin</WhiteBalance>
-    <WhiteBalanceFineTune>Red +1, Blue -6</WhiteBalanceFineTune>
+    <WhiteBalanceFineTune>Red +20, Blue -120</WhiteBalanceFineTune>
     <Sensor>X-Trans IV</Sensor>
   </profile>
   <profile>
@@ -1820,7 +1820,7 @@
     <ColorChromeEffect>Strong</ColorChromeEffect>
     <ColorChromeFXBlue>Weak</ColorChromeFXBlue>
     <WhiteBalance>Auto</WhiteBalance>
-    <WhiteBalanceFineTune>Red +4, Blue -5</WhiteBalanceFineTune>
+    <WhiteBalanceFineTune>Red +80, Blue -100</WhiteBalanceFineTune>
     <Sensor>X-Trans IV</Sensor>
   </profile>
   <profile>
@@ -1832,7 +1832,7 @@
     <ColorChromeEffect>Strong</ColorChromeEffect>
     <ColorChromeFXBlue>Strong</ColorChromeFXBlue>
     <WhiteBalance>Daylight</WhiteBalance>
-    <WhiteBalanceFineTune>Red +3, Blue -7</WhiteBalanceFineTune>
+    <WhiteBalanceFineTune>Red +60, Blue -140</WhiteBalanceFineTune>
     <HighlightTone>+2.5</HighlightTone>
     <ShadowTone>0 (normal)</ShadowTone>
     <Saturation>+4 (highest)</Saturation>
@@ -1856,7 +1856,7 @@
     <ColorChromeEffect>Strong</ColorChromeEffect>
     <ColorChromeFXBlue>Strong</ColorChromeFXBlue>
     <WhiteBalance>Auto</WhiteBalance>
-    <WhiteBalanceFineTune>Red +4, Blue -7</WhiteBalanceFineTune>
+    <WhiteBalanceFineTune>Red +80, Blue -140</WhiteBalanceFineTune>
     <Sensor>X-Trans IV</Sensor>
   </profile>
   <profile>
@@ -1874,7 +1874,7 @@
     <ColorChromeEffect>Weak</ColorChromeEffect>
     <ColorChromeFXBlue>Weak</ColorChromeFXBlue>
     <WhiteBalance>Daylight</WhiteBalance>
-    <WhiteBalanceFineTune>Red +6, Blue -3</WhiteBalanceFineTune>
+    <WhiteBalanceFineTune>Red +120, Blue -60</WhiteBalanceFineTune>
     <Sensor>X-Trans IV</Sensor>
   </profile>
   <profile>
@@ -1886,7 +1886,7 @@
     <ColorChromeEffect>Strong</ColorChromeEffect>
     <ColorChromeFXBlue>Weak</ColorChromeFXBlue>
     <WhiteBalance>Daylight Fluorescent</WhiteBalance>
-    <WhiteBalanceFineTune>Red -2, Blue -4</WhiteBalanceFineTune>
+    <WhiteBalanceFineTune>Red -40, Blue -80</WhiteBalanceFineTune>
     <HighlightTone>-2 (soft)</HighlightTone>
     <ShadowTone>-1 (medium soft)</ShadowTone>
     <Saturation>+2 (high)</Saturation>
@@ -1927,7 +1927,7 @@
     <ColorChromeEffect>Strong</ColorChromeEffect>
     <ColorChromeFXBlue>Weak</ColorChromeFXBlue>
     <WhiteBalance>Daylight</WhiteBalance>
-    <WhiteBalanceFineTune>Red +0, Blue -1</WhiteBalanceFineTune>
+    <WhiteBalanceFineTune>Red +0, Blue -20</WhiteBalanceFineTune>
     <Sensor>X-Trans IV</Sensor>
   </profile>
   <profile>
@@ -1945,7 +1945,7 @@
     <ColorChromeEffect>Off</ColorChromeEffect>
     <ColorChromeFXBlue>Strong</ColorChromeFXBlue>
     <WhiteBalance>Auto</WhiteBalance>
-    <WhiteBalanceFineTune>Red +3, Blue -5</WhiteBalanceFineTune>
+    <WhiteBalanceFineTune>Red +60, Blue -100</WhiteBalanceFineTune>
     <Sensor>X-Trans IV</Sensor>
   </profile>
   <profile>
@@ -1964,7 +1964,7 @@
     <ColorChromeFXBlue>Weak</ColorChromeFXBlue>
     <ColorTemperature>4700</ColorTemperature>
     <WhiteBalance>Kelvin</WhiteBalance>
-    <WhiteBalanceFineTune>Red +4, Blue -3</WhiteBalanceFineTune>
+    <WhiteBalanceFineTune>Red +80, Blue -60</WhiteBalanceFineTune>
     <Sensor>X-Trans IV</Sensor>
   </profile>
   <profile>
@@ -1982,7 +1982,7 @@
     <ColorChromeEffect>Strong</ColorChromeEffect>
     <ColorChromeFXBlue>Weak</ColorChromeFXBlue>
     <WhiteBalance>Daylight</WhiteBalance>
-    <WhiteBalanceFineTune>Red -1, Blue -3</WhiteBalanceFineTune>
+    <WhiteBalanceFineTune>Red -20, Blue -60</WhiteBalanceFineTune>
     <Sensor>X-Trans IV</Sensor>
   </profile>
   <profile>
@@ -2000,7 +2000,7 @@
     <ColorChromeEffect>Strong</ColorChromeEffect>
     <ColorChromeFXBlue>Strong</ColorChromeFXBlue>
     <WhiteBalance>Daylight</WhiteBalance>
-    <WhiteBalanceFineTune>Red +3, Blue +1</WhiteBalanceFineTune>
+    <WhiteBalanceFineTune>Red +60, Blue +20</WhiteBalanceFineTune>
     <Sensor>X-Trans IV</Sensor>
   </profile>
   <profile>
@@ -2019,7 +2019,7 @@
     <ColorChromeFXBlue>Strong</ColorChromeFXBlue>
     <ColorTemperature>5500</ColorTemperature>
     <WhiteBalance>Kelvin</WhiteBalance>
-    <WhiteBalanceFineTune>Red -1, Blue -2</WhiteBalanceFineTune>
+    <WhiteBalanceFineTune>Red -20, Blue -40</WhiteBalanceFineTune>
     <Sensor>X-Trans IV</Sensor>
   </profile>
   <profile>
@@ -2036,7 +2036,7 @@
     <ColorChromeEffect>Weak</ColorChromeEffect>
     <ColorChromeFXBlue>Weak</ColorChromeFXBlue>
     <WhiteBalance>Daylight</WhiteBalance>
-    <WhiteBalanceFineTune>Red -2, Blue +3</WhiteBalanceFineTune>
+    <WhiteBalanceFineTune>Red -40, Blue +60</WhiteBalanceFineTune>
     <Sensor>X-Trans IV</Sensor>
   </profile>
   <profile>
@@ -2055,7 +2055,7 @@
     <ColorChromeFXBlue>Weak</ColorChromeFXBlue>
     <ColorTemperature>5300</ColorTemperature>
     <WhiteBalance>Kelvin</WhiteBalance>
-    <WhiteBalanceFineTune>Red +3, Blue -6</WhiteBalanceFineTune>
+    <WhiteBalanceFineTune>Red +60, Blue -120</WhiteBalanceFineTune>
     <Sensor>X-Trans IV</Sensor>
   </profile>
   <profile>
@@ -2072,7 +2072,7 @@
     <ColorChromeEffect>Strong</ColorChromeEffect>
     <ColorChromeFXBlue>Strong</ColorChromeFXBlue>
     <WhiteBalance>Daylight</WhiteBalance>
-    <WhiteBalanceFineTune>Red -4, Blue -2</WhiteBalanceFineTune>
+    <WhiteBalanceFineTune>Red -80, Blue -40</WhiteBalanceFineTune>
     <Sensor>X-Trans IV</Sensor>
   </profile>
   <profile>
@@ -2090,7 +2090,7 @@
     <ColorChromeEffect>Weak</ColorChromeEffect>
     <ColorChromeFXBlue>Strong</ColorChromeFXBlue>
     <WhiteBalance>Auto</WhiteBalance>
-    <WhiteBalanceFineTune>Red -1, Blue -4</WhiteBalanceFineTune>
+    <WhiteBalanceFineTune>Red -20, Blue -80</WhiteBalanceFineTune>
     <Sensor>X-Trans IV</Sensor>
   </profile>
   <profile>
@@ -2108,7 +2108,7 @@
     <ColorChromeEffect>Off</ColorChromeEffect>
     <ColorChromeFXBlue>Off</ColorChromeFXBlue>
     <WhiteBalance>Daylight</WhiteBalance>
-    <WhiteBalanceFineTune>Red +4, Blue -5</WhiteBalanceFineTune>
+    <WhiteBalanceFineTune>Red +80, Blue -100</WhiteBalanceFineTune>
     <Sensor>X-Trans IV</Sensor>
   </profile>
   <profile>
@@ -2127,7 +2127,7 @@
     <ColorChromeFXBlue>Strong</ColorChromeFXBlue>
     <ColorTemperature>5100</ColorTemperature>
     <WhiteBalance>Kelvin</WhiteBalance>
-    <WhiteBalanceFineTune>Red +4, Blue +2</WhiteBalanceFineTune>
+    <WhiteBalanceFineTune>Red +80, Blue +40</WhiteBalanceFineTune>
     <Sensor>X-Trans IV</Sensor>
   </profile>
   <profile>
@@ -2145,7 +2145,7 @@
     <ColorChromeEffect>Weak</ColorChromeEffect>
     <ColorChromeFXBlue>Off</ColorChromeFXBlue>
     <WhiteBalance>Daylight</WhiteBalance>
-    <WhiteBalanceFineTune>Red +0, Blue -3</WhiteBalanceFineTune>
+    <WhiteBalanceFineTune>Red +0, Blue -60</WhiteBalanceFineTune>
     <Sensor>X-Trans IV</Sensor>
   </profile>
   <profile>
@@ -2164,7 +2164,7 @@
     <ColorChromeFXBlue>Weak</ColorChromeFXBlue>
     <ColorTemperature>4900</ColorTemperature>
     <WhiteBalance>Kelvin</WhiteBalance>
-    <WhiteBalanceFineTune>Red +0, Blue -4</WhiteBalanceFineTune>
+    <WhiteBalanceFineTune>Red +0, Blue -80</WhiteBalanceFineTune>
     <Sensor>X-Trans IV</Sensor>
   </profile>
   <profile>
@@ -2183,7 +2183,7 @@
     <ColorChromeFXBlue>Strong</ColorChromeFXBlue>
     <ColorTemperature>5250</ColorTemperature>
     <WhiteBalance>Kelvin</WhiteBalance>
-    <WhiteBalanceFineTune>Red -3, Blue -4</WhiteBalanceFineTune>
+    <WhiteBalanceFineTune>Red -60, Blue -80</WhiteBalanceFineTune>
     <Sensor>X-Trans IV</Sensor>
   </profile>
   <profile>
@@ -2201,7 +2201,7 @@
     <ColorChromeEffect>Off</ColorChromeEffect>
     <ColorChromeFXBlue>Off</ColorChromeFXBlue>
     <WhiteBalance>Auto</WhiteBalance>
-    <WhiteBalanceFineTune>Red -1, Blue -6</WhiteBalanceFineTune>
+    <WhiteBalanceFineTune>Red -20, Blue -120</WhiteBalanceFineTune>
     <Sensor>X-Trans IV</Sensor>
   </profile>
   <profile>
@@ -2220,7 +2220,7 @@
     <ColorChromeFXBlue>Strong</ColorChromeFXBlue>
     <ColorTemperature>6900</ColorTemperature>
     <WhiteBalance>Kelvin</WhiteBalance>
-    <WhiteBalanceFineTune>Red -5, Blue +5</WhiteBalanceFineTune>
+    <WhiteBalanceFineTune>Red -100, Blue +100</WhiteBalanceFineTune>
     <Sensor>X-Trans IV</Sensor>
   </profile>
   <profile>
@@ -2238,7 +2238,7 @@
     <ColorChromeEffect>Weak</ColorChromeEffect>
     <ColorChromeFXBlue>Strong</ColorChromeFXBlue>
     <WhiteBalance>Day White Fluorescent</WhiteBalance>
-    <WhiteBalanceFineTune>Red -3, Blue -1</WhiteBalanceFineTune>
+    <WhiteBalanceFineTune>Red -60, Blue -20</WhiteBalanceFineTune>
     <Sensor>X-Trans IV</Sensor>
   </profile>
   <profile>
@@ -2256,7 +2256,7 @@
     <ColorChromeEffect>Weak</ColorChromeEffect>
     <ColorChromeFXBlue>Strong</ColorChromeFXBlue>
     <WhiteBalance>Auto (white priority)</WhiteBalance>
-    <WhiteBalanceFineTune>Red -3, Blue -1</WhiteBalanceFineTune>
+    <WhiteBalanceFineTune>Red -60, Blue -20</WhiteBalanceFineTune>
     <Sensor>X-Trans IV</Sensor>
   </profile>
   <profile>
@@ -2274,7 +2274,7 @@
     <ColorChromeEffect>Weak</ColorChromeEffect>
     <ColorChromeFXBlue>Weak</ColorChromeFXBlue>
     <WhiteBalance>Day White Fluorescent</WhiteBalance>
-    <WhiteBalanceFineTune>Red -3, Blue -1</WhiteBalanceFineTune>
+    <WhiteBalanceFineTune>Red -60, Blue -20</WhiteBalanceFineTune>
     <Sensor>X-Trans IV</Sensor>
   </profile>
   <profile>
@@ -2292,7 +2292,7 @@
     <ColorChromeEffect>Strong</ColorChromeEffect>
     <ColorChromeFXBlue>Weak</ColorChromeFXBlue>
     <WhiteBalance>Daylight</WhiteBalance>
-    <WhiteBalanceFineTune>Red -3, Blue +0</WhiteBalanceFineTune>
+    <WhiteBalanceFineTune>Red -60, Blue +0</WhiteBalanceFineTune>
     <Sensor>X-Trans IV</Sensor>
   </profile>
   <profile>
@@ -2310,7 +2310,7 @@
     <ColorChromeEffect>Strong</ColorChromeEffect>
     <ColorChromeFXBlue>Strong</ColorChromeFXBlue>
     <WhiteBalance>Daylight</WhiteBalance>
-    <WhiteBalanceFineTune>Red -2, Blue +5</WhiteBalanceFineTune>
+    <WhiteBalanceFineTune>Red -40, Blue +100</WhiteBalanceFineTune>
     <Sensor>X-Trans IV</Sensor>
   </profile>
   <profile>
@@ -2328,7 +2328,7 @@
     <ColorChromeEffect>Weak</ColorChromeEffect>
     <ColorChromeFXBlue>Weak</ColorChromeFXBlue>
     <WhiteBalance>Auto</WhiteBalance>
-    <WhiteBalanceFineTune>Red -2, Blue -4</WhiteBalanceFineTune>
+    <WhiteBalanceFineTune>Red -40, Blue -80</WhiteBalanceFineTune>
     <Sensor>X-Trans IV</Sensor>
   </profile>
   <profile>
@@ -2340,7 +2340,7 @@
     <ColorChromeEffect>Strong</ColorChromeEffect>
     <ColorChromeFXBlue>Weak</ColorChromeFXBlue>
     <WhiteBalance>Auto</WhiteBalance>
-    <WhiteBalanceFineTune>Red +1, Blue -3</WhiteBalanceFineTune>
+    <WhiteBalanceFineTune>Red +20, Blue -60</WhiteBalanceFineTune>
     <HighlightTone>+0.5</HighlightTone>
     <ShadowTone>-1.5</ShadowTone>
     <Saturation>+4 (highest)</Saturation>
@@ -2364,7 +2364,7 @@
     <ColorChromeEffect>Strong</ColorChromeEffect>
     <ColorChromeFXBlue>Strong</ColorChromeFXBlue>
     <WhiteBalance>Daylight</WhiteBalance>
-    <WhiteBalanceFineTune>Red -3, Blue +5</WhiteBalanceFineTune>
+    <WhiteBalanceFineTune>Red -60, Blue +100</WhiteBalanceFineTune>
     <Sensor>X-Trans IV</Sensor>
   </profile>
   <profile>
@@ -2382,7 +2382,7 @@
     <ColorChromeEffect>Strong</ColorChromeEffect>
     <ColorChromeFXBlue>Strong</ColorChromeFXBlue>
     <WhiteBalance>Daylight</WhiteBalance>
-    <WhiteBalanceFineTune>Red -2, Blue +3</WhiteBalanceFineTune>
+    <WhiteBalanceFineTune>Red -40, Blue +60</WhiteBalanceFineTune>
     <Sensor>X-Trans IV</Sensor>
   </profile>
   <profile>
@@ -2401,7 +2401,7 @@
     <ColorChromeFXBlue>Weak</ColorChromeFXBlue>
     <ColorTemperature>5600</ColorTemperature>
     <WhiteBalance>Kelvin</WhiteBalance>
-    <WhiteBalanceFineTune>Red -4, Blue -5</WhiteBalanceFineTune>
+    <WhiteBalanceFineTune>Red -80, Blue -100</WhiteBalanceFineTune>
     <Sensor>X-Trans IV</Sensor>
   </profile>
   <profile>
@@ -2419,7 +2419,7 @@
     <ColorChromeEffect>Weak</ColorChromeEffect>
     <ColorChromeFXBlue>Weak</ColorChromeFXBlue>
     <WhiteBalance>Auto</WhiteBalance>
-    <WhiteBalanceFineTune>Red +4, Blue -4</WhiteBalanceFineTune>
+    <WhiteBalanceFineTune>Red +80, Blue -80</WhiteBalanceFineTune>
     <Sensor>X-Trans IV</Sensor>
   </profile>
   <profile>
@@ -2455,7 +2455,7 @@
     <ColorChromeEffect>Strong</ColorChromeEffect>
     <ColorChromeFXBlue>Strong</ColorChromeFXBlue>
     <WhiteBalance>White Fluorescent</WhiteBalance>
-    <WhiteBalanceFineTune>Red +4, Blue -6</WhiteBalanceFineTune>
+    <WhiteBalanceFineTune>Red +80, Blue -120</WhiteBalanceFineTune>
     <Sensor>X-Trans IV</Sensor>
   </profile>
   <profile>
@@ -2473,7 +2473,7 @@
     <ColorChromeEffect>Strong</ColorChromeEffect>
     <ColorChromeFXBlue>Strong</ColorChromeFXBlue>
     <WhiteBalance>White Fluorescent</WhiteBalance>
-    <WhiteBalanceFineTune>Red +4, Blue -6</WhiteBalanceFineTune>
+    <WhiteBalanceFineTune>Red +80, Blue -120</WhiteBalanceFineTune>
     <Sensor>X-Trans IV</Sensor>
   </profile>
   <profile>
@@ -2492,7 +2492,7 @@
     <ColorChromeFXBlue>Off</ColorChromeFXBlue>
     <ColorTemperature>5100</ColorTemperature>
     <WhiteBalance>Kelvin</WhiteBalance>
-    <WhiteBalanceFineTune>Red +5, Blue -3</WhiteBalanceFineTune>
+    <WhiteBalanceFineTune>Red +100, Blue -60</WhiteBalanceFineTune>
     <Sensor>X-Trans IV</Sensor>
   </profile>
   <profile>
@@ -2511,7 +2511,7 @@
     <ColorChromeFXBlue>Strong</ColorChromeFXBlue>
     <ColorTemperature>8700</ColorTemperature>
     <WhiteBalance>Kelvin</WhiteBalance>
-    <WhiteBalanceFineTune>Red +4, Blue +6</WhiteBalanceFineTune>
+    <WhiteBalanceFineTune>Red +80, Blue +120</WhiteBalanceFineTune>
     <Sensor>X-Trans IV</Sensor>
   </profile>
   <profile>
@@ -2529,7 +2529,7 @@
     <ColorChromeEffect>Weak</ColorChromeEffect>
     <ColorChromeFXBlue>Weak</ColorChromeFXBlue>
     <WhiteBalance>Daylight Fluorescent</WhiteBalance>
-    <WhiteBalanceFineTune>Red +2, Blue -5</WhiteBalanceFineTune>
+    <WhiteBalanceFineTune>Red +40, Blue -100</WhiteBalanceFineTune>
     <Sensor>X-Trans IV</Sensor>
   </profile>
   <profile>
@@ -2548,7 +2548,7 @@
     <ColorChromeFXBlue>Strong</ColorChromeFXBlue>
     <ColorTemperature>6990</ColorTemperature>
     <WhiteBalance>Kelvin</WhiteBalance>
-    <WhiteBalanceFineTune>Red +3, Blue -7</WhiteBalanceFineTune>
+    <WhiteBalanceFineTune>Red +60, Blue -140</WhiteBalanceFineTune>
     <Sensor>X-Trans IV</Sensor>
   </profile>
   <profile>
@@ -2566,7 +2566,7 @@
     <ColorChromeEffect>Strong</ColorChromeEffect>
     <ColorChromeFXBlue>Off</ColorChromeFXBlue>
     <WhiteBalance>Daylight</WhiteBalance>
-    <WhiteBalanceFineTune>Red +4, Blue -9</WhiteBalanceFineTune>
+    <WhiteBalanceFineTune>Red +80, Blue -180</WhiteBalanceFineTune>
     <Sensor>X-Trans IV</Sensor>
   </profile>
   <profile>
@@ -2578,7 +2578,7 @@
     <ColorChromeFXBlue>Weak</ColorChromeFXBlue>
     <ColorTemperature>4350</ColorTemperature>
     <WhiteBalance>Kelvin</WhiteBalance>
-    <WhiteBalanceFineTune>Red +6, Blue -8</WhiteBalanceFineTune>
+    <WhiteBalanceFineTune>Red +120, Blue -160</WhiteBalanceFineTune>
     <DRangePriority>Fixed</DRangePriority>
     <DRangePriorityAuto>Strong</DRangePriorityAuto>
     <Saturation>+4 (highest)</Saturation>
@@ -2595,7 +2595,7 @@
     <ColorChromeEffect>Strong</ColorChromeEffect>
     <ColorChromeFXBlue>Weak</ColorChromeFXBlue>
     <WhiteBalance>Auto (ambiance priority)</WhiteBalance>
-    <WhiteBalanceFineTune>Red -2, Blue -6</WhiteBalanceFineTune>
+    <WhiteBalanceFineTune>Red -40, Blue -120</WhiteBalanceFineTune>
     <DevelopmentDynamicRange>400</DevelopmentDynamicRange>
     <HighlightTone>-2 (soft)</HighlightTone>
     <ShadowTone>-2 (soft)</ShadowTone>
@@ -2621,7 +2621,7 @@
     <ColorChromeFXBlue>Strong</ColorChromeFXBlue>
     <ColorTemperature>2900</ColorTemperature>
     <WhiteBalance>Kelvin</WhiteBalance>
-    <WhiteBalanceFineTune>Red +9, Blue -9</WhiteBalanceFineTune>
+    <WhiteBalanceFineTune>Red +180, Blue -180</WhiteBalanceFineTune>
     <Sensor>X-Trans IV</Sensor>
   </profile>
   <profile>
@@ -2639,7 +2639,7 @@
     <ColorChromeEffect>Strong</ColorChromeEffect>
     <ColorChromeFXBlue>Weak</ColorChromeFXBlue>
     <WhiteBalance>Daylight</WhiteBalance>
-    <WhiteBalanceFineTune>Red -2, Blue -4</WhiteBalanceFineTune>
+    <WhiteBalanceFineTune>Red -40, Blue -80</WhiteBalanceFineTune>
     <Sensor>X-Trans IV</Sensor>
   </profile>
   <profile>
@@ -2657,7 +2657,7 @@
     <ColorChromeEffect>Strong</ColorChromeEffect>
     <ColorChromeFXBlue>Strong</ColorChromeFXBlue>
     <WhiteBalance>Auto</WhiteBalance>
-    <WhiteBalanceFineTune>Red +1, Blue -1</WhiteBalanceFineTune>
+    <WhiteBalanceFineTune>Red +20, Blue -20</WhiteBalanceFineTune>
     <Sensor>X-Trans IV</Sensor>
   </profile>
   <profile>
@@ -2675,7 +2675,7 @@
     <ColorChromeEffect>Strong</ColorChromeEffect>
     <ColorChromeFXBlue>Strong</ColorChromeFXBlue>
     <WhiteBalance>Daylight</WhiteBalance>
-    <WhiteBalanceFineTune>Red -1, Blue +1</WhiteBalanceFineTune>
+    <WhiteBalanceFineTune>Red -20, Blue +20</WhiteBalanceFineTune>
     <Sensor>X-Trans IV</Sensor>
   </profile>
   <profile>
@@ -2693,7 +2693,7 @@
     <ColorChromeEffect>Weak</ColorChromeEffect>
     <ColorChromeFXBlue>Strong</ColorChromeFXBlue>
     <WhiteBalance>Daylight</WhiteBalance>
-    <WhiteBalanceFineTune>Red -1, Blue +1</WhiteBalanceFineTune>
+    <WhiteBalanceFineTune>Red -20, Blue +20</WhiteBalanceFineTune>
     <Sensor>X-Trans IV</Sensor>
   </profile>
   <profile>
@@ -2729,7 +2729,7 @@
     <ColorChromeEffect>Strong</ColorChromeEffect>
     <ColorChromeFXBlue>Weak</ColorChromeFXBlue>
     <WhiteBalance>Auto</WhiteBalance>
-    <WhiteBalanceFineTune>Red +3, Blue -8</WhiteBalanceFineTune>
+    <WhiteBalanceFineTune>Red +60, Blue -160</WhiteBalanceFineTune>
     <Sensor>X-Trans IV</Sensor>
   </profile>
   <profile>
@@ -2748,7 +2748,7 @@
     <ColorChromeFXBlue>Weak</ColorChromeFXBlue>
     <ColorTemperature>5200</ColorTemperature>
     <WhiteBalance>Kelvin</WhiteBalance>
-    <WhiteBalanceFineTune>Red +1, Blue -6</WhiteBalanceFineTune>
+    <WhiteBalanceFineTune>Red +20, Blue -120</WhiteBalanceFineTune>
     <Sensor>X-Trans IV</Sensor>
   </profile>
   <profile>
@@ -2766,7 +2766,7 @@
     <ColorChromeEffect>Strong</ColorChromeEffect>
     <ColorChromeFXBlue>Strong</ColorChromeFXBlue>
     <WhiteBalance>Auto (white priority)</WhiteBalance>
-    <WhiteBalanceFineTune>Red +1, Blue -7</WhiteBalanceFineTune>
+    <WhiteBalanceFineTune>Red +20, Blue -140</WhiteBalanceFineTune>
     <Sensor>X-Trans IV</Sensor>
   </profile>
   <profile>
@@ -2785,7 +2785,7 @@
     <ColorChromeFXBlue>Strong</ColorChromeFXBlue>
     <ColorTemperature>5300</ColorTemperature>
     <WhiteBalance>Kelvin</WhiteBalance>
-    <WhiteBalanceFineTune>Red -3, Blue -6</WhiteBalanceFineTune>
+    <WhiteBalanceFineTune>Red -60, Blue -120</WhiteBalanceFineTune>
     <Sensor>X-Trans IV</Sensor>
   </profile>
   <profile>
@@ -2803,7 +2803,7 @@
     <ColorChromeEffect>Strong</ColorChromeEffect>
     <ColorChromeFXBlue>Strong</ColorChromeFXBlue>
     <WhiteBalance>Auto (ambiance priority)</WhiteBalance>
-    <WhiteBalanceFineTune>Red -6, Blue -5</WhiteBalanceFineTune>
+    <WhiteBalanceFineTune>Red -120, Blue -100</WhiteBalanceFineTune>
     <Sensor>X-Trans IV</Sensor>
   </profile>
   <profile>
@@ -2816,7 +2816,7 @@
     <ColorChromeFXBlue>Strong</ColorChromeFXBlue>
     <ColorTemperature>6000</ColorTemperature>
     <WhiteBalance>Kelvin</WhiteBalance>
-    <WhiteBalanceFineTune>Red -9, Blue -6</WhiteBalanceFineTune>
+    <WhiteBalanceFineTune>Red -180, Blue -120</WhiteBalanceFineTune>
     <HighlightTone>+0.5</HighlightTone>
     <ShadowTone>-1 (medium soft)</ShadowTone>
     <Saturation>+1 (medium high)</Saturation>
@@ -2840,7 +2840,7 @@
     <ColorChromeEffect>Strong</ColorChromeEffect>
     <ColorChromeFXBlue>Strong</ColorChromeFXBlue>
     <WhiteBalance>Auto</WhiteBalance>
-    <WhiteBalanceFineTune>Red +4, Blue -6</WhiteBalanceFineTune>
+    <WhiteBalanceFineTune>Red +80, Blue -120</WhiteBalanceFineTune>
     <Sensor>X-Trans IV</Sensor>
   </profile>
   <profile>
@@ -2859,7 +2859,7 @@
     <ColorChromeFXBlue>Off</ColorChromeFXBlue>
     <ColorTemperature>6800</ColorTemperature>
     <WhiteBalance>Kelvin</WhiteBalance>
-    <WhiteBalanceFineTune>Red -5, Blue -3</WhiteBalanceFineTune>
+    <WhiteBalanceFineTune>Red -100, Blue -60</WhiteBalanceFineTune>
     <Sensor>X-Trans IV</Sensor>
   </profile>
   <profile>
@@ -2877,7 +2877,7 @@
     <ColorChromeEffect>Off</ColorChromeEffect>
     <ColorChromeFXBlue>Off</ColorChromeFXBlue>
     <WhiteBalance>Daylight</WhiteBalance>
-    <WhiteBalanceFineTune>Red +3, Blue -7</WhiteBalanceFineTune>
+    <WhiteBalanceFineTune>Red +60, Blue -140</WhiteBalanceFineTune>
     <Sensor>X-Trans IV</Sensor>
   </profile>
   <profile>
@@ -2895,7 +2895,7 @@
     <ColorChromeFXBlue>Off</ColorChromeFXBlue>
     <ColorTemperature>7100</ColorTemperature>
     <WhiteBalance>Kelvin</WhiteBalance>
-    <WhiteBalanceFineTune>Red -4, Blue -2</WhiteBalanceFineTune>
+    <WhiteBalanceFineTune>Red -80, Blue -40</WhiteBalanceFineTune>
     <Sensor>X-Trans IV</Sensor>
   </profile>
   <profile>
@@ -2907,7 +2907,7 @@
     <ColorChromeFXBlue>Off</ColorChromeFXBlue>
     <ColorTemperature>6400</ColorTemperature>
     <WhiteBalance>Kelvin</WhiteBalance>
-    <WhiteBalanceFineTune>Red -1, Blue +8</WhiteBalanceFineTune>
+    <WhiteBalanceFineTune>Red -20, Blue +160</WhiteBalanceFineTune>
     <DevelopmentDynamicRange>400</DevelopmentDynamicRange>
     <HighlightTone>+2 (hard)</HighlightTone>
     <ShadowTone>-2 (soft)</ShadowTone>
@@ -2933,7 +2933,7 @@
     <ColorChromeFXBlue>Strong</ColorChromeFXBlue>
     <ColorTemperature>5500</ColorTemperature>
     <WhiteBalance>Kelvin</WhiteBalance>
-    <WhiteBalanceFineTune>Red +7, Blue -2</WhiteBalanceFineTune>
+    <WhiteBalanceFineTune>Red +140, Blue -40</WhiteBalanceFineTune>
     <Sensor>X-Trans IV</Sensor>
   </profile>
   <profile>
@@ -2952,7 +2952,7 @@
     <ColorChromeFXBlue>Strong</ColorChromeFXBlue>
     <ColorTemperature>5000</ColorTemperature>
     <WhiteBalance>Kelvin</WhiteBalance>
-    <WhiteBalanceFineTune>Red +8, Blue +0</WhiteBalanceFineTune>
+    <WhiteBalanceFineTune>Red +160, Blue +0</WhiteBalanceFineTune>
     <Sensor>X-Trans IV</Sensor>
   </profile>
   <profile>
@@ -2970,7 +2970,7 @@
     <ColorChromeEffect>Strong</ColorChromeEffect>
     <ColorChromeFXBlue>Strong</ColorChromeFXBlue>
     <WhiteBalance>Auto</WhiteBalance>
-    <WhiteBalanceFineTune>Red -3, Blue -9</WhiteBalanceFineTune>
+    <WhiteBalanceFineTune>Red -60, Blue -180</WhiteBalanceFineTune>
     <Sensor>X-Trans IV</Sensor>
   </profile>
   <profile>
@@ -2989,7 +2989,7 @@
     <ColorChromeFXBlue>Strong</ColorChromeFXBlue>
     <ColorTemperature>4550</ColorTemperature>
     <WhiteBalance>Kelvin</WhiteBalance>
-    <WhiteBalanceFineTune>Red +1, Blue -9</WhiteBalanceFineTune>
+    <WhiteBalanceFineTune>Red +20, Blue -180</WhiteBalanceFineTune>
     <Sensor>X-Trans IV</Sensor>
   </profile>
   <profile>
@@ -3007,7 +3007,7 @@
     <ColorChromeEffect>Strong</ColorChromeEffect>
     <ColorChromeFXBlue>Strong</ColorChromeFXBlue>
     <WhiteBalance>White Fluorescent</WhiteBalance>
-    <WhiteBalanceFineTune>Red -6, Blue -4</WhiteBalanceFineTune>
+    <WhiteBalanceFineTune>Red -120, Blue -80</WhiteBalanceFineTune>
     <Sensor>X-Trans IV</Sensor>
   </profile>
   <profile>
@@ -3026,7 +3026,7 @@
     <ColorChromeFXBlue>Strong</ColorChromeFXBlue>
     <ColorTemperature>7700</ColorTemperature>
     <WhiteBalance>Kelvin</WhiteBalance>
-    <WhiteBalanceFineTune>Red -9, Blue +5</WhiteBalanceFineTune>
+    <WhiteBalanceFineTune>Red -180, Blue +100</WhiteBalanceFineTune>
     <Sensor>X-Trans IV</Sensor>
   </profile>
   <profile>
@@ -3044,7 +3044,7 @@
     <ColorChromeFXBlue>Strong</ColorChromeFXBlue>
     <ColorTemperature>3200</ColorTemperature>
     <WhiteBalance>Kelvin</WhiteBalance>
-    <WhiteBalanceFineTune>Red -1, Blue +4</WhiteBalanceFineTune>
+    <WhiteBalanceFineTune>Red -20, Blue +80</WhiteBalanceFineTune>
     <Sensor>X-Trans IV</Sensor>
   </profile>
   <profile>
@@ -3055,7 +3055,7 @@
     <ColorChromeEffect>Strong</ColorChromeEffect>
     <ColorChromeFXBlue>Off</ColorChromeFXBlue>
     <WhiteBalance>Daylight</WhiteBalance>
-    <WhiteBalanceFineTune>Red +9, Blue -9</WhiteBalanceFineTune>
+    <WhiteBalanceFineTune>Red +180, Blue -180</WhiteBalanceFineTune>
     <DevelopmentDynamicRange>200</DevelopmentDynamicRange>
     <HighlightTone>0 (normal)</HighlightTone>
     <ShadowTone>+3 (very hard)</ShadowTone>
@@ -3073,7 +3073,7 @@
     <ColorChromeEffect>Strong</ColorChromeEffect>
     <ColorChromeFXBlue>Off</ColorChromeFXBlue>
     <WhiteBalance>Daylight</WhiteBalance>
-    <WhiteBalanceFineTune>Red +9, Blue -9</WhiteBalanceFineTune>
+    <WhiteBalanceFineTune>Red +180, Blue -180</WhiteBalanceFineTune>
     <DevelopmentDynamicRange>200</DevelopmentDynamicRange>
     <HighlightTone>+1 (medium hard)</HighlightTone>
     <ShadowTone>+4 (hardest)</ShadowTone>
@@ -3092,7 +3092,7 @@
     <ColorChromeFXBlue>Off</ColorChromeFXBlue>
     <WhiteBalance>Kelvin</WhiteBalance>
     <ColorTemperature>5500</ColorTemperature>
-    <WhiteBalanceFineTune>Red +4, Blue +7</WhiteBalanceFineTune>
+    <WhiteBalanceFineTune>Red +80, Blue +140</WhiteBalanceFineTune>
     <BWAdjustment>-1</BWAdjustment>
     <BWMagentaGreen>-1</BWMagentaGreen>
     <DevelopmentDynamicRange>400</DevelopmentDynamicRange>
@@ -3120,7 +3120,7 @@
     <ColorChromeEffect>Strong</ColorChromeEffect>
     <ColorChromeFXBlue>Off</ColorChromeFXBlue>
     <WhiteBalance>Daylight</WhiteBalance>
-    <WhiteBalanceFineTune>Red +9, Blue -9</WhiteBalanceFineTune>
+    <WhiteBalanceFineTune>Red +180, Blue -180</WhiteBalanceFineTune>
     <Saturation>B&amp;W Green Filter</Saturation>
     <Sensor>X-Trans IV</Sensor>
   </profile>
@@ -3192,7 +3192,7 @@
     <ColorChromeEffect>Off</ColorChromeEffect>
     <ColorChromeFXBlue>Off</ColorChromeFXBlue>
     <WhiteBalance>Auto</WhiteBalance>
-    <WhiteBalanceFineTune>Red +7, Blue +6</WhiteBalanceFineTune>
+    <WhiteBalanceFineTune>Red +140, Blue +120</WhiteBalanceFineTune>
     <HighlightTone>+1 (medium hard)</HighlightTone>
     <ShadowTone>+1 (medium hard)</ShadowTone>
     <Sharpness>Hard</Sharpness>
@@ -3215,7 +3215,7 @@
     <ColorChromeEffect>Off</ColorChromeEffect>
     <ColorChromeFXBlue>Off</ColorChromeFXBlue>
     <WhiteBalance>Daylight</WhiteBalance>
-    <WhiteBalanceFineTune>Red +1, Blue -8</WhiteBalanceFineTune>
+    <WhiteBalanceFineTune>Red +20, Blue -160</WhiteBalanceFineTune>
     <Saturation>Acros Green Filter</Saturation>
     <Sensor>X-Trans IV</Sensor>
   </profile>
@@ -3233,7 +3233,7 @@
     <ColorChromeEffect>Off</ColorChromeEffect>
     <ColorChromeFXBlue>Off</ColorChromeFXBlue>
     <WhiteBalance>Daylight</WhiteBalance>
-    <WhiteBalanceFineTune>Red +1, Blue -6</WhiteBalanceFineTune>
+    <WhiteBalanceFineTune>Red +20, Blue -120</WhiteBalanceFineTune>
     <Saturation>B&amp;W Red Filter</Saturation>
     <Sensor>X-Trans IV</Sensor>
   </profile>
@@ -3254,7 +3254,7 @@
     <ColorChromeFXBlue>Off</ColorChromeFXBlue>
     <ColorTemperature>7000</ColorTemperature>
     <WhiteBalance>Kelvin</WhiteBalance>
-    <WhiteBalanceFineTune>Red -5, Blue +0</WhiteBalanceFineTune>
+    <WhiteBalanceFineTune>Red -100, Blue +0</WhiteBalanceFineTune>
     <Saturation>B&amp;W Green Filter</Saturation>
     <Sensor>X-Trans IV</Sensor>
   </profile>
@@ -3272,7 +3272,7 @@
     <ColorChromeEffect>Off</ColorChromeEffect>
     <ColorChromeFXBlue>Off</ColorChromeFXBlue>
     <WhiteBalance>White Fluorescent</WhiteBalance>
-    <WhiteBalanceFineTune>Red -4, Blue -9</WhiteBalanceFineTune>
+    <WhiteBalanceFineTune>Red -80, Blue -180</WhiteBalanceFineTune>
     <Saturation>Acros Yellow Filter</Saturation>
     <Sensor>X-Trans IV</Sensor>
   </profile>
@@ -3291,7 +3291,7 @@
     <ColorChromeFXBlue>Off</ColorChromeFXBlue>
     <ColorTemperature>2750</ColorTemperature>
     <WhiteBalance>Kelvin</WhiteBalance>
-    <WhiteBalanceFineTune>Red -5, Blue +9</WhiteBalanceFineTune>
+    <WhiteBalanceFineTune>Red -100, Blue +180</WhiteBalanceFineTune>
     <Saturation>Acros Red Filter</Saturation>
     <Sensor>X-Trans IV</Sensor>
   </profile>
@@ -3325,7 +3325,7 @@
     <ColorChromeEffect>Strong</ColorChromeEffect>
     <ColorChromeFXBlue>Off</ColorChromeFXBlue>
     <WhiteBalance>Kelvin</WhiteBalance>
-    <WhiteBalanceFineTune>Red +6, Blue -7</WhiteBalanceFineTune>
+    <WhiteBalanceFineTune>Red +120, Blue -140</WhiteBalanceFineTune>
     <DevelopmentDynamicRange>100</DevelopmentDynamicRange>
     <HighlightTone>+2 (hard)</HighlightTone>
     <ShadowTone>+3 (very hard)</ShadowTone>
@@ -3343,7 +3343,7 @@
     <ColorChromeEffect>Off</ColorChromeEffect>
     <ColorChromeFXBlue>Off</ColorChromeFXBlue>
     <WhiteBalance>Auto</WhiteBalance>
-    <WhiteBalanceFineTune>Red +1, Blue +1</WhiteBalanceFineTune>
+    <WhiteBalanceFineTune>Red +20, Blue +20</WhiteBalanceFineTune>
     <DevelopmentDynamicRange />
     <HighlightTone>-1 (medium soft)</HighlightTone>
     <ShadowTone>+1 (medium hard)</ShadowTone>
@@ -3379,7 +3379,7 @@
     <ColorChromeEffect>Strong</ColorChromeEffect>
     <ColorChromeFXBlue>Weak</ColorChromeFXBlue>
     <WhiteBalance>Auto</WhiteBalance>
-    <WhiteBalanceFineTune>Red +2, Blue -4</WhiteBalanceFineTune>
+    <WhiteBalanceFineTune>Red +40, Blue -80</WhiteBalanceFineTune>
     <DevelopmentDynamicRange />
     <HighlightTone>-1 (medium soft)</HighlightTone>
     <ShadowTone>-1 (medium soft)</ShadowTone>
@@ -3397,7 +3397,7 @@
     <ColorChromeEffect>Strong</ColorChromeEffect>
     <ColorChromeFXBlue>Off</ColorChromeFXBlue>
     <WhiteBalance>Auto</WhiteBalance>
-    <WhiteBalanceFineTune>Red +2, Blue -5</WhiteBalanceFineTune>
+    <WhiteBalanceFineTune>Red +40, Blue -100</WhiteBalanceFineTune>
     <DevelopmentDynamicRange>200</DevelopmentDynamicRange>
     <HighlightTone>+1 (medium hard)</HighlightTone>
     <ShadowTone>-1 (medium soft)</ShadowTone>
@@ -3415,7 +3415,7 @@
     <ColorChromeEffect>Strong</ColorChromeEffect>
     <ColorChromeFXBlue>Strong</ColorChromeFXBlue>
     <WhiteBalance>Daylight</WhiteBalance>
-    <WhiteBalanceFineTune>Red +4, Blue -7</WhiteBalanceFineTune>
+    <WhiteBalanceFineTune>Red +80, Blue -140</WhiteBalanceFineTune>
     <DevelopmentDynamicRange>400</DevelopmentDynamicRange>
     <HighlightTone>-2 (soft)</HighlightTone>
     <ShadowTone>-2 (soft)</ShadowTone>
@@ -3451,7 +3451,7 @@
     <ColorChromeEffect>Off</ColorChromeEffect>
     <ColorChromeFXBlue>Off</ColorChromeFXBlue>
     <WhiteBalance>Auto</WhiteBalance>
-    <WhiteBalanceFineTune>Red -7, Blue -7</WhiteBalanceFineTune>
+    <WhiteBalanceFineTune>Red -140, Blue -140</WhiteBalanceFineTune>
     <DevelopmentDynamicRange>100</DevelopmentDynamicRange>
     <HighlightTone>+3 (very hard)</HighlightTone>
     <ShadowTone>+4 (hardest)</ShadowTone>
@@ -3469,7 +3469,7 @@
     <ColorChromeEffect>Strong</ColorChromeEffect>
     <ColorChromeFXBlue>Weak</ColorChromeFXBlue>
     <WhiteBalance>Daylight</WhiteBalance>
-    <WhiteBalanceFineTune>Red +3, Blue -6</WhiteBalanceFineTune>
+    <WhiteBalanceFineTune>Red +60, Blue -120</WhiteBalanceFineTune>
     <DevelopmentDynamicRange>100</DevelopmentDynamicRange>
     <HighlightTone>+1 (medium hard)</HighlightTone>
     <ShadowTone>2.5</ShadowTone>
@@ -3487,7 +3487,7 @@
     <ColorChromeEffect>Off</ColorChromeEffect>
     <ColorChromeFXBlue>Off</ColorChromeFXBlue>
     <WhiteBalance>Daylight</WhiteBalance>
-    <WhiteBalanceFineTune>Red +0, Blue +2</WhiteBalanceFineTune>
+    <WhiteBalanceFineTune>Red +0, Blue +40</WhiteBalanceFineTune>
     <DevelopmentDynamicRange>400</DevelopmentDynamicRange>
     <HighlightTone>-1 (medium soft)</HighlightTone>
     <ShadowTone>0 (normal)</ShadowTone>
@@ -3539,7 +3539,7 @@
     <ColorChromeEffect>Strong</ColorChromeEffect>
     <ColorChromeFXBlue>Weak</ColorChromeFXBlue>
     <WhiteBalance>Cloudy</WhiteBalance>
-    <WhiteBalanceFineTune>Red +3, Blue +5</WhiteBalanceFineTune>
+    <WhiteBalanceFineTune>Red +60, Blue +100</WhiteBalanceFineTune>
     <DevelopmentDynamicRange>200</DevelopmentDynamicRange>
     <HighlightTone>-1 (medium soft)</HighlightTone>
     <ShadowTone>+1 (medium hard)</ShadowTone>
@@ -3557,7 +3557,7 @@
     <ColorChromeEffect>Strong</ColorChromeEffect>
     <ColorChromeFXBlue>Strong</ColorChromeFXBlue>
     <WhiteBalance>Auto</WhiteBalance>
-    <WhiteBalanceFineTune>Red +4, Blue -5</WhiteBalanceFineTune>
+    <WhiteBalanceFineTune>Red +80, Blue -100</WhiteBalanceFineTune>
     <DevelopmentDynamicRange>400</DevelopmentDynamicRange>
     <HighlightTone>-2 (soft)</HighlightTone>
     <ShadowTone>+1 (medium hard)</ShadowTone>
@@ -3665,7 +3665,7 @@
     <ColorChromeEffect>Strong</ColorChromeEffect>
     <ColorChromeFXBlue>Weak</ColorChromeFXBlue>
     <WhiteBalance>Daylight</WhiteBalance>
-    <WhiteBalanceFineTune>Red +2, Blue -4</WhiteBalanceFineTune>
+    <WhiteBalanceFineTune>Red +40, Blue -80</WhiteBalanceFineTune>
     <DevelopmentDynamicRange>400</DevelopmentDynamicRange>
     <HighlightTone>-1 (medium soft)</HighlightTone>
     <ShadowTone>1.5</ShadowTone>
@@ -3684,7 +3684,7 @@
     <ColorChromeEffect>Weak</ColorChromeEffect>
     <ColorChromeFXBlue>Weak</ColorChromeFXBlue>
     <WhiteBalance>Auto</WhiteBalance>
-    <WhiteBalanceFineTune>Red +5, Blue -3</WhiteBalanceFineTune>
+    <WhiteBalanceFineTune>Red +100, Blue -60</WhiteBalanceFineTune>
     <HighlightTone>+2 (hard)</HighlightTone>
     <ShadowTone>+2 (hard)</ShadowTone>
     <Saturation>0 (normal)</Saturation>
@@ -3703,7 +3703,7 @@
     <ColorChromeFXBlue>Strong</ColorChromeFXBlue>
     <ColorTemperature>4000</ColorTemperature>
     <WhiteBalance>Kelvin</WhiteBalance>
-    <WhiteBalanceFineTune>Red +0, Blue -5</WhiteBalanceFineTune>
+    <WhiteBalanceFineTune>Red +0, Blue -100</WhiteBalanceFineTune>
     <HighlightTone>0 (normal)</HighlightTone>
     <ShadowTone>-2 (soft)</ShadowTone>
     <Saturation>-2 (low)</Saturation>
@@ -3720,7 +3720,7 @@
     <ColorChromeEffect>Strong</ColorChromeEffect>
     <ColorChromeFXBlue>Strong</ColorChromeFXBlue>
     <WhiteBalance>Daylight</WhiteBalance>
-    <WhiteBalanceFineTune>Red +1, Blue -2</WhiteBalanceFineTune>
+    <WhiteBalanceFineTune>Red +20, Blue -40</WhiteBalanceFineTune>
     <HighlightTone>-1 (medium soft)</HighlightTone>
     <ShadowTone>0 (normal)</ShadowTone>
     <Saturation>+4 (highest)</Saturation>
@@ -3737,7 +3737,7 @@
     <ColorChromeEffect>Strong</ColorChromeEffect>
     <ColorChromeFXBlue>Weak</ColorChromeFXBlue>
     <WhiteBalance>Auto</WhiteBalance>
-    <WhiteBalanceFineTune>Red +3, Blue -5</WhiteBalanceFineTune>
+    <WhiteBalanceFineTune>Red +60, Blue -100</WhiteBalanceFineTune>
     <HighlightTone>-2 (soft)</HighlightTone>
     <ShadowTone>0 (normal)</ShadowTone>
     <Saturation>+4 (highest)</Saturation>
@@ -3754,7 +3754,7 @@
     <ColorChromeEffect>Strong</ColorChromeEffect>
     <ColorChromeFXBlue>Strong</ColorChromeFXBlue>
     <WhiteBalance>Kelvin</WhiteBalance>
-    <WhiteBalanceFineTune>Red +1, Blue +4</WhiteBalanceFineTune>
+    <WhiteBalanceFineTune>Red +20, Blue +80</WhiteBalanceFineTune>
     <ColorTemperature>6700</ColorTemperature>
     <DevelopmentDynamicRange>400</DevelopmentDynamicRange>
     <HighlightTone>-1.5</HighlightTone>
@@ -3773,7 +3773,7 @@
     <ColorChromeEffect>Strong</ColorChromeEffect>
     <ColorChromeFXBlue>Weak</ColorChromeFXBlue>
     <WhiteBalance>Auto</WhiteBalance>
-    <WhiteBalanceFineTune>Red +1, Blue -6</WhiteBalanceFineTune>
+    <WhiteBalanceFineTune>Red +20, Blue -120</WhiteBalanceFineTune>
     <DevelopmentDynamicRange>400</DevelopmentDynamicRange>
     <HighlightTone>-1.5</HighlightTone>
     <ShadowTone>+2.5</ShadowTone>
@@ -3791,7 +3791,7 @@
     <ColorChromeEffect>Strong</ColorChromeEffect>
     <ColorChromeFXBlue>Strong</ColorChromeFXBlue>
     <WhiteBalance>Auto</WhiteBalance>
-    <WhiteBalanceFineTune>Red +5, Blue -6</WhiteBalanceFineTune>
+    <WhiteBalanceFineTune>Red +100, Blue -120</WhiteBalanceFineTune>
     <DevelopmentDynamicRange>400</DevelopmentDynamicRange>
     <HighlightTone>-2 (soft)</HighlightTone>
     <ShadowTone>-2 (soft)</ShadowTone>
@@ -3809,7 +3809,7 @@
     <ColorChromeEffect>Off</ColorChromeEffect>
     <ColorChromeFXBlue>Off</ColorChromeFXBlue>
     <WhiteBalance>Daylight</WhiteBalance>
-    <WhiteBalanceFineTune>Red +4, Blue -5</WhiteBalanceFineTune>
+    <WhiteBalanceFineTune>Red +80, Blue -100</WhiteBalanceFineTune>
     <DevelopmentDynamicRange>400</DevelopmentDynamicRange>
     <HighlightTone>0 (normal)</HighlightTone>
     <ShadowTone>0 (normal)</ShadowTone>
@@ -3827,7 +3827,7 @@
     <ColorChromeEffect>Strong</ColorChromeEffect>
     <ColorChromeFXBlue>Weak</ColorChromeFXBlue>
     <WhiteBalance>Auto</WhiteBalance>
-    <WhiteBalanceFineTune>Red +5, Blue -6</WhiteBalanceFineTune>
+    <WhiteBalanceFineTune>Red +100, Blue -120</WhiteBalanceFineTune>
     <DevelopmentDynamicRange>400</DevelopmentDynamicRange>
     <HighlightTone>-1 (medium soft)</HighlightTone>
     <ShadowTone>-2 (soft)</ShadowTone>
@@ -3845,7 +3845,7 @@
     <ColorChromeEffect>Weak</ColorChromeEffect>
     <ColorChromeFXBlue>Weak</ColorChromeFXBlue>
     <WhiteBalance>Kelvin</WhiteBalance>
-    <WhiteBalanceFineTune>Red +4, Blue -6</WhiteBalanceFineTune>
+    <WhiteBalanceFineTune>Red +80, Blue -120</WhiteBalanceFineTune>
     <ColorTemperature>7500</ColorTemperature>
     <DevelopmentDynamicRange>200</DevelopmentDynamicRange>
     <HighlightTone>-1.5</HighlightTone>
@@ -3864,7 +3864,7 @@
     <ColorChromeEffect>Strong</ColorChromeEffect>
     <ColorChromeFXBlue>Strong</ColorChromeFXBlue>
     <WhiteBalance>Kelvin</WhiteBalance>
-    <WhiteBalanceFineTune>Red +4, Blue +1</WhiteBalanceFineTune>
+    <WhiteBalanceFineTune>Red +80, Blue +20</WhiteBalanceFineTune>
     <ColorTemperature>6500</ColorTemperature>
     <DevelopmentDynamicRange>400</DevelopmentDynamicRange>
     <HighlightTone>-0.5</HighlightTone>
@@ -3883,7 +3883,7 @@
     <ColorChromeEffect>Off</ColorChromeEffect>
     <ColorChromeFXBlue>Strong</ColorChromeFXBlue>
     <WhiteBalance>Kelvin</WhiteBalance>
-    <WhiteBalanceFineTune>Red +2, Blue -3</WhiteBalanceFineTune>
+    <WhiteBalanceFineTune>Red +40, Blue -60</WhiteBalanceFineTune>
     <ColorTemperature>5200</ColorTemperature>
     <DevelopmentDynamicRange>400</DevelopmentDynamicRange>
     <HighlightTone>-2 (soft)</HighlightTone>
@@ -3902,7 +3902,7 @@
     <ColorChromeEffect>Strong</ColorChromeEffect>
     <ColorChromeFXBlue>Weak</ColorChromeFXBlue>
     <WhiteBalance>Daylight</WhiteBalance>
-    <WhiteBalanceFineTune>Red +2, Blue -5</WhiteBalanceFineTune>
+    <WhiteBalanceFineTune>Red +40, Blue -100</WhiteBalanceFineTune>
     <DevelopmentDynamicRange>400</DevelopmentDynamicRange>
     <HighlightTone>-1 (medium soft)</HighlightTone>
     <ShadowTone>-1 (medium soft)</ShadowTone>
@@ -3920,7 +3920,7 @@
     <ColorChromeEffect>Off</ColorChromeEffect>
     <ColorChromeFXBlue>Strong</ColorChromeFXBlue>
     <WhiteBalance>Auto</WhiteBalance>
-    <WhiteBalanceFineTune>Red +4, Blue -4</WhiteBalanceFineTune>
+    <WhiteBalanceFineTune>Red +80, Blue -80</WhiteBalanceFineTune>
     <DevelopmentDynamicRange>100</DevelopmentDynamicRange>
     <HighlightTone>+1 (medium hard)</HighlightTone>
     <ShadowTone>0 (normal)</ShadowTone>
@@ -3938,7 +3938,7 @@
     <ColorChromeEffect>Strong</ColorChromeEffect>
     <ColorChromeFXBlue>Off</ColorChromeFXBlue>
     <WhiteBalance>Auto</WhiteBalance>
-    <WhiteBalanceFineTune>Red +2, Blue -4</WhiteBalanceFineTune>
+    <WhiteBalanceFineTune>Red +40, Blue -80</WhiteBalanceFineTune>
     <DevelopmentDynamicRange>200</DevelopmentDynamicRange>
     <HighlightTone>+2 (hard)</HighlightTone>
     <ShadowTone>+1 (medium hard)</ShadowTone>
@@ -3956,7 +3956,7 @@
     <ColorChromeEffect>Strong</ColorChromeEffect>
     <ColorChromeFXBlue>Strong</ColorChromeFXBlue>
     <WhiteBalance>Kelvin</WhiteBalance>
-    <WhiteBalanceFineTune>Red -1, Blue -4</WhiteBalanceFineTune>
+    <WhiteBalanceFineTune>Red -20, Blue -80</WhiteBalanceFineTune>
     <ColorTemperature>6500</ColorTemperature>
     <DevelopmentDynamicRange>400</DevelopmentDynamicRange>
     <HighlightTone>-2 (soft)</HighlightTone>
@@ -3975,7 +3975,7 @@
     <ColorChromeEffect>Off</ColorChromeEffect>
     <ColorChromeFXBlue>Off</ColorChromeFXBlue>
     <WhiteBalance>Auto</WhiteBalance>
-    <WhiteBalanceFineTune>Red +3, Blue -2</WhiteBalanceFineTune>
+    <WhiteBalanceFineTune>Red +60, Blue -40</WhiteBalanceFineTune>
     <DevelopmentDynamicRange>200</DevelopmentDynamicRange>
     <HighlightTone>-2 (soft)</HighlightTone>
     <ShadowTone>-2 (soft)</ShadowTone>
@@ -3993,7 +3993,7 @@
     <ColorChromeEffect>Weak</ColorChromeEffect>
     <ColorChromeFXBlue>Off</ColorChromeFXBlue>
     <WhiteBalance>Daylight</WhiteBalance>
-    <WhiteBalanceFineTune>Red +4, Blue -5</WhiteBalanceFineTune>
+    <WhiteBalanceFineTune>Red +80, Blue -100</WhiteBalanceFineTune>
     <HighlightTone>-1.5</HighlightTone>
     <ShadowTone>0.5</ShadowTone>
     <Saturation>+3 (very high)</Saturation>
@@ -4010,7 +4010,7 @@
     <ColorChromeEffect>Strong</ColorChromeEffect>
     <ColorChromeFXBlue>Strong</ColorChromeFXBlue>
     <WhiteBalance>Daylight Fluorescent</WhiteBalance>
-    <WhiteBalanceFineTune>Red +1, Blue -6</WhiteBalanceFineTune>
+    <WhiteBalanceFineTune>Red +20, Blue -120</WhiteBalanceFineTune>
     <DevelopmentDynamicRange>400</DevelopmentDynamicRange>
     <HighlightTone>-1.5</HighlightTone>
     <ShadowTone>2.5</ShadowTone>
@@ -4028,7 +4028,7 @@
     <ColorChromeEffect>Strong</ColorChromeEffect>
     <ColorChromeFXBlue>Weak</ColorChromeFXBlue>
     <WhiteBalance>Auto</WhiteBalance>
-    <WhiteBalanceFineTune>Red +2, Blue -4</WhiteBalanceFineTune>
+    <WhiteBalanceFineTune>Red +40, Blue -80</WhiteBalanceFineTune>
     <HighlightTone>-1.5</HighlightTone>
     <ShadowTone>+1 (medium hard)</ShadowTone>
     <Saturation>+4 (highest)</Saturation>
@@ -4045,7 +4045,7 @@
     <ColorChromeEffect>Off</ColorChromeEffect>
     <ColorChromeFXBlue>Off</ColorChromeFXBlue>
     <WhiteBalance>Auto</WhiteBalance>
-    <WhiteBalanceFineTune>Red +2, Blue -4</WhiteBalanceFineTune>
+    <WhiteBalanceFineTune>Red +40, Blue -80</WhiteBalanceFineTune>
     <HighlightTone>-1.5</HighlightTone>
     <ShadowTone>0 (normal)</ShadowTone>
     <Saturation>+3 (very high)</Saturation>
@@ -4062,7 +4062,7 @@
     <ColorChromeEffect>Off</ColorChromeEffect>
     <ColorChromeFXBlue>Off</ColorChromeFXBlue>
     <WhiteBalance>Auto</WhiteBalance>
-    <WhiteBalanceFineTune>Red +4, Blue -5</WhiteBalanceFineTune>
+    <WhiteBalanceFineTune>Red +80, Blue -100</WhiteBalanceFineTune>
     <DevelopmentDynamicRange>200</DevelopmentDynamicRange>
     <HighlightTone>-2 (soft)</HighlightTone>
     <ShadowTone>+1 (medium hard)</ShadowTone>
@@ -4080,7 +4080,7 @@
     <ColorChromeEffect>Strong</ColorChromeEffect>
     <ColorChromeFXBlue>Strong</ColorChromeFXBlue>
     <WhiteBalance>Auto</WhiteBalance>
-    <WhiteBalanceFineTune>Red +1, Blue -3</WhiteBalanceFineTune>
+    <WhiteBalanceFineTune>Red +20, Blue -60</WhiteBalanceFineTune>
     <HighlightTone>-2 (soft)</HighlightTone>
     <ShadowTone>-1 (medium soft)</ShadowTone>
     <Saturation>+1 (medium high)</Saturation>
