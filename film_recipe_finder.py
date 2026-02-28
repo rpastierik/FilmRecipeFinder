@@ -24,6 +24,7 @@ matplotlib.use('QtAgg')
 from matplotlib.backends.backend_qtagg import FigureCanvasQTAgg as FigureCanvas
 from matplotlib.figure import Figure
 
+os.environ["QT_LOGGING_RULES"] = "*=false"
 
 # ──────────────────────────────────────────────
 # CONSTANTS
@@ -1167,8 +1168,9 @@ class MainWindow(QMainWindow):
         toolbar.setMovable(False)
         toolbar.setToolButtonStyle(Qt.ToolButtonStyle.ToolButtonTextOnly)
         self.addToolBar(toolbar)
-        toolbar.setStyleSheet("QToolButton { font-size: 18px; padding: 1px 1px; }")
-
+        #toolbar.setStyleSheet("QToolButton { font-size: 18px; padding: 1px 1px; }")
+        toolbar.setStyleSheet("")
+        
         if self.dark_mode:
             hover_color = "#3c3836"
             pressed_color = "#504945"
