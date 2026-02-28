@@ -1280,11 +1280,13 @@ class MainWindow(QMainWindow):
     def _about(self):
         QMessageBox.information(self, "About",
             "Film Recipe Finder\n\n"
-            "Version: 0.2.0 (February 2026)\n"
-            "Author: Roman Pastierik (c)\n\n"
-            "PAYPAL donate: pastierik@gmail.com\n\n"
-            "GNU General Public Licence\nVersion 3, 29 June 2007\n\n"
-            "ExifTool by Phil Harvey (philharvey66 at gmail.com)"
+            "Version 0.2.0  (February 2026)\n"
+            "© 2026 Roman Pastierik\n\n"
+            "Support development:\n"
+            "PayPal: pastierik@gmail.com\n\n"
+            "License: GNU General Public License v3\n\n"
+            "Uses ExifTool by Phil Harvey\n"
+            "philharvey66@gmail.com"
         )
 
     # ── DRAG & DROP ───────────────────────────
