@@ -325,7 +325,7 @@ class MainWindow(QMainWindow):
         ))
         msg.setText(
             "Film Recipe Finder\n\n"
-            "Version 0.3.0  (February 2026)\n"
+            "Version 0.3.1  (February 2026)\n"
             "© 2026 Roman Pastierik\n\n"
             "Support development:\n"
             "Ko-fi: ko-fi.com/rpastierik\n\n"

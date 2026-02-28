@@ -1,7 +1,7 @@
 # ──────────────────────────────────────────────────────────────────────────────
 # Film Recipe Finder
 # ──────────────────────────────────────────────────────────────────────────────
-# Version  : 0.3.0
+# Version  : 0.3.1
 # Author   : Roman Pastierik
 # Date     : February 2026
 # License  : GNU General Public License v3
