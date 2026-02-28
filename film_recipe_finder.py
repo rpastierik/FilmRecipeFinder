@@ -8,17 +8,17 @@ from themes import DARK_THEME, LIGHT_THEME
 
 from PyQt6.QtWidgets import (
     QApplication, QMainWindow, QWidget, QVBoxLayout, QHBoxLayout,
-    QLabel, QScrollArea, QStatusBar, QMenuBar, QMenu, QFileDialog,
+    QLabel, QScrollArea, QStatusBar, QFileDialog,
     QMessageBox, QFrame, QSizePolicy, QDialog, QFormLayout, QLineEdit,
-    QComboBox, QPushButton, QDialogButtonBox, QScrollArea as QSA,
-    QGroupBox, QGridLayout, QCheckBox, QRadioButton, QButtonGroup, QTextEdit
+    QComboBox, QPushButton, QScrollArea as QSA,
+    QCheckBox, QRadioButton, QButtonGroup, QTextEdit
 )
 from PyQt6.QtGui import QPixmap, QImage, QAction, QIcon, QFont, QColor, QTextCharFormat, QCursor
-from PyQt6.QtCore import Qt, QSize
-from PyQt6.QtWidgets import QToolBar, QStyle
+from PyQt6.QtCore import Qt
+from PyQt6.QtWidgets import QToolBar
 
 import numpy as np
-from PIL import Image, ImageTk, ExifTags
+from PIL import Image, ExifTags
 import matplotlib
 matplotlib.use('QtAgg')
 from matplotlib.backends.backend_qtagg import FigureCanvasQTAgg as FigureCanvas
