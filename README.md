@@ -74,7 +74,7 @@ python film_recipe_finder.py
 
 ```
 film-recipe-finder/
-├── fuji_app.py            # Main application
+├── film_recipe_finder.py            # Main application
 ├── themes.py              # Dark and light QSS themes
 ├── film_simulations.xml   # Recipe database
 ├── user_settings.json     # User preferences (auto-generated)
