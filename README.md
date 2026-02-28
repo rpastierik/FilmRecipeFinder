@@ -150,7 +150,7 @@ Recipes are stored in `film_simulations.xml`. Each recipe contains:
 | WhiteBalance | White balance setting |
 | HighlightTone | Highlight tone adjustment |
 | ShadowTone | Shadow tone adjustment |
-| Saturation | Saturation / B&W filter |
+| Saturation | Saturation |
 | Sharpness | Sharpness setting |
 | NoiseReduction | Noise reduction level |
 | Clarity | Clarity adjustment |
