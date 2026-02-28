@@ -48,8 +48,8 @@ pip install PyQt6 Pillow numpy matplotlib
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/rpastierik/filmrecipefinder.git
-cd filmrecipefinder
+git clone https://github.com/rpastierik/FilmRecipeFinder.git
+cd FilmRecipeFinder
 ```
 
 2. Install dependencies:
@@ -73,11 +73,12 @@ python film_recipe_finder.py
 ## 📁 File Structure
 
 ```
-film-recipe-finder/
+FilmRecipeFinder/
 ├── film_recipe_finder.py            # Main application
 ├── themes.py              # Dark and light QSS themes
 ├── film_simulations.xml   # Recipe database
 ├── user_settings.json     # User preferences (auto-generated)
+├── icon.png
 └── README.md
 ```
 
