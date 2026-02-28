@@ -34,8 +34,18 @@ A desktop application for identifying and managing Fujifilm film simulation reci
 ### Recipe Browser - Light Theme
 ![Recipe Browser](screenshots/recipe_browser_dark_theme.png)
 
-### Detail View
-![Detail View](screenshots/detail_view.png)
+### Detail View with Full Exif
+![Detail View](screenshots/detail_view_with_full_exif.png)
+
+### Add new recipe
+![Detail View](screenshots/add_new_recipe.png)
+
+### Edit recipe
+![Detail View](screenshots/edit_recipe.png)
+
+### Settings
+![Detail View](screenshots/settings.png)
+
 ---
 
 ## 📋 Requirements
