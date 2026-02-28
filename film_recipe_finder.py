@@ -466,7 +466,7 @@ class ImageCard(QFrame):
         info_label.setContentsMargins(12, 8, 0, 0)
         info_label.setSizePolicy(QSizePolicy.Policy.Expanding, QSizePolicy.Policy.Preferred)
 
-        text = f"<b>{os.path.basename(filename)}</b><br>"
+        text = f"<b>{os.path.basename(filename)}</b><br><br>"
         if sim_data:
             for key, value in sim_data.items():
                 text += f"{key}: {value}<br>"
