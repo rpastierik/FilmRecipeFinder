@@ -1111,37 +1111,37 @@ class MainWindow(QMainWindow):
     
     def _build_toolbar(self):
         from PyQt6.QtWidgets import QToolBar
-        from PyQt6.QtGui import QIcon
-        
+
         toolbar = QToolBar("Main Toolbar")
         toolbar.setMovable(False)
-        toolbar.setIconSize(QSize(36, 36))
-        toolbar.setToolButtonStyle(Qt.ToolButtonStyle.ToolButtonIconOnly)
+        toolbar.setToolButtonStyle(Qt.ToolButtonStyle.ToolButtonTextOnly)
         self.addToolBar(toolbar)
 
-        style = self.style()
+        # Nastav velkost pisma pre toolbar
+        toolbar.setStyleSheet("QToolButton { font-size: 18px; padding: 1px 1px; }")
 
         actions = [
-            ("Identify", "Identify Recipe", QStyle.StandardPixmap.SP_FileDialogStart, self.identify_recipe),
-            ("All Recipes", "Show All Recipes", QStyle.StandardPixmap.SP_FileDialogListView, self.open_recipe_browser),
-            (None, None, None, None),  # separator
-            ("Add", "Add Recipe", QStyle.StandardPixmap.SP_FileDialogNewFolder, self.open_add_recipe),
-            ("Edit", "Edit Recipe", QStyle.StandardPixmap.SP_FileIcon, self.open_edit_recipe),
-            ("Delete", "Delete Recipe", QStyle.StandardPixmap.SP_TrashIcon, self.open_delete_recipe),
-            (None, None, None, None),  # separator
-            ("Settings", "Settings", QStyle.StandardPixmap.SP_ComputerIcon, self.open_settings),
-            ("Theme", "Toggle Theme", QStyle.StandardPixmap.SP_DesktopIcon, self.toggle_theme),
+            ("🔍", "Identify Recipe",  self.identify_recipe),
+            ("📋", "Show All Recipes", self.open_recipe_browser),
+            None,
+            ("➕", "Add Recipe",       self.open_add_recipe),
+            ("✏️", "Edit Recipe",      self.open_edit_recipe),
+            ("🗑️", "Delete Recipe",    self.open_delete_recipe),
+            None,
+            ("⚙️", "Settings",         self.open_settings),
+            ("🌙", "Toggle Theme",     self.toggle_theme),
+            
         ]
 
-        for label, tooltip, pixmap, slot in actions:
-            if label is None:
+        for item in actions:
+            if item is None:
                 toolbar.addSeparator()
                 continue
-            icon = QIcon(style.standardPixmap(pixmap))
-            action = QAction(icon, label, self)
+            symbol, tooltip, slot = item
+            action = QAction(symbol, self)
             action.setToolTip(tooltip)
             action.triggered.connect(slot)
-            toolbar.addAction(action)    
+            toolbar.addAction(action)
 
     # ── MENU BUILD ────────────────────────────
     def _build_menu(self):
