@@ -1,0 +1,4092 @@
+<?xml version='1.0' encoding='utf-8'?>
+<profiles>
+
+  ///
+  ///   recipes from FUJIXWEEKLY.COM - (X-TRANS V)
+  ///
+  
+  <profile>
+    <Name>PRO Negative 160C</Name>
+    <FilmMode>Reala ACE</FilmMode>
+    <GrainEffectRoughness>Weak</GrainEffectRoughness>
+    <GrainEffectSize>Small</GrainEffectSize>
+    <ColorChromeEffect>Strong</ColorChromeEffect>
+    <ColorChromeFXBlue>Off</ColorChromeFXBlue>
+    <WhiteBalance>Auto</WhiteBalance>
+    <WhiteBalanceFineTune>Red +20, Blue -40</WhiteBalanceFineTune>
+    <DevelopmentDynamicRange>200</DevelopmentDynamicRange>
+    <HighlightTone>-1 (medium soft)</HighlightTone>
+    <ShadowTone>-1 (medium soft)</ShadowTone>
+    <Saturation>+4 (highest)</Saturation>
+    <Sharpness>Soft</Sharpness>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Clarity>-2</Clarity>
+    <Sensor>X-Trans V</Sensor>
+  </profile>
+  <profile>
+    <Name>Easy Reala Ace</Name>
+    <FilmMode>Reala ACE</FilmMode>
+    <GrainEffectRoughness>Weak</GrainEffectRoughness>
+    <GrainEffectSize>Small</GrainEffectSize>
+    <ColorChromeEffect>Strong</ColorChromeEffect>
+    <ColorChromeFXBlue>Weak</ColorChromeFXBlue>
+    <WhiteBalance>Auto</WhiteBalance>
+    <WhiteBalanceFineTune>Red +0, Blue +0</WhiteBalanceFineTune>
+    <DevelopmentDynamicRange>400</DevelopmentDynamicRange>
+    <HighlightTone>-1 (medium soft)</HighlightTone>
+    <ShadowTone>0 (normal)</ShadowTone>
+    <Saturation>0 (normal)</Saturation>
+    <Sharpness>Normal</Sharpness>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Clarity>0</Clarity>
+    <Sensor>X-Trans V</Sensor>
+  </profile>
+  <profile>
+    <Name>Fujifilm Negative</Name>
+    <FilmMode>Reala ACE</FilmMode>
+    <GrainEffectRoughness>Weak</GrainEffectRoughness>
+    <GrainEffectSize>Small</GrainEffectSize>
+    <ColorChromeEffect>Strong</ColorChromeEffect>
+    <ColorChromeFXBlue>Off</ColorChromeFXBlue>
+    <WhiteBalance>Kelvin</WhiteBalance>
+    <ColorTemperature>5000</ColorTemperature>
+    <WhiteBalanceFineTune>Red +0, Blue -40</WhiteBalanceFineTune>
+    <DevelopmentDynamicRange>400</DevelopmentDynamicRange>
+    <HighlightTone>-1 (medium soft)</HighlightTone>
+    <ShadowTone>-0.5</ShadowTone>
+    <Saturation>+2 (high)</Saturation>
+    <Sharpness>Soft</Sharpness>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Clarity>-2</Clarity>
+    <Sensor>X-Trans V</Sensor>
+  </profile>
+  <profile>
+    <Name>Fujicolor Film</Name>
+    <FilmMode>Reala ACE</FilmMode>
+    <GrainEffectRoughness>Strong</GrainEffectRoughness>
+    <GrainEffectSize>Small</GrainEffectSize>
+    <ColorChromeEffect>Weak</ColorChromeEffect>
+    <ColorChromeFXBlue>Weak</ColorChromeFXBlue>
+    <WhiteBalance>Kelvin</WhiteBalance>
+    <ColorTemperature>5500</ColorTemperature>
+    <WhiteBalanceFineTune>Red -20, Blue -20</WhiteBalanceFineTune>
+    <DevelopmentDynamicRange>400</DevelopmentDynamicRange>
+    <HighlightTone>-1 (medium soft)</HighlightTone>
+    <ShadowTone>-0.5</ShadowTone>
+    <Saturation>-2 (low)</Saturation>
+    <Sharpness>Soft</Sharpness>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Clarity>-2</Clarity>
+    <Sensor>X-Trans V</Sensor>
+  </profile>
+  <profile>
+    <Name>Fujicolor 100 Industrial</Name>
+    <FilmMode>Reala ACE</FilmMode>
+    <GrainEffectRoughness>Weak</GrainEffectRoughness>
+    <GrainEffectSize>Small</GrainEffectSize>
+    <ColorChromeEffect>Weak</ColorChromeEffect>
+    <ColorChromeFXBlue>Off</ColorChromeFXBlue>
+    <WhiteBalance>Kelvin</WhiteBalance>
+    <ColorTemperature>3100</ColorTemperature>
+    <WhiteBalanceFineTune>Red +160, Blue -160</WhiteBalanceFineTune>
+    <DevelopmentDynamicRange>400</DevelopmentDynamicRange>
+    <HighlightTone>0.5</HighlightTone>
+    <ShadowTone>+1.5</ShadowTone>
+    <Saturation>-1 (medium low)</Saturation>
+    <Sharpness>Soft</Sharpness>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Clarity>-2</Clarity>
+    <Sensor>X-Trans V</Sensor>
+  </profile>
+  <profile>
+    <Name>Pushed Analog</Name>
+    <FilmMode>Reala ACE</FilmMode>
+    <GrainEffectRoughness>Strong</GrainEffectRoughness>
+    <GrainEffectSize>Small</GrainEffectSize>
+    <ColorChromeEffect>Strong</ColorChromeEffect>
+    <ColorChromeFXBlue>Strong</ColorChromeFXBlue>
+    <WhiteBalance>Daylight Fluorescent</WhiteBalance>
+    <WhiteBalanceFineTune>Red -60, Blue -40</WhiteBalanceFineTune>
+    <DevelopmentDynamicRange>200</DevelopmentDynamicRange>
+    <HighlightTone>1.5</HighlightTone>
+    <ShadowTone>+2 (hard)</ShadowTone>
+    <Saturation>+4 (highest)</Saturation>
+    <Sharpness>Soft</Sharpness>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Clarity>-3</Clarity>
+    <Sensor>X-Trans V</Sensor>
+  </profile>
+  <profile>
+    <Name>Nostalgia Negative</Name>
+    <FilmMode>Nostalgic Neg</FilmMode>
+    <GrainEffectRoughness>Strong</GrainEffectRoughness>
+    <GrainEffectSize>Small</GrainEffectSize>
+    <ColorChromeEffect>Strong</ColorChromeEffect>
+    <ColorChromeFXBlue>Weak</ColorChromeFXBlue>
+    <WhiteBalance>Daylight</WhiteBalance>
+    <WhiteBalanceFineTune>Red +60, Blue -60</WhiteBalanceFineTune>
+    <DevelopmentDynamicRange>400</DevelopmentDynamicRange>
+    <HighlightTone>-1 (medium soft)</HighlightTone>
+    <ShadowTone>+1 (medium hard)</ShadowTone>
+    <Saturation>+4 (highest)</Saturation>
+    <Sharpness>Soft</Sharpness>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Clarity>-3</Clarity>
+    <Sensor>X-Trans V</Sensor>
+  </profile>
+  <profile>
+    <Name>Timeless Negative</Name>
+    <FilmMode>Nostalgic Neg</FilmMode>
+    <GrainEffectRoughness>Weak</GrainEffectRoughness>
+    <GrainEffectSize>Small</GrainEffectSize>
+    <ColorChromeEffect>Strong</ColorChromeEffect>
+    <ColorChromeFXBlue>Off</ColorChromeFXBlue>
+    <WhiteBalance>Auto</WhiteBalance>
+    <WhiteBalanceFineTune>Red +40, Blue -60</WhiteBalanceFineTune>
+    <DevelopmentDynamicRange>400</DevelopmentDynamicRange>
+    <HighlightTone>+2 (hard)</HighlightTone>
+    <ShadowTone>-2 (soft)</ShadowTone>
+    <Saturation>-3 (very low)</Saturation>
+    <Sharpness>Normal</Sharpness>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Clarity>-2</Clarity>
+    <Sensor>X-Trans V</Sensor>
+  </profile>
+  <profile>
+    <Name>Thommys Ektachrome</Name>
+    <FilmMode>Nostalgic Neg</FilmMode>
+    <GrainEffectRoughness>Weak</GrainEffectRoughness>
+    <GrainEffectSize>Small</GrainEffectSize>
+    <ColorChromeEffect>Weak</ColorChromeEffect>
+    <ColorChromeFXBlue>Off</ColorChromeFXBlue>
+    <WhiteBalance>Kelvin</WhiteBalance>
+    <ColorTemperature>5000</ColorTemperature>
+    <WhiteBalanceFineTune>Red -20, Blue +60</WhiteBalanceFineTune>
+    <DevelopmentDynamicRange>100</DevelopmentDynamicRange>
+    <HighlightTone>1.5</HighlightTone>
+    <ShadowTone>1.5</ShadowTone>
+    <Saturation>+1 (medium high)</Saturation>
+    <Sharpness>Soft</Sharpness>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Clarity>-2</Clarity>
+    <Sensor>X-Trans V</Sensor>
+  </profile>
+  <profile>
+    <Name>Kodak Vision3 250D v2</Name>
+    <FilmMode>Nostalgic Neg</FilmMode>
+    <GrainEffectRoughness>Strong</GrainEffectRoughness>
+    <GrainEffectSize>Small</GrainEffectSize>
+    <ColorChromeEffect>Strong</ColorChromeEffect>
+    <ColorChromeFXBlue>Off</ColorChromeFXBlue>
+    <WhiteBalance>Daylight Fluorescent</WhiteBalance>
+    <WhiteBalanceFineTune>Red -100, Blue +0</WhiteBalanceFineTune>
+    <DevelopmentDynamicRange>200</DevelopmentDynamicRange>
+    <HighlightTone>+4 (hardest)</HighlightTone>
+    <ShadowTone>+3 (very hard)</ShadowTone>
+    <Saturation>-1 (medium low)</Saturation>
+    <Sharpness>Soft</Sharpness>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Clarity>-2</Clarity>
+    <Sensor>X-Trans V</Sensor>
+  </profile>
+  <profile>
+    <Name>Appalachian Negative</Name>
+    <FilmMode>Nostalgic Neg</FilmMode>
+    <GrainEffectRoughness>Weak</GrainEffectRoughness>
+    <GrainEffectSize>Large</GrainEffectSize>
+    <ColorChromeEffect>Strong</ColorChromeEffect>
+    <ColorChromeFXBlue>Weak</ColorChromeFXBlue>
+    <WhiteBalance>Kelvin</WhiteBalance>
+    <ColorTemperature>5200</ColorTemperature>
+    <WhiteBalanceFineTune>Red +40, Blue -40</WhiteBalanceFineTune>
+    <DevelopmentDynamicRange>400</DevelopmentDynamicRange>
+    <HighlightTone>-1.5</HighlightTone>
+    <ShadowTone>0 (normal)</ShadowTone>
+    <Saturation>+4 (highest)</Saturation>
+    <Sharpness>Hard</Sharpness>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Clarity>0</Clarity>
+    <Sensor>X-Trans V</Sensor>
+  </profile>
+  <profile>
+    <Name>Agfa Ultra 100 v2</Name>
+    <FilmMode>Nostalgic Neg</FilmMode>
+    <GrainEffectRoughness>Weak</GrainEffectRoughness>
+    <GrainEffectSize>Large</GrainEffectSize>
+    <ColorChromeEffect>Weak</ColorChromeEffect>
+    <ColorChromeFXBlue>Weak</ColorChromeFXBlue>
+    <WhiteBalance>Kelvin</WhiteBalance>
+    <ColorTemperature>5800</ColorTemperature>
+    <WhiteBalanceFineTune>Red -60, Blue -60</WhiteBalanceFineTune>
+    <DevelopmentDynamicRange>400</DevelopmentDynamicRange>
+    <HighlightTone>1.5</HighlightTone>
+    <ShadowTone>+1 (medium hard)</ShadowTone>
+    <Saturation>+3 (very high)</Saturation>
+    <Sharpness>Soft</Sharpness>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Clarity>-2</Clarity>
+    <Sensor>X-Trans V</Sensor>
+  </profile>
+  <profile>
+    <Name>Emulsion 86</Name>
+    <FilmMode>Nostalgic Neg</FilmMode>
+    <GrainEffectRoughness>Strong</GrainEffectRoughness>
+    <GrainEffectSize>Small</GrainEffectSize>
+    <ColorChromeEffect>Strong</ColorChromeEffect>
+    <ColorChromeFXBlue>Off</ColorChromeFXBlue>
+    <WhiteBalance>Daylight</WhiteBalance>
+    <WhiteBalanceFineTune>Red +40, Blue -20</WhiteBalanceFineTune>
+    <DevelopmentDynamicRange>400</DevelopmentDynamicRange>
+    <HighlightTone>-2 (soft)</HighlightTone>
+    <ShadowTone>+2 (hard)</ShadowTone>
+    <Saturation>+4 (highest)</Saturation>
+    <Sharpness>Soft</Sharpness>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Clarity>-3</Clarity>
+    <Sensor>X-Trans V</Sensor>
+  </profile>
+  <profile>
+    <Name>Summer of 1960</Name>
+    <FilmMode>Nostalgic Neg</FilmMode>
+    <GrainEffectRoughness>Strong</GrainEffectRoughness>
+    <GrainEffectSize>Small</GrainEffectSize>
+    <ColorChromeEffect>Off</ColorChromeEffect>
+    <ColorChromeFXBlue>Strong</ColorChromeFXBlue>
+    <WhiteBalance>Kelvin</WhiteBalance>
+    <ColorTemperature>5250</ColorTemperature>
+    <WhiteBalanceFineTune>Red -60, Blue -100</WhiteBalanceFineTune>
+    <DevelopmentDynamicRange>400</DevelopmentDynamicRange>
+    <HighlightTone>+4 (hardest)</HighlightTone>
+    <ShadowTone>+2 (hard)</ShadowTone>
+    <Saturation>+3 (very high)</Saturation>
+    <Sharpness>Soft</Sharpness>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Clarity>-3</Clarity>
+    <Sensor>X-Trans V</Sensor>
+  </profile>
+  <profile>
+    <Name>1976 Kodak</Name>
+    <FilmMode>Nostalgic Neg</FilmMode>
+    <GrainEffectRoughness>Strong</GrainEffectRoughness>
+    <GrainEffectSize>Small</GrainEffectSize>
+    <ColorChromeEffect>Strong</ColorChromeEffect>
+    <ColorChromeFXBlue>Off</ColorChromeFXBlue>
+    <WhiteBalance>Auto</WhiteBalance>
+    <WhiteBalanceFineTune>Red +40, Blue -80</WhiteBalanceFineTune>
+    <DevelopmentDynamicRange>200</DevelopmentDynamicRange>
+    <HighlightTone>1.5</HighlightTone>
+    <ShadowTone>+3 (very hard)</ShadowTone>
+    <Saturation>+4 (highest)</Saturation>
+    <Sharpness>Soft</Sharpness>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Clarity>-3</Clarity>
+    <Sensor>X-Trans V</Sensor>
+  </profile>
+  <profile>
+    <Name>1970s Summer</Name>
+    <FilmMode>Nostalgic Neg</FilmMode>
+    <GrainEffectRoughness>Strong</GrainEffectRoughness>
+    <GrainEffectSize>Large</GrainEffectSize>
+    <ColorChromeEffect>Strong</ColorChromeEffect>
+    <ColorChromeFXBlue>Strong</ColorChromeFXBlue>
+    <WhiteBalance>Kelvin</WhiteBalance>
+    <ColorTemperature>6500</ColorTemperature>
+    <WhiteBalanceFineTune>Red -20, Blue -80</WhiteBalanceFineTune>
+    <DevelopmentDynamicRange>400</DevelopmentDynamicRange>
+    <HighlightTone>-2 (soft)</HighlightTone>
+    <ShadowTone>-0.5</ShadowTone>
+    <Saturation>-2 (low)</Saturation>
+    <Sharpness>Soft</Sharpness>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Clarity>-3</Clarity>
+    <Sensor>X-Trans V</Sensor>
+  </profile>
+  <profile>
+    <Name>Nostalgic Americana</Name>
+    <FilmMode>Nostalgic Neg</FilmMode>
+    <GrainEffectRoughness>Strong</GrainEffectRoughness>
+    <GrainEffectSize>Large</GrainEffectSize>
+    <ColorChromeEffect>Strong</ColorChromeEffect>
+    <ColorChromeFXBlue>Off</ColorChromeFXBlue>
+    <WhiteBalance>Kelvin</WhiteBalance>
+    <ColorTemperature>5800</ColorTemperature>
+    <WhiteBalanceFineTune>Red -40, Blue -80</WhiteBalanceFineTune>
+    <DevelopmentDynamicRange>200</DevelopmentDynamicRange>
+    <HighlightTone>-1 (medium soft)</HighlightTone>
+    <ShadowTone>-1.5</ShadowTone>
+    <Saturation>-2 (low)</Saturation>
+    <Sharpness>Soft</Sharpness>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Clarity>-3</Clarity>
+    <Sensor>X-Trans V</Sensor>
+  </profile>
+  <profile>
+    <Name>Kodak Vericolor Warm</Name>
+    <FilmMode>Nostalgic Neg</FilmMode>
+    <GrainEffectRoughness>Weak</GrainEffectRoughness>
+    <GrainEffectSize>Small</GrainEffectSize>
+    <ColorChromeEffect>Strong</ColorChromeEffect>
+    <ColorChromeFXBlue>Strong</ColorChromeFXBlue>
+    <WhiteBalance>Kelvin</WhiteBalance>
+    <ColorTemperature>3000</ColorTemperature>
+    <WhiteBalanceFineTune>Red +160, Blue -180</WhiteBalanceFineTune>
+    <DevelopmentDynamicRange>100</DevelopmentDynamicRange>
+    <HighlightTone>-2 (soft)</HighlightTone>
+    <ShadowTone>-1 (medium soft)</ShadowTone>
+    <Saturation>+2 (high)</Saturation>
+    <Sharpness>Soft</Sharpness>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Clarity>-2</Clarity>
+    <Sensor>X-Trans V</Sensor>
+  </profile>
+  <profile>
+    <Name>Kodak Negative</Name>
+    <FilmMode>Nostalgic Neg</FilmMode>
+    <GrainEffectRoughness>Weak</GrainEffectRoughness>
+    <GrainEffectSize>Large</GrainEffectSize>
+    <ColorChromeEffect>Off</ColorChromeEffect>
+    <ColorChromeFXBlue>Off</ColorChromeFXBlue>
+    <WhiteBalance>Auto</WhiteBalance>
+    <WhiteBalanceFineTune>Red +20, Blue -80</WhiteBalanceFineTune>
+    <DevelopmentDynamicRange>400</DevelopmentDynamicRange>
+    <HighlightTone>-0.5</HighlightTone>
+    <ShadowTone>2.5</ShadowTone>
+    <Saturation>+4 (highest)</Saturation>
+    <Sharpness>Soft</Sharpness>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Clarity>-3</Clarity>
+    <Sensor>X-Trans V</Sensor>
+  </profile>
+  <profile>
+    <Name>California Summer</Name>
+    <FilmMode>Nostalgic Neg</FilmMode>
+    <GrainEffectRoughness>Weak</GrainEffectRoughness>
+    <GrainEffectSize>Small</GrainEffectSize>
+    <ColorChromeEffect>Strong</ColorChromeEffect>
+    <ColorChromeFXBlue>Weak</ColorChromeFXBlue>
+    <WhiteBalance>Kelvin</WhiteBalance>
+    <ColorTemperature>6700</ColorTemperature>
+    <WhiteBalanceFineTune>Red -20, Blue -120</WhiteBalanceFineTune>
+    <DevelopmentDynamicRange>400</DevelopmentDynamicRange>
+    <HighlightTone>-2 (soft)</HighlightTone>
+    <ShadowTone>-1 (medium soft)</ShadowTone>
+    <Saturation>+4 (highest)</Saturation>
+    <Sharpness>Soft</Sharpness>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Clarity>-4</Clarity>
+    <Sensor>X-Trans V</Sensor>
+  </profile>
+  <profile>
+    <Name>Vibrant Arizona (V)</Name>
+    <FilmMode>Classic Chrome</FilmMode>
+    <GrainEffectRoughness>Weak</GrainEffectRoughness>
+    <GrainEffectSize>Small</GrainEffectSize>
+    <ColorChromeEffect>Off</ColorChromeEffect>
+    <ColorChromeFXBlue>Weak</ColorChromeFXBlue>
+    <WhiteBalance>Kelvin</WhiteBalance>
+    <ColorTemperature>4350</ColorTemperature>
+    <WhiteBalanceFineTune>Red +120, Blue -160</WhiteBalanceFineTune>
+    <DRangePriority>Fixed</DRangePriority>
+    <DRangePriorityAuto>Strong</DRangePriorityAuto>
+    <Saturation>+4 (highest)</Saturation>
+    <Sharpness>Soft</Sharpness>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Clarity>-3</Clarity>
+    <Sensor>X-Trans V</Sensor>
+  </profile>
+  <profile>
+    <Name>Pacific Blues</Name>
+    <FilmMode>Classic Negative</FilmMode>
+    <GrainEffectRoughness>Strong</GrainEffectRoughness>
+    <GrainEffectSize>Large</GrainEffectSize>
+    <ColorChromeEffect>Strong</ColorChromeEffect>
+    <ColorChromeFXBlue>Weak</ColorChromeFXBlue>
+    <WhiteBalance>Kelvin</WhiteBalance>
+    <ColorTemperature>5800</ColorTemperature>
+    <WhiteBalanceFineTune>Red +20, Blue -60</WhiteBalanceFineTune>
+    <DevelopmentDynamicRange>400</DevelopmentDynamicRange>
+    <HighlightTone>-2 (soft)</HighlightTone>
+    <ShadowTone>+3 (very hard)</ShadowTone>
+    <Saturation>+4 (highest)</Saturation>
+    <Sharpness>Soft</Sharpness>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Clarity>-3</Clarity>
+    <Sensor>X-Trans V</Sensor>
+  </profile>
+  <profile>
+    <Name>Fujicolor Super HG v2</Name>
+    <FilmMode>Classic Negative</FilmMode>
+    <GrainEffectRoughness>Weak</GrainEffectRoughness>
+    <GrainEffectSize>Large</GrainEffectSize>
+    <ColorChromeEffect>Weak</ColorChromeEffect>
+    <ColorChromeFXBlue>Weak</ColorChromeFXBlue>
+    <WhiteBalance>Auto (white priority)</WhiteBalance>
+    <WhiteBalanceFineTune>Red -60, Blue -20</WhiteBalanceFineTune>
+    <DevelopmentDynamicRange>400</DevelopmentDynamicRange>
+    <HighlightTone>-1 (medium soft)</HighlightTone>
+    <ShadowTone>+1 (medium hard)</ShadowTone>
+    <Saturation>+2 (high)</Saturation>
+    <Sharpness>Normal</Sharpness>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Clarity>2</Clarity>
+    <Sensor>X-Trans V</Sensor>
+  </profile>
+  <profile>
+    <Name>Fujicolor Superia 100</Name>
+    <FilmMode>Classic Negative</FilmMode>
+    <GrainEffectRoughness>Weak</GrainEffectRoughness>
+    <GrainEffectSize>Small</GrainEffectSize>
+    <ColorChromeEffect>Strong</ColorChromeEffect>
+    <ColorChromeFXBlue>Off</ColorChromeFXBlue>
+    <WhiteBalance>Daylight</WhiteBalance>
+    <WhiteBalanceFineTune>Red +0, Blue -20</WhiteBalanceFineTune>
+    <HighlightTone>-1 (medium soft)</HighlightTone>
+    <ShadowTone>-2 (soft)</ShadowTone>
+    <Saturation>+1 (medium high)</Saturation>
+    <Sharpness>Soft</Sharpness>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Clarity>-2</Clarity>
+    <Sensor>X-Trans V</Sensor>
+  </profile>
+  <profile>
+    <Name>Reala Ace (Classic Negative) (V)</Name>
+    <FilmMode>Classic Negative</FilmMode>
+    <GrainEffectRoughness>Weak</GrainEffectRoughness>
+    <GrainEffectSize>Small</GrainEffectSize>
+    <ColorChromeEffect>Strong</ColorChromeEffect>
+    <ColorChromeFXBlue>Strong</ColorChromeFXBlue>
+    <WhiteBalance>Auto</WhiteBalance>
+    <WhiteBalanceFineTune>Red +20, Blue +20</WhiteBalanceFineTune>
+    <DevelopmentDynamicRange>400</DevelopmentDynamicRange>
+    <HighlightTone>-1.5</HighlightTone>
+    <ShadowTone>-2 (soft)</ShadowTone>
+    <Saturation>+2 (high)</Saturation>
+    <Sharpness>Normal</Sharpness>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Clarity>-2</Clarity>
+    <Sensor>X-Trans V</Sensor>
+  </profile>
+  <profile>
+    <Name>Fujicolor Reala 100</Name>
+    <FilmMode>Classic Negative</FilmMode>
+    <GrainEffectRoughness>Weak</GrainEffectRoughness>
+    <GrainEffectSize>Small</GrainEffectSize>
+    <ColorChromeEffect>Strong</ColorChromeEffect>
+    <ColorChromeFXBlue>Weak</ColorChromeFXBlue>
+    <WhiteBalance>Daylight</WhiteBalance>
+    <WhiteBalanceFineTune>Red +0, Blue +0</WhiteBalanceFineTune>
+    <DevelopmentDynamicRange>400</DevelopmentDynamicRange>
+    <HighlightTone>-1 (medium soft)</HighlightTone>
+    <ShadowTone>-1 (medium soft)</ShadowTone>
+    <Saturation>0 (normal)</Saturation>
+    <Sharpness>Soft</Sharpness>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Clarity>-3</Clarity>
+    <Sensor>X-Trans V</Sensor>
+  </profile>
+  <profile>
+    <Name>Superia Xtra 400</Name>
+    <FilmMode>Classic Negative</FilmMode>
+    <GrainEffectRoughness>Strong</GrainEffectRoughness>
+    <GrainEffectSize>Small</GrainEffectSize>
+    <ColorChromeEffect>Off</ColorChromeEffect>
+    <ColorChromeFXBlue>Weak</ColorChromeFXBlue>
+    <WhiteBalance>Auto</WhiteBalance>
+    <WhiteBalanceFineTune>Red +60, Blue -100</WhiteBalanceFineTune>
+    <DevelopmentDynamicRange>400</DevelopmentDynamicRange>
+    <HighlightTone>0 (normal)</HighlightTone>
+    <ShadowTone>-1 (medium soft)</ShadowTone>
+    <Saturation>+4 (highest)</Saturation>
+    <Sharpness>Soft</Sharpness>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Clarity>-2</Clarity>
+    <Sensor>X-Trans V</Sensor>
+  </profile>
+  <profile>
+    <Name>Fujicolor Natura 1600 (V)</Name>
+    <FilmMode>Classic Negative</FilmMode>
+    <GrainEffectRoughness>Strong</GrainEffectRoughness>
+    <GrainEffectSize>Large</GrainEffectSize>
+    <ColorChromeEffect>Strong</ColorChromeEffect>
+    <ColorChromeFXBlue>Weak</ColorChromeFXBlue>
+    <WhiteBalance>Kelvin</WhiteBalance>
+    <ColorTemperature>5500</ColorTemperature>
+    <WhiteBalanceFineTune>Red -20, Blue -40</WhiteBalanceFineTune>
+    <DevelopmentDynamicRange>400</DevelopmentDynamicRange>
+    <HighlightTone>-1.5</HighlightTone>
+    <ShadowTone>1.5</ShadowTone>
+    <Saturation>-2 (low)</Saturation>
+    <Sharpness>Soft</Sharpness>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Clarity>-4</Clarity>
+    <Sensor>X-Trans V</Sensor>
+  </profile>
+  <profile>
+    <Name>Fujicolor Superia 1600</Name>
+    <FilmMode>Classic Negative</FilmMode>
+    <GrainEffectRoughness>Strong</GrainEffectRoughness>
+    <GrainEffectSize>Large</GrainEffectSize>
+    <ColorChromeEffect>Strong</ColorChromeEffect>
+    <ColorChromeFXBlue>Weak</ColorChromeFXBlue>
+    <WhiteBalance>Daylight</WhiteBalance>
+    <WhiteBalanceFineTune>Red +60, Blue +20</WhiteBalanceFineTune>
+    <DevelopmentDynamicRange>400</DevelopmentDynamicRange>
+    <HighlightTone>0 (normal)</HighlightTone>
+    <ShadowTone>+2 (hard)</ShadowTone>
+    <Saturation>-3 (very low)</Saturation>
+    <Sharpness>Soft</Sharpness>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Clarity>-4</Clarity>
+    <Sensor>X-Trans V</Sensor>
+  </profile>
+  <profile>
+    <Name>Kodak Portra 800 v3</Name>
+    <FilmMode>Classic Chrome</FilmMode>
+    <GrainEffectRoughness>Strong</GrainEffectRoughness>
+    <GrainEffectSize>Large</GrainEffectSize>
+    <ColorChromeEffect>Strong</ColorChromeEffect>
+    <ColorChromeFXBlue>Off</ColorChromeFXBlue>
+    <WhiteBalance>Kelvin</WhiteBalance>
+    <ColorTemperature>6600</ColorTemperature>
+    <WhiteBalanceFineTune>Red -20, Blue -60</WhiteBalanceFineTune>
+    <DevelopmentDynamicRange>400</DevelopmentDynamicRange>
+    <HighlightTone>-2 (soft)</HighlightTone>
+    <ShadowTone>-0.5</ShadowTone>
+    <Saturation>+3 (very high)</Saturation>
+    <Sharpness>Soft</Sharpness>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Clarity>-3</Clarity>
+    <Sensor>X-Trans V</Sensor>
+  </profile>
+  <profile>
+    <Name>Kodak Portra 400 v2</Name>
+    <FilmMode>Classic Chrome</FilmMode>
+    <GrainEffectRoughness>Strong</GrainEffectRoughness>
+    <GrainEffectSize>Small</GrainEffectSize>
+    <ColorChromeEffect>Strong</ColorChromeEffect>
+    <ColorChromeFXBlue>Off</ColorChromeFXBlue>
+    <WhiteBalance>Kelvin</WhiteBalance>
+    <ColorTemperature>5200</ColorTemperature>
+    <WhiteBalanceFineTune>Red +20, Blue -120</WhiteBalanceFineTune>
+    <DevelopmentDynamicRange>400</DevelopmentDynamicRange>
+    <HighlightTone>0 (normal)</HighlightTone>
+    <ShadowTone>-2 (soft)</ShadowTone>
+    <Saturation>+2 (high)</Saturation>
+    <Sharpness>Soft</Sharpness>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Clarity>-2</Clarity>
+    <Sensor>X-Trans V</Sensor>
+  </profile>
+  <profile>
+    <Name>Kodak Portra 160 v2</Name>
+    <FilmMode>Classic Chrome</FilmMode>
+    <GrainEffectRoughness>Weak</GrainEffectRoughness>
+    <GrainEffectSize>Small</GrainEffectSize>
+    <ColorChromeEffect>Weak</ColorChromeEffect>
+    <ColorChromeFXBlue>Weak</ColorChromeFXBlue>
+    <WhiteBalance>Daylight</WhiteBalance>
+    <WhiteBalanceFineTune>Red +80, Blue -100</WhiteBalanceFineTune>
+    <HighlightTone>0 (normal)</HighlightTone>
+    <ShadowTone>0 (normal)</ShadowTone>
+    <Saturation>0 (normal)</Saturation>
+    <Sharpness>Soft</Sharpness>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Clarity>-2</Clarity>
+    <Sensor>X-Trans V</Sensor>
+  </profile>
+  <profile>
+    <Name>Kodak Ultramax 400</Name>
+    <FilmMode>Classic Chrome</FilmMode>
+    <GrainEffectRoughness>Strong</GrainEffectRoughness>
+    <GrainEffectSize>Large</GrainEffectSize>
+    <ColorChromeEffect>Weak</ColorChromeEffect>
+    <ColorChromeFXBlue>Off</ColorChromeFXBlue>
+    <WhiteBalance>Auto</WhiteBalance>
+    <WhiteBalanceFineTune>Red +20, Blue -100</WhiteBalanceFineTune>
+    <HighlightTone>+1 (medium hard)</HighlightTone>
+    <ShadowTone>+1 (medium hard)</ShadowTone>
+    <Saturation>+4 (highest)</Saturation>
+    <Sharpness>Normal</Sharpness>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Clarity>3</Clarity>
+    <Sensor>X-Trans V</Sensor>
+  </profile>
+  <profile>
+    <Name>Kodak Gold 200</Name>
+    <FilmMode>Classic Chrome</FilmMode>
+    <GrainEffectRoughness>Strong</GrainEffectRoughness>
+    <GrainEffectSize>Small</GrainEffectSize>
+    <ColorChromeEffect>Weak</ColorChromeEffect>
+    <ColorChromeFXBlue>Off</ColorChromeFXBlue>
+    <WhiteBalance>Daylight</WhiteBalance>
+    <WhiteBalanceFineTune>Red +80, Blue -100</WhiteBalanceFineTune>
+    <HighlightTone>-1.5</HighlightTone>
+    <ShadowTone>0.5</ShadowTone>
+    <Saturation>+3 (very high)</Saturation>
+    <Sharpness>Soft</Sharpness>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Clarity>-2</Clarity>
+    <Sensor>X-Trans V</Sensor>
+  </profile>
+  <profile>
+    <Name>Kodak Royal Gold 400</Name>
+    <FilmMode>Classic Negative</FilmMode>
+    <GrainEffectRoughness>Strong</GrainEffectRoughness>
+    <GrainEffectSize>Small</GrainEffectSize>
+    <ColorChromeEffect>Strong</ColorChromeEffect>
+    <ColorChromeFXBlue>Weak</ColorChromeFXBlue>
+    <WhiteBalance>Cloudy</WhiteBalance>
+    <WhiteBalanceFineTune>Red +60, Blue +100</WhiteBalanceFineTune>
+    <HighlightTone>-1 (medium soft)</HighlightTone>
+    <ShadowTone>+1 (medium hard)</ShadowTone>
+    <Saturation>+4 (highest)</Saturation>
+    <Sharpness>Soft</Sharpness>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Clarity>-3</Clarity>
+    <Sensor>X-Trans V</Sensor>
+  </profile>
+  <profile>
+    <Name>Classic Color</Name>
+    <FilmMode>Classic Chrome</FilmMode>
+    <GrainEffectRoughness>Strong</GrainEffectRoughness>
+    <GrainEffectSize>Small</GrainEffectSize>
+    <ColorChromeEffect>Strong</ColorChromeEffect>
+    <ColorChromeFXBlue>Weak</ColorChromeFXBlue>
+    <WhiteBalance>Kelvin</WhiteBalance>
+    <ColorTemperature>5300</ColorTemperature>
+    <WhiteBalanceFineTune>Red +0, Blue -120</WhiteBalanceFineTune>
+    <HighlightTone>-0.5</HighlightTone>
+    <ShadowTone>-2 (soft)</ShadowTone>
+    <Saturation>+3 (very high)</Saturation>
+    <Sharpness>Soft</Sharpness>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Clarity>-2</Clarity>
+    <Sensor>X-Trans V</Sensor>
+  </profile>
+  <profile>
+    <Name>Kodachrome 64 (V)</Name>
+    <FilmMode>Classic Chrome</FilmMode>
+    <GrainEffectRoughness>Weak</GrainEffectRoughness>
+    <GrainEffectSize>Small</GrainEffectSize>
+    <ColorChromeEffect>Strong</ColorChromeEffect>
+    <ColorChromeFXBlue>Off</ColorChromeFXBlue>
+    <WhiteBalance>Daylight</WhiteBalance>
+    <WhiteBalanceFineTune>Red +40, Blue -100</WhiteBalanceFineTune>
+    <DevelopmentDynamicRange>200</DevelopmentDynamicRange>
+    <HighlightTone>0 (normal)</HighlightTone>
+    <ShadowTone>0.5</ShadowTone>
+    <Saturation>+2 (high)</Saturation>
+    <Sharpness>Hard</Sharpness>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Clarity>3</Clarity>
+    <Sensor>X-Trans V</Sensor>
+  </profile>
+  <profile>
+    <Name>Kodachrome 25</Name>
+    <FilmMode>Classic Chrome</FilmMode>
+    <GrainEffectRoughness>Off</GrainEffectRoughness>
+    <ColorChromeEffect>Strong</ColorChromeEffect>
+    <ColorChromeFXBlue>Weak</ColorChromeFXBlue>
+    <WhiteBalance>Daylight</WhiteBalance>
+    <WhiteBalanceFineTune>Red +40, Blue -80</WhiteBalanceFineTune>
+    <DevelopmentDynamicRange>200</DevelopmentDynamicRange>
+    <HighlightTone>0.5</HighlightTone>
+    <ShadowTone>-0.5</ShadowTone>
+    <Saturation>+1 (medium high)</Saturation>
+    <Sharpness>Hard</Sharpness>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Clarity>3</Clarity>
+    <Sensor>X-Trans V</Sensor>
+  </profile>
+  <profile>
+    <Name>Kodak Ektachrome E100VS v1</Name>
+    <FilmMode>F2/Fujichrome (Velvia)</FilmMode>
+    <GrainEffectRoughness>Strong</GrainEffectRoughness>
+    <GrainEffectSize>Small</GrainEffectSize>
+    <ColorChromeEffect>Strong</ColorChromeEffect>
+    <ColorChromeFXBlue>Strong</ColorChromeFXBlue>
+    <WhiteBalance>Auto</WhiteBalance>
+    <WhiteBalanceFineTune>Red +40, Blue -40</WhiteBalanceFineTune>
+    <DevelopmentDynamicRange>400</DevelopmentDynamicRange>
+    <HighlightTone>+1 (medium hard)</HighlightTone>
+    <ShadowTone>+1 (medium hard)</ShadowTone>
+    <Saturation>+2 (high)</Saturation>
+    <Sharpness>Hard</Sharpness>
+    <NoiseReduction>-2 (weak)</NoiseReduction>
+    <Clarity>1</Clarity>
+    <Sensor>X-Trans V</Sensor>
+  </profile>
+  <profile>
+    <Name>Kodak Ektachrome E100VS v2</Name>
+    <FilmMode>F2/Fujichrome (Velvia)</FilmMode>
+    <GrainEffectRoughness>Weak</GrainEffectRoughness>
+    <GrainEffectSize>Small</GrainEffectSize>
+    <ColorChromeEffect>Strong</ColorChromeEffect>
+    <ColorChromeFXBlue>Strong</ColorChromeFXBlue>
+    <WhiteBalance>Kelvin</WhiteBalance>
+    <ColorTemperature>5150</ColorTemperature>
+    <WhiteBalanceFineTune>Red +60, Blue -60</WhiteBalanceFineTune>
+    <DevelopmentDynamicRange>400</DevelopmentDynamicRange>
+    <HighlightTone>1.5</HighlightTone>
+    <ShadowTone>0.5</ShadowTone>
+    <Saturation>+1 (medium high)</Saturation>
+    <Sharpness>Soft</Sharpness>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Clarity>3</Clarity>
+    <Sensor>X-Trans V</Sensor>
+  </profile>
+  <profile>
+    <Name>CineStill 400D v1</Name>
+    <FilmMode>F1b/Studio Portrait Smooth Skin Tone (Astia)</FilmMode>
+    <GrainEffectRoughness>Strong</GrainEffectRoughness>
+    <GrainEffectSize>Small</GrainEffectSize>
+    <ColorChromeEffect>Strong</ColorChromeEffect>
+    <ColorChromeFXBlue>Strong</ColorChromeFXBlue>
+    <WhiteBalance>Daylight Fluorescent</WhiteBalance>
+    <WhiteBalanceFineTune>Red -120, Blue -60</WhiteBalanceFineTune>
+    <DevelopmentDynamicRange>200</DevelopmentDynamicRange>
+    <HighlightTone>+3 (very hard)</HighlightTone>
+    <ShadowTone>+1 (medium hard)</ShadowTone>
+    <Saturation>+2 (high)</Saturation>
+    <Sharpness>Soft</Sharpness>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Clarity>-4</Clarity>
+    <Sensor>X-Trans V</Sensor>
+  </profile>
+  <profile>
+    <Name>CineStill 400D v2</Name>
+    <FilmMode>F1b/Studio Portrait Smooth Skin Tone (Astia)</FilmMode>
+    <GrainEffectRoughness>Strong</GrainEffectRoughness>
+    <GrainEffectSize>Small</GrainEffectSize>
+    <ColorChromeEffect>Strong</ColorChromeEffect>
+    <ColorChromeFXBlue>Weak</ColorChromeFXBlue>
+    <WhiteBalance>Daylight Fluorescent</WhiteBalance>
+    <WhiteBalanceFineTune>Red -40, Blue +80</WhiteBalanceFineTune>
+    <DevelopmentDynamicRange>200</DevelopmentDynamicRange>
+    <HighlightTone>-2 (soft)</HighlightTone>
+    <ShadowTone>0 (normal)</ShadowTone>
+    <Saturation>+2 (high)</Saturation>
+    <Sharpness>Soft</Sharpness>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Clarity>-4</Clarity>
+    <Sensor>X-Trans V</Sensor>
+  </profile>
+  <profile>
+    <Name>Pushed CineStill 800T</Name>
+    <FilmMode>Bleach Bypass</FilmMode>
+    <GrainEffectRoughness>Strong</GrainEffectRoughness>
+    <GrainEffectSize>Large</GrainEffectSize>
+    <ColorChromeEffect>Strong</ColorChromeEffect>
+    <ColorChromeFXBlue>Weak</ColorChromeFXBlue>
+    <WhiteBalance>Kelvin</WhiteBalance>
+    <ColorTemperature>7700</ColorTemperature>
+    <WhiteBalanceFineTune>Red -180, Blue +100</WhiteBalanceFineTune>
+    <DevelopmentDynamicRange>400</DevelopmentDynamicRange>
+    <HighlightTone>-0.5</HighlightTone>
+    <ShadowTone>1.5</ShadowTone>
+    <Saturation>+3 (very high)</Saturation>
+    <Sharpness>Normal</Sharpness>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Clarity>-3</Clarity>
+    <Sensor>X-Trans V</Sensor>
+  </profile>
+  <profile>
+    <Name>Expired ECN-2 100T</Name>
+    <FilmMode>Bleach Bypass</FilmMode>
+    <GrainEffectRoughness>Strong</GrainEffectRoughness>
+    <GrainEffectSize>Large</GrainEffectSize>
+    <ColorChromeEffect>Strong</ColorChromeEffect>
+    <ColorChromeFXBlue>Weak</ColorChromeFXBlue>
+    <WhiteBalance>Kelvin</WhiteBalance>
+    <ColorTemperature>6000</ColorTemperature>
+    <WhiteBalanceFineTune>Red -180, Blue -120</WhiteBalanceFineTune>
+    <DevelopmentDynamicRange>400</DevelopmentDynamicRange>
+    <HighlightTone>0.5</HighlightTone>
+    <ShadowTone>-1 (medium soft)</ShadowTone>
+    <Saturation>+1 (medium high)</Saturation>
+    <Sharpness>Soft</Sharpness>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Clarity>-4</Clarity>
+    <Sensor>X-Trans V</Sensor>
+  </profile>
+  <profile>
+    <Name>Indoor Angouleme</Name>
+    <FilmMode>Nostalgic Neg</FilmMode>
+    <GrainEffectRoughness>Weak</GrainEffectRoughness>
+    <GrainEffectSize>Small</GrainEffectSize>
+    <ColorChromeEffect>Strong</ColorChromeEffect>
+    <ColorChromeFXBlue>Weak</ColorChromeFXBlue>
+    <WhiteBalance>Auto (ambiance priority)</WhiteBalance>
+    <WhiteBalanceFineTune>Red -40, Blue -120</WhiteBalanceFineTune>
+    <DevelopmentDynamicRange>400</DevelopmentDynamicRange>
+    <HighlightTone>-2 (soft)</HighlightTone>
+    <ShadowTone>-2 (soft)</ShadowTone>
+    <Saturation>-1 (medium low)</Saturation>
+    <Sharpness>Soft</Sharpness>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Clarity>-3</Clarity>
+    <Sensor>X-Trans V</Sensor>
+  </profile>
+  <profile>
+    <Name>Fluorescent Night</Name>
+    <FilmMode>Nostalgic Neg</FilmMode>
+    <GrainEffectRoughness>Strong</GrainEffectRoughness>
+    <GrainEffectSize>Small</GrainEffectSize>
+    <ColorChromeEffect>Strong</ColorChromeEffect>
+    <ColorChromeFXBlue>Weak</ColorChromeFXBlue>
+    <WhiteBalance>Day White Fluorescent</WhiteBalance>
+    <WhiteBalanceFineTune>Red -160, Blue -20</WhiteBalanceFineTune>
+    <DevelopmentDynamicRange>200</DevelopmentDynamicRange>
+    <HighlightTone>-1 (medium soft)</HighlightTone>
+    <ShadowTone>-1.5</ShadowTone>
+    <Saturation>+4 (highest)</Saturation>
+    <Sharpness>Soft</Sharpness>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Clarity>-3</Clarity>
+    <Sensor>X-Trans V</Sensor>
+  </profile>
+  <profile>
+    <Name>CineStill 800T</Name>
+    <FilmMode>Eterna</FilmMode>
+    <GrainEffectRoughness>Strong</GrainEffectRoughness>
+    <GrainEffectSize>Large</GrainEffectSize>
+    <ColorChromeEffect>Strong</ColorChromeEffect>
+    <ColorChromeFXBlue>Weak</ColorChromeFXBlue>
+    <WhiteBalance>White Fluorescent</WhiteBalance>
+    <WhiteBalanceFineTune>Red -120, Blue -80</WhiteBalanceFineTune>
+    <DevelopmentDynamicRange>400</DevelopmentDynamicRange>
+    <HighlightTone>0 (normal)</HighlightTone>
+    <ShadowTone>+2 (hard)</ShadowTone>
+    <Saturation>+4 (highest)</Saturation>
+    <Sharpness>Soft</Sharpness>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Clarity>-5</Clarity>
+    <Sensor>X-Trans V</Sensor>
+  </profile>
+  <profile>
+    <Name>Vintage Bronze</Name>
+    <FilmMode>Bleach Bypass</FilmMode>
+    <GrainEffectRoughness>Weak</GrainEffectRoughness>
+    <GrainEffectSize>Large</GrainEffectSize>
+    <ColorChromeEffect>Off</ColorChromeEffect>
+    <ColorChromeFXBlue>Off</ColorChromeFXBlue>
+    <WhiteBalance>Daylight</WhiteBalance>
+    <WhiteBalanceFineTune>Red +120, Blue -160</WhiteBalanceFineTune>
+    <DevelopmentDynamicRange>200</DevelopmentDynamicRange>
+    <HighlightTone>0 (normal)</HighlightTone>
+    <ShadowTone>-1 (medium soft)</ShadowTone>
+    <Saturation>0 (normal)</Saturation>
+    <Sharpness>Soft</Sharpness>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Clarity>-2</Clarity>
+    <Sensor>X-Trans V</Sensor>
+  </profile>
+  <profile>
+    <Name>Vintage Eterna</Name>
+    <FilmMode>Eterna</FilmMode>
+    <GrainEffectRoughness>Strong</GrainEffectRoughness>
+    <GrainEffectSize>Large</GrainEffectSize>
+    <ColorChromeEffect>Off</ColorChromeEffect>
+    <ColorChromeFXBlue>Weak</ColorChromeFXBlue>
+    <WhiteBalance>Auto</WhiteBalance>
+    <WhiteBalanceFineTune>Red +40, Blue -100</WhiteBalanceFineTune>
+    <DevelopmentDynamicRange>100</DevelopmentDynamicRange>
+    <HighlightTone>+3 (very hard)</HighlightTone>
+    <ShadowTone>-1 (medium soft)</ShadowTone>
+    <Saturation>+2 (high)</Saturation>
+    <Sharpness>Soft</Sharpness>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Clarity>-2</Clarity>
+    <Sensor>X-Trans V</Sensor>
+  </profile>
+  <profile>
+    <Name>Vintage Cinema</Name>
+    <FilmMode>Nostalgic Neg</FilmMode>
+    <GrainEffectRoughness>Strong</GrainEffectRoughness>
+    <GrainEffectSize>Small</GrainEffectSize>
+    <ColorChromeEffect>Strong</ColorChromeEffect>
+    <ColorChromeFXBlue>Off</ColorChromeFXBlue>
+    <WhiteBalance>Kelvin</WhiteBalance>
+    <ColorTemperature>4900</ColorTemperature>
+    <WhiteBalanceFineTune>Red +60, Blue +60</WhiteBalanceFineTune>
+    <DevelopmentDynamicRange>400</DevelopmentDynamicRange>
+    <HighlightTone>+3 (very hard)</HighlightTone>
+    <ShadowTone>-2 (soft)</ShadowTone>
+    <Saturation>-1 (medium low)</Saturation>
+    <Sharpness>Soft</Sharpness>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Clarity>-4</Clarity>
+    <Sensor>X-Trans V</Sensor>
+  </profile>
+  <profile>
+    <Name>1960 Chrome</Name>
+    <FilmMode>Bleach Bypass</FilmMode>
+    <GrainEffectRoughness>Strong</GrainEffectRoughness>
+    <GrainEffectSize>Large</GrainEffectSize>
+    <ColorChromeEffect>Strong</ColorChromeEffect>
+    <ColorChromeFXBlue>Off</ColorChromeFXBlue>
+    <WhiteBalance>Daylight Fluorescent</WhiteBalance>
+    <WhiteBalanceFineTune>Red -40, Blue -80</WhiteBalanceFineTune>
+    <DevelopmentDynamicRange>400</DevelopmentDynamicRange>
+    <HighlightTone>-2 (soft)</HighlightTone>
+    <ShadowTone>-1 (medium soft)</ShadowTone>
+    <Saturation>+2 (high)</Saturation>
+    <Sharpness>Soft</Sharpness>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Clarity>-2</Clarity>
+    <Sensor>X-Trans V</Sensor>
+  </profile>
+  <profile>
+    <Name>Eterna Summer</Name>
+    <FilmMode>Eterna</FilmMode>
+    <GrainEffectRoughness>Strong</GrainEffectRoughness>
+    <GrainEffectSize>Small</GrainEffectSize>
+    <ColorChromeEffect>Strong</ColorChromeEffect>
+    <ColorChromeFXBlue>Weak</ColorChromeFXBlue>
+    <WhiteBalance>Daylight</WhiteBalance>
+    <WhiteBalanceFineTune>Red +60, Blue -140</WhiteBalanceFineTune>
+    <DevelopmentDynamicRange>200</DevelopmentDynamicRange>
+    <HighlightTone>2.5</HighlightTone>
+    <ShadowTone>0 (normal)</ShadowTone>
+    <Saturation>+4 (highest)</Saturation>
+    <Sharpness>Soft</Sharpness>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Clarity>-3</Clarity>
+    <Sensor>X-Trans V</Sensor>
+  </profile>
+  <profile>
+    <Name>Ilford FP4 Plus 125</Name>
+    <FilmMode />
+    <GrainEffectRoughness>Weak</GrainEffectRoughness>
+    <GrainEffectSize>Large</GrainEffectSize>
+    <ColorChromeEffect>Off</ColorChromeEffect>
+    <ColorChromeFXBlue>Off</ColorChromeFXBlue>
+    <WhiteBalance>Daylight</WhiteBalance>
+    <WhiteBalanceFineTune>Red +120, Blue -160</WhiteBalanceFineTune>
+    <DevelopmentDynamicRange>200</DevelopmentDynamicRange>
+    <HighlightTone>-0.5</HighlightTone>
+    <ShadowTone>-1.5</ShadowTone>
+    <Saturation>None (B&amp;W)</Saturation>
+    <Sharpness>Normal</Sharpness>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Clarity>2</Clarity>
+    <Sensor>X-Trans V</Sensor>
+  </profile>
+  <profile>
+    <Name>Kodak T-Max 100 Hard Tone</Name>
+    <FilmMode />
+    <GrainEffectRoughness>Weak</GrainEffectRoughness>
+    <GrainEffectSize>Large</GrainEffectSize>
+    <ColorChromeEffect>Off</ColorChromeEffect>
+    <ColorChromeFXBlue>Off</ColorChromeFXBlue>
+    <WhiteBalance>Daylight</WhiteBalance>
+    <WhiteBalanceFineTune>Red -120, Blue -60</WhiteBalanceFineTune>
+    <DevelopmentDynamicRange>200</DevelopmentDynamicRange>
+    <HighlightTone>-0.5</HighlightTone>
+    <ShadowTone>1.5</ShadowTone>
+    <Saturation>B&amp;W Green Filter</Saturation>
+    <Sharpness>Soft</Sharpness>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Clarity>-1</Clarity>
+    <Sensor>X-Trans V</Sensor>
+  </profile>
+  <profile>
+    <Name>Kodak T-Max P3200</Name>
+    <FilmMode />
+    <GrainEffectRoughness>Strong</GrainEffectRoughness>
+    <GrainEffectSize>Large</GrainEffectSize>
+    <ColorChromeEffect>Off</ColorChromeEffect>
+    <ColorChromeFXBlue>Off</ColorChromeFXBlue>
+    <WhiteBalance>Kelvin</WhiteBalance>
+    <ColorTemperature>5500</ColorTemperature>
+    <WhiteBalanceFineTune>Red +80, Blue +140</WhiteBalanceFineTune>
+    <BWAdjustment>-1</BWAdjustment>
+    <BWMagentaGreen>-1</BWMagentaGreen>
+    <DevelopmentDynamicRange>400</DevelopmentDynamicRange>
+    <HighlightTone>+1 (medium hard)</HighlightTone>
+    <ShadowTone>+3 (very hard)</ShadowTone>
+    <Saturation>Acros</Saturation>
+    <Sharpness>Hard</Sharpness>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Clarity>1</Clarity>
+    <Sensor>X-Trans V</Sensor>
+  </profile>
+  <profile>
+    <Name>Kodak TRIX400 (V)</Name>
+    <FilmMode>None</FilmMode>
+    <GrainEffectRoughness>Strong</GrainEffectRoughness>
+    <GrainEffectSize>Large</GrainEffectSize>
+    <ColorChromeEffect>Strong</ColorChromeEffect>
+    <ColorChromeFXBlue>Off</ColorChromeFXBlue>
+    <WhiteBalance>Daylight</WhiteBalance>
+    <WhiteBalanceFineTune>Red +180, Blue -180</WhiteBalanceFineTune>
+    <DevelopmentDynamicRange>200</DevelopmentDynamicRange>
+    <HighlightTone>0 (normal)</HighlightTone>
+    <ShadowTone>+3 (very hard)</ShadowTone>
+    <Saturation>Acros Red Filter</Saturation>
+    <Sharpness>Hard</Sharpness>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Clarity>4</Clarity>
+    <Sensor>X-Trans V</Sensor>
+  </profile>
+  <profile>
+    <Name>Texas Sun (V)</Name>
+    <FilmMode>Classic Chrome</FilmMode>
+    <DevelopmentDynamicRange>200</DevelopmentDynamicRange>
+    <GrainEffectRoughness>Strong</GrainEffectRoughness>
+    <GrainEffectSize>Small</GrainEffectSize>
+    <ColorChromeEffect>Strong</ColorChromeEffect>
+    <ColorChromeFXBlue>Weak</ColorChromeFXBlue>
+    <ColorTemperature>6500</ColorTemperature>
+    <WhiteBalance>Kelvin</WhiteBalance>
+    <WhiteBalanceFineTune>Red +40, Blue -120</WhiteBalanceFineTune>
+    <HighlightTone>-2 (soft)</HighlightTone>
+    <ShadowTone>-0.5</ShadowTone>
+    <Saturation>+4 (highest)</Saturation>
+    <Sharpness>Soft</Sharpness>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Clarity>0</Clarity>
+    <Sensor>X-Trans V</Sensor>
+  </profile>
+  <profile>
+    <Name>Cinematic Film</Name>
+    <FilmMode>Eterna</FilmMode>
+    <DevelopmentDynamicRange>400</DevelopmentDynamicRange>
+    <GrainEffectRoughness>Weak</GrainEffectRoughness>
+    <GrainEffectSize>Small</GrainEffectSize>
+    <ColorChromeEffect>Strong</ColorChromeEffect>
+    <ColorChromeFXBlue>Weak</ColorChromeFXBlue>
+    <WhiteBalance>Auto (white priority)</WhiteBalance>
+    <WhiteBalanceFineTune>Red +40, Blue -80</WhiteBalanceFineTune>
+    <HighlightTone>-1.5</HighlightTone>
+    <ShadowTone>-1 (medium soft)</ShadowTone>
+    <Saturation>+3 (very high)</Saturation>
+    <Sharpness>Soft</Sharpness>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Clarity>-2</Clarity>
+    <Sensor>X-Trans V</Sensor>
+  </profile>
+  <profile>
+    <Name>Osan Bilgi NN</Name>
+    <FilmMode>Nostalgic Neg</FilmMode>
+    <DevelopmentDynamicRange>400</DevelopmentDynamicRange>
+    <GrainEffectRoughness>Weak</GrainEffectRoughness>
+    <GrainEffectSize>Large</GrainEffectSize>
+    <ColorChromeEffect>Strong</ColorChromeEffect>
+    <ColorChromeFXBlue>Off</ColorChromeFXBlue>
+    <WhiteBalance>Auto</WhiteBalance>
+    <WhiteBalanceFineTune>Red +0, Blue +0</WhiteBalanceFineTune>
+    <HighlightTone>-2 (soft)</HighlightTone>
+    <ShadowTone>1.5</ShadowTone>
+    <Saturation>+4 (highest)</Saturation>
+    <Sharpness>Soft</Sharpness>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Clarity>-5</Clarity>
+    <Sensor>X-Trans V</Sensor>
+  </profile>
+	
+  
+  
+  ///
+  ///   recipes from FUJIXWEEKLY.COM - (X-TRANS IV) 
+  ///
+  
+  <profile>
+    <Name>Kodachrome 64 (IV)</Name>
+    <FilmMode>Classic Chrome</FilmMode>
+    <GrainEffectRoughness>Weak</GrainEffectRoughness>
+    <GrainEffectSize>Small</GrainEffectSize>
+    <ColorChromeEffect>Strong</ColorChromeEffect>
+    <ColorChromeFXBlue>Weak</ColorChromeFXBlue>
+    <WhiteBalance>Daylight</WhiteBalance>
+    <WhiteBalanceFineTune>Red +40, Blue -100</WhiteBalanceFineTune>
+    <DevelopmentDynamicRange>200</DevelopmentDynamicRange>
+    <HighlightTone>0 (normal)</HighlightTone>
+    <ShadowTone>0 (normal)</ShadowTone>
+    <Saturation>+2 (high)</Saturation>
+    <Sharpness>Hard</Sharpness>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Clarity>3</Clarity>
+    <Sensor>X-Trans IV</Sensor>
+  </profile>
+  <profile>
+    <Name>Kodachrome 25 (IV)</Name>
+    <FilmMode>Classic Chrome</FilmMode>
+    <GrainEffectRoughness>Off</GrainEffectRoughness>
+    <ColorChromeEffect>Strong</ColorChromeEffect>
+    <ColorChromeFXBlue>Strong</ColorChromeFXBlue>
+    <WhiteBalance>Daylight</WhiteBalance>
+    <WhiteBalanceFineTune>Red +40, Blue -80</WhiteBalanceFineTune>
+    <DevelopmentDynamicRange>400</DevelopmentDynamicRange>
+    <HighlightTone>0.5</HighlightTone>
+    <ShadowTone>-0.5</ShadowTone>
+    <Saturation>+4 (highest)</Saturation>
+    <Sharpness>Soft</Sharpness>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Clarity>1</Clarity>
+    <Sensor>X-Trans IV</Sensor>
+  </profile>
+  <profile>
+    <Name>Kodachrome 1 (IV)</Name>
+    <FilmMode>Classic Chrome</FilmMode>
+    <GrainEffectRoughness>Strong</GrainEffectRoughness>
+    <ColorChromeEffect>Strong</ColorChromeEffect>
+    <ColorChromeFXBlue>Weak</ColorChromeFXBlue>
+    <WhiteBalance>Auto</WhiteBalance>
+    <WhiteBalanceFineTune>Red +40, Blue -80</WhiteBalanceFineTune>
+    <DevelopmentDynamicRange>400</DevelopmentDynamicRange>
+    <HighlightTone>+4 (hardest)</HighlightTone>
+    <ShadowTone>-2 (soft)</ShadowTone>
+    <Saturation>+1 (medium high)</Saturation>
+    <Sharpness>Hard</Sharpness>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Clarity>3</Clarity>
+    <Sensor>X-Trans IV</Sensor>
+  </profile>
+  <profile>
+    <Name>Kodachrome II (IV)</Name>
+    <FilmMode>Classic Chrome</FilmMode>
+    <GrainEffectRoughness>Weak</GrainEffectRoughness>
+    <GrainEffectSize>Small</GrainEffectSize>
+    <ColorChromeEffect>Strong</ColorChromeEffect>
+    <ColorChromeFXBlue>Weak</ColorChromeFXBlue>
+    <WhiteBalance>Auto</WhiteBalance>
+    <WhiteBalanceFineTune>Red +60, Blue -80</WhiteBalanceFineTune>
+    <DevelopmentDynamicRange>200</DevelopmentDynamicRange>
+    <HighlightTone>+1 (medium hard)</HighlightTone>
+    <ShadowTone>+2 (hard)</ShadowTone>
+    <Saturation>+1 (medium high)</Saturation>
+    <Sharpness>Hard</Sharpness>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Clarity>-2</Clarity>
+    <Sensor>X-Trans IV</Sensor>
+  </profile>
+  <profile>
+    <Name>McCurry Kodachrome (IV)</Name>
+    <FilmMode>Classic Chrome</FilmMode>
+    <GrainEffectRoughness>Weak</GrainEffectRoughness>
+    <GrainEffectSize>Small</GrainEffectSize>
+    <ColorChromeEffect>Strong</ColorChromeEffect>
+    <ColorChromeFXBlue>Off</ColorChromeFXBlue>
+    <WhiteBalance>Kelvin</WhiteBalance>
+    <ColorTemperature>5900</ColorTemperature>
+    <WhiteBalanceFineTune>Red -20, Blue +80</WhiteBalanceFineTune>
+    <DevelopmentDynamicRange>100</DevelopmentDynamicRange>
+    <HighlightTone>0 (normal)</HighlightTone>
+    <ShadowTone>0 (normal)</ShadowTone>
+    <Saturation>+2 (high)</Saturation>
+    <Sharpness>Soft</Sharpness>
+    <NoiseReduction>-2 (weak)</NoiseReduction>
+    <Clarity>0</Clarity>
+    <Sensor>X-Trans IV</Sensor>
+  </profile>
+  <profile>
+    <Name>Kodak Vision3 250D (IV)</Name>
+    <FilmMode>Eterna</FilmMode>
+    <GrainEffectRoughness>Strong</GrainEffectRoughness>
+    <GrainEffectSize>Small</GrainEffectSize>
+    <ColorChromeEffect>Strong</ColorChromeEffect>
+    <ColorChromeFXBlue>Off</ColorChromeFXBlue>
+    <WhiteBalance>Daylight Fluorescent</WhiteBalance>
+    <WhiteBalanceFineTune>Red -60, Blue -20</WhiteBalanceFineTune>
+    <DevelopmentDynamicRange>100</DevelopmentDynamicRange>
+    <HighlightTone>+3 (very hard)</HighlightTone>
+    <ShadowTone>+4 (hardest)</ShadowTone>
+    <Saturation>+3 (very high)</Saturation>
+    <Sharpness>Soft</Sharpness>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Clarity>-2</Clarity>
+    <Sensor>X-Trans IV</Sensor>
+  </profile>
+  <profile>
+    <Name>Kodak Portra 160 (IV)</Name>
+    <FilmMode>Classic Chrome</FilmMode>
+    <GrainEffectRoughness>Weak</GrainEffectRoughness>
+    <GrainEffectSize>Small</GrainEffectSize>
+    <ColorChromeEffect>Strong</ColorChromeEffect>
+    <ColorChromeFXBlue>Strong</ColorChromeFXBlue>
+    <WhiteBalance>Kelvin</WhiteBalance>
+    <ColorTemperature>4900</ColorTemperature>
+    <WhiteBalanceFineTune>Red +80, Blue -120</WhiteBalanceFineTune>
+    <DevelopmentDynamicRange>400</DevelopmentDynamicRange>
+    <HighlightTone>-1 (medium soft)</HighlightTone>
+    <ShadowTone>-2 (soft)</ShadowTone>
+    <Saturation>0 (normal)</Saturation>
+    <Sharpness>Soft</Sharpness>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Clarity>-3</Clarity>
+    <Sensor>X-Trans IV</Sensor>
+  </profile>
+  <profile>
+    <Name>Kodak Portra 400 (IV)</Name>
+    <FilmMode>Classic Chrome</FilmMode>
+    <GrainEffectRoughness>Strong</GrainEffectRoughness>
+    <GrainEffectSize>Small</GrainEffectSize>
+    <ColorChromeEffect>Strong</ColorChromeEffect>
+    <ColorChromeFXBlue>Weak</ColorChromeFXBlue>
+    <WhiteBalance>Daylight</WhiteBalance>
+    <WhiteBalanceFineTune>Red +60, Blue -100</WhiteBalanceFineTune>
+    <HighlightTone>-1 (medium soft)</HighlightTone>
+    <ShadowTone>-2 (soft)</ShadowTone>
+    <Saturation>+2 (high)</Saturation>
+    <Sharpness>Soft</Sharpness>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Clarity>2</Clarity>
+    <Sensor>X-Trans IV</Sensor>
+  </profile>
+  <profile>
+    <Name>Kodak Portra 400 v2 (IV)</Name>
+    <FilmMode>Classic Chrome</FilmMode>
+    <GrainEffectRoughness>Strong</GrainEffectRoughness>
+    <GrainEffectSize>Small</GrainEffectSize>
+    <ColorChromeEffect>Strong</ColorChromeEffect>
+    <ColorChromeFXBlue>Weak</ColorChromeFXBlue>
+    <WhiteBalance>Kelvin</WhiteBalance>
+    <ColorTemperature>5200</ColorTemperature>
+    <WhiteBalanceFineTune>Red +20, Blue -120</WhiteBalanceFineTune>
+    <DevelopmentDynamicRange>400</DevelopmentDynamicRange>
+    <HighlightTone>0 (normal)</HighlightTone>
+    <ShadowTone>-2 (soft)</ShadowTone>
+    <Saturation>+2 (high)</Saturation>
+    <Sharpness>Soft</Sharpness>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Clarity>-2</Clarity>
+    <Sensor>X-Trans IV</Sensor>
+  </profile>
+  <profile>
+    <Name>Kodak Portra 400 Warm (IV)</Name>
+    <FilmMode>Classic Chrome</FilmMode>
+    <GrainEffectRoughness>Strong</GrainEffectRoughness>
+    <GrainEffectSize>Small</GrainEffectSize>
+    <ColorChromeEffect>Strong</ColorChromeEffect>
+    <ColorChromeFXBlue>Off</ColorChromeFXBlue>
+    <WhiteBalance>Kelvin</WhiteBalance>
+    <ColorTemperature>5500</ColorTemperature>
+    <WhiteBalanceFineTune>Red +0, Blue -140</WhiteBalanceFineTune>
+    <DevelopmentDynamicRange>400</DevelopmentDynamicRange>
+    <HighlightTone>-1 (medium soft)</HighlightTone>
+    <ShadowTone>-2 (soft)</ShadowTone>
+    <Saturation>+2 (high)</Saturation>
+    <Sharpness>Soft</Sharpness>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Clarity>-2</Clarity>
+    <Sensor>X-Trans IV</Sensor>
+  </profile>
+  <profile>
+    <Name>Reggie's Portra (IV)</Name>
+    <FilmMode>Classic Chrome</FilmMode>
+    <GrainEffectRoughness>Weak</GrainEffectRoughness>
+    <GrainEffectSize>Small</GrainEffectSize>
+    <ColorChromeEffect>Strong</ColorChromeEffect>
+    <ColorChromeFXBlue>Weak</ColorChromeFXBlue>
+    <WhiteBalance>Auto</WhiteBalance>
+    <WhiteBalanceFineTune>Red +40, Blue -80</WhiteBalanceFineTune>
+    <DevelopmentDynamicRange />
+    <HighlightTone>-1 (medium soft)</HighlightTone>
+    <ShadowTone>-1 (medium soft)</ShadowTone>
+    <Saturation>+2 (high)</Saturation>
+    <Sharpness>Soft</Sharpness>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Clarity>0</Clarity>
+    <Sensor>X-Trans IV</Sensor>
+  </profile>
+  <profile>
+    <Name>Portra Style (IV)</Name>
+    <FilmMode>Classic Chrome</FilmMode>
+    <GrainEffectRoughness>Strong</GrainEffectRoughness>
+    <GrainEffectSize>Small</GrainEffectSize>
+    <ColorChromeEffect>Strong</ColorChromeEffect>
+    <ColorChromeFXBlue>Weak</ColorChromeFXBlue>
+    <WhiteBalance>Kelvin</WhiteBalance>
+    <ColorTemperature>5000</ColorTemperature>
+    <WhiteBalanceFineTune>Red +40, Blue -120</WhiteBalanceFineTune>
+    <HighlightTone>0 (normal)</HighlightTone>
+    <ShadowTone>0 (normal)</ShadowTone>
+    <Saturation>+1 (medium high)</Saturation>
+    <Sharpness>Soft</Sharpness>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Clarity>3</Clarity>
+    <Sensor>X-Trans IV</Sensor>
+  </profile>
+  <profile>
+    <Name>Kodak Portra 800 (IV)</Name>
+    <FilmMode>Classic Chrome</FilmMode>
+    <GrainEffectRoughness>Strong</GrainEffectRoughness>
+    <GrainEffectSize>Large</GrainEffectSize>
+    <ColorChromeEffect>Strong</ColorChromeEffect>
+    <ColorChromeFXBlue>Weak</ColorChromeFXBlue>
+    <WhiteBalance>Kelvin</WhiteBalance>
+    <ColorTemperature>5200</ColorTemperature>
+    <WhiteBalanceFineTune>Red +20, Blue -100</WhiteBalanceFineTune>
+    <HighlightTone>+1 (medium hard)</HighlightTone>
+    <ShadowTone>0 (normal)</ShadowTone>
+    <Saturation>+3 (very high)</Saturation>
+    <Sharpness>Soft</Sharpness>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Clarity>-4</Clarity>
+    <Sensor>X-Trans IV</Sensor>
+  </profile>
+  <profile>
+    <Name>Kodak Portra 800 v2 (IV)</Name>
+    <FilmMode>Classic Chrome</FilmMode>
+    <GrainEffectRoughness>Strong</GrainEffectRoughness>
+    <GrainEffectSize>Large</GrainEffectSize>
+    <ColorChromeEffect>Strong</ColorChromeEffect>
+    <ColorChromeFXBlue>Strong</ColorChromeFXBlue>
+    <WhiteBalance>Daylight</WhiteBalance>
+    <WhiteBalanceFineTune>Red +60, Blue -120</WhiteBalanceFineTune>
+    <HighlightTone>0 (normal)</HighlightTone>
+    <ShadowTone>-2 (soft)</ShadowTone>
+    <Saturation>-4 (lowest)</Saturation>
+    <Sharpness>Soft</Sharpness>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Clarity>-5</Clarity>
+    <Sensor>X-Trans IV</Sensor>
+  </profile>
+  <profile>
+    <Name>Kodak Portra 800 v3 (IV)</Name>
+    <FilmMode>Classic Chrome</FilmMode>
+    <GrainEffectRoughness>Strong</GrainEffectRoughness>
+    <GrainEffectSize>Large</GrainEffectSize>
+    <ColorChromeEffect>Strong</ColorChromeEffect>
+    <ColorChromeFXBlue>Weak</ColorChromeFXBlue>
+    <WhiteBalance>Kelvin</WhiteBalance>
+    <ColorTemperature>6600</ColorTemperature>
+    <WhiteBalanceFineTune>Red -20, Blue -60</WhiteBalanceFineTune>
+    <HighlightTone>-2 (soft)</HighlightTone>
+    <ShadowTone>-0.5</ShadowTone>
+    <Saturation>+3 (very high)</Saturation>
+    <Sharpness>Soft</Sharpness>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Clarity>-3</Clarity>
+    <Sensor>X-Trans IV</Sensor>
+  </profile>
+  <profile>
+    <Name>Kodak Gold v2 (IV)</Name>
+    <FilmMode>Classic Chrome</FilmMode>
+    <GrainEffectRoughness>Strong</GrainEffectRoughness>
+    <GrainEffectSize>Large</GrainEffectSize>
+    <ColorChromeEffect>Weak</ColorChromeEffect>
+    <ColorChromeFXBlue>Off</ColorChromeFXBlue>
+    <WhiteBalance>Kelvin</WhiteBalance>
+    <ColorTemperature>5800</ColorTemperature>
+    <WhiteBalanceFineTune>Red +40, Blue +80</WhiteBalanceFineTune>
+    <HighlightTone>0 (normal)</HighlightTone>
+    <ShadowTone>-1 (medium soft)</ShadowTone>
+    <Saturation>-1 (medium low)</Saturation>
+    <Sharpness>Soft</Sharpness>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Clarity>-2</Clarity>
+    <Sensor>X-Trans IV</Sensor>
+  </profile>
+  <profile>
+    <Name>Kodak Ultramax 400 (IV)</Name>
+    <FilmMode>Classic Chrome</FilmMode>
+    <GrainEffectRoughness>Strong</GrainEffectRoughness>
+    <GrainEffectSize>Large</GrainEffectSize>
+    <ColorChromeEffect>Weak</ColorChromeEffect>
+    <ColorChromeFXBlue>Weak</ColorChromeFXBlue>
+    <WhiteBalance>Auto</WhiteBalance>
+    <WhiteBalanceFineTune>Red +20, Blue -100</WhiteBalanceFineTune>
+    <HighlightTone>+1 (medium hard)</HighlightTone>
+    <ShadowTone>+1 (medium hard)</ShadowTone>
+    <Saturation>+4 (highest)</Saturation>
+    <Sharpness>Normal</Sharpness>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Clarity>3</Clarity>
+    <Sensor>X-Trans IV</Sensor>
+  </profile>
+  <profile>
+    <Name>Kodak Max 800 (IV)</Name>
+    <FilmMode>Classic Negative</FilmMode>
+    <GrainEffectRoughness>Strong</GrainEffectRoughness>
+    <GrainEffectSize>Small</GrainEffectSize>
+    <ColorChromeEffect>Strong</ColorChromeEffect>
+    <ColorChromeFXBlue>Off</ColorChromeFXBlue>
+    <WhiteBalance>Kelvin</WhiteBalance>
+    <ColorTemperature>7300</ColorTemperature>
+    <WhiteBalanceFineTune>Red -100, Blue -40</WhiteBalanceFineTune>
+    <HighlightTone>-2 (soft)</HighlightTone>
+    <ShadowTone>+1 (medium hard)</ShadowTone>
+    <Saturation>-1 (medium low)</Saturation>
+    <Sharpness>Soft</Sharpness>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Clarity>-4</Clarity>
+    <Sensor>X-Trans IV</Sensor>
+  </profile>
+  <profile>
+    <Name>Kodak Royal Gold 400 (IV)</Name>
+    <FilmMode>Classic Negative</FilmMode>
+    <GrainEffectRoughness>Strong</GrainEffectRoughness>
+    <GrainEffectSize>Small</GrainEffectSize>
+    <ColorChromeEffect>Strong</ColorChromeEffect>
+    <ColorChromeFXBlue>Strong</ColorChromeFXBlue>
+    <WhiteBalance>Cloudy</WhiteBalance>
+    <WhiteBalanceFineTune>Red +60, Blue +100</WhiteBalanceFineTune>
+    <DevelopmentDynamicRange>400</DevelopmentDynamicRange>
+    <HighlightTone>-1 (medium soft)</HighlightTone>
+    <ShadowTone>+1 (medium hard)</ShadowTone>
+    <Saturation>+4 (highest)</Saturation>
+    <Sharpness>Soft</Sharpness>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Clarity>-3</Clarity>
+    <Sensor>X-Trans IV</Sensor>
+  </profile>
+  <profile>
+    <Name>Kodak Ektar 100 (IV)</Name>
+    <FilmMode>Classic Chrome</FilmMode>
+    <GrainEffectRoughness>Off</GrainEffectRoughness>
+    <GrainEffectSize>Off</GrainEffectSize>
+    <ColorChromeEffect>Strong</ColorChromeEffect>
+    <ColorChromeFXBlue>Weak</ColorChromeFXBlue>
+    <WhiteBalance>Kelvin</WhiteBalance>
+    <ColorTemperature>6050</ColorTemperature>
+    <WhiteBalanceFineTune>Red +60, Blue +0</WhiteBalanceFineTune>
+    <HighlightTone>+1 (medium hard)</HighlightTone>
+    <ShadowTone>-2 (soft)</ShadowTone>
+    <Saturation>+4 (highest)</Saturation>
+    <Sharpness>Normal</Sharpness>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Clarity>3</Clarity>
+    <Sensor>X-Trans IV</Sensor>
+  </profile>
+  
+  ///
+	<profile>
+    <Name>Elite Chrome 200 (IV)</Name>
+    <FilmMode>Classic Chrome</FilmMode>
+    <DevelopmentDynamicRange>400</DevelopmentDynamicRange>
+    <HighlightTone>-1 (medium soft)</HighlightTone>
+    <ShadowTone>+1 (medium hard)</ShadowTone>
+    <Saturation>-1 (medium low)</Saturation>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Sharpness>Soft</Sharpness>
+    <Clarity>-4</Clarity>
+    <GrainEffectRoughness>Strong</GrainEffectRoughness>
+    <GrainEffectSize>Large</GrainEffectSize>
+    <ColorChromeEffect>Strong</ColorChromeEffect>
+    <ColorChromeFXBlue>Weak</ColorChromeFXBlue>
+    <WhiteBalance>Daylight</WhiteBalance>
+    <WhiteBalanceFineTune>Red -20, Blue -60</WhiteBalanceFineTune>
+    <Sensor>X-Trans IV</Sensor>
+  </profile>
+  <profile>
+    <Name>Kodak High Definition Plus 200 (IV)</Name>
+    <FilmMode>Classic Chrome</FilmMode>
+    <DevelopmentDynamicRange>400</DevelopmentDynamicRange>
+    <HighlightTone>0 (normal)</HighlightTone>
+    <ShadowTone>+1 (medium hard)</ShadowTone>
+    <Saturation>+2 (high)</Saturation>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Sharpness>Normal</Sharpness>
+    <Clarity>-3</Clarity>
+    <GrainEffectRoughness>Weak</GrainEffectRoughness>
+    <GrainEffectSize>Small</GrainEffectSize>
+    <ColorChromeEffect>Weak</ColorChromeEffect>
+    <ColorChromeFXBlue>Weak</ColorChromeFXBlue>
+    <ColorTemperature>4800</ColorTemperature>
+    <WhiteBalance>Kelvin</WhiteBalance>
+    <WhiteBalanceFineTune>Red -40, Blue -140</WhiteBalanceFineTune>
+    <Sensor>X-Trans IV</Sensor>
+  </profile>
+  <profile>
+    <Name>Old Kodak (IV)</Name>
+    <FilmMode>Classic Chrome</FilmMode>
+    <DevelopmentDynamicRange>400</DevelopmentDynamicRange>
+    <HighlightTone>+3.5</HighlightTone>
+    <ShadowTone>-0.5</ShadowTone>
+    <Saturation>+3 (very high)</Saturation>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Sharpness>Soft</Sharpness>
+    <Clarity>-2</Clarity>
+    <GrainEffectRoughness>Strong</GrainEffectRoughness>
+    <GrainEffectSize>Small</GrainEffectSize>
+    <ColorChromeEffect>Strong</ColorChromeEffect>
+    <ColorChromeFXBlue>Strong</ColorChromeFXBlue>
+    <WhiteBalance>Auto (white priority)</WhiteBalance>
+    <WhiteBalanceFineTune>Red +20, Blue -120</WhiteBalanceFineTune>
+    <Sensor>X-Trans IV</Sensor>
+  </profile>
+  <profile>
+    <Name>KodaNeg VC (IV)</Name>
+    <FilmMode>F0/Standard (Provia)</FilmMode>
+    <DevelopmentDynamicRange>400</DevelopmentDynamicRange>
+    <HighlightTone>-1 (medium soft)</HighlightTone>
+    <ShadowTone>+1 (medium hard)</ShadowTone>
+    <Saturation>+4 (highest)</Saturation>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Sharpness>Normal</Sharpness>
+    <Clarity>+3</Clarity>
+    <GrainEffectRoughness>Weak</GrainEffectRoughness>
+    <GrainEffectSize>Small</GrainEffectSize>
+    <ColorChromeEffect>Strong</ColorChromeEffect>
+    <ColorChromeFXBlue>Off</ColorChromeFXBlue>
+    <WhiteBalance>Auto</WhiteBalance>
+    <WhiteBalanceFineTune>Red +120, Blue -120</WhiteBalanceFineTune>
+    <Sensor>X-Trans IV</Sensor>
+  </profile>
+  <profile>
+    <Name>Kodak Brilliance (IV)</Name>
+    <FilmMode>Classic Chrome</FilmMode>
+    <DevelopmentDynamicRange>200</DevelopmentDynamicRange>
+    <HighlightTone>+4 (hardest)</HighlightTone>
+    <ShadowTone>-2 (soft)</ShadowTone>
+    <Saturation>+4 (highest)</Saturation>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Sharpness>Soft</Sharpness>
+    <Clarity>+2</Clarity>
+    <GrainEffectRoughness>Weak</GrainEffectRoughness>
+    <GrainEffectSize>Small</GrainEffectSize>
+    <ColorChromeEffect>Strong</ColorChromeEffect>
+    <ColorChromeFXBlue>Weak</ColorChromeFXBlue>
+    <WhiteBalance>Daylight</WhiteBalance>
+    <WhiteBalanceFineTune>Red +40, Blue -20</WhiteBalanceFineTune>
+    <Sensor>X-Trans IV</Sensor>
+  </profile>
+  <profile>
+    <Name>Classic Color (IV)</Name>
+    <FilmMode>Classic Chrome</FilmMode>
+    <DevelopmentDynamicRange>400</DevelopmentDynamicRange>
+    <GrainEffectRoughness>Strong</GrainEffectRoughness>
+    <GrainEffectSize>Small</GrainEffectSize>
+    <ColorChromeEffect>Strong</ColorChromeEffect>
+    <ColorChromeFXBlue>Strong</ColorChromeFXBlue>
+    <ColorTemperature>5300</ColorTemperature>
+    <WhiteBalance>Kelvin</WhiteBalance>
+    <WhiteBalanceFineTune>Red +0, Blue -120</WhiteBalanceFineTune>
+    <HighlightTone>-0.5</HighlightTone>
+    <ShadowTone>-2 (soft)</ShadowTone>
+    <Saturation>+3 (very high)</Saturation>
+    <Sharpness>Soft</Sharpness>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Clarity>-2</Clarity>
+    <Sensor>X-Trans IV</Sensor>
+  </profile>
+  <profile>
+    <Name>Urban Dreams (IV)</Name>
+    <FilmMode>Classic Chrome</FilmMode>
+    <DevelopmentDynamicRange>400</DevelopmentDynamicRange>
+    <HighlightTone>-1 (medium soft)</HighlightTone>
+    <ShadowTone>+1 (medium hard)</ShadowTone>
+    <Saturation>+2 (high)</Saturation>
+    <NoiseReduction>-2 (weak)</NoiseReduction>
+    <Sharpness>Soft</Sharpness>
+    <Clarity>+2</Clarity>
+    <GrainEffectRoughness>Strong</GrainEffectRoughness>
+    <GrainEffectSize>Large</GrainEffectSize>
+    <ColorChromeEffect>Off</ColorChromeEffect>
+    <ColorChromeFXBlue>Off</ColorChromeFXBlue>
+    <WhiteBalance>Auto</WhiteBalance>
+    <WhiteBalanceFineTune>Red +0, Blue +40</WhiteBalanceFineTune>
+    <Sensor>X-Trans IV</Sensor>
+  </profile>
+  <profile>
+    <Name>Pure Negative (IV)</Name>
+    <FilmMode>Pro Neg. Std</FilmMode>
+    <DevelopmentDynamicRange>200</DevelopmentDynamicRange>
+    <HighlightTone>+1 (medium hard)</HighlightTone>
+    <ShadowTone>+2 (hard)</ShadowTone>
+    <Saturation>-4 (lowest)</Saturation>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Sharpness>Hard</Sharpness>
+    <Clarity>-2</Clarity>
+    <GrainEffectRoughness>Weak</GrainEffectRoughness>
+    <GrainEffectSize>Small</GrainEffectSize>
+    <ColorChromeEffect>Weak</ColorChromeEffect>
+    <ColorChromeFXBlue>Off</ColorChromeFXBlue>
+    <WhiteBalance>Auto</WhiteBalance>
+    <WhiteBalanceFineTune>Red +20, Blue -40</WhiteBalanceFineTune>
+    <Sensor>X-Trans IV</Sensor>
+  </profile>
+  <profile>
+    <Name>Chrome Slide (IV)</Name>
+    <FilmMode>Classic Negative</FilmMode>
+    <DevelopmentDynamicRange>400</DevelopmentDynamicRange>
+    <HighlightTone>+1 (medium hard)</HighlightTone>
+    <ShadowTone>+1 (medium hard)</ShadowTone>
+    <Saturation>+4 (highest)</Saturation>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Sharpness>Normal</Sharpness>
+    <Clarity>+3</Clarity>
+    <GrainEffectRoughness>Weak</GrainEffectRoughness>
+    <GrainEffectSize>Small</GrainEffectSize>
+    <ColorChromeEffect>Strong</ColorChromeEffect>
+    <ColorChromeFXBlue>Strong</ColorChromeFXBlue>
+    <WhiteBalance>Daylight</WhiteBalance>
+    <WhiteBalanceFineTune>Red -60, Blue +20</WhiteBalanceFineTune>
+    <Sensor>X-Trans IV</Sensor>
+  </profile>
+  <profile>
+    <Name>Positive Film (IV)</Name>
+    <FilmMode>Classic Negative</FilmMode>
+    <DevelopmentDynamicRange>400</DevelopmentDynamicRange>
+    <HighlightTone>+1 (medium hard)</HighlightTone>
+    <ShadowTone>+2 (hard)</ShadowTone>
+    <Saturation>+4 (highest)</Saturation>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Sharpness>Soft</Sharpness>
+    <Clarity>-4</Clarity>
+    <GrainEffectRoughness>Weak</GrainEffectRoughness>
+    <GrainEffectSize>Large</GrainEffectSize>
+    <ColorChromeEffect>Strong</ColorChromeEffect>
+    <ColorChromeFXBlue>Strong</ColorChromeFXBlue>
+    <ColorTemperature>2950</ColorTemperature>
+    <WhiteBalance>Kelvin</WhiteBalance>
+    <WhiteBalanceFineTune>Red +140, Blue -180</WhiteBalanceFineTune>
+    <Sensor>X-Trans IV</Sensor>
+  </profile>
+  <profile>
+    <Name>September Summer (IV)</Name>
+    <FilmMode>Classic Negative</FilmMode>
+    <DevelopmentDynamicRange>400</DevelopmentDynamicRange>
+    <HighlightTone>-1 (medium soft)</HighlightTone>
+    <ShadowTone>-1 (medium soft)</ShadowTone>
+    <Saturation>+1 (medium high)</Saturation>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Sharpness>Normal</Sharpness>
+    <Clarity>-4</Clarity>
+    <GrainEffectRoughness>Weak</GrainEffectRoughness>
+    <GrainEffectSize>Small</GrainEffectSize>
+    <ColorChromeEffect>Off</ColorChromeEffect>
+    <ColorChromeFXBlue>Weak</ColorChromeFXBlue>
+    <ColorTemperature>5500</ColorTemperature>
+    <WhiteBalance>Kelvin</WhiteBalance>
+    <WhiteBalanceFineTune>Red +60, Blue -140</WhiteBalanceFineTune>
+    <Sensor>X-Trans IV</Sensor>
+  </profile>
+  <profile>
+    <Name>Pacific Blues (IV)</Name>
+    <FilmMode>Classic Negative</FilmMode>
+    <DevelopmentDynamicRange>400</DevelopmentDynamicRange>
+    <HighlightTone>-2 (soft)</HighlightTone>
+    <ShadowTone>+3 (very hard)</ShadowTone>
+    <Saturation>+4 (highest)</Saturation>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Sharpness>Soft</Sharpness>
+    <Clarity>-3</Clarity>
+    <GrainEffectRoughness>Strong</GrainEffectRoughness>
+    <GrainEffectSize>Large</GrainEffectSize>
+    <ColorChromeEffect>Strong</ColorChromeEffect>
+    <ColorChromeFXBlue>Strong</ColorChromeFXBlue>
+    <ColorTemperature>5800</ColorTemperature>
+    <WhiteBalance>Kelvin</WhiteBalance>
+    <WhiteBalanceFineTune>Red +20, Blue -60</WhiteBalanceFineTune>
+    <Sensor>X-Trans IV</Sensor>
+  </profile>
+  <profile>
+    <Name>Nostalgia Color (IV)</Name>
+    <FilmMode>Classic Negative</FilmMode>
+    <DevelopmentDynamicRange>400</DevelopmentDynamicRange>
+    <HighlightTone>-1 (medium soft)</HighlightTone>
+    <ShadowTone>+3 (very hard)</ShadowTone>
+    <Saturation>-2 (low)</Saturation>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Sharpness>Soft</Sharpness>
+    <Clarity>-4</Clarity>
+    <GrainEffectRoughness>Strong</GrainEffectRoughness>
+    <GrainEffectSize>Large</GrainEffectSize>
+    <ColorChromeEffect>Strong</ColorChromeEffect>
+    <ColorChromeFXBlue>Weak</ColorChromeFXBlue>
+    <ColorTemperature>6700</ColorTemperature>
+    <WhiteBalance>Kelvin</WhiteBalance>
+    <WhiteBalanceFineTune>Red -80, Blue -20</WhiteBalanceFineTune>
+    <Sensor>X-Trans IV</Sensor>
+  </profile>
+  <profile>
+    <Name>Nostalgic Print (IV)</Name>
+    <FilmMode>Pro Neg. Std</FilmMode>
+    <DevelopmentDynamicRange>400</DevelopmentDynamicRange>
+    <HighlightTone>-2 (soft)</HighlightTone>
+    <ShadowTone>0 (normal)</ShadowTone>
+    <Saturation>-4 (lowest)</Saturation>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Sharpness>Soft</Sharpness>
+    <Clarity>-3</Clarity>
+    <GrainEffectRoughness>Strong</GrainEffectRoughness>
+    <GrainEffectSize>Small</GrainEffectSize>
+    <ColorChromeEffect>Weak</ColorChromeEffect>
+    <ColorChromeFXBlue>Weak</ColorChromeFXBlue>
+    <ColorTemperature>4700</ColorTemperature>
+    <WhiteBalance>Kelvin</WhiteBalance>
+    <WhiteBalanceFineTune>Red -60, Blue -80</WhiteBalanceFineTune>
+    <Sensor>X-Trans IV</Sensor>
+  </profile>
+  <profile>
+    <Name>Vintage Negative (IV)</Name>
+    <FilmMode>Classic Negative</FilmMode>
+    <DevelopmentDynamicRange>400</DevelopmentDynamicRange>
+    <HighlightTone>+1 (medium hard)</HighlightTone>
+    <ShadowTone>+2 (hard)</ShadowTone>
+    <Saturation>-3 (very low)</Saturation>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Sharpness>Soft</Sharpness>
+    <Clarity>-5</Clarity>
+    <GrainEffectRoughness>Strong</GrainEffectRoughness>
+    <GrainEffectSize>Large</GrainEffectSize>
+    <ColorChromeEffect>Strong</ColorChromeEffect>
+    <ColorChromeFXBlue>Strong</ColorChromeFXBlue>
+    <ColorTemperature>10000</ColorTemperature>
+    <WhiteBalance>Kelvin</WhiteBalance>
+    <WhiteBalanceFineTune>Red -120, Blue -100</WhiteBalanceFineTune>
+    <Sensor>X-Trans IV</Sensor>
+  </profile>
+  <profile>
+    <Name>Vintage Color v2 (IV)</Name>
+    <FilmMode>Classic Negative</FilmMode>
+    <DevelopmentDynamicRange>400</DevelopmentDynamicRange>
+    <HighlightTone>+2 (hard)</HighlightTone>
+    <ShadowTone>+3 (very hard)</ShadowTone>
+    <Saturation>-1 (medium low)</Saturation>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Sharpness>Soft</Sharpness>
+    <Clarity>-3</Clarity>
+    <GrainEffectRoughness>Strong</GrainEffectRoughness>
+    <GrainEffectSize>Large</GrainEffectSize>
+    <ColorChromeEffect>Strong</ColorChromeEffect>
+    <ColorChromeFXBlue>Strong</ColorChromeFXBlue>
+    <ColorTemperature>7350</ColorTemperature>
+    <WhiteBalance>Kelvin</WhiteBalance>
+    <WhiteBalanceFineTune>Red -20, Blue -80</WhiteBalanceFineTune>
+    <Sensor>X-Trans IV</Sensor>
+  </profile>
+  <profile>
+    <Name>Vintage Analog (IV)</Name>
+    <FilmMode>Classic Negative</FilmMode>
+    <DevelopmentDynamicRange>200</DevelopmentDynamicRange>
+    <HighlightTone>+2 (hard)</HighlightTone>
+    <ShadowTone>0 (normal)</ShadowTone>
+    <Saturation>-4 (lowest)</Saturation>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Sharpness>Soft</Sharpness>
+    <Clarity>-2</Clarity>
+    <GrainEffectRoughness>Strong</GrainEffectRoughness>
+    <GrainEffectSize>Small</GrainEffectSize>
+    <ColorChromeEffect>Off</ColorChromeEffect>
+    <ColorChromeFXBlue>Weak</ColorChromeFXBlue>
+    <ColorTemperature>9100</ColorTemperature>
+    <WhiteBalance>Kelvin</WhiteBalance>
+    <WhiteBalanceFineTune>Red -80, Blue +80</WhiteBalanceFineTune>
+    <Sensor>X-Trans IV</Sensor>
+  </profile>
+  <profile>
+    <Name>Vintage Print (IV)</Name>
+    <FilmMode>Classic Negative</FilmMode>
+    <DevelopmentDynamicRange>200</DevelopmentDynamicRange>
+    <GrainEffectRoughness>Strong</GrainEffectRoughness>
+    <GrainEffectSize>Large</GrainEffectSize>
+    <ColorChromeEffect>Strong</ColorChromeEffect>
+    <ColorChromeFXBlue>Strong</ColorChromeFXBlue>
+    <WhiteBalance>Daylight</WhiteBalance>
+    <WhiteBalanceFineTune>Red +60, Blue -120</WhiteBalanceFineTune>
+    <HighlightTone>+2 (hard)</HighlightTone>
+    <ShadowTone>-2 (soft)</ShadowTone>
+    <Saturation>-4 (lowest)</Saturation>
+    <Sharpness>Soft</Sharpness>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Clarity>-4</Clarity>
+    <Sensor>X-Trans IV</Sensor>
+  </profile>
+  <profile>
+    <Name>Vintage Vibe (IV)</Name>
+    <FilmMode>Classic Negative</FilmMode>
+    <DevelopmentDynamicRange>400</DevelopmentDynamicRange>
+    <HighlightTone>0 (normal)</HighlightTone>
+    <ShadowTone>-2 (soft)</ShadowTone>
+    <Saturation>+2 (high)</Saturation>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Sharpness>Soft</Sharpness>
+    <Clarity>-2</Clarity>
+    <GrainEffectRoughness>Strong</GrainEffectRoughness>
+    <GrainEffectSize>Small</GrainEffectSize>
+    <ColorChromeEffect>Strong</ColorChromeEffect>
+    <ColorChromeFXBlue>Weak</ColorChromeFXBlue>
+    <ColorTemperature>5200</ColorTemperature>
+    <WhiteBalance>Kelvin</WhiteBalance>
+    <WhiteBalanceFineTune>Red +20, Blue -120</WhiteBalanceFineTune>
+    <Sensor>X-Trans IV</Sensor>
+  </profile>
+  <profile>
+    <Name>Timeless Negative (IV)</Name>
+    <FilmMode>Eterna</FilmMode>
+    <DevelopmentDynamicRange>200</DevelopmentDynamicRange>
+    <HighlightTone>+1 (medium hard)</HighlightTone>
+    <ShadowTone>-1 (medium soft)</ShadowTone>
+    <Saturation>+3 (very high)</Saturation>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Sharpness>Normal</Sharpness>
+    <Clarity>-2</Clarity>
+    <GrainEffectRoughness>Weak</GrainEffectRoughness>
+    <GrainEffectSize>Small</GrainEffectSize>
+    <ColorChromeEffect>Strong</ColorChromeEffect>
+    <ColorChromeFXBlue>Weak</ColorChromeFXBlue>
+    <WhiteBalance>Auto</WhiteBalance>
+    <WhiteBalanceFineTune>Red +80, Blue -100</WhiteBalanceFineTune>
+    <Sensor>X-Trans IV</Sensor>
+  </profile>
+  <profile>
+    <Name>Eterna Summer (IV)</Name>
+    <FilmMode>Eterna</FilmMode>
+    <DevelopmentDynamicRange>200</DevelopmentDynamicRange>
+    <GrainEffectRoughness>Strong</GrainEffectRoughness>
+    <GrainEffectSize>Small</GrainEffectSize>
+    <ColorChromeEffect>Strong</ColorChromeEffect>
+    <ColorChromeFXBlue>Strong</ColorChromeFXBlue>
+    <WhiteBalance>Daylight</WhiteBalance>
+    <WhiteBalanceFineTune>Red +60, Blue -140</WhiteBalanceFineTune>
+    <HighlightTone>+2.5</HighlightTone>
+    <ShadowTone>0 (normal)</ShadowTone>
+    <Saturation>+4 (highest)</Saturation>
+    <Sharpness>Soft</Sharpness>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Clarity>-3</Clarity>
+    <Sensor>X-Trans IV</Sensor>
+  </profile>
+  <profile>
+    <Name>Eterna v2 (IV)</Name>
+    <FilmMode>Eterna</FilmMode>
+    <DevelopmentDynamicRange>400</DevelopmentDynamicRange>
+    <HighlightTone>+3 (very hard)</HighlightTone>
+    <ShadowTone>+2 (hard)</ShadowTone>
+    <Saturation>+3 (very high)</Saturation>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Sharpness>Normal</Sharpness>
+    <Clarity>-3</Clarity>
+    <GrainEffectRoughness>Strong</GrainEffectRoughness>
+    <GrainEffectSize>Small</GrainEffectSize>
+    <ColorChromeEffect>Strong</ColorChromeEffect>
+    <ColorChromeFXBlue>Strong</ColorChromeFXBlue>
+    <WhiteBalance>Auto</WhiteBalance>
+    <WhiteBalanceFineTune>Red +80, Blue -140</WhiteBalanceFineTune>
+    <Sensor>X-Trans IV</Sensor>
+  </profile>
+  <profile>
+    <Name>Arizona Analog (IV)</Name>
+    <FilmMode>Eterna</FilmMode>
+    <DevelopmentDynamicRange>400</DevelopmentDynamicRange>
+    <HighlightTone>-1 (medium soft)</HighlightTone>
+    <ShadowTone>+3 (very hard)</ShadowTone>
+    <Saturation>-2 (low)</Saturation>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Sharpness>Soft</Sharpness>
+    <Clarity>-3</Clarity>
+    <GrainEffectRoughness>Strong</GrainEffectRoughness>
+    <GrainEffectSize>Small</GrainEffectSize>
+    <ColorChromeEffect>Weak</ColorChromeEffect>
+    <ColorChromeFXBlue>Weak</ColorChromeFXBlue>
+    <WhiteBalance>Daylight</WhiteBalance>
+    <WhiteBalanceFineTune>Red +120, Blue -60</WhiteBalanceFineTune>
+    <Sensor>X-Trans IV</Sensor>
+  </profile>
+  <profile>
+    <Name>1960 Chrome (IV)</Name>
+    <FilmMode>Bleach Bypass</FilmMode>
+    <DevelopmentDynamicRange>400</DevelopmentDynamicRange>
+    <GrainEffectRoughness>Strong</GrainEffectRoughness>
+    <GrainEffectSize>Large</GrainEffectSize>
+    <ColorChromeEffect>Strong</ColorChromeEffect>
+    <ColorChromeFXBlue>Weak</ColorChromeFXBlue>
+    <WhiteBalance>Daylight Fluorescent</WhiteBalance>
+    <WhiteBalanceFineTune>Red -40, Blue -80</WhiteBalanceFineTune>
+    <HighlightTone>-2 (soft)</HighlightTone>
+    <ShadowTone>-1 (medium soft)</ShadowTone>
+    <Saturation>+2 (high)</Saturation>
+    <Sharpness>Soft</Sharpness>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Clarity>-2</Clarity>
+    <Sensor>X-Trans IV</Sensor>
+  </profile>
+  <profile>
+    <Name>Fujicolor Reala 100 (IV)</Name>
+    <FilmMode>Classic Negative</FilmMode>
+    <DevelopmentDynamicRange>400</DevelopmentDynamicRange>
+    <HighlightTone>-1 (medium soft)</HighlightTone>
+    <ShadowTone>-1 (medium soft)</ShadowTone>
+    <Saturation>+0</Saturation>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Sharpness>Soft</Sharpness>
+    <Clarity>-3</Clarity>
+    <GrainEffectRoughness>Weak</GrainEffectRoughness>
+    <GrainEffectSize>Small</GrainEffectSize>
+    <ColorChromeEffect>Strong</ColorChromeEffect>
+    <ColorChromeFXBlue>Strong</ColorChromeFXBlue>
+    <WhiteBalance>Daylight</WhiteBalance>
+    <WhiteBalanceFineTune>Red +0, Blue +0</WhiteBalanceFineTune>
+    <Sensor>X-Trans IV</Sensor>
+  </profile>
+  <profile>
+    <Name>Fujicolor Superia 100 (IV)</Name>
+    <FilmMode>Classic Negative</FilmMode>
+    <HighlightTone>-1 (medium soft)</HighlightTone>
+    <ShadowTone>-2 (soft)</ShadowTone>
+    <Saturation>+1 (medium high)</Saturation>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Sharpness>Soft</Sharpness>
+    <Clarity>-2</Clarity>
+    <GrainEffectRoughness>Weak</GrainEffectRoughness>
+    <GrainEffectSize>Small</GrainEffectSize>
+    <ColorChromeEffect>Strong</ColorChromeEffect>
+    <ColorChromeFXBlue>Weak</ColorChromeFXBlue>
+    <WhiteBalance>Daylight</WhiteBalance>
+    <WhiteBalanceFineTune>Red +0, Blue -20</WhiteBalanceFineTune>
+    <Sensor>X-Trans IV</Sensor>
+  </profile>
+  <profile>
+    <Name>Superia Xtra 400 (IV)</Name>
+    <FilmMode>Classic Negative</FilmMode>
+    <DevelopmentDynamicRange>400</DevelopmentDynamicRange>
+    <HighlightTone>0 (normal)</HighlightTone>
+    <ShadowTone>-1 (medium soft)</ShadowTone>
+    <Saturation>+4 (highest)</Saturation>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Sharpness>Soft</Sharpness>
+    <Clarity>-2</Clarity>
+    <GrainEffectRoughness>Strong</GrainEffectRoughness>
+    <GrainEffectSize>Small</GrainEffectSize>
+    <ColorChromeEffect>Off</ColorChromeEffect>
+    <ColorChromeFXBlue>Strong</ColorChromeFXBlue>
+    <WhiteBalance>Auto</WhiteBalance>
+    <WhiteBalanceFineTune>Red +60, Blue -100</WhiteBalanceFineTune>
+    <Sensor>X-Trans IV</Sensor>
+  </profile>
+  <profile>
+    <Name>Superia Premium 400 (IV)</Name>
+    <FilmMode>Classic Negative</FilmMode>
+    <DevelopmentDynamicRange>200</DevelopmentDynamicRange>
+    <HighlightTone>-2 (soft)</HighlightTone>
+    <ShadowTone>0 (normal)</ShadowTone>
+    <Saturation>+4 (highest)</Saturation>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Sharpness>Soft</Sharpness>
+    <Clarity>-2</Clarity>
+    <GrainEffectRoughness>Strong</GrainEffectRoughness>
+    <GrainEffectSize>Small</GrainEffectSize>
+    <ColorChromeEffect>Strong</ColorChromeEffect>
+    <ColorChromeFXBlue>Weak</ColorChromeFXBlue>
+    <ColorTemperature>4700</ColorTemperature>
+    <WhiteBalance>Kelvin</WhiteBalance>
+    <WhiteBalanceFineTune>Red +80, Blue -60</WhiteBalanceFineTune>
+    <Sensor>X-Trans IV</Sensor>
+  </profile>
+  <profile>
+    <Name>Fujicolor Superia 800 (IV)</Name>
+    <FilmMode>Classic Negative</FilmMode>
+    <DevelopmentDynamicRange>400</DevelopmentDynamicRange>
+    <HighlightTone>-1 (medium soft)</HighlightTone>
+    <ShadowTone>+1 (medium hard)</ShadowTone>
+    <Saturation>-1 (medium low)</Saturation>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Sharpness>Soft</Sharpness>
+    <Clarity>-4</Clarity>
+    <GrainEffectRoughness>Strong</GrainEffectRoughness>
+    <GrainEffectSize>Large</GrainEffectSize>
+    <ColorChromeEffect>Strong</ColorChromeEffect>
+    <ColorChromeFXBlue>Weak</ColorChromeFXBlue>
+    <WhiteBalance>Daylight</WhiteBalance>
+    <WhiteBalanceFineTune>Red -20, Blue -60</WhiteBalanceFineTune>
+    <Sensor>X-Trans IV</Sensor>
+  </profile>
+  <profile>
+    <Name>Fujicolor Superia 1600 (IV)</Name>
+    <FilmMode>Classic Negative</FilmMode>
+    <DevelopmentDynamicRange>400</DevelopmentDynamicRange>
+    <HighlightTone>0 (normal)</HighlightTone>
+    <ShadowTone>+2 (hard)</ShadowTone>
+    <Saturation>-3 (very low)</Saturation>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Sharpness>Soft</Sharpness>
+    <Clarity>-4</Clarity>
+    <GrainEffectRoughness>Strong</GrainEffectRoughness>
+    <GrainEffectSize>Large</GrainEffectSize>
+    <ColorChromeEffect>Strong</ColorChromeEffect>
+    <ColorChromeFXBlue>Strong</ColorChromeFXBlue>
+    <WhiteBalance>Daylight</WhiteBalance>
+    <WhiteBalanceFineTune>Red +60, Blue +20</WhiteBalanceFineTune>
+    <Sensor>X-Trans IV</Sensor>
+  </profile>
+  <profile>
+    <Name>Fujicolor Natura 1600</Name>
+    <FilmMode>Classic Negative</FilmMode>
+    <DevelopmentDynamicRange>400</DevelopmentDynamicRange>
+    <HighlightTone>-1.5</HighlightTone>
+    <ShadowTone>+1.5</ShadowTone>
+    <Saturation>-2 (low)</Saturation>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Sharpness>Soft</Sharpness>
+    <Clarity>-4</Clarity>
+    <GrainEffectRoughness>Strong</GrainEffectRoughness>
+    <GrainEffectSize>Large</GrainEffectSize>
+    <ColorChromeEffect>Strong</ColorChromeEffect>
+    <ColorChromeFXBlue>Strong</ColorChromeFXBlue>
+    <ColorTemperature>5500</ColorTemperature>
+    <WhiteBalance>Kelvin</WhiteBalance>
+    <WhiteBalanceFineTune>Red -20, Blue -40</WhiteBalanceFineTune>
+    <Sensor>X-Trans IV</Sensor>
+  </profile>
+  <profile>
+    <Name>Scanned Superia (IV)</Name>
+    <FilmMode>Classic Negative</FilmMode>
+    <DRangePriority>Fixed</DRangePriority>
+    <DRangePriorityAuto>Auto</DRangePriorityAuto>
+    <Saturation>+3 (very high)</Saturation>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Sharpness>Soft</Sharpness>
+    <Clarity>+3</Clarity>
+    <GrainEffectRoughness>Weak</GrainEffectRoughness>
+    <GrainEffectSize>Small</GrainEffectSize>
+    <ColorChromeEffect>Weak</ColorChromeEffect>
+    <ColorChromeFXBlue>Weak</ColorChromeFXBlue>
+    <WhiteBalance>Daylight</WhiteBalance>
+    <WhiteBalanceFineTune>Red -40, Blue +60</WhiteBalanceFineTune>
+    <Sensor>X-Trans IV</Sensor>
+  </profile>
+  <profile>
+    <Name>Superia Summer (IV)</Name>
+    <FilmMode>Classic Negative</FilmMode>
+    <DevelopmentDynamicRange>400</DevelopmentDynamicRange>
+    <HighlightTone>-1.5</HighlightTone>
+    <ShadowTone>-0.5</ShadowTone>
+    <Saturation>+1 (medium high)</Saturation>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Sharpness>Soft</Sharpness>
+    <Clarity>-4</Clarity>
+    <GrainEffectRoughness>Weak</GrainEffectRoughness>
+    <GrainEffectSize>Small</GrainEffectSize>
+    <ColorChromeEffect>Off</ColorChromeEffect>
+    <ColorChromeFXBlue>Weak</ColorChromeFXBlue>
+    <ColorTemperature>5300</ColorTemperature>
+    <WhiteBalance>Kelvin</WhiteBalance>
+    <WhiteBalanceFineTune>Red +60, Blue -120</WhiteBalanceFineTune>
+    <Sensor>X-Trans IV</Sensor>
+  </profile>
+  <profile>
+    <Name>Pulled Fujicolor Superia (IV)</Name>
+    <FilmMode>Classic Negative</FilmMode>
+    <DRangePriority>Fixed</DRangePriority>
+    <DRangePriorityAuto>Strong</DRangePriorityAuto>
+    <Saturation>+3 (very high)</Saturation>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Sharpness>Soft</Sharpness>
+    <Clarity>+2</Clarity>
+    <GrainEffectRoughness>Weak</GrainEffectRoughness>
+    <GrainEffectSize>Small</GrainEffectSize>
+    <ColorChromeEffect>Strong</ColorChromeEffect>
+    <ColorChromeFXBlue>Strong</ColorChromeFXBlue>
+    <WhiteBalance>Daylight</WhiteBalance>
+    <WhiteBalanceFineTune>Red -80, Blue -40</WhiteBalanceFineTune>
+    <Sensor>X-Trans IV</Sensor>
+  </profile>
+  <profile>
+    <Name>Fujicolor NPS 160 (IV)</Name>
+    <FilmMode>Classic Negative</FilmMode>
+    <DevelopmentDynamicRange>400</DevelopmentDynamicRange>
+    <HighlightTone>-2 (soft)</HighlightTone>
+    <ShadowTone>-2 (soft)</ShadowTone>
+    <Saturation>-4 (lowest)</Saturation>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Sharpness>Hard</Sharpness>
+    <Clarity>-2</Clarity>
+    <GrainEffectRoughness>Weak</GrainEffectRoughness>
+    <GrainEffectSize>Small</GrainEffectSize>
+    <ColorChromeEffect>Weak</ColorChromeEffect>
+    <ColorChromeFXBlue>Strong</ColorChromeFXBlue>
+    <WhiteBalance>Auto</WhiteBalance>
+    <WhiteBalanceFineTune>Red -20, Blue -80</WhiteBalanceFineTune>
+    <Sensor>X-Trans IV</Sensor>
+  </profile>
+  <profile>
+    <Name>Fujicolor 100 Gold (IV)</Name>
+    <FilmMode>Classic Negative</FilmMode>
+    <DevelopmentDynamicRange>400</DevelopmentDynamicRange>
+    <HighlightTone>-2 (soft)</HighlightTone>
+    <ShadowTone>+1 (medium hard)</ShadowTone>
+    <Saturation>+3 (very high)</Saturation>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Sharpness>Soft</Sharpness>
+    <Clarity>-2</Clarity>
+    <GrainEffectRoughness>Strong</GrainEffectRoughness>
+    <GrainEffectSize>Small</GrainEffectSize>
+    <ColorChromeEffect>Off</ColorChromeEffect>
+    <ColorChromeFXBlue>Off</ColorChromeFXBlue>
+    <WhiteBalance>Daylight</WhiteBalance>
+    <WhiteBalanceFineTune>Red +80, Blue -100</WhiteBalanceFineTune>
+    <Sensor>X-Trans IV</Sensor>
+  </profile>
+  <profile>
+    <Name>Magenta Negative (IV)</Name>
+    <FilmMode>Classic Negative</FilmMode>
+    <DevelopmentDynamicRange>400</DevelopmentDynamicRange>
+    <HighlightTone>-2 (soft)</HighlightTone>
+    <ShadowTone>-1 (medium soft)</ShadowTone>
+    <Saturation>0 (normal)</Saturation>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Sharpness>Soft</Sharpness>
+    <Clarity>-4</Clarity>
+    <GrainEffectRoughness>Strong</GrainEffectRoughness>
+    <GrainEffectSize>Large</GrainEffectSize>
+    <ColorChromeEffect>Strong</ColorChromeEffect>
+    <ColorChromeFXBlue>Strong</ColorChromeFXBlue>
+    <ColorTemperature>5100</ColorTemperature>
+    <WhiteBalance>Kelvin</WhiteBalance>
+    <WhiteBalanceFineTune>Red +80, Blue +40</WhiteBalanceFineTune>
+    <Sensor>X-Trans IV</Sensor>
+  </profile>
+  <profile>
+    <Name>Fujicolor C200 (IV)</Name>
+    <FilmMode>Classic Negative</FilmMode>
+    <DevelopmentDynamicRange>400</DevelopmentDynamicRange>
+    <HighlightTone>+0.5</HighlightTone>
+    <ShadowTone>-0.5</ShadowTone>
+    <Saturation>+2 (high)</Saturation>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Sharpness>Soft</Sharpness>
+    <Clarity>-3</Clarity>
+    <GrainEffectRoughness>Weak</GrainEffectRoughness>
+    <GrainEffectSize>Large</GrainEffectSize>
+    <ColorChromeEffect>Weak</ColorChromeEffect>
+    <ColorChromeFXBlue>Off</ColorChromeFXBlue>
+    <WhiteBalance>Daylight</WhiteBalance>
+    <WhiteBalanceFineTune>Red +0, Blue -60</WhiteBalanceFineTune>
+    <Sensor>X-Trans IV</Sensor>
+  </profile>
+  <profile>
+    <Name>Fujicolor Pro 400H (IV)</Name>
+    <FilmMode>Classic Negative</FilmMode>
+    <DevelopmentDynamicRange>400</DevelopmentDynamicRange>
+    <HighlightTone>-2 (soft)</HighlightTone>
+    <ShadowTone>+4 (hardest)</ShadowTone>
+    <Saturation>+4 (highest)</Saturation>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Sharpness>Soft</Sharpness>
+    <Clarity>-4</Clarity>
+    <GrainEffectRoughness>Strong</GrainEffectRoughness>
+    <GrainEffectSize>Small</GrainEffectSize>
+    <ColorChromeEffect>Strong</ColorChromeEffect>
+    <ColorChromeFXBlue>Weak</ColorChromeFXBlue>
+    <ColorTemperature>4900</ColorTemperature>
+    <WhiteBalance>Kelvin</WhiteBalance>
+    <WhiteBalanceFineTune>Red +0, Blue -80</WhiteBalanceFineTune>
+    <Sensor>X-Trans IV</Sensor>
+  </profile>
+  <profile>
+    <Name>Fujicolor NPH (IV)</Name>
+    <FilmMode>F0/Standard (Provia)</FilmMode>
+    <DevelopmentDynamicRange>100</DevelopmentDynamicRange>
+    <HighlightTone>-1 (medium soft)</HighlightTone>
+    <ShadowTone>0 (normal)</ShadowTone>
+    <Saturation>0 (normal)</Saturation>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Sharpness>Normal</Sharpness>
+    <Clarity>-3</Clarity>
+    <GrainEffectRoughness>Weak</GrainEffectRoughness>
+    <GrainEffectSize>Large</GrainEffectSize>
+    <ColorChromeEffect>Strong</ColorChromeEffect>
+    <ColorChromeFXBlue>Strong</ColorChromeFXBlue>
+    <ColorTemperature>5250</ColorTemperature>
+    <WhiteBalance>Kelvin</WhiteBalance>
+    <WhiteBalanceFineTune>Red -60, Blue -80</WhiteBalanceFineTune>
+    <Sensor>X-Trans IV</Sensor>
+  </profile>
+  <profile>
+    <Name>Fujicolor Negative (IV)</Name>
+    <FilmMode>Classic Negative</FilmMode>
+    <DevelopmentDynamicRange>400</DevelopmentDynamicRange>
+    <HighlightTone>-2 (soft)</HighlightTone>
+    <ShadowTone>+3 (very hard)</ShadowTone>
+    <Saturation>-4 (lowest)</Saturation>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Sharpness>Soft</Sharpness>
+    <Clarity>-3</Clarity>
+    <GrainEffectRoughness>Strong</GrainEffectRoughness>
+    <GrainEffectSize>Small</GrainEffectSize>
+    <ColorChromeEffect>Off</ColorChromeEffect>
+    <ColorChromeFXBlue>Off</ColorChromeFXBlue>
+    <WhiteBalance>Auto</WhiteBalance>
+    <WhiteBalanceFineTune>Red -20, Blue -120</WhiteBalanceFineTune>
+    <Sensor>X-Trans IV</Sensor>
+  </profile>
+  <profile>
+    <Name>Fujicolor Analog (IV)</Name>
+    <FilmMode>Classic Negative</FilmMode>
+    <DevelopmentDynamicRange>400</DevelopmentDynamicRange>
+    <HighlightTone>-1 (medium soft)</HighlightTone>
+    <ShadowTone>0 (normal)</ShadowTone>
+    <Saturation>-3 (very low)</Saturation>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Sharpness>Normal</Sharpness>
+    <Clarity>-3</Clarity>
+    <GrainEffectRoughness>Weak</GrainEffectRoughness>
+    <GrainEffectSize>Small</GrainEffectSize>
+    <ColorChromeEffect>Strong</ColorChromeEffect>
+    <ColorChromeFXBlue>Strong</ColorChromeFXBlue>
+    <ColorTemperature>6900</ColorTemperature>
+    <WhiteBalance>Kelvin</WhiteBalance>
+    <WhiteBalanceFineTune>Red -100, Blue +100</WhiteBalanceFineTune>
+    <Sensor>X-Trans IV</Sensor>
+  </profile>
+  <profile>
+    <Name>Fujicolor Super HG (IV)</Name>
+    <FilmMode>Classic Negative</FilmMode>
+    <DevelopmentDynamicRange>400</DevelopmentDynamicRange>
+    <HighlightTone>0 (normal)</HighlightTone>
+    <ShadowTone>+1 (medium hard)</ShadowTone>
+    <Saturation>+2 (high)</Saturation>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Sharpness>Normal</Sharpness>
+    <Clarity>-3</Clarity>
+    <GrainEffectRoughness>Weak</GrainEffectRoughness>
+    <GrainEffectSize>Large</GrainEffectSize>
+    <ColorChromeEffect>Weak</ColorChromeEffect>
+    <ColorChromeFXBlue>Strong</ColorChromeFXBlue>
+    <WhiteBalance>Day White Fluorescent</WhiteBalance>
+    <WhiteBalanceFineTune>Red -60, Blue -20</WhiteBalanceFineTune>
+    <Sensor>X-Trans IV</Sensor>
+  </profile>
+  <profile>
+    <Name>Fujicolor Super HG v2 (IV)</Name>
+    <FilmMode>Classic Negative</FilmMode>
+    <DevelopmentDynamicRange>400</DevelopmentDynamicRange>
+    <HighlightTone>-1 (medium soft)</HighlightTone>
+    <ShadowTone>+1 (medium hard)</ShadowTone>
+    <Saturation>+2 (high)</Saturation>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Sharpness>Normal</Sharpness>
+    <Clarity>+2</Clarity>
+    <GrainEffectRoughness>Weak</GrainEffectRoughness>
+    <GrainEffectSize>Large</GrainEffectSize>
+    <ColorChromeEffect>Weak</ColorChromeEffect>
+    <ColorChromeFXBlue>Strong</ColorChromeFXBlue>
+    <WhiteBalance>Auto (white priority)</WhiteBalance>
+    <WhiteBalanceFineTune>Red -60, Blue -20</WhiteBalanceFineTune>
+    <Sensor>X-Trans IV</Sensor>
+  </profile>
+  <profile>
+    <Name>Super HG Astia (IV)</Name>
+    <FilmMode>F1b/Studio Portrait Smooth Skin Tone (Astia)</FilmMode>
+    <DevelopmentDynamicRange>400</DevelopmentDynamicRange>
+    <HighlightTone>+2 (hard)</HighlightTone>
+    <ShadowTone>+1 (medium hard)</ShadowTone>
+    <Saturation>+2 (high)</Saturation>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Sharpness>Soft</Sharpness>
+    <Clarity>+2</Clarity>
+    <GrainEffectRoughness>Weak</GrainEffectRoughness>
+    <GrainEffectSize>Small</GrainEffectSize>
+    <ColorChromeEffect>Weak</ColorChromeEffect>
+    <ColorChromeFXBlue>Weak</ColorChromeFXBlue>
+    <WhiteBalance>Day White Fluorescent</WhiteBalance>
+    <WhiteBalanceFineTune>Red -60, Blue -20</WhiteBalanceFineTune>
+    <Sensor>X-Trans IV</Sensor>
+  </profile>
+  <profile>
+    <Name>Standard Provia (IV)</Name>
+    <FilmMode>F0/Standard (Provia)</FilmMode>
+    <DevelopmentDynamicRange>400</DevelopmentDynamicRange>
+    <HighlightTone>+2 (hard)</HighlightTone>
+    <ShadowTone>+1 (medium hard)</ShadowTone>
+    <Saturation>+2 (high)</Saturation>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Sharpness>Normal</Sharpness>
+    <Clarity>-3</Clarity>
+    <GrainEffectRoughness>Weak</GrainEffectRoughness>
+    <GrainEffectSize>Small</GrainEffectSize>
+    <ColorChromeEffect>Strong</ColorChromeEffect>
+    <ColorChromeFXBlue>Weak</ColorChromeFXBlue>
+    <WhiteBalance>Daylight</WhiteBalance>
+    <WhiteBalanceFineTune>Red -60, Blue +0</WhiteBalanceFineTune>
+    <Sensor>X-Trans IV</Sensor>
+  </profile>
+  <profile>
+    <Name>Fujichrome Provia 100F (IV)</Name>
+    <FilmMode>Classic Chrome</FilmMode>
+    <DevelopmentDynamicRange>400</DevelopmentDynamicRange>
+    <HighlightTone>-1 (medium soft)</HighlightTone>
+    <ShadowTone>+3 (very hard)</ShadowTone>
+    <Saturation>+4 (highest)</Saturation>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Sharpness>Soft</Sharpness>
+    <Clarity>-3</Clarity>
+    <GrainEffectRoughness>Weak</GrainEffectRoughness>
+    <GrainEffectSize>Small</GrainEffectSize>
+    <ColorChromeEffect>Strong</ColorChromeEffect>
+    <ColorChromeFXBlue>Strong</ColorChromeFXBlue>
+    <WhiteBalance>Daylight</WhiteBalance>
+    <WhiteBalanceFineTune>Red -40, Blue +100</WhiteBalanceFineTune>
+    <Sensor>X-Trans IV</Sensor>
+  </profile>
+  <profile>
+    <Name>Color Negative 400 (IV)</Name>
+    <FilmMode>Classic Negative</FilmMode>
+    <DevelopmentDynamicRange>400</DevelopmentDynamicRange>
+    <HighlightTone>0 (normal)</HighlightTone>
+    <ShadowTone>+4 (hardest)</ShadowTone>
+    <Saturation>+4 (highest)</Saturation>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Sharpness>Normal</Sharpness>
+    <Clarity>-5</Clarity>
+    <GrainEffectRoughness>Weak</GrainEffectRoughness>
+    <GrainEffectSize>Large</GrainEffectSize>
+    <ColorChromeEffect>Weak</ColorChromeEffect>
+    <ColorChromeFXBlue>Weak</ColorChromeFXBlue>
+    <WhiteBalance>Auto</WhiteBalance>
+    <WhiteBalanceFineTune>Red -40, Blue -80</WhiteBalanceFineTune>
+    <Sensor>X-Trans IV</Sensor>
+  </profile>
+  <profile>
+    <Name>PRO Negative 160C (IV)</Name>
+    <FilmMode>Pro Neg. Hi</FilmMode>
+    <DevelopmentDynamicRange>400</DevelopmentDynamicRange>
+    <GrainEffectRoughness>Weak</GrainEffectRoughness>
+    <GrainEffectSize>Small</GrainEffectSize>
+    <ColorChromeEffect>Strong</ColorChromeEffect>
+    <ColorChromeFXBlue>Weak</ColorChromeFXBlue>
+    <WhiteBalance>Auto</WhiteBalance>
+    <WhiteBalanceFineTune>Red +20, Blue -60</WhiteBalanceFineTune>
+    <HighlightTone>+0.5</HighlightTone>
+    <ShadowTone>-1.5</ShadowTone>
+    <Saturation>+4 (highest)</Saturation>
+    <Sharpness>Soft</Sharpness>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Clarity>-2</Clarity>
+    <Sensor>X-Trans IV</Sensor>
+  </profile>
+  <profile>
+    <Name>AgfaChrome RS 100 (IV)</Name>
+    <FilmMode>Classic Negative</FilmMode>
+    <DevelopmentDynamicRange>400</DevelopmentDynamicRange>
+    <HighlightTone>+1 (medium hard)</HighlightTone>
+    <ShadowTone>-1 (medium soft)</ShadowTone>
+    <Saturation>+2 (high)</Saturation>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Sharpness>Soft</Sharpness>
+    <Clarity>-3</Clarity>
+    <GrainEffectRoughness>Strong</GrainEffectRoughness>
+    <GrainEffectSize>Small</GrainEffectSize>
+    <ColorChromeEffect>Strong</ColorChromeEffect>
+    <ColorChromeFXBlue>Strong</ColorChromeFXBlue>
+    <WhiteBalance>Daylight</WhiteBalance>
+    <WhiteBalanceFineTune>Red -60, Blue +100</WhiteBalanceFineTune>
+    <Sensor>X-Trans IV</Sensor>
+  </profile>
+  <profile>
+    <Name>Agfa Ultra 100 (IV)</Name>
+    <FilmMode>Classic Negative</FilmMode>
+    <DevelopmentDynamicRange>400</DevelopmentDynamicRange>
+    <HighlightTone>+2 (hard)</HighlightTone>
+    <ShadowTone>-2 (soft)</ShadowTone>
+    <Saturation>+2 (high)</Saturation>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Sharpness>Soft</Sharpness>
+    <Clarity>-3</Clarity>
+    <GrainEffectRoughness>Weak</GrainEffectRoughness>
+    <GrainEffectSize>Large</GrainEffectSize>
+    <ColorChromeEffect>Strong</ColorChromeEffect>
+    <ColorChromeFXBlue>Strong</ColorChromeFXBlue>
+    <WhiteBalance>Daylight</WhiteBalance>
+    <WhiteBalanceFineTune>Red -40, Blue +60</WhiteBalanceFineTune>
+    <Sensor>X-Trans IV</Sensor>
+  </profile>
+  <profile>
+    <Name>Agfa Vista 100 (IV)</Name>
+    <FilmMode>Classic Negative</FilmMode>
+    <DevelopmentDynamicRange>200</DevelopmentDynamicRange>
+    <HighlightTone>+1 (medium hard)</HighlightTone>
+    <ShadowTone>-2 (soft)</ShadowTone>
+    <Saturation>+2 (high)</Saturation>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Sharpness>-0</Sharpness>
+    <Clarity>+3</Clarity>
+    <GrainEffectRoughness>Strong</GrainEffectRoughness>
+    <GrainEffectSize>Small</GrainEffectSize>
+    <ColorChromeEffect>Weak</ColorChromeEffect>
+    <ColorChromeFXBlue>Weak</ColorChromeFXBlue>
+    <ColorTemperature>5600</ColorTemperature>
+    <WhiteBalance>Kelvin</WhiteBalance>
+    <WhiteBalanceFineTune>Red -80, Blue -100</WhiteBalanceFineTune>
+    <Sensor>X-Trans IV</Sensor>
+  </profile>
+  <profile>
+    <Name>Classic Negative (IV)</Name>
+    <FilmMode>Classic Negative</FilmMode>
+    <DevelopmentDynamicRange>200</DevelopmentDynamicRange>
+    <HighlightTone>+1 (medium hard)</HighlightTone>
+    <ShadowTone>0 (normal)</ShadowTone>
+    <Saturation>+3 (very high)</Saturation>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Sharpness>Normal</Sharpness>
+    <Clarity>+2</Clarity>
+    <GrainEffectRoughness>Weak</GrainEffectRoughness>
+    <GrainEffectSize>Large</GrainEffectSize>
+    <ColorChromeEffect>Weak</ColorChromeEffect>
+    <ColorChromeFXBlue>Weak</ColorChromeFXBlue>
+    <WhiteBalance>Auto</WhiteBalance>
+    <WhiteBalanceFineTune>Red +80, Blue -80</WhiteBalanceFineTune>
+    <Sensor>X-Trans IV</Sensor>
+  </profile>
+  <profile>
+    <Name>Amanda's Classic Negative</Name>
+    <FilmMode>Classic Negative</FilmMode>
+    <DevelopmentDynamicRange>200</DevelopmentDynamicRange>
+    <HighlightTone>+1 (medium hard)</HighlightTone>
+    <ShadowTone>+1.5</ShadowTone>
+    <Saturation>+3 (very high)</Saturation>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Sharpness>Hard</Sharpness>
+    <Clarity>0</Clarity>
+    <GrainEffectRoughness>Weak</GrainEffectRoughness>
+    <GrainEffectSize>Small</GrainEffectSize>
+    <ColorChromeEffect>Strong</ColorChromeEffect>
+    <ColorChromeFXBlue>Weak</ColorChromeFXBlue>
+    <WhiteBalance>Auto</WhiteBalance>
+    <WhiteBalanceFineTune>Red +0, Blue +0</WhiteBalanceFineTune>
+    <Sensor>X-Trans IV</Sensor>
+  </profile>
+  <profile>
+    <Name>Retro Gold (IV)</Name>
+    <FilmMode>Classic Chrome</FilmMode>
+    <DevelopmentDynamicRange>400</DevelopmentDynamicRange>
+    <HighlightTone>+4 (hardest)</HighlightTone>
+    <ShadowTone>+2 (hard)</ShadowTone>
+    <Saturation>+4 (highest)</Saturation>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Sharpness>Normal</Sharpness>
+    <Clarity>-2</Clarity>
+    <GrainEffectRoughness>Weak</GrainEffectRoughness>
+    <GrainEffectSize>Small</GrainEffectSize>
+    <ColorChromeEffect>Strong</ColorChromeEffect>
+    <ColorChromeFXBlue>Strong</ColorChromeFXBlue>
+    <WhiteBalance>White Fluorescent</WhiteBalance>
+    <WhiteBalanceFineTune>Red +80, Blue -120</WhiteBalanceFineTune>
+    <Sensor>X-Trans IV</Sensor>
+  </profile>
+  <profile>
+    <Name>Retro Gold Low Contrast (IV)</Name>
+    <FilmMode>Classic Chrome</FilmMode>
+    <DevelopmentDynamicRange>400</DevelopmentDynamicRange>
+    <HighlightTone>0 (normal)</HighlightTone>
+    <ShadowTone>-2 (soft)</ShadowTone>
+    <Saturation>+4 (highest)</Saturation>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Sharpness>Normal</Sharpness>
+    <Clarity>-3</Clarity>
+    <GrainEffectRoughness>Weak</GrainEffectRoughness>
+    <GrainEffectSize>Small</GrainEffectSize>
+    <ColorChromeEffect>Strong</ColorChromeEffect>
+    <ColorChromeFXBlue>Strong</ColorChromeFXBlue>
+    <WhiteBalance>White Fluorescent</WhiteBalance>
+    <WhiteBalanceFineTune>Red +80, Blue -120</WhiteBalanceFineTune>
+    <Sensor>X-Trans IV</Sensor>
+  </profile>
+  <profile>
+    <Name>SantaColor (IV)</Name>
+    <FilmMode>Eterna</FilmMode>
+    <DevelopmentDynamicRange>200</DevelopmentDynamicRange>
+    <HighlightTone>-2 (soft)</HighlightTone>
+    <ShadowTone>+4 (hardest)</ShadowTone>
+    <Saturation>+4 (highest)</Saturation>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Sharpness>Soft</Sharpness>
+    <Clarity>-3</Clarity>
+    <GrainEffectRoughness>Weak</GrainEffectRoughness>
+    <GrainEffectSize>Small</GrainEffectSize>
+    <ColorChromeEffect>Strong</ColorChromeEffect>
+    <ColorChromeFXBlue>Off</ColorChromeFXBlue>
+    <ColorTemperature>5100</ColorTemperature>
+    <WhiteBalance>Kelvin</WhiteBalance>
+    <WhiteBalanceFineTune>Red +100, Blue -60</WhiteBalanceFineTune>
+    <Sensor>X-Trans IV</Sensor>
+  </profile>
+  <profile>
+    <Name>Creamy Color (IV)</Name>
+    <FilmMode>Classic Negative</FilmMode>
+    <DevelopmentDynamicRange>400</DevelopmentDynamicRange>
+    <HighlightTone>+4 (hardest)</HighlightTone>
+    <ShadowTone>+4 (hardest)</ShadowTone>
+    <Saturation>-4 (lowest)</Saturation>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Sharpness>Soft</Sharpness>
+    <Clarity>-5</Clarity>
+    <GrainEffectRoughness>Strong</GrainEffectRoughness>
+    <GrainEffectSize>Large</GrainEffectSize>
+    <ColorChromeEffect>Strong</ColorChromeEffect>
+    <ColorChromeFXBlue>Strong</ColorChromeFXBlue>
+    <ColorTemperature>8700</ColorTemperature>
+    <WhiteBalance>Kelvin</WhiteBalance>
+    <WhiteBalanceFineTune>Red +80, Blue +120</WhiteBalanceFineTune>
+    <Sensor>X-Trans IV</Sensor>
+  </profile>
+  <profile>
+    <Name>Nature Neon</Name>
+    <FilmMode>Classic Chrome</FilmMode>
+    <DevelopmentDynamicRange>400</DevelopmentDynamicRange>
+    <HighlightTone>0 (normal)</HighlightTone>
+    <ShadowTone>+2 (hard)</ShadowTone>
+    <Saturation>+3 (very high)</Saturation>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Sharpness>Soft</Sharpness>
+    <Clarity>-4</Clarity>
+    <GrainEffectRoughness>Weak</GrainEffectRoughness>
+    <GrainEffectSize>Small</GrainEffectSize>
+    <ColorChromeEffect>Weak</ColorChromeEffect>
+    <ColorChromeFXBlue>Weak</ColorChromeFXBlue>
+    <WhiteBalance>Daylight Fluorescent</WhiteBalance>
+    <WhiteBalanceFineTune>Red +40, Blue -100</WhiteBalanceFineTune>
+    <Sensor>X-Trans IV</Sensor>
+  </profile>
+  <profile>
+    <Name>Grizzly Ride (IV)</Name>
+    <FilmMode>Bleach Bypass</FilmMode>
+    <DevelopmentDynamicRange>200</DevelopmentDynamicRange>
+    <HighlightTone>0 (normal)</HighlightTone>
+    <ShadowTone>+2.5</ShadowTone>
+    <Saturation>-2 (low)</Saturation>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Sharpness>Soft</Sharpness>
+    <Clarity>-5</Clarity>
+    <GrainEffectRoughness>Strong</GrainEffectRoughness>
+    <GrainEffectSize>Large</GrainEffectSize>
+    <ColorChromeEffect>Strong</ColorChromeEffect>
+    <ColorChromeFXBlue>Strong</ColorChromeFXBlue>
+    <ColorTemperature>6990</ColorTemperature>
+    <WhiteBalance>Kelvin</WhiteBalance>
+    <WhiteBalanceFineTune>Red +60, Blue -140</WhiteBalanceFineTune>
+    <Sensor>X-Trans IV</Sensor>
+  </profile>
+  <profile>
+    <Name>Analog Gold (IV)</Name>
+    <FilmMode>Bleach Bypass</FilmMode>
+    <DevelopmentDynamicRange>400</DevelopmentDynamicRange>
+    <HighlightTone>-2 (soft)</HighlightTone>
+    <ShadowTone>+1.5</ShadowTone>
+    <Saturation>+3 (very high)</Saturation>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Sharpness>Soft</Sharpness>
+    <Clarity>-4</Clarity>
+    <GrainEffectRoughness>Strong</GrainEffectRoughness>
+    <GrainEffectSize>Small</GrainEffectSize>
+    <ColorChromeEffect>Strong</ColorChromeEffect>
+    <ColorChromeFXBlue>Off</ColorChromeFXBlue>
+    <WhiteBalance>Daylight</WhiteBalance>
+    <WhiteBalanceFineTune>Red +80, Blue -180</WhiteBalanceFineTune>
+    <Sensor>X-Trans IV</Sensor>
+  </profile>
+  <profile>
+    <Name>Vibrant Arizona (IV)</Name>
+    <FilmMode>Classic Chrome</FilmMode>
+    <GrainEffectRoughness>Weak</GrainEffectRoughness>
+    <GrainEffectSize>Small</GrainEffectSize>
+    <ColorChromeEffect>Off</ColorChromeEffect>
+    <ColorChromeFXBlue>Weak</ColorChromeFXBlue>
+    <ColorTemperature>4350</ColorTemperature>
+    <WhiteBalance>Kelvin</WhiteBalance>
+    <WhiteBalanceFineTune>Red +120, Blue -160</WhiteBalanceFineTune>
+    <DRangePriority>Fixed</DRangePriority>
+    <DRangePriorityAuto>Strong</DRangePriorityAuto>
+    <Saturation>+4 (highest)</Saturation>
+    <Sharpness>Soft</Sharpness>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Clarity>-3</Clarity>
+    <Sensor>X-Trans IV</Sensor>
+  </profile>
+  <profile>
+    <Name>Indoor Angouleme (IV)</Name>
+    <FilmMode>Nostalgic Neg</FilmMode>
+    <GrainEffectRoughness>Weak</GrainEffectRoughness>
+    <GrainEffectSize>Small</GrainEffectSize>
+    <ColorChromeEffect>Strong</ColorChromeEffect>
+    <ColorChromeFXBlue>Weak</ColorChromeFXBlue>
+    <WhiteBalance>Auto (ambiance priority)</WhiteBalance>
+    <WhiteBalanceFineTune>Red -40, Blue -120</WhiteBalanceFineTune>
+    <DevelopmentDynamicRange>400</DevelopmentDynamicRange>
+    <HighlightTone>-2 (soft)</HighlightTone>
+    <ShadowTone>-2 (soft)</ShadowTone>
+    <Saturation>-1 (medium low)</Saturation>
+    <Sharpness>Soft</Sharpness>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Clarity>-3</Clarity>
+    <Sensor>X-Trans IV</Sensor>
+  </profile>
+  <profile>
+    <Name>GAF 500 (IV)</Name>
+    <FilmMode>Eterna</FilmMode>
+    <DevelopmentDynamicRange>100</DevelopmentDynamicRange>
+    <HighlightTone>+2 (hard)</HighlightTone>
+    <ShadowTone>+4 (hardest)</ShadowTone>
+    <Saturation>0 (normal)</Saturation>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Sharpness>Soft</Sharpness>
+    <Clarity>-2</Clarity>
+    <GrainEffectRoughness>Strong</GrainEffectRoughness>
+    <GrainEffectSize>Large</GrainEffectSize>
+    <ColorChromeEffect>Off</ColorChromeEffect>
+    <ColorChromeFXBlue>Strong</ColorChromeFXBlue>
+    <ColorTemperature>2900</ColorTemperature>
+    <WhiteBalance>Kelvin</WhiteBalance>
+    <WhiteBalanceFineTune>Red +180, Blue -180</WhiteBalanceFineTune>
+    <Sensor>X-Trans IV</Sensor>
+  </profile>
+  <profile>
+    <Name>Low Key (IV)</Name>
+    <FilmMode>Classic Negative</FilmMode>
+    <DevelopmentDynamicRange>200</DevelopmentDynamicRange>
+    <HighlightTone>+1 (medium hard)</HighlightTone>
+    <ShadowTone>+2 (hard)</ShadowTone>
+    <Saturation>+4 (highest)</Saturation>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Sharpness>Soft</Sharpness>
+    <Clarity>-2</Clarity>
+    <GrainEffectRoughness>Weak</GrainEffectRoughness>
+    <GrainEffectSize>Small</GrainEffectSize>
+    <ColorChromeEffect>Strong</ColorChromeEffect>
+    <ColorChromeFXBlue>Weak</ColorChromeFXBlue>
+    <WhiteBalance>Daylight</WhiteBalance>
+    <WhiteBalanceFineTune>Red -40, Blue -80</WhiteBalanceFineTune>
+    <Sensor>X-Trans IV</Sensor>
+  </profile>
+  <profile>
+    <Name>The Rockwell (IV)</Name>
+    <FilmMode>F2/Fujichrome (Velvia)</FilmMode>
+    <DevelopmentDynamicRange>200</DevelopmentDynamicRange>
+    <HighlightTone>-1 (medium soft)</HighlightTone>
+    <ShadowTone>-1 (medium soft)</ShadowTone>
+    <Saturation>+4 (highest)</Saturation>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Sharpness>Hard</Sharpness>
+    <Clarity>+5</Clarity>
+    <GrainEffectRoughness>Weak</GrainEffectRoughness>
+    <GrainEffectSize>Small</GrainEffectSize>
+    <ColorChromeEffect>Strong</ColorChromeEffect>
+    <ColorChromeFXBlue>Strong</ColorChromeFXBlue>
+    <WhiteBalance>Auto</WhiteBalance>
+    <WhiteBalanceFineTune>Red +20, Blue -20</WhiteBalanceFineTune>
+    <Sensor>X-Trans IV</Sensor>
+  </profile>
+  <profile>
+    <Name>Vibrant Velvia (IV)</Name>
+    <FilmMode>F2/Fujichrome (Velvia)</FilmMode>
+    <DevelopmentDynamicRange>400</DevelopmentDynamicRange>
+    <HighlightTone>-2 (soft)</HighlightTone>
+    <ShadowTone>-1 (medium soft)</ShadowTone>
+    <Saturation>+4 (highest)</Saturation>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Sharpness>Normal</Sharpness>
+    <Clarity>+4</Clarity>
+    <GrainEffectRoughness>Weak</GrainEffectRoughness>
+    <GrainEffectSize>Small</GrainEffectSize>
+    <ColorChromeEffect>Strong</ColorChromeEffect>
+    <ColorChromeFXBlue>Strong</ColorChromeFXBlue>
+    <WhiteBalance>Daylight</WhiteBalance>
+    <WhiteBalanceFineTune>Red -20, Blue +20</WhiteBalanceFineTune>
+    <Sensor>X-Trans IV</Sensor>
+  </profile>
+  <profile>
+    <Name>Bleach Bypass (IV)</Name>
+    <FilmMode>Classic Negative</FilmMode>
+    <DevelopmentDynamicRange>100</DevelopmentDynamicRange>
+    <HighlightTone>+2 (hard)</HighlightTone>
+    <ShadowTone>+4 (hardest)</ShadowTone>
+    <Saturation>-4 (lowest)</Saturation>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Sharpness>Soft</Sharpness>
+    <Clarity>+3</Clarity>
+    <GrainEffectRoughness>Strong</GrainEffectRoughness>
+    <GrainEffectSize>Large</GrainEffectSize>
+    <ColorChromeEffect>Weak</ColorChromeEffect>
+    <ColorChromeFXBlue>Strong</ColorChromeFXBlue>
+    <WhiteBalance>Daylight</WhiteBalance>
+    <WhiteBalanceFineTune>Red -20, Blue +20</WhiteBalanceFineTune>
+    <Sensor>X-Trans IV</Sensor>
+  </profile>
+  <profile>
+    <Name>Eterna Bleach Bypass (IV)</Name>
+    <FilmMode>Bleach Bypass</FilmMode>
+    <GrainEffectRoughness>Weak</GrainEffectRoughness>
+    <GrainEffectSize>Small</GrainEffectSize>
+    <ColorChromeEffect>Off</ColorChromeEffect>
+    <ColorChromeFXBlue>Strong</ColorChromeFXBlue>
+    <WhiteBalance>Daylight</WhiteBalance>
+    <WhiteBalanceFineTune>Red +0, Blue +0</WhiteBalanceFineTune>
+    <DevelopmentDynamicRange>400</DevelopmentDynamicRange>
+    <HighlightTone>+2.5</HighlightTone>
+    <ShadowTone>-1.5</ShadowTone>
+    <Saturation>-4 (lowest)</Saturation>
+    <Sharpness>Normal</Sharpness>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Clarity>+2</Clarity>
+    <Sensor>X-Trans IV</Sensor>
+  </profile>
+  <profile>
+    <Name>Muted Color (IV)</Name>
+    <FilmMode>Bleach Bypass</FilmMode>
+    <DevelopmentDynamicRange>400</DevelopmentDynamicRange>
+    <HighlightTone>-0.5</HighlightTone>
+    <ShadowTone>+1 (medium hard)</ShadowTone>
+    <Saturation>-4 (lowest)</Saturation>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Sharpness>Normal</Sharpness>
+    <Clarity>-2</Clarity>
+    <GrainEffectRoughness>Weak</GrainEffectRoughness>
+    <GrainEffectSize>Small</GrainEffectSize>
+    <ColorChromeEffect>Strong</ColorChromeEffect>
+    <ColorChromeFXBlue>Weak</ColorChromeFXBlue>
+    <WhiteBalance>Auto</WhiteBalance>
+    <WhiteBalanceFineTune>Red +60, Blue -160</WhiteBalanceFineTune>
+    <Sensor>X-Trans IV</Sensor>
+  </profile>
+  <profile>
+    <Name>Ferrania Solaris FG 400 (IV)</Name>
+    <FilmMode>Bleach Bypass</FilmMode>
+    <DevelopmentDynamicRange>400</DevelopmentDynamicRange>
+    <HighlightTone>0 (normal)</HighlightTone>
+    <ShadowTone>-2 (soft)</ShadowTone>
+    <Saturation>+2 (high)</Saturation>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Sharpness>Soft</Sharpness>
+    <Clarity>-2</Clarity>
+    <GrainEffectRoughness>Strong</GrainEffectRoughness>
+    <GrainEffectSize>Small</GrainEffectSize>
+    <ColorChromeEffect>Strong</ColorChromeEffect>
+    <ColorChromeFXBlue>Weak</ColorChromeFXBlue>
+    <ColorTemperature>5200</ColorTemperature>
+    <WhiteBalance>Kelvin</WhiteBalance>
+    <WhiteBalanceFineTune>Red +20, Blue -120</WhiteBalanceFineTune>
+    <Sensor>X-Trans IV</Sensor>
+  </profile>
+  <profile>
+    <Name>LomoChrome Metropolis (IV)</Name>
+    <FilmMode>Bleach Bypass</FilmMode>
+    <DevelopmentDynamicRange>200</DevelopmentDynamicRange>
+    <HighlightTone>+1 (medium hard)</HighlightTone>
+    <ShadowTone>+2.5</ShadowTone>
+    <Saturation>-2 (low)</Saturation>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Sharpness>Soft</Sharpness>
+    <Clarity>+4</Clarity>
+    <GrainEffectRoughness>Strong</GrainEffectRoughness>
+    <GrainEffectSize>Small</GrainEffectSize>
+    <ColorChromeEffect>Strong</ColorChromeEffect>
+    <ColorChromeFXBlue>Strong</ColorChromeFXBlue>
+    <WhiteBalance>Auto (white priority)</WhiteBalance>
+    <WhiteBalanceFineTune>Red +20, Blue -140</WhiteBalanceFineTune>
+    <Sensor>X-Trans IV</Sensor>
+  </profile>
+  <profile>
+    <Name>Silver Summer (IV)</Name>
+    <FilmMode>Bleach Bypass</FilmMode>
+    <DevelopmentDynamicRange>400</DevelopmentDynamicRange>
+    <HighlightTone>-1 (medium soft)</HighlightTone>
+    <ShadowTone>+1 (medium hard)</ShadowTone>
+    <Saturation>+4 (highest)</Saturation>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Sharpness>Soft</Sharpness>
+    <Clarity>-3</Clarity>
+    <GrainEffectRoughness>Strong</GrainEffectRoughness>
+    <GrainEffectSize>Small</GrainEffectSize>
+    <ColorChromeEffect>Strong</ColorChromeEffect>
+    <ColorChromeFXBlue>Strong</ColorChromeFXBlue>
+    <ColorTemperature>5300</ColorTemperature>
+    <WhiteBalance>Kelvin</WhiteBalance>
+    <WhiteBalanceFineTune>Red -60, Blue -120</WhiteBalanceFineTune>
+    <Sensor>X-Trans IV</Sensor>
+  </profile>
+  <profile>
+    <Name>Ektachrome 320T (IV)</Name>
+    <FilmMode>Bleach Bypass</FilmMode>
+    <DevelopmentDynamicRange>400</DevelopmentDynamicRange>
+    <HighlightTone>+1 (medium hard)</HighlightTone>
+    <ShadowTone>-2 (soft)</ShadowTone>
+    <Saturation>+4 (highest)</Saturation>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Sharpness>Normal</Sharpness>
+    <Clarity>-3</Clarity>
+    <GrainEffectRoughness>Strong</GrainEffectRoughness>
+    <GrainEffectSize>Small</GrainEffectSize>
+    <ColorChromeEffect>Strong</ColorChromeEffect>
+    <ColorChromeFXBlue>Strong</ColorChromeFXBlue>
+    <WhiteBalance>Auto (ambiance priority)</WhiteBalance>
+    <WhiteBalanceFineTune>Red -120, Blue -100</WhiteBalanceFineTune>
+    <Sensor>X-Trans IV</Sensor>
+  </profile>
+  <profile>
+    <Name>Expired ECN-2 100T (IV)</Name>
+    <FilmMode>Bleach Bypass</FilmMode>
+    <DevelopmentDynamicRange>400</DevelopmentDynamicRange>
+    <GrainEffectRoughness>Strong</GrainEffectRoughness>
+    <GrainEffectSize>Large</GrainEffectSize>
+    <ColorChromeEffect>Strong</ColorChromeEffect>
+    <ColorChromeFXBlue>Strong</ColorChromeFXBlue>
+    <ColorTemperature>6000</ColorTemperature>
+    <WhiteBalance>Kelvin</WhiteBalance>
+    <WhiteBalanceFineTune>Red -180, Blue -120</WhiteBalanceFineTune>
+    <HighlightTone>+0.5</HighlightTone>
+    <ShadowTone>-1 (medium soft)</ShadowTone>
+    <Saturation>+1 (medium high)</Saturation>
+    <Sharpness>Soft</Sharpness>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Clarity>-4</Clarity>
+    <Sensor>X-Trans IV</Sensor>
+  </profile>
+  <profile>
+    <Name>Faded Negative (IV)</Name>
+    <FilmMode>Classic Negative</FilmMode>
+    <DevelopmentDynamicRange>400</DevelopmentDynamicRange>
+    <HighlightTone>+3 (very hard)</HighlightTone>
+    <ShadowTone>+4 (hardest)</ShadowTone>
+    <Saturation>-2 (low)</Saturation>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Sharpness>Soft</Sharpness>
+    <Clarity>0</Clarity>
+    <GrainEffectRoughness>Weak</GrainEffectRoughness>
+    <GrainEffectSize>Large</GrainEffectSize>
+    <ColorChromeEffect>Strong</ColorChromeEffect>
+    <ColorChromeFXBlue>Strong</ColorChromeFXBlue>
+    <WhiteBalance>Auto</WhiteBalance>
+    <WhiteBalanceFineTune>Red +80, Blue -120</WhiteBalanceFineTune>
+    <Sensor>X-Trans IV</Sensor>
+  </profile>
+  <profile>
+    <Name>CineStill 50D (IV)</Name>
+    <FilmMode>F1b/Studio Portrait Smooth Skin Tone (Astia)</FilmMode>
+    <DevelopmentDynamicRange>200</DevelopmentDynamicRange>
+    <HighlightTone>-1 (medium soft)</HighlightTone>
+    <ShadowTone>0 (normal)</ShadowTone>
+    <Saturation>-4 (lowest)</Saturation>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Sharpness>Normal</Sharpness>
+    <Clarity>-4</Clarity>
+    <GrainEffectRoughness>Weak</GrainEffectRoughness>
+    <GrainEffectSize>Small</GrainEffectSize>
+    <ColorChromeEffect>Strong</ColorChromeEffect>
+    <ColorChromeFXBlue>Off</ColorChromeFXBlue>
+    <ColorTemperature>6800</ColorTemperature>
+    <WhiteBalance>Kelvin</WhiteBalance>
+    <WhiteBalanceFineTune>Red -100, Blue -60</WhiteBalanceFineTune>
+    <Sensor>X-Trans IV</Sensor>
+  </profile>
+  <profile>
+    <Name>Bright Kodak (IV)</Name>
+    <FilmMode>Classic Chrome</FilmMode>
+    <DevelopmentDynamicRange>400</DevelopmentDynamicRange>
+    <HighlightTone>-2 (soft)</HighlightTone>
+    <ShadowTone>-2 (soft)</ShadowTone>
+    <Saturation>+4 (highest)</Saturation>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Sharpness>Soft</Sharpness>
+    <Clarity>-3</Clarity>
+    <GrainEffectRoughness>Strong</GrainEffectRoughness>
+    <GrainEffectSize>Large</GrainEffectSize>
+    <ColorChromeEffect>Off</ColorChromeEffect>
+    <ColorChromeFXBlue>Off</ColorChromeFXBlue>
+    <WhiteBalance>Daylight</WhiteBalance>
+    <WhiteBalanceFineTune>Red +60, Blue -140</WhiteBalanceFineTune>
+    <Sensor>X-Trans IV</Sensor>
+  </profile>
+  <profile>
+    <Name>Bright Summer (IV)</Name>
+    <FilmMode>Classic Chrome</FilmMode>
+    <DevelopmentDynamicRange>400</DevelopmentDynamicRange>
+    <HighlightTone>-2 (soft)</HighlightTone>
+    <ShadowTone>-2 (soft)</ShadowTone>
+    <Saturation>+4 (highest)</Saturation>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Sharpness>Normal</Sharpness>
+    <Clarity>-5</Clarity>
+    <GrainEffect>Off</GrainEffect>
+    <ColorChromeEffect>Strong</ColorChromeEffect>
+    <ColorChromeFXBlue>Off</ColorChromeFXBlue>
+    <ColorTemperature>7100</ColorTemperature>
+    <WhiteBalance>Kelvin</WhiteBalance>
+    <WhiteBalanceFineTune>Red -80, Blue -40</WhiteBalanceFineTune>
+    <Sensor>X-Trans IV</Sensor>
+  </profile>
+  <profile>
+    <Name>Expired Velvia (IV)</Name>
+    <FilmMode>Classic Negative</FilmMode>
+    <GrainEffectRoughness>Weak</GrainEffectRoughness>
+    <GrainEffectSize>Small</GrainEffectSize>
+    <ColorChromeEffect>Strong</ColorChromeEffect>
+    <ColorChromeFXBlue>Off</ColorChromeFXBlue>
+    <ColorTemperature>6400</ColorTemperature>
+    <WhiteBalance>Kelvin</WhiteBalance>
+    <WhiteBalanceFineTune>Red -20, Blue +160</WhiteBalanceFineTune>
+    <DevelopmentDynamicRange>400</DevelopmentDynamicRange>
+    <HighlightTone>+2 (hard)</HighlightTone>
+    <ShadowTone>-2 (soft)</ShadowTone>
+    <Saturation>+3 (very high)</Saturation>
+    <Sharpness>Soft</Sharpness>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Clarity>-4</Clarity>
+    <Sensor>X-Trans IV</Sensor>
+  </profile>
+  <profile>
+    <Name>Expired Slide (IV)</Name>
+    <FilmMode>F2/Fujichrome (Velvia)</FilmMode>
+    <DevelopmentDynamicRange>400</DevelopmentDynamicRange>
+    <HighlightTone>+2 (hard)</HighlightTone>
+    <ShadowTone>-1 (medium soft)</ShadowTone>
+    <Saturation>-4 (lowest)</Saturation>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Sharpness>Soft</Sharpness>
+    <Clarity>-2</Clarity>
+    <GrainEffectRoughness>Strong</GrainEffectRoughness>
+    <GrainEffectSize>Large</GrainEffectSize>
+    <ColorChromeEffect>Strong</ColorChromeEffect>
+    <ColorChromeFXBlue>Strong</ColorChromeFXBlue>
+    <ColorTemperature>5500</ColorTemperature>
+    <WhiteBalance>Kelvin</WhiteBalance>
+    <WhiteBalanceFineTune>Red +140, Blue -40</WhiteBalanceFineTune>
+    <Sensor>X-Trans IV</Sensor>
+  </profile>
+  <profile>
+    <Name>Expired Slide v2 (IV)</Name>
+    <FilmMode>F2/Fujichrome (Velvia)</FilmMode>
+    <DevelopmentDynamicRange>400</DevelopmentDynamicRange>
+    <HighlightTone>+2 (hard)</HighlightTone>
+    <ShadowTone>-1 (medium soft)</ShadowTone>
+    <Saturation>-4 (lowest)</Saturation>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Sharpness>Soft</Sharpness>
+    <Clarity>-2</Clarity>
+    <GrainEffectRoughness>Strong</GrainEffectRoughness>
+    <GrainEffectSize>Large</GrainEffectSize>
+    <ColorChromeEffect>Strong</ColorChromeEffect>
+    <ColorChromeFXBlue>Strong</ColorChromeFXBlue>
+    <ColorTemperature>5000</ColorTemperature>
+    <WhiteBalance>Kelvin</WhiteBalance>
+    <WhiteBalanceFineTune>Red +160, Blue +0</WhiteBalanceFineTune>
+    <Sensor>X-Trans IV</Sensor>
+  </profile>
+  <profile>
+    <Name>Xpro 62</Name>
+    <FilmMode>Classic Negative</FilmMode>
+    <DevelopmentDynamicRange>400</DevelopmentDynamicRange>
+    <HighlightTone>+3 (very hard)</HighlightTone>
+    <ShadowTone>0 (normal)</ShadowTone>
+    <Saturation>+4 (highest)</Saturation>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Sharpness>Soft</Sharpness>
+    <Clarity>-4</Clarity>
+    <GrainEffectRoughness>Strong</GrainEffectRoughness>
+    <GrainEffectSize>Large</GrainEffectSize>
+    <ColorChromeEffect>Strong</ColorChromeEffect>
+    <ColorChromeFXBlue>Strong</ColorChromeFXBlue>
+    <WhiteBalance>Auto</WhiteBalance>
+    <WhiteBalanceFineTune>Red -60, Blue -180</WhiteBalanceFineTune>
+    <Sensor>X-Trans IV</Sensor>
+  </profile>
+  <profile>
+    <Name>Cine Teal (IV)</Name>
+    <FilmMode>Eterna</FilmMode>
+    <DevelopmentDynamicRange>200</DevelopmentDynamicRange>
+    <HighlightTone>-2 (soft)</HighlightTone>
+    <ShadowTone>+4 (hardest)</ShadowTone>
+    <Saturation>-1 (medium low)</Saturation>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Sharpness>Soft</Sharpness>
+    <Clarity>-5</Clarity>
+    <GrainEffectRoughness>Weak</GrainEffectRoughness>
+    <GrainEffectSize>Large</GrainEffectSize>
+    <ColorChromeEffect>Weak</ColorChromeEffect>
+    <ColorChromeFXBlue>Strong</ColorChromeFXBlue>
+    <ColorTemperature>4550</ColorTemperature>
+    <WhiteBalance>Kelvin</WhiteBalance>
+    <WhiteBalanceFineTune>Red +20, Blue -180</WhiteBalanceFineTune>
+    <Sensor>X-Trans IV</Sensor>
+  </profile>
+  <profile>
+    <Name>CineStill 800T (IV)</Name>
+    <FilmMode>Eterna</FilmMode>
+    <DevelopmentDynamicRange>400</DevelopmentDynamicRange>
+    <HighlightTone>0 (normal)</HighlightTone>
+    <ShadowTone>+2 (hard)</ShadowTone>
+    <Saturation>+4 (highest)</Saturation>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Sharpness>Soft</Sharpness>
+    <Clarity>-5</Clarity>
+    <GrainEffectRoughness>Strong</GrainEffectRoughness>
+    <GrainEffectSize>Large</GrainEffectSize>
+    <ColorChromeEffect>Strong</ColorChromeEffect>
+    <ColorChromeFXBlue>Strong</ColorChromeFXBlue>
+    <WhiteBalance>White Fluorescent</WhiteBalance>
+    <WhiteBalanceFineTune>Red -120, Blue -80</WhiteBalanceFineTune>
+    <Sensor>X-Trans IV</Sensor>
+  </profile>
+  <profile>
+    <Name>Pushed CineStill 800T (IV)</Name>
+    <FilmMode>Bleach Bypass</FilmMode>
+    <DevelopmentDynamicRange>400</DevelopmentDynamicRange>
+    <HighlightTone>-0.5</HighlightTone>
+    <ShadowTone>-1.5</ShadowTone>
+    <Saturation>+3 (very high)</Saturation>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Sharpness>Normal</Sharpness>
+    <Clarity>-3</Clarity>
+    <GrainEffectRoughness>Strong</GrainEffectRoughness>
+    <GrainEffectSize>Large</GrainEffectSize>
+    <ColorChromeEffect>Strong</ColorChromeEffect>
+    <ColorChromeFXBlue>Strong</ColorChromeFXBlue>
+    <ColorTemperature>7700</ColorTemperature>
+    <WhiteBalance>Kelvin</WhiteBalance>
+    <WhiteBalanceFineTune>Red -180, Blue +100</WhiteBalanceFineTune>
+    <Sensor>X-Trans IV</Sensor>
+  </profile>
+  <profile>
+    <Name>Serrs 500T (IV)</Name>
+    <FilmMode>Classic Chrome</FilmMode>
+    <HighlightTone>-2 (soft)</HighlightTone>
+    <ShadowTone>-1 (medium soft)</ShadowTone>
+    <Saturation>-1 (medium low)</Saturation>
+    <NoiseReduction>-2 (weak)</NoiseReduction>
+    <Sharpness>Soft</Sharpness>
+    <Clarity>0</Clarity>
+    <GrainEffectRoughness>Strong</GrainEffectRoughness>
+    <GrainEffectSize>Large</GrainEffectSize>
+    <ColorChromeEffect>Strong</ColorChromeEffect>
+    <ColorChromeFXBlue>Strong</ColorChromeFXBlue>
+    <ColorTemperature>3200</ColorTemperature>
+    <WhiteBalance>Kelvin</WhiteBalance>
+    <WhiteBalanceFineTune>Red -20, Blue +80</WhiteBalanceFineTune>
+    <Sensor>X-Trans IV</Sensor>
+  </profile>
+  <profile>
+    <Name>Kodak TRIX400 (IV)</Name>
+    <FilmMode>None</FilmMode>
+    <GrainEffectRoughness>Strong</GrainEffectRoughness>
+    <GrainEffectSize>Large</GrainEffectSize>
+    <ColorChromeEffect>Strong</ColorChromeEffect>
+    <ColorChromeFXBlue>Off</ColorChromeFXBlue>
+    <WhiteBalance>Daylight</WhiteBalance>
+    <WhiteBalanceFineTune>Red +180, Blue -180</WhiteBalanceFineTune>
+    <DevelopmentDynamicRange>200</DevelopmentDynamicRange>
+    <HighlightTone>0 (normal)</HighlightTone>
+    <ShadowTone>+3 (very hard)</ShadowTone>
+    <Saturation>Acros Red Filter</Saturation>
+    <Sharpness>Hard</Sharpness>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Clarity>4</Clarity>
+    <Sensor>X-Trans IV</Sensor>
+  </profile>
+  <profile>
+    <Name>Kodak TRIX400 v2 (V)</Name>
+    <FilmMode>None</FilmMode>
+    <GrainEffectRoughness>Strong</GrainEffectRoughness>
+    <GrainEffectSize>Large</GrainEffectSize>
+    <ColorChromeEffect>Strong</ColorChromeEffect>
+    <ColorChromeFXBlue>Off</ColorChromeFXBlue>
+    <WhiteBalance>Daylight</WhiteBalance>
+    <WhiteBalanceFineTune>Red +180, Blue -180</WhiteBalanceFineTune>
+    <DevelopmentDynamicRange>200</DevelopmentDynamicRange>
+    <HighlightTone>+1 (medium hard)</HighlightTone>
+    <ShadowTone>+4 (hardest)</ShadowTone>
+    <Saturation>Acros Red Filter</Saturation>
+    <Sharpness>Hard</Sharpness>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Clarity>0</Clarity>
+    <Sensor>X-Trans V</Sensor>
+  </profile>
+  <profile>
+    <Name>Kodak T-Max P3200 (IV)</Name>
+    <FilmMode>None</FilmMode>
+    <GrainEffectRoughness>Strong</GrainEffectRoughness>
+    <GrainEffectSize>Large</GrainEffectSize>
+    <ColorChromeEffect>Off</ColorChromeEffect>
+    <ColorChromeFXBlue>Off</ColorChromeFXBlue>
+    <WhiteBalance>Kelvin</WhiteBalance>
+    <ColorTemperature>5500</ColorTemperature>
+    <WhiteBalanceFineTune>Red +80, Blue +140</WhiteBalanceFineTune>
+    <BWAdjustment>-1</BWAdjustment>
+    <BWMagentaGreen>-1</BWMagentaGreen>
+    <DevelopmentDynamicRange>400</DevelopmentDynamicRange>
+    <HighlightTone>+1 (medium hard)</HighlightTone>
+    <ShadowTone>+3 (very hard)</ShadowTone>
+    <Saturation>Acros</Saturation>
+    <Sharpness>Hard</Sharpness>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Clarity>1</Clarity>
+    <Sensor>X-Trans IV</Sensor>
+  </profile>
+  <profile>
+    <Name>Kodak T-Max 400 (IV)</Name>
+    <FilmMode>None</FilmMode>
+    <DevelopmentDynamicRange>200</DevelopmentDynamicRange>
+    <HighlightTone>0 (normal)</HighlightTone>
+    <ShadowTone>+3 (very hard)</ShadowTone>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Sharpness>Hard</Sharpness>
+    <Clarity>+3</Clarity>
+    <BWAdjustment>+2</BWAdjustment>
+    <BWMagentaGreen>0</BWMagentaGreen>
+    <GrainEffectRoughness>Strong</GrainEffectRoughness>
+    <GrainEffectSize>Small</GrainEffectSize>
+    <ColorChromeEffect>Strong</ColorChromeEffect>
+    <ColorChromeFXBlue>Off</ColorChromeFXBlue>
+    <WhiteBalance>Daylight</WhiteBalance>
+    <WhiteBalanceFineTune>Red +180, Blue -180</WhiteBalanceFineTune>
+    <Saturation>B&amp;W Green Filter</Saturation>
+    <Sensor>X-Trans IV</Sensor>
+  </profile>
+  <profile>
+    <Name>B&amp;W Superia</Name>
+    <FilmMode>None</FilmMode>
+    <DevelopmentDynamicRange>400</DevelopmentDynamicRange>
+    <HighlightTone>0 (normal)</HighlightTone>
+    <ShadowTone>+2 (hard)</ShadowTone>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Sharpness>Soft</Sharpness>
+    <Clarity>-4</Clarity>
+    <GrainEffectRoughness>Weak</GrainEffectRoughness>
+    <GrainEffectSize>Large</GrainEffectSize>
+    <ColorChromeEffect>Strong</ColorChromeEffect>
+    <ColorChromeFXBlue>Strong</ColorChromeFXBlue>
+    <BWAdjustment>+2</BWAdjustment>
+    <BWMagentaGreen>0</BWMagentaGreen>
+    <WhiteBalance>Auto</WhiteBalance>
+    <WhiteBalanceFineTune>Red +0, Blue +0</WhiteBalanceFineTune>
+    <Saturation>Acros Green Filter</Saturation>
+    <Sensor>X-Trans IV</Sensor>
+  </profile>
+  <profile>
+    <Name>Classic Monochrome (IV)</Name>
+    <FilmMode>None</FilmMode>
+    <DevelopmentDynamicRange>100</DevelopmentDynamicRange>
+    <HighlightTone>+4 (hardest)</HighlightTone>
+    <ShadowTone>+2 (hard)</ShadowTone>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Sharpness>Hard</Sharpness>
+    <Clarity>+4</Clarity>
+    <BWAdjustment>+1</BWAdjustment>
+    <BWMagentaGreen>0</BWMagentaGreen>
+    <GrainEffectRoughness>Weak</GrainEffectRoughness>
+    <GrainEffectSize>Small</GrainEffectSize>
+    <ColorChromeEffect>Strong</ColorChromeEffect>
+    <ColorChromeFXBlue>Strong</ColorChromeFXBlue>
+    <WhiteBalance>Auto</WhiteBalance>
+    <WhiteBalanceFineTune>Red +0, Blue +0</WhiteBalanceFineTune>
+    <Saturation>B&amp;W Red Filter</Saturation>
+    <Sensor>X-Trans IV</Sensor>
+  </profile>
+  <profile>
+    <Name>Monochrome Negative (IV)</Name>
+    <FilmMode>None</FilmMode>
+    <DevelopmentDynamicRange>400</DevelopmentDynamicRange>
+    <HighlightTone>+3 (very hard)</HighlightTone>
+    <ShadowTone>0 (normal)</ShadowTone>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Sharpness>Soft</Sharpness>
+    <Clarity>0</Clarity>
+    <GrainEffectRoughness>Strong</GrainEffectRoughness>
+    <GrainEffectSize>Small</GrainEffectSize>
+    <ColorChromeEffect>Off</ColorChromeEffect>
+    <ColorChromeFXBlue>Off</ColorChromeFXBlue>
+    <WhiteBalance>Daylight</WhiteBalance>
+    <WhiteBalanceFineTune>Red +0, Blue +0</WhiteBalanceFineTune>
+    <Saturation>Acros Red Filter</Saturation>
+    <Sensor>X-Trans IV</Sensor>
+  </profile>
+  <profile>
+    <Name>Kentmere Pan 400 (IV)</Name>
+    <FilmMode>None</FilmMode>
+    <BWAdjustment>0</BWAdjustment>
+    <BWMagentaGreen>0</BWMagentaGreen>
+    <GrainEffectRoughness>Strong</GrainEffectRoughness>
+    <GrainEffectSize>Large</GrainEffectSize>
+    <ColorChromeEffect>Off</ColorChromeEffect>
+    <ColorChromeFXBlue>Off</ColorChromeFXBlue>
+    <WhiteBalance>Auto</WhiteBalance>
+    <WhiteBalanceFineTune>Red +140, Blue +120</WhiteBalanceFineTune>
+    <HighlightTone>+1 (medium hard)</HighlightTone>
+    <ShadowTone>+1 (medium hard)</ShadowTone>
+    <Sharpness>Hard</Sharpness>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Clarity>+1</Clarity>
+    <Saturation>Acros Green Filter</Saturation>
+    <Sensor>X-Trans IV</Sensor>
+  </profile>
+  <profile>
+    <Name>Ilford HP5 Plus 400 (IV)</Name>
+    <FilmMode>None</FilmMode>
+    <DevelopmentDynamicRange>400</DevelopmentDynamicRange>
+    <HighlightTone>-1 (medium soft)</HighlightTone>
+    <ShadowTone>+1 (medium hard)</ShadowTone>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Sharpness>Soft</Sharpness>
+    <Clarity>0</Clarity>
+    <GrainEffectRoughness>Strong</GrainEffectRoughness>
+    <GrainEffectSize>Large</GrainEffectSize>
+    <ColorChromeEffect>Off</ColorChromeEffect>
+    <ColorChromeFXBlue>Off</ColorChromeFXBlue>
+    <WhiteBalance>Daylight</WhiteBalance>
+    <WhiteBalanceFineTune>Red +20, Blue -160</WhiteBalanceFineTune>
+    <Saturation>Acros Green Filter</Saturation>
+    <Sensor>X-Trans IV</Sensor>
+  </profile>
+  <profile>
+    <Name>Ilford Pan F Plus 50 (IV)</Name>
+    <FilmMode>None</FilmMode>
+    <DevelopmentDynamicRange>100</DevelopmentDynamicRange>
+    <HighlightTone>0 (normal)</HighlightTone>
+    <ShadowTone>+1 (medium hard)</ShadowTone>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Sharpness>Normal</Sharpness>
+    <Clarity>+2</Clarity>
+    <GrainEffectRoughness>Weak</GrainEffectRoughness>
+    <GrainEffectSize>Large</GrainEffectSize>
+    <ColorChromeEffect>Off</ColorChromeEffect>
+    <ColorChromeFXBlue>Off</ColorChromeFXBlue>
+    <WhiteBalance>Daylight</WhiteBalance>
+    <WhiteBalanceFineTune>Red +20, Blue -120</WhiteBalanceFineTune>
+    <Saturation>B&amp;W Red Filter</Saturation>
+    <Sensor>X-Trans IV</Sensor>
+  </profile>
+  <profile>
+    <Name>Ilford Ortho Plus 80 (IV)</Name>
+    <FilmMode>None</FilmMode>
+    <DevelopmentDynamicRange>400</DevelopmentDynamicRange>
+    <HighlightTone>+2 (hard)</HighlightTone>
+    <ShadowTone>+3 (very hard)</ShadowTone>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Sharpness>Hard</Sharpness>
+    <Clarity>-2</Clarity>
+    <BWAdjustment>+1</BWAdjustment>
+    <BWMagentaGreen>0</BWMagentaGreen>
+    <GrainEffectRoughness>Weak</GrainEffectRoughness>
+    <GrainEffectSize>Small</GrainEffectSize>
+    <ColorChromeEffect>Strong</ColorChromeEffect>
+    <ColorChromeFXBlue>Off</ColorChromeFXBlue>
+    <ColorTemperature>7000</ColorTemperature>
+    <WhiteBalance>Kelvin</WhiteBalance>
+    <WhiteBalanceFineTune>Red -100, Blue +0</WhiteBalanceFineTune>
+    <Saturation>B&amp;W Green Filter</Saturation>
+    <Sensor>X-Trans IV</Sensor>
+  </profile>
+  <profile>
+    <Name>Moody Monochrome (IV)</Name>
+    <FilmMode>None</FilmMode>
+    <DevelopmentDynamicRange>400</DevelopmentDynamicRange>
+    <HighlightTone>-1 (medium soft)</HighlightTone>
+    <ShadowTone>+4 (hardest)</ShadowTone>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Sharpness>Soft</Sharpness>
+    <Clarity>-3</Clarity>
+    <GrainEffectRoughness>Strong</GrainEffectRoughness>
+    <GrainEffectSize>Large</GrainEffectSize>
+    <ColorChromeEffect>Off</ColorChromeEffect>
+    <ColorChromeFXBlue>Off</ColorChromeFXBlue>
+    <WhiteBalance>White Fluorescent</WhiteBalance>
+    <WhiteBalanceFineTune>Red -80, Blue -180</WhiteBalanceFineTune>
+    <Saturation>Acros Yellow Filter</Saturation>
+    <Sensor>X-Trans IV</Sensor>
+  </profile>
+  <profile>
+    <Name>Black &amp; White Infrared (IV)</Name>
+    <FilmMode>None</FilmMode>
+    <DevelopmentDynamicRange>200</DevelopmentDynamicRange>
+    <HighlightTone>+4 (hardest)</HighlightTone>
+    <ShadowTone>+3 (very hard)</ShadowTone>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Sharpness>Soft</Sharpness>
+    <Clarity>+5</Clarity>
+    <GrainEffectRoughness>Strong</GrainEffectRoughness>
+    <GrainEffectSize>Large</GrainEffectSize>
+    <ColorChromeEffect>Off</ColorChromeEffect>
+    <ColorChromeFXBlue>Off</ColorChromeFXBlue>
+    <ColorTemperature>2750</ColorTemperature>
+    <WhiteBalance>Kelvin</WhiteBalance>
+    <WhiteBalanceFineTune>Red -100, Blue +180</WhiteBalanceFineTune>
+    <Saturation>Acros Red Filter</Saturation>
+    <Sensor>X-Trans IV</Sensor>
+  </profile>
+  <profile>
+    <Name>Sepia (IV)</Name>
+    <FilmMode>None</FilmMode>
+    <DevelopmentDynamicRange>400</DevelopmentDynamicRange>
+    <HighlightTone>+3 (very hard)</HighlightTone>
+    <ShadowTone>+3 (very hard)</ShadowTone>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Sharpness>Soft</Sharpness>
+    <Clarity>0</Clarity>
+    <GrainEffectRoughness>Strong</GrainEffectRoughness>
+    <GrainEffectSize>Large</GrainEffectSize>
+    <ColorChromeEffect>Off</ColorChromeEffect>
+    <ColorChromeFXBlue>Off</ColorChromeFXBlue>
+    <WhiteBalance>Auto</WhiteBalance>
+    <WhiteBalanceFineTune>Red +0, Blue +0</WhiteBalanceFineTune>
+    <Saturation>B&amp;W Sepia</Saturation>
+    <Sensor>X-Trans IV</Sensor>
+  </profile>
+  ///
+  ///   Miscellaneous
+  ///
+  
+  <profile>
+    <Name>Leica M10</Name>
+    <FilmMode />
+    <GrainEffectRoughness>Off</GrainEffectRoughness>
+    <GrainEffectSize>Off</GrainEffectSize>
+    <ColorChromeEffect>Strong</ColorChromeEffect>
+    <ColorChromeFXBlue>Off</ColorChromeFXBlue>
+    <WhiteBalance>Kelvin</WhiteBalance>
+    <WhiteBalanceFineTune>Red +120, Blue -140</WhiteBalanceFineTune>
+    <DevelopmentDynamicRange>100</DevelopmentDynamicRange>
+    <HighlightTone>+2 (hard)</HighlightTone>
+    <ShadowTone>+3 (very hard)</ShadowTone>
+    <Saturation>B&amp;W Green Filter</Saturation>
+    <Sharpness>Hard</Sharpness>
+    <NoiseReduction>+2 (strong)</NoiseReduction>
+    <Clarity>0</Clarity>
+    <Sensor>X-Trans V</Sensor>
+  </profile>
+  <profile>
+    <Name>Leica Color</Name>
+    <FilmMode>F0/Standard (Provia)</FilmMode>
+    <GrainEffectRoughness>Off</GrainEffectRoughness>
+    <GrainEffectSize>Off</GrainEffectSize>
+    <ColorChromeEffect>Off</ColorChromeEffect>
+    <ColorChromeFXBlue>Off</ColorChromeFXBlue>
+    <WhiteBalance>Auto</WhiteBalance>
+    <WhiteBalanceFineTune>Red +20, Blue +20</WhiteBalanceFineTune>
+    <DevelopmentDynamicRange />
+    <HighlightTone>-1 (medium soft)</HighlightTone>
+    <ShadowTone>+1 (medium hard)</ShadowTone>
+    <Saturation>+3 (very high)</Saturation>
+    <Sharpness>Hard</Sharpness>
+    <NoiseReduction>-1 (medium weak)</NoiseReduction>
+    <Clarity>0</Clarity>
+    <Sensor>X-Trans V</Sensor>
+  </profile>
+  <profile>
+    <Name>Reggie's HP5</Name>
+    <FilmMode>None</FilmMode>
+    <GrainEffectRoughness>Weak</GrainEffectRoughness>
+    <GrainEffectSize>Small</GrainEffectSize>
+    <ColorChromeEffect>Off</ColorChromeEffect>
+    <ColorChromeFXBlue>Off</ColorChromeFXBlue>
+    <WhiteBalance>Auto</WhiteBalance>
+    <WhiteBalanceFineTune>Red +0, Blue +0</WhiteBalanceFineTune>
+    <DevelopmentDynamicRange>400</DevelopmentDynamicRange>
+    <HighlightTone>+2 (hard)</HighlightTone>
+    <ShadowTone>+2 (hard)</ShadowTone>
+    <Saturation>Acros Red Filter</Saturation>
+    <Sharpness>Soft</Sharpness>
+    <NoiseReduction>-3 (very weak)</NoiseReduction>
+    <Clarity>0</Clarity>
+    <Sensor>X-Trans V</Sensor>
+  </profile>
+  <profile>
+    <Name>Reggie's Portra (V)</Name>
+    <FilmMode>Classic Chrome</FilmMode>
+    <GrainEffectRoughness>Weak</GrainEffectRoughness>
+    <GrainEffectSize>Small</GrainEffectSize>
+    <ColorChromeEffect>Strong</ColorChromeEffect>
+    <ColorChromeFXBlue>Weak</ColorChromeFXBlue>
+    <WhiteBalance>Auto</WhiteBalance>
+    <WhiteBalanceFineTune>Red +40, Blue -80</WhiteBalanceFineTune>
+    <DevelopmentDynamicRange />
+    <HighlightTone>-1 (medium soft)</HighlightTone>
+    <ShadowTone>-1 (medium soft)</ShadowTone>
+    <Saturation>+2 (high)</Saturation>
+    <Sharpness>Soft</Sharpness>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Clarity>0</Clarity>
+    <Sensor>X-Trans V</Sensor>
+  </profile>
+  <profile>
+    <Name>Reggie's Portra v2</Name>
+    <FilmMode>Classic Chrome</FilmMode>
+    <GrainEffectRoughness>Weak</GrainEffectRoughness>
+    <GrainEffectSize>Small</GrainEffectSize>
+    <ColorChromeEffect>Strong</ColorChromeEffect>
+    <ColorChromeFXBlue>Off</ColorChromeFXBlue>
+    <WhiteBalance>Auto</WhiteBalance>
+    <WhiteBalanceFineTune>Red +40, Blue -100</WhiteBalanceFineTune>
+    <DevelopmentDynamicRange>200</DevelopmentDynamicRange>
+    <HighlightTone>+1 (medium hard)</HighlightTone>
+    <ShadowTone>-1 (medium soft)</ShadowTone>
+    <Saturation>+3 (very high)</Saturation>
+    <Sharpness>Soft</Sharpness>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Clarity>0</Clarity>
+    <Sensor>X-Trans V</Sensor>
+  </profile>
+  <profile>
+    <Name>Dreamy Negative</Name>
+    <FilmMode>Classic Negative</FilmMode>
+    <GrainEffectRoughness>Weak</GrainEffectRoughness>
+    <GrainEffectSize>Small</GrainEffectSize>
+    <ColorChromeEffect>Strong</ColorChromeEffect>
+    <ColorChromeFXBlue>Strong</ColorChromeFXBlue>
+    <WhiteBalance>Daylight</WhiteBalance>
+    <WhiteBalanceFineTune>Red +80, Blue -140</WhiteBalanceFineTune>
+    <DevelopmentDynamicRange>400</DevelopmentDynamicRange>
+    <HighlightTone>-2 (soft)</HighlightTone>
+    <ShadowTone>-2 (soft)</ShadowTone>
+    <Saturation>+2 (high)</Saturation>
+    <Sharpness>Normal</Sharpness>
+    <NoiseReduction>-1 (medium weak)</NoiseReduction>
+    <Clarity>0</Clarity>
+    <Sensor>X-Trans V</Sensor>
+  </profile>
+  <profile>
+    <Name>Classic Negative</Name>
+    <FilmMode>Classic Negative</FilmMode>
+    <GrainEffectRoughness>Weak</GrainEffectRoughness>
+    <GrainEffectSize>Small</GrainEffectSize>
+    <ColorChromeEffect>Strong</ColorChromeEffect>
+    <ColorChromeFXBlue>Strong</ColorChromeFXBlue>
+    <WhiteBalance>Kelvin</WhiteBalance>
+    <WhiteBalanceFineTune>Red +0, Blue +0</WhiteBalanceFineTune>
+    <DevelopmentDynamicRange>400</DevelopmentDynamicRange>
+    <HighlightTone>1.5</HighlightTone>
+    <ShadowTone>+1 (medium hard)</ShadowTone>
+    <Saturation>+2 (high)</Saturation>
+    <Sharpness>Hard</Sharpness>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Clarity>1</Clarity>
+    <Sensor>X-Trans V</Sensor>
+  </profile>
+  <profile>
+    <Name>Leica Wish</Name>
+    <FilmMode>None</FilmMode>
+    <GrainEffectRoughness>Off</GrainEffectRoughness>
+    <GrainEffectSize>Off</GrainEffectSize>
+    <ColorChromeEffect>Off</ColorChromeEffect>
+    <ColorChromeFXBlue>Off</ColorChromeFXBlue>
+    <WhiteBalance>Auto</WhiteBalance>
+    <WhiteBalanceFineTune>Red -140, Blue -140</WhiteBalanceFineTune>
+    <DevelopmentDynamicRange>100</DevelopmentDynamicRange>
+    <HighlightTone>+3 (very hard)</HighlightTone>
+    <ShadowTone>+4 (hardest)</ShadowTone>
+    <Saturation>Acros Red Filter</Saturation>
+    <Sharpness>Hard</Sharpness>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Clarity>0</Clarity>
+    <Sensor>X-Trans V</Sensor>
+  </profile>
+  <profile>
+    <Name>Nightmare Neg</Name>
+    <FilmMode>Classic Negative</FilmMode>
+    <GrainEffectRoughness>Strong</GrainEffectRoughness>
+    <GrainEffectSize>Small</GrainEffectSize>
+    <ColorChromeEffect>Strong</ColorChromeEffect>
+    <ColorChromeFXBlue>Weak</ColorChromeFXBlue>
+    <WhiteBalance>Daylight</WhiteBalance>
+    <WhiteBalanceFineTune>Red +60, Blue -120</WhiteBalanceFineTune>
+    <DevelopmentDynamicRange>100</DevelopmentDynamicRange>
+    <HighlightTone>+1 (medium hard)</HighlightTone>
+    <ShadowTone>2.5</ShadowTone>
+    <Saturation>+4 (highest)</Saturation>
+    <Sharpness>Hard</Sharpness>
+    <NoiseReduction>-1 (medium weak)</NoiseReduction>
+    <Clarity>0</Clarity>
+    <Sensor>X-Trans V</Sensor>
+  </profile>
+  <profile>
+    <Name>Winter Blue</Name>
+    <FilmMode>F2/Fujichrome (Velvia)</FilmMode>
+    <GrainEffectRoughness>Off</GrainEffectRoughness>
+    <GrainEffectSize>Off</GrainEffectSize>
+    <ColorChromeEffect>Off</ColorChromeEffect>
+    <ColorChromeFXBlue>Off</ColorChromeFXBlue>
+    <WhiteBalance>Daylight</WhiteBalance>
+    <WhiteBalanceFineTune>Red +0, Blue +40</WhiteBalanceFineTune>
+    <DevelopmentDynamicRange>400</DevelopmentDynamicRange>
+    <HighlightTone>-1 (medium soft)</HighlightTone>
+    <ShadowTone>0 (normal)</ShadowTone>
+    <Saturation>-2 (low)</Saturation>
+    <Sharpness>Normal</Sharpness>
+    <NoiseReduction>-2 (weak)</NoiseReduction>
+    <Clarity>0</Clarity>
+    <Sensor>X-Trans V</Sensor>
+  </profile>
+  <profile>
+    <Name>Kevin Mullin's Lighthouse</Name>
+    <FilmMode>None</FilmMode>
+    <GrainEffectRoughness>Strong</GrainEffectRoughness>
+    <GrainEffectSize>Large</GrainEffectSize>
+    <ColorChromeEffect>Off</ColorChromeEffect>
+    <ColorChromeFXBlue>Off</ColorChromeFXBlue>
+    <WhiteBalance>Auto</WhiteBalance>
+    <WhiteBalanceFineTune>Red +0, Blue +0</WhiteBalanceFineTune>
+    <HighlightTone>+3 (very hard)</HighlightTone>
+    <ShadowTone>+3 (very hard)</ShadowTone>
+    <Saturation>Acros Red Filter</Saturation>
+    <Sharpness>Hard</Sharpness>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Clarity>0</Clarity>
+    <Sensor>X-Trans V</Sensor>
+  </profile>
+  <profile>
+    <Name>Kevin Mullin's CYSGOD</Name>
+    <FilmMode>None</FilmMode>
+    <GrainEffectRoughness>Off</GrainEffectRoughness>
+    <GrainEffectSize>Off</GrainEffectSize>
+    <ColorChromeEffect>Off</ColorChromeEffect>
+    <ColorChromeFXBlue>Off</ColorChromeFXBlue>
+    <WhiteBalance>Daylight</WhiteBalance>
+    <WhiteBalanceFineTune>Red +0, Blue +0</WhiteBalanceFineTune>
+    <HighlightTone>+4 (hardest)</HighlightTone>
+    <ShadowTone>+4 (hardest)</ShadowTone>
+    <Saturation>Acros Red Filter</Saturation>
+    <Sharpness>Hard</Sharpness>
+    <NoiseReduction>-2 (weak)</NoiseReduction>
+    <Clarity>0</Clarity>
+    <Sensor>X-Trans V</Sensor>
+  </profile>
+  <profile>
+    <Name>Kodak Royal Gold</Name>
+    <FilmMode>Classic Negative</FilmMode>
+    <GrainEffectRoughness>Strong</GrainEffectRoughness>
+    <GrainEffectSize>Small</GrainEffectSize>
+    <ColorChromeEffect>Strong</ColorChromeEffect>
+    <ColorChromeFXBlue>Weak</ColorChromeFXBlue>
+    <WhiteBalance>Cloudy</WhiteBalance>
+    <WhiteBalanceFineTune>Red +60, Blue +100</WhiteBalanceFineTune>
+    <DevelopmentDynamicRange>200</DevelopmentDynamicRange>
+    <HighlightTone>-1 (medium soft)</HighlightTone>
+    <ShadowTone>+1 (medium hard)</ShadowTone>
+    <Saturation>+4 (highest)</Saturation>
+    <Sharpness>Soft</Sharpness>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Clarity>-3</Clarity>
+    <Sensor>X-Trans V</Sensor>
+  </profile>
+  <profile>
+    <Name>Classic Cuban Negative</Name>
+    <FilmMode>Classic Negative</FilmMode>
+    <GrainEffectRoughness>Strong</GrainEffectRoughness>
+    <GrainEffectSize>Large</GrainEffectSize>
+    <ColorChromeEffect>Strong</ColorChromeEffect>
+    <ColorChromeFXBlue>Strong</ColorChromeFXBlue>
+    <WhiteBalance>Auto</WhiteBalance>
+    <WhiteBalanceFineTune>Red +80, Blue -100</WhiteBalanceFineTune>
+    <DevelopmentDynamicRange>400</DevelopmentDynamicRange>
+    <HighlightTone>-2 (soft)</HighlightTone>
+    <ShadowTone>+1 (medium hard)</ShadowTone>
+    <Saturation>+4 (highest)</Saturation>
+    <Sharpness>Normal</Sharpness>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Clarity>-4</Clarity>
+    <Sensor>X-Trans V</Sensor>
+  </profile>
+  <profile>
+    <Name>Provia</Name>
+    <FilmMode>F0/Standard (Provia)</FilmMode>
+    <GrainEffectRoughness>Off</GrainEffectRoughness>
+    <GrainEffectSize>Off</GrainEffectSize>
+    <ColorChromeEffect>Off</ColorChromeEffect>
+    <ColorChromeFXBlue>Off</ColorChromeFXBlue>
+    <WhiteBalance>Auto</WhiteBalance>
+    <WhiteBalanceFineTune>Red +0, Blue +0</WhiteBalanceFineTune>
+    <DevelopmentDynamicRange />
+    <HighlightTone>2.5</HighlightTone>
+    <ShadowTone>2.5</ShadowTone>
+    <Saturation>+2 (high)</Saturation>
+    <Sharpness>Hard</Sharpness>
+    <NoiseReduction>0 (normal)</NoiseReduction>
+    <Clarity>0</Clarity>
+    <Sensor>X-Trans V</Sensor>
+  </profile>
+  <profile>
+    <Name>Velvia</Name>
+    <FilmMode>F2/Fujichrome (Velvia)</FilmMode>
+    <GrainEffectRoughness>Off</GrainEffectRoughness>
+    <GrainEffectSize>Off</GrainEffectSize>
+    <ColorChromeEffect>Off</ColorChromeEffect>
+    <ColorChromeFXBlue>Off</ColorChromeFXBlue>
+    <WhiteBalance>Auto</WhiteBalance>
+    <WhiteBalanceFineTune>Red +0, Blue +0</WhiteBalanceFineTune>
+    <DevelopmentDynamicRange />
+    <HighlightTone>2.5</HighlightTone>
+    <ShadowTone>2.5</ShadowTone>
+    <Saturation>+2 (high)</Saturation>
+    <Sharpness>Hard</Sharpness>
+    <NoiseReduction>0 (normal)</NoiseReduction>
+    <Clarity>0</Clarity>
+    <Sensor>X-Trans V</Sensor>
+  </profile>
+  <profile>
+    <Name>Astia</Name>
+    <FilmMode>F1b/Studio Portrait Smooth Skin Tone (Astia)</FilmMode>
+    <GrainEffectRoughness>Off</GrainEffectRoughness>
+    <GrainEffectSize>Off</GrainEffectSize>
+    <ColorChromeEffect>Off</ColorChromeEffect>
+    <ColorChromeFXBlue>Off</ColorChromeFXBlue>
+    <WhiteBalance>Auto</WhiteBalance>
+    <WhiteBalanceFineTune>Red +0, Blue +0</WhiteBalanceFineTune>
+    <DevelopmentDynamicRange />
+    <HighlightTone>2.5</HighlightTone>
+    <ShadowTone>2.5</ShadowTone>
+    <Saturation>+2 (high)</Saturation>
+    <Sharpness>Hard</Sharpness>
+    <NoiseReduction>0 (normal)</NoiseReduction>
+    <Clarity>0</Clarity>
+    <Sensor>X-Trans V</Sensor>
+  </profile>
+  <profile>
+    <Name>Classic Chrome</Name>
+    <FilmMode>Classic Chrome</FilmMode>
+    <GrainEffectRoughness>Off</GrainEffectRoughness>
+    <GrainEffectSize>Off</GrainEffectSize>
+    <ColorChromeEffect>Off</ColorChromeEffect>
+    <ColorChromeFXBlue>Off</ColorChromeFXBlue>
+    <WhiteBalance>Auto</WhiteBalance>
+    <WhiteBalanceFineTune>Red +0, Blue +0</WhiteBalanceFineTune>
+    <DevelopmentDynamicRange />
+    <HighlightTone>2.5</HighlightTone>
+    <ShadowTone>2.5</ShadowTone>
+    <Saturation>+2 (high)</Saturation>
+    <Sharpness>Hard</Sharpness>
+    <NoiseReduction>0 (normal)</NoiseReduction>
+    <Clarity>0</Clarity>
+    <Sensor>X-Trans V</Sensor>
+  </profile>
+  <profile>
+    <Name>Reala ACE</Name>
+    <FilmMode>Reala ACE</FilmMode>
+    <GrainEffectRoughness>Off</GrainEffectRoughness>
+    <GrainEffectSize>Off</GrainEffectSize>
+    <ColorChromeEffect>Off</ColorChromeEffect>
+    <ColorChromeFXBlue>Off</ColorChromeFXBlue>
+    <WhiteBalance>Auto</WhiteBalance>
+    <WhiteBalanceFineTune>Red +0, Blue +0</WhiteBalanceFineTune>
+    <DevelopmentDynamicRange />
+    <HighlightTone>2.5</HighlightTone>
+    <ShadowTone>2.5</ShadowTone>
+    <Saturation>+2 (high)</Saturation>
+    <Sharpness>Hard</Sharpness>
+    <NoiseReduction>0 (normal)</NoiseReduction>
+    <Clarity>0</Clarity>
+    <Sensor>X-Trans V</Sensor>
+  </profile>
+  <profile>
+    <Name>California Hues</Name>
+    <FilmMode>Classic Negative</FilmMode>
+    <GrainEffectRoughness>Strong</GrainEffectRoughness>
+    <GrainEffectSize>Large</GrainEffectSize>
+    <ColorChromeEffect>Strong</ColorChromeEffect>
+    <ColorChromeFXBlue>Weak</ColorChromeFXBlue>
+    <WhiteBalance>Daylight</WhiteBalance>
+    <WhiteBalanceFineTune>Red +40, Blue -80</WhiteBalanceFineTune>
+    <DevelopmentDynamicRange>400</DevelopmentDynamicRange>
+    <HighlightTone>-1 (medium soft)</HighlightTone>
+    <ShadowTone>1.5</ShadowTone>
+    <Saturation>+4 (highest)</Saturation>
+    <Sharpness>Soft</Sharpness>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Clarity>0</Clarity>
+    <Sensor>X-Trans V</Sensor>
+  </profile>
+  <profile>
+    <Name>Astia Sunny Jim</Name>
+    <FilmMode>Astia</FilmMode>
+    <DevelopmentDynamicRange>200</DevelopmentDynamicRange>
+    <GrainEffectRoughness>Weak</GrainEffectRoughness>
+    <GrainEffectSize>Large</GrainEffectSize>
+    <ColorChromeEffect>Weak</ColorChromeEffect>
+    <ColorChromeFXBlue>Weak</ColorChromeFXBlue>
+    <WhiteBalance>Auto</WhiteBalance>
+    <WhiteBalanceFineTune>Red +100, Blue -60</WhiteBalanceFineTune>
+    <HighlightTone>+2 (hard)</HighlightTone>
+    <ShadowTone>+2 (hard)</ShadowTone>
+    <Saturation>0 (normal)</Saturation>
+    <Sharpness>Soft</Sharpness>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Clarity>0</Clarity>
+    <Sensor>X-Trans V</Sensor>
+  </profile>
+  <profile>
+    <Name>Universal Negative</Name>
+    <FilmMode />
+    <DevelopmentDynamicRange>400</DevelopmentDynamicRange>
+    <GrainEffectRoughness>Strong</GrainEffectRoughness>
+    <GrainEffectSize>Small</GrainEffectSize>
+    <ColorChromeEffect>Strong</ColorChromeEffect>
+    <ColorChromeFXBlue>Strong</ColorChromeFXBlue>
+    <ColorTemperature>4000</ColorTemperature>
+    <WhiteBalance>Kelvin</WhiteBalance>
+    <WhiteBalanceFineTune>Red +0, Blue -100</WhiteBalanceFineTune>
+    <HighlightTone>0 (normal)</HighlightTone>
+    <ShadowTone>-2 (soft)</ShadowTone>
+    <Saturation>-2 (low)</Saturation>
+    <Sharpness>Soft</Sharpness>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Clarity>0</Clarity>
+    <Sensor>X-Trans V</Sensor>
+  </profile>
+  <profile>
+    <Name>Leica X</Name>
+    <FilmMode>Classic Chrome</FilmMode>
+    <GrainEffectRoughness>Off</GrainEffectRoughness>
+    <GrainEffectSize>Off</GrainEffectSize>
+    <ColorChromeEffect>Strong</ColorChromeEffect>
+    <ColorChromeFXBlue>Strong</ColorChromeFXBlue>
+    <WhiteBalance>Daylight</WhiteBalance>
+    <WhiteBalanceFineTune>Red +20, Blue -40</WhiteBalanceFineTune>
+    <HighlightTone>-1 (medium soft)</HighlightTone>
+    <ShadowTone>0 (normal)</ShadowTone>
+    <Saturation>+4 (highest)</Saturation>
+    <Sharpness>Hard</Sharpness>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Clarity>0</Clarity>
+    <Sensor>X-Trans V</Sensor>
+  </profile>
+  <profile>
+    <Name>Last Summer Roll</Name>
+    <FilmMode>Classic Negative</FilmMode>
+    <GrainEffectRoughness>Strong</GrainEffectRoughness>
+    <GrainEffectSize>Small</GrainEffectSize>
+    <ColorChromeEffect>Strong</ColorChromeEffect>
+    <ColorChromeFXBlue>Weak</ColorChromeFXBlue>
+    <WhiteBalance>Auto</WhiteBalance>
+    <WhiteBalanceFineTune>Red +60, Blue -100</WhiteBalanceFineTune>
+    <HighlightTone>-2 (soft)</HighlightTone>
+    <ShadowTone>0 (normal)</ShadowTone>
+    <Saturation>+4 (highest)</Saturation>
+    <Sharpness>Normal</Sharpness>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Clarity>0</Clarity>
+    <Sensor>X-Trans V</Sensor>
+  </profile>
+  <profile>
+    <Name>Kodak Gold Max 400 Expired</Name>
+    <FilmMode>Reala ACE</FilmMode>
+    <GrainEffectRoughness>Strong</GrainEffectRoughness>
+    <GrainEffectSize>Large</GrainEffectSize>
+    <ColorChromeEffect>Strong</ColorChromeEffect>
+    <ColorChromeFXBlue>Strong</ColorChromeFXBlue>
+    <WhiteBalance>Kelvin</WhiteBalance>
+    <WhiteBalanceFineTune>Red +20, Blue +80</WhiteBalanceFineTune>
+    <ColorTemperature>6700</ColorTemperature>
+    <DevelopmentDynamicRange>400</DevelopmentDynamicRange>
+    <HighlightTone>-1.5</HighlightTone>
+    <ShadowTone>1.5</ShadowTone>
+    <Saturation>-2 (low)</Saturation>
+    <Sharpness>Soft</Sharpness>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Clarity>-3</Clarity>
+    <Sensor>X-Trans V</Sensor>
+  </profile>
+  <profile>
+    <Name>Solaris</Name>
+    <FilmMode>Classic Negative</FilmMode>
+    <GrainEffectRoughness>Strong</GrainEffectRoughness>
+    <GrainEffectSize>Large</GrainEffectSize>
+    <ColorChromeEffect>Strong</ColorChromeEffect>
+    <ColorChromeFXBlue>Weak</ColorChromeFXBlue>
+    <WhiteBalance>Auto</WhiteBalance>
+    <WhiteBalanceFineTune>Red +20, Blue -120</WhiteBalanceFineTune>
+    <DevelopmentDynamicRange>400</DevelopmentDynamicRange>
+    <HighlightTone>-1.5</HighlightTone>
+    <ShadowTone>+2.5</ShadowTone>
+    <Saturation>+3 (very high)</Saturation>
+    <Sharpness>Soft</Sharpness>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Clarity>-3</Clarity>
+    <Sensor>X-Trans V</Sensor>
+  </profile>
+  <profile>
+    <Name>Summer Chrome</Name>
+    <FilmMode>Classic Chrome</FilmMode>
+    <GrainEffectRoughness>Strong</GrainEffectRoughness>
+    <GrainEffectSize>Large</GrainEffectSize>
+    <ColorChromeEffect>Strong</ColorChromeEffect>
+    <ColorChromeFXBlue>Strong</ColorChromeFXBlue>
+    <WhiteBalance>Auto</WhiteBalance>
+    <WhiteBalanceFineTune>Red +100, Blue -120</WhiteBalanceFineTune>
+    <DevelopmentDynamicRange>400</DevelopmentDynamicRange>
+    <HighlightTone>-2 (soft)</HighlightTone>
+    <ShadowTone>-2 (soft)</ShadowTone>
+    <Saturation>+4 (highest)</Saturation>
+    <Sharpness>Normal</Sharpness>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Clarity>-4</Clarity>
+    <Sensor>X-Trans V</Sensor>
+  </profile>
+  <profile>
+    <Name>Cinematic Gold</Name>
+    <FilmMode>Classic Negative</FilmMode>
+    <GrainEffectRoughness>Strong</GrainEffectRoughness>
+    <GrainEffectSize>Small</GrainEffectSize>
+    <ColorChromeEffect>Off</ColorChromeEffect>
+    <ColorChromeFXBlue>Off</ColorChromeFXBlue>
+    <WhiteBalance>Daylight</WhiteBalance>
+    <WhiteBalanceFineTune>Red +80, Blue -100</WhiteBalanceFineTune>
+    <DevelopmentDynamicRange>400</DevelopmentDynamicRange>
+    <HighlightTone>0 (normal)</HighlightTone>
+    <ShadowTone>0 (normal)</ShadowTone>
+    <Saturation>+3 (very high)</Saturation>
+    <Sharpness>Soft</Sharpness>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Clarity>-2</Clarity>
+    <Sensor>X-Trans V</Sensor>
+  </profile>
+  <profile>
+    <Name>Heliophile</Name>
+    <FilmMode>Classic Chrome</FilmMode>
+    <GrainEffectRoughness>Weak</GrainEffectRoughness>
+    <GrainEffectSize>Small</GrainEffectSize>
+    <ColorChromeEffect>Strong</ColorChromeEffect>
+    <ColorChromeFXBlue>Weak</ColorChromeFXBlue>
+    <WhiteBalance>Auto</WhiteBalance>
+    <WhiteBalanceFineTune>Red +100, Blue -120</WhiteBalanceFineTune>
+    <DevelopmentDynamicRange>400</DevelopmentDynamicRange>
+    <HighlightTone>-1 (medium soft)</HighlightTone>
+    <ShadowTone>-2 (soft)</ShadowTone>
+    <Saturation>+3 (very high)</Saturation>
+    <Sharpness>Normal</Sharpness>
+    <NoiseReduction>-1 (medium weak)</NoiseReduction>
+    <Clarity>0</Clarity>
+    <Sensor>X-Trans V</Sensor>
+  </profile>
+  <profile>
+    <Name>Italian Summer</Name>
+    <FilmMode>Classic Chrome</FilmMode>
+    <GrainEffectRoughness>Weak</GrainEffectRoughness>
+    <GrainEffectSize>Large</GrainEffectSize>
+    <ColorChromeEffect>Weak</ColorChromeEffect>
+    <ColorChromeFXBlue>Weak</ColorChromeFXBlue>
+    <WhiteBalance>Kelvin</WhiteBalance>
+    <WhiteBalanceFineTune>Red +80, Blue -120</WhiteBalanceFineTune>
+    <ColorTemperature>7500</ColorTemperature>
+    <DevelopmentDynamicRange>200</DevelopmentDynamicRange>
+    <HighlightTone>-1.5</HighlightTone>
+    <ShadowTone>-1.5</ShadowTone>
+    <Saturation>+3 (very high)</Saturation>
+    <Sharpness>Soft</Sharpness>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Clarity>-1</Clarity>
+    <Sensor>X-Trans V</Sensor>
+  </profile>
+  <profile>
+    <Name>Cherry Negative</Name>
+    <FilmMode>Classic Negative</FilmMode>
+    <GrainEffectRoughness>Off</GrainEffectRoughness>
+    <GrainEffectSize>Off</GrainEffectSize>
+    <ColorChromeEffect>Strong</ColorChromeEffect>
+    <ColorChromeFXBlue>Strong</ColorChromeFXBlue>
+    <WhiteBalance>Kelvin</WhiteBalance>
+    <WhiteBalanceFineTune>Red +80, Blue +20</WhiteBalanceFineTune>
+    <ColorTemperature>6500</ColorTemperature>
+    <DevelopmentDynamicRange>400</DevelopmentDynamicRange>
+    <HighlightTone>-0.5</HighlightTone>
+    <ShadowTone>-0.5</ShadowTone>
+    <Saturation>+4 (highest)</Saturation>
+    <Sharpness>Soft</Sharpness>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Clarity>-4</Clarity>
+    <Sensor>X-Trans V</Sensor>
+  </profile>
+  <profile>
+    <Name>Kodak Pro 400</Name>
+    <FilmMode>Reala ACE</FilmMode>
+    <GrainEffectRoughness>Strong</GrainEffectRoughness>
+    <GrainEffectSize>Small</GrainEffectSize>
+    <ColorChromeEffect>Off</ColorChromeEffect>
+    <ColorChromeFXBlue>Strong</ColorChromeFXBlue>
+    <WhiteBalance>Kelvin</WhiteBalance>
+    <WhiteBalanceFineTune>Red +40, Blue -60</WhiteBalanceFineTune>
+    <ColorTemperature>5200</ColorTemperature>
+    <DevelopmentDynamicRange>400</DevelopmentDynamicRange>
+    <HighlightTone>-2 (soft)</HighlightTone>
+    <ShadowTone>0 (normal)</ShadowTone>
+    <Saturation>+1 (medium high)</Saturation>
+    <Sharpness>Soft</Sharpness>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Clarity>-2</Clarity>
+    <Sensor>X-Trans V</Sensor>
+  </profile>
+  <profile>
+    <Name>Absolute Portra (Film Recipes)</Name>
+    <FilmMode>Classic Chrome</FilmMode>
+    <GrainEffectRoughness>Weak</GrainEffectRoughness>
+    <GrainEffectSize>Small</GrainEffectSize>
+    <ColorChromeEffect>Strong</ColorChromeEffect>
+    <ColorChromeFXBlue>Weak</ColorChromeFXBlue>
+    <WhiteBalance>Daylight</WhiteBalance>
+    <WhiteBalanceFineTune>Red +40, Blue -100</WhiteBalanceFineTune>
+    <DevelopmentDynamicRange>400</DevelopmentDynamicRange>
+    <HighlightTone>-1 (medium soft)</HighlightTone>
+    <ShadowTone>-1 (medium soft)</ShadowTone>
+    <Saturation>0 (normal)</Saturation>
+    <Sharpness>Soft</Sharpness>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Clarity>-2</Clarity>
+    <Sensor>X-Trans V</Sensor>
+  </profile>
+  <profile>
+    <Name>Daily Astia</Name>
+    <FilmMode>F1b/Studio Portrait Smooth Skin Tone (Astia)</FilmMode>
+    <GrainEffectRoughness>Weak</GrainEffectRoughness>
+    <GrainEffectSize>Large</GrainEffectSize>
+    <ColorChromeEffect>Off</ColorChromeEffect>
+    <ColorChromeFXBlue>Strong</ColorChromeFXBlue>
+    <WhiteBalance>Auto</WhiteBalance>
+    <WhiteBalanceFineTune>Red +80, Blue -80</WhiteBalanceFineTune>
+    <DevelopmentDynamicRange>100</DevelopmentDynamicRange>
+    <HighlightTone>+1 (medium hard)</HighlightTone>
+    <ShadowTone>0 (normal)</ShadowTone>
+    <Saturation>+4 (highest)</Saturation>
+    <Sharpness>Soft</Sharpness>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Clarity>+4</Clarity>
+    <Sensor>X-Trans V</Sensor>
+  </profile>
+  <profile>
+    <Name>Nurture Nature</Name>
+    <FilmMode>F0/Standard (Provia)</FilmMode>
+    <GrainEffectRoughness>Weak</GrainEffectRoughness>
+    <GrainEffectSize>Large</GrainEffectSize>
+    <ColorChromeEffect>Strong</ColorChromeEffect>
+    <ColorChromeFXBlue>Off</ColorChromeFXBlue>
+    <WhiteBalance>Auto</WhiteBalance>
+    <WhiteBalanceFineTune>Red +40, Blue -80</WhiteBalanceFineTune>
+    <DevelopmentDynamicRange>200</DevelopmentDynamicRange>
+    <HighlightTone>+2 (hard)</HighlightTone>
+    <ShadowTone>+1 (medium hard)</ShadowTone>
+    <Saturation>+2 (high)</Saturation>
+    <Sharpness>Normal</Sharpness>
+    <NoiseReduction>-2 (weak)</NoiseReduction>
+    <Clarity>0</Clarity>
+    <Sensor>X-Trans V</Sensor>
+  </profile>
+  <profile>
+    <Name>Summer Video by @jasmine_q</Name>
+    <FilmMode>Nostalgic Neg</FilmMode>
+    <GrainEffectRoughness>Strong</GrainEffectRoughness>
+    <GrainEffectSize>Small</GrainEffectSize>
+    <ColorChromeEffect>Strong</ColorChromeEffect>
+    <ColorChromeFXBlue>Strong</ColorChromeFXBlue>
+    <WhiteBalance>Kelvin</WhiteBalance>
+    <WhiteBalanceFineTune>Red -20, Blue -80</WhiteBalanceFineTune>
+    <ColorTemperature>6500</ColorTemperature>
+    <DevelopmentDynamicRange>400</DevelopmentDynamicRange>
+    <HighlightTone>-2 (soft)</HighlightTone>
+    <ShadowTone>-2 (soft)</ShadowTone>
+    <Saturation>+4 (highest)</Saturation>
+    <Sharpness>Soft</Sharpness>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Clarity>0</Clarity>
+    <Sensor>X-Trans V</Sensor>
+  </profile>
+  <profile>
+    <Name>Hanna Young recipe</Name>
+    <FilmMode>Classic Chrome</FilmMode>
+    <GrainEffectRoughness>Off</GrainEffectRoughness>
+    <GrainEffectSize>Off</GrainEffectSize>
+    <ColorChromeEffect>Off</ColorChromeEffect>
+    <ColorChromeFXBlue>Off</ColorChromeFXBlue>
+    <WhiteBalance>Auto</WhiteBalance>
+    <WhiteBalanceFineTune>Red +60, Blue -40</WhiteBalanceFineTune>
+    <DevelopmentDynamicRange>200</DevelopmentDynamicRange>
+    <HighlightTone>-2 (soft)</HighlightTone>
+    <ShadowTone>-2 (soft)</ShadowTone>
+    <Saturation>+3 (very high)</Saturation>
+    <Sharpness>Soft</Sharpness>
+    <NoiseReduction>-3 (very weak)</NoiseReduction>
+    <Clarity>-1</Clarity>
+    <Sensor>X-Trans V</Sensor>
+  </profile>
+  <profile>
+    <Name>Kodak Gold 200 without Grain</Name>
+    <FilmMode>Classic Chrome</FilmMode>
+    <GrainEffectRoughness>Off</GrainEffectRoughness>
+    <GrainEffectSize>Off</GrainEffectSize>
+    <ColorChromeEffect>Weak</ColorChromeEffect>
+    <ColorChromeFXBlue>Off</ColorChromeFXBlue>
+    <WhiteBalance>Daylight</WhiteBalance>
+    <WhiteBalanceFineTune>Red +80, Blue -100</WhiteBalanceFineTune>
+    <HighlightTone>-1.5</HighlightTone>
+    <ShadowTone>0.5</ShadowTone>
+    <Saturation>+3 (very high)</Saturation>
+    <Sharpness>Normal</Sharpness>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Clarity>-2</Clarity>
+    <Sensor>X-Trans V</Sensor>
+  </profile>
+  <profile>
+    <Name>Classic Amber</Name>
+    <FilmMode>Classic Negative</FilmMode>
+    <GrainEffectRoughness>Weak</GrainEffectRoughness>
+    <GrainEffectSize>Large</GrainEffectSize>
+    <ColorChromeEffect>Strong</ColorChromeEffect>
+    <ColorChromeFXBlue>Strong</ColorChromeFXBlue>
+    <WhiteBalance>Daylight Fluorescent</WhiteBalance>
+    <WhiteBalanceFineTune>Red +20, Blue -120</WhiteBalanceFineTune>
+    <DevelopmentDynamicRange>400</DevelopmentDynamicRange>
+    <HighlightTone>-1.5</HighlightTone>
+    <ShadowTone>2.5</ShadowTone>
+    <Saturation>+4 (highest)</Saturation>
+    <Sharpness>Soft</Sharpness>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Clarity>0</Clarity>
+    <Sensor>X-Trans V</Sensor>
+  </profile>
+  <profile>
+    <Name>Classic 89 by FilmedByFresh</Name>
+    <FilmMode>Classic Chrome</FilmMode>
+    <GrainEffectRoughness>Weak</GrainEffectRoughness>
+    <GrainEffectSize>Small</GrainEffectSize>
+    <ColorChromeEffect>Strong</ColorChromeEffect>
+    <ColorChromeFXBlue>Weak</ColorChromeFXBlue>
+    <WhiteBalance>Auto</WhiteBalance>
+    <WhiteBalanceFineTune>Red +40, Blue -80</WhiteBalanceFineTune>
+    <HighlightTone>-1.5</HighlightTone>
+    <ShadowTone>+1 (medium hard)</ShadowTone>
+    <Saturation>+4 (highest)</Saturation>
+    <Sharpness>Normal</Sharpness>
+    <NoiseReduction>-2 (weak)</NoiseReduction>
+    <Clarity>0</Clarity>
+    <Sensor>X-Trans V</Sensor>
+  </profile>
+  <profile>
+    <Name>Summer Negative</Name>
+    <FilmMode>Classic Negative</FilmMode>
+    <GrainEffectRoughness>Off</GrainEffectRoughness>
+    <GrainEffectSize>Off</GrainEffectSize>
+    <ColorChromeEffect>Off</ColorChromeEffect>
+    <ColorChromeFXBlue>Off</ColorChromeFXBlue>
+    <WhiteBalance>Auto</WhiteBalance>
+    <WhiteBalanceFineTune>Red +40, Blue -80</WhiteBalanceFineTune>
+    <HighlightTone>-1.5</HighlightTone>
+    <ShadowTone>0 (normal)</ShadowTone>
+    <Saturation>+3 (very high)</Saturation>
+    <Sharpness>Normal</Sharpness>
+    <NoiseReduction>-2 (weak)</NoiseReduction>
+    <Clarity>0</Clarity>
+    <Sensor>X-Trans V</Sensor>
+  </profile>
+  <profile>
+    <Name>Cuban Clean (Shadi Mahayni)</Name>
+    <FilmMode>Classic Negative</FilmMode>
+    <GrainEffectRoughness>Off</GrainEffectRoughness>
+    <GrainEffectSize>Off</GrainEffectSize>
+    <ColorChromeEffect>Off</ColorChromeEffect>
+    <ColorChromeFXBlue>Off</ColorChromeFXBlue>
+    <WhiteBalance>Auto</WhiteBalance>
+    <WhiteBalanceFineTune>Red +80, Blue -100</WhiteBalanceFineTune>
+    <DevelopmentDynamicRange>200</DevelopmentDynamicRange>
+    <HighlightTone>-2 (soft)</HighlightTone>
+    <ShadowTone>+1 (medium hard)</ShadowTone>
+    <Saturation>+3 (very high)</Saturation>
+    <Sharpness>Soft</Sharpness>
+    <NoiseReduction>0 (normal)</NoiseReduction>
+    <Clarity>0</Clarity>
+    <Sensor>X-Trans V</Sensor>
+  </profile>
+  <profile>
+    <Name>Reggie's Superia</Name>
+    <FilmMode>Classic Negative</FilmMode>
+    <GrainEffectRoughness>Strong</GrainEffectRoughness>
+    <GrainEffectSize>Large</GrainEffectSize>
+    <ColorChromeEffect>Strong</ColorChromeEffect>
+    <ColorChromeFXBlue>Strong</ColorChromeFXBlue>
+    <WhiteBalance>Auto</WhiteBalance>
+    <WhiteBalanceFineTune>Red +20, Blue -60</WhiteBalanceFineTune>
+    <HighlightTone>-2 (soft)</HighlightTone>
+    <ShadowTone>-1 (medium soft)</ShadowTone>
+    <Saturation>+1 (medium high)</Saturation>
+    <Sharpness>Soft</Sharpness>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Clarity>0</Clarity>
+    <Sensor>X-Trans V</Sensor>
+  </profile>
+</profiles>
