@@ -1,6 +1,6 @@
 # Film Recipe Finder
 
-A desktop application for identifying and managing Fujifilm film simulation recipes from JPEG/RAW photos using EXIF metadata.
+A desktop application for identifying and managing Fujifilm film simulation recipes from JPEG photos using EXIF metadata.
 
 > ⚠️ **Platform support:** Currently Windows only. Linux support coming soon.
 
