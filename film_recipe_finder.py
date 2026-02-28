@@ -15,6 +15,7 @@ from PyQt6.QtWidgets import (
 )
 from PyQt6.QtGui import QPixmap, QImage, QAction, QIcon, QFont, QColor, QTextCharFormat, QCursor
 from PyQt6.QtCore import Qt, QSize
+from PyQt6.QtWidgets import QToolBar, QStyle
 
 import numpy as np
 from PIL import Image, ImageTk, ExifTags
@@ -1069,6 +1070,7 @@ class MainWindow(QMainWindow):
 
         self._build_ui()
         self._build_menu()
+        self._build_toolbar() 
         self._apply_theme()
         self._update_status()
         self.setAcceptDrops(True)
@@ -1106,7 +1108,40 @@ class MainWindow(QMainWindow):
         self.setStatusBar(self.status_bar)
         self.status_label = QLabel()
         self.status_bar.addPermanentWidget(self.status_label)
+    
+    def _build_toolbar(self):
+        from PyQt6.QtWidgets import QToolBar
+        from PyQt6.QtGui import QIcon
         
+        toolbar = QToolBar("Main Toolbar")
+        toolbar.setMovable(False)
+        toolbar.setIconSize(QSize(36, 36))
+        toolbar.setToolButtonStyle(Qt.ToolButtonStyle.ToolButtonIconOnly)
+        self.addToolBar(toolbar)
+
+        style = self.style()
+
+        actions = [
+            ("Identify", "Identify Recipe", QStyle.StandardPixmap.SP_FileDialogStart, self.identify_recipe),
+            ("All Recipes", "Show All Recipes", QStyle.StandardPixmap.SP_FileDialogListView, self.open_recipe_browser),
+            (None, None, None, None),  # separator
+            ("Add", "Add Recipe", QStyle.StandardPixmap.SP_FileDialogNewFolder, self.open_add_recipe),
+            ("Edit", "Edit Recipe", QStyle.StandardPixmap.SP_FileIcon, self.open_edit_recipe),
+            ("Delete", "Delete Recipe", QStyle.StandardPixmap.SP_TrashIcon, self.open_delete_recipe),
+            (None, None, None, None),  # separator
+            ("Settings", "Settings", QStyle.StandardPixmap.SP_ComputerIcon, self.open_settings),
+            ("Theme", "Toggle Theme", QStyle.StandardPixmap.SP_DesktopIcon, self.toggle_theme),
+        ]
+
+        for label, tooltip, pixmap, slot in actions:
+            if label is None:
+                toolbar.addSeparator()
+                continue
+            icon = QIcon(style.standardPixmap(pixmap))
+            action = QAction(icon, label, self)
+            action.setToolTip(tooltip)
+            action.triggered.connect(slot)
+            toolbar.addAction(action)    
 
     # ── MENU BUILD ────────────────────────────
     def _build_menu(self):
