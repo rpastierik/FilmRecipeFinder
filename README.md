@@ -97,10 +97,6 @@ film-recipe-finder/
 - Use the **Recipes** menu or the buttons in the Recipe Browser window
 - Recipes can also be loaded directly from a photo using **From Picture**
 
-### View EXIF Data
-- Go to **Exif → Show Short Exif** or **Show Full Exif**
-- Click on any image card to open a full-size detail view with complete EXIF data
-
 ### Settings
 - Go to **View → Settings** to toggle histogram display, switch between RGB/luminance, and change histogram type
 - Go to **View → Switch to Light/Dark Mode** to change the theme
