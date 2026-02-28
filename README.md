@@ -101,7 +101,9 @@ python film_recipe_finder.py
 
 ```
 FilmRecipeFinder/
-├── film_recipe_finder.py            # Main application
+├── screeshots/            # Application screeshots
+├
+├── film_recipe_finder.py  # Main application
 ├── themes.py              # Dark and light QSS themes
 ├── film_simulations.xml   # Recipe database
 ├── user_settings.json     # User preferences (auto-generated)
