@@ -4,6 +4,10 @@
     "rgb_histogram": true,
     "histogram_type": "bar",
     "active_sensors": [
+        "X-Trans I",
+        "X-Trans II",
+        "X-Trans III",
+        "X-Trans IV",
         "X-Trans V"
     ],
     "last_dir": "G:/Photos/2026/20260228_test/jpg"

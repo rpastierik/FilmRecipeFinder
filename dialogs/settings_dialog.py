@@ -44,17 +44,6 @@ class SettingsDialog(QDialog):
             self.radio_step.setChecked(True)
         layout.addWidget(self.radio_step)
         layout.addWidget(self.radio_bar)
-
-        # ── Sensor filter ──
-        # layout.addWidget(QLabel("Show sensors:"))
-        # active = settings.get("active_sensors", Constants.ALL_SENSORS)
-        # self.sensor_checks = {}
-        # for s in Constants.ALL_SENSORS:
-        #     cb = QCheckBox(s)
-        #     cb.setChecked(s in active)
-        #     layout.addWidget(cb)
-        #     self.sensor_checks[s] = cb
-
         layout.addStretch()
 
         # ── Buttons ──
@@ -78,9 +67,6 @@ class SettingsDialog(QDialog):
         self.settings["show_histogram"] = self.show_hist_cb.isChecked()
         self.settings["rgb_histogram"] = self.rgb_hist_cb.isChecked()
         self.settings["histogram_type"] = "bar" if self.radio_bar.isChecked() else "step"
-        # self.settings["active_sensors"] = [
-        #     s for s, cb in self.sensor_checks.items() if cb.isChecked()
-        # ]
         SettingsManager.save(self.settings)
         self.accept()
         self.on_success()
