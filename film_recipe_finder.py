@@ -419,6 +419,7 @@ class ImageCard(QFrame):
         self.exif_fallback = exif_fallback
         self.settings = settings
         self.dark = dark
+        self.hist = None
         self.setCursor(QCursor(Qt.CursorShape.PointingHandCursor))
 
         layout = QHBoxLayout(self)
@@ -480,14 +481,29 @@ class ImageCard(QFrame):
 
         # ── Histogram ──
         if settings.get("show_histogram", True):
-            hist = HistogramWidget(
+            self.hist = HistogramWidget(
                 img_thumb,
                 rgb=settings.get("rgb_histogram", True),
                 hist_type=settings.get("histogram_type", "step"),
                 dark=dark
             )
-            layout.addWidget(hist)
-
+            layout.addWidget(self.hist)
+            
+    def update_theme(self, dark):
+        self.dark = dark
+        if self.hist is not None:
+            # Nahrad histogram novym s novou temou
+            layout = self.layout()
+            layout.removeWidget(self.hist)
+            self.hist.deleteLater()
+            self.hist = HistogramWidget(
+                self.img_pil,
+                rgb=self.settings.get("rgb_histogram", True),
+                hist_type=self.settings.get("histogram_type", "step"),
+                dark=dark
+            )
+            layout.addWidget(self.hist)
+        
     def mousePressEvent(self, event):
         if event.button() == Qt.MouseButton.LeftButton:
             try:
@@ -1110,6 +1126,14 @@ class MainWindow(QMainWindow):
         self.status_label = QLabel()
         self.status_bar.addPermanentWidget(self.status_label)
     
+    def _refresh_cards(self):
+        print(f"_refresh_cards called, count={self.cards_layout.count()}")
+        for i in range(self.cards_layout.count()):
+            widget = self.cards_layout.itemAt(i).widget()
+            print(f"  widget {i}: {type(widget)}")
+            if isinstance(widget, ImageCard):
+                widget.update_theme(self.dark_mode)
+                
     def _build_toolbar(self):
         from PyQt6.QtWidgets import QToolBar
 
@@ -1219,10 +1243,7 @@ class MainWindow(QMainWindow):
             item = self.cards_layout.takeAt(0)
             if item.widget() and item.widget() is not self.placeholder:
                 item.widget().deleteLater()
-
-    def _refresh_cards(self):
-        pass
-
+    
     # ── IDENTIFY RECIPE ───────────────────────
     def identify_recipe(self):
         self.placeholder.hide()
@@ -1344,8 +1365,8 @@ class MainWindow(QMainWindow):
             if path.lower().endswith(('.jpg', '.jpeg', '.png', '.raf', '.nef')):
                 filenames.append(path)
 
-        if not filenames:
-            return
+        # if not filenames:
+        #     return
 
         self.last_dir = os.path.dirname(filenames[0])
         self.settings["last_dir"] = self.last_dir
