@@ -1154,11 +1154,9 @@ class MainWindow(QMainWindow):
         self.status_label = QLabel()
         self.status_bar.addPermanentWidget(self.status_label)
     
-    def _refresh_cards(self):
-        print(f"_refresh_cards called, count={self.cards_layout.count()}")
+    def _refresh_cards(self):        
         for i in range(self.cards_layout.count()):
-            widget = self.cards_layout.itemAt(i).widget()
-            print(f"  widget {i}: {type(widget)}")
+            widget = self.cards_layout.itemAt(i).widget()            
             if isinstance(widget, ImageCard):
                 widget.update_theme(self.dark_mode)
                 
