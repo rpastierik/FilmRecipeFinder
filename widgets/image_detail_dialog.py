@@ -35,7 +35,7 @@ class ImageDetailDialog(QDialog):
         top_row = QHBoxLayout()
         top_row.setSpacing(16)
 
-        # ── Veľký obrázok ──
+        # ── Large image ──
         img_big = img_pil.copy()
         img_big.thumbnail((1600, 1067), Image.LANCZOS)
         img_rgb = img_big.convert("RGB")

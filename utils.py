@@ -7,7 +7,7 @@ import sys
 
 
 def resource_path(relative_path):
-    """Vráti správnu cestu k súboru — funguje aj pre PyInstaller build."""
+    """Return the correct file path, working with a PyInstaller build too."""
     if hasattr(sys, '_MEIPASS'):
         base = os.path.dirname(sys.executable)
     else:
@@ -17,9 +17,10 @@ def resource_path(relative_path):
 
 def parse_wbft(raw_value):
     """
-    Konvertuje EXIF hodnotu WhiteBalanceFineTune na display hodnotu (÷20).
-    Napr. 'Red +60, Blue -100' -> 'Red +3, Blue -5'
-    Používa sa len pri čítaní z EXIF — XML má hodnoty už v správnom formáte.
+    Convert an EXIF WhiteBalanceFineTune value to the display form (÷20).
+    e.g. 'Red +60, Blue -100' -> 'Red +3, Blue -5'
+    Used only when reading from EXIF; the XML already stores values in the
+    correct format.
     """
     try:
         matches = re.findall(r'(Red|Blue)\s*([+-]?\d+)', raw_value)

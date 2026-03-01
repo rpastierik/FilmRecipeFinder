@@ -5,7 +5,7 @@
 class RecipeManager:
     @staticmethod
     def find_duplicate_content(recipe_data, simulations):
-        """Vráti meno receptu ak existuje duplikát obsahu, inak None."""
+        """Return the recipe name if duplicate content exists, otherwise None."""
         for sim_name, sim_data in simulations.items():
             match = all(
                 sim_data.get(k) == v

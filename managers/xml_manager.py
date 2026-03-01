@@ -13,7 +13,7 @@ from utils import resource_path
 class XMLManager:
     @staticmethod
     def load_simulations(filename):
-        """Načíta recepty z XML — hodnoty sú uložené priamo v ÷20 formáte."""
+        """Load recipes from the XML; values are stored in ÷20 format."""
         full_path = resource_path(filename)
         if not os.path.exists(full_path):
             return {}
@@ -35,7 +35,7 @@ class XMLManager:
 
     @staticmethod
     def add_recipe(recipe_data):
-        """Pridá recept do XML — WhiteBalanceFineTune sa ukladá v ÷20 formáte."""
+        """Add a recipe to the XML; WhiteBalanceFineTune is saved in ÷20 format."""
         xml_file = resource_path(Constants.XML_FILE)
         try:
             tree = ET.parse(xml_file)
@@ -53,7 +53,7 @@ class XMLManager:
 
     @staticmethod
     def update_recipe(recipe_data):
-        """Aktualizuje recept v XML."""
+        """Update an existing recipe in the XML."""
         xml_file = resource_path(Constants.XML_FILE)
         try:
             tree = ET.parse(xml_file)
@@ -81,7 +81,7 @@ class XMLManager:
 
     @staticmethod
     def delete_recipe(recipe_name):
-        """Vymaže recept z XML."""
+        """Delete a recipe from the XML."""
         xml_file = resource_path(Constants.XML_FILE)
         try:
             tree = ET.parse(xml_file)

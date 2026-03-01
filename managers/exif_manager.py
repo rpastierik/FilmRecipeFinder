@@ -10,7 +10,7 @@ from utils import resource_path, parse_wbft
 
 
 def _find_exiftool():
-    """Nájde exiftool — v PATH, vedľa exe alebo vedľa skriptu."""
+    """Locate the exiftool executable – check PATH, beside the exe or script."""
     path = shutil.which('exiftool')
     if path:
         return path
@@ -36,7 +36,7 @@ def _find_exiftool():
 
 
 def _parse_lines(lines, filter_keys=None):
-    """Parsuje riadky exiftool výstupu do slovníka, konvertuje WBFT ÷20."""
+    """Parse lines from exiftool output into a dictionary; convert WBFT ÷20."""
     exif_data = {}
     for line in lines:
         if ':' not in line:
@@ -55,7 +55,7 @@ def _parse_lines(lines, filter_keys=None):
 class ExifManager:
     @staticmethod
     def get_exif_data(filename, relevant_keys):
-        """Načíta EXIF dáta relevantné pre porovnanie s receptami."""
+        """Load EXIF data relevant for comparison with recipes."""
         exiftool_path = _find_exiftool()
         result = subprocess.run(
             [exiftool_path, '-s', filename],
@@ -65,7 +65,7 @@ class ExifManager:
 
     @staticmethod
     def get_exif(filename, exif_type='short'):
-        """Načíta krátky alebo plný EXIF výpis."""
+        """Read either a short or full EXIF dump."""
         exiftool_path = _find_exiftool()
 
         if exif_type == 'full':

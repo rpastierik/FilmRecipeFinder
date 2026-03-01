@@ -29,7 +29,7 @@ class ImageCard(QFrame):
         layout.setSpacing(8)
         layout.setContentsMargins(12, 12, 12, 12)
 
-        # ── Obrázok ──
+        # ── Image ──
         self.img_pil = Image.open(filename)
         exif = self.img_pil.getexif()
         orientation = exif.get(ExifTags.Base.Orientation, 1)

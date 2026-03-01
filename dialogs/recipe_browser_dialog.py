@@ -96,7 +96,7 @@ class RecipeBrowserDialog(QDialog):
         self.text_area.clear()
         cursor = self.text_area.textCursor()
 
-        # ── Hlavička ──
+        # ── Header ──
         header_fmt = QTextCharFormat()
         header_fmt.setFontWeight(QFont.Weight.Bold)
         header_fmt.setFontPointSize(11)
