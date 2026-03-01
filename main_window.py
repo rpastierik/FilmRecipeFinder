@@ -27,7 +27,8 @@ class MainWindow(QMainWindow):
     def __init__(self):
         super().__init__()
         self.setWindowIcon(QIcon(resource_path("icon.png")))
-        self.setWindowTitle("Film Recipe Finder")
+        ver = Constants.APP_VERSION
+        self.setWindowTitle(f"Film Recipe Finder [{ver}]")
         self.resize(1200, 850)
 
         self.settings    = SettingsManager.load()
@@ -44,6 +45,8 @@ class MainWindow(QMainWindow):
         
     # ── ABOUT ─────────────────────────────────
     def _about(self):
+        # build the text from a single version constant so it only has to be
+        # updated in one place (Constants.APP_VERSION)
         msg = QMessageBox(self)
         msg.setWindowTitle("About")
         msg.setWindowIcon(QIcon(resource_path("icon.png")))
@@ -52,9 +55,11 @@ class MainWindow(QMainWindow):
             Qt.AspectRatioMode.KeepAspectRatio,
             Qt.TransformationMode.SmoothTransformation
         ))
+        # grab the value from constants so the string is not hardcoded here
+        ver = Constants.APP_VERSION
         msg.setText(
-            "Film Recipe Finder\n\n"
-            "Version 0.3.1  (February 2026)\n"
+            f"Film Recipe Finder\n\n"
+            f"Version {ver}  (February 2026)\n"
             "© 2026 Roman Pastierik\n\n"
             "Support development:\n"
             "Ko-fi: ko-fi.com/rpastierik\n\n"

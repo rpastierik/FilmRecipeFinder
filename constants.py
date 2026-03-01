@@ -11,9 +11,10 @@ class RecipeField:
 
 
 class Constants:
+    APP_VERSION = "0.3.1"
     SETTINGS_FILE = "user_settings.json"
     XML_FILE = "film_simulations.xml"
-
+    
     RECIPE_FIELDS = [
         RecipeField("Name", ""),
         RecipeField("FilmMode", "None", "combo",
@@ -54,3 +55,4 @@ class Constants:
     ]
 
     ALL_SENSORS = ["X-Trans I", "X-Trans II", "X-Trans III", "X-Trans IV", "X-Trans V"]
+

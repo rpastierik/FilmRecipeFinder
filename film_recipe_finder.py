@@ -1,7 +1,7 @@
 # ──────────────────────────────────────────────────────────────────────────────
 # Film Recipe Finder
 # ──────────────────────────────────────────────────────────────────────────────
-# Version  : 0.3.1
+# Version  : will be read from constants.APP_VERSION at runtime
 # Author   : Roman Pastierik
 # Date     : February 2026
 # License  : GNU General Public License v3
@@ -26,6 +26,12 @@
 
 import os
 import sys
+
+# application version is kept in a single place so it doesn't need manual
+# updating in multiple files
+from constants import Constants
+
+__version__ = Constants.APP_VERSION
 
 os.environ["QT_LOGGING_RULES"] = "*=false"
 
