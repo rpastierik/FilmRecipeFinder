@@ -41,6 +41,28 @@ class MainWindow(QMainWindow):
         self._apply_theme()
         self._update_status()
         self.setAcceptDrops(True)
+        
+    # ── ABOUT ─────────────────────────────────
+    def _about(self):
+        msg = QMessageBox(self)
+        msg.setWindowTitle("About")
+        msg.setWindowIcon(QIcon(resource_path("icon.png")))
+        msg.setIconPixmap(QPixmap(resource_path("icon.png")).scaled(
+            64, 64,
+            Qt.AspectRatioMode.KeepAspectRatio,
+            Qt.TransformationMode.SmoothTransformation
+        ))
+        msg.setText(
+            "Film Recipe Finder\n\n"
+            "Version 0.3.1  (February 2026)\n"
+            "© 2026 Roman Pastierik\n\n"
+            "Support development:\n"
+            "Ko-fi: ko-fi.com/rpastierik\n\n"
+            "License: GNU General Public License v3\n\n"
+            "Uses ExifTool by Phil Harvey\n"
+            "philharvey66@gmail.com"
+        )
+        msg.exec()
 
     # ── UI BUILD ──────────────────────────────
     def _build_ui(self):
@@ -313,24 +335,4 @@ class MainWindow(QMainWindow):
             else:
                 self.sensor_combo.setCurrentIndex(0)
 
-    # ── ABOUT ─────────────────────────────────
-    def _about(self):
-        msg = QMessageBox(self)
-        msg.setWindowTitle("About")
-        msg.setWindowIcon(QIcon(resource_path("icon.png")))
-        msg.setIconPixmap(QPixmap(resource_path("icon.png")).scaled(
-            64, 64,
-            Qt.AspectRatioMode.KeepAspectRatio,
-            Qt.TransformationMode.SmoothTransformation
-        ))
-        msg.setText(
-            "Film Recipe Finder\n\n"
-            "Version 0.3.1  (February 2026)\n"
-            "© 2026 Roman Pastierik\n\n"
-            "Support development:\n"
-            "Ko-fi: ko-fi.com/rpastierik\n\n"
-            "License: GNU General Public License v3\n\n"
-            "Uses ExifTool by Phil Harvey\n"
-            "philharvey66@gmail.com"
-        )
-        msg.exec()
+    
