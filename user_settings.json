@@ -1,5 +1,5 @@
 {
-    "theme": "dark",
+    "theme": "light",
     "show_histogram": true,
     "rgb_histogram": true,
     "histogram_type": "bar",

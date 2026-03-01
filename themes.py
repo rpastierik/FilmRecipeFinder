@@ -36,9 +36,9 @@ DARK_THEME = """
     }
     
     QScrollBar:vertical {
-    background: #1d2021;
-    width: 10px;
-    border-radius: 7px;
+        background: #1d2021;
+        width: 12px;
+        border-radius: 7px;
     }
     
     QScrollBar::handle:vertical {
@@ -51,9 +51,18 @@ DARK_THEME = """
         background: #ebdbb2;
     }
     
+    QScrollBar::add-page:vertical {
+        background: #3c3836;
+    }
+
+    QScrollBar::sub-page:vertical {
+        background: #3c3836;
+    }
+        
     QScrollBar::add-line:vertical, QScrollBar::sub-line:vertical {
         height: 0px;
     }
+    
     QLabel#imageLabel {
         border: 2px solid #3c3836;
         border-radius: 8px;
@@ -137,9 +146,9 @@ LIGHT_THEME = """
     }
     
     QScrollBar:vertical {
-    background: #dce0e8;
-    width: 10px;
-    border-radius: 7px;
+        background: #dce0e8;
+        width: 12px;
+        border-radius: 7px;
     }
     
     QScrollBar::handle:vertical {
@@ -147,8 +156,14 @@ LIGHT_THEME = """
         border-radius: 7px;
         min-height: 30px;
     }
+     
     QScrollBar::handle:vertical:hover {
         background: #4c4f69;
+    }
+     
+    QScrollBar::add-page:vertical,
+    QScrollBar::sub-page:vertical {
+        background: #ccd0da;
     }
     
     QScrollBar::add-line:vertical, QScrollBar::sub-line:vertical {
