@@ -59,7 +59,7 @@ class MainWindow(QMainWindow):
         ver = Constants.APP_VERSION
         msg.setText(
             f"Film Recipe Finder\n\n"
-            f"Version {ver}  (February 2026)\n"
+            f"Version {ver}  (March 2026)\n"
             "© 2026 Roman Pastierik\n\n"
             "Support development:\n"
             "Ko-fi: ko-fi.com/rpastierik\n\n"

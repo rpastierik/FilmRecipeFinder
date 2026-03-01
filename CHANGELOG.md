@@ -1,6 +1,10 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## [0.3.2] - 2026.03.01
+- Changed: Minor fixes
+
+
 ## [0.3.1] - 2026.02.28
 - Changed: WhiteBalanceFineTune logic
 

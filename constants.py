@@ -11,7 +11,7 @@ class RecipeField:
 
 
 class Constants:
-    APP_VERSION = "0.3.1"
+    APP_VERSION = "0.3.2"
     SETTINGS_FILE = "user_settings.json"
     XML_FILE = "film_simulations.xml"
     
