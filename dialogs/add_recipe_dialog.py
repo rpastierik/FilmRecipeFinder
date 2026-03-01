@@ -1,6 +1,8 @@
 # ──────────────────────────────────────────────
 # ADD RECIPE DIALOG
 # ──────────────────────────────────────────────
+from utils import parse_wbft
+
 from PyQt6.QtWidgets import (
     QDialog, QFileDialog, QHBoxLayout, QLabel,
     QLineEdit, QMessageBox, QPushButton, QVBoxLayout
@@ -56,7 +58,11 @@ class AddRecipeDialog(RecipeDialog):
             }
             for exif_key, field_name in mapping.items():
                 if exif_key in exif_data:
-                    self._set_field_value(field_name, exif_data[exif_key])
+                    value = exif_data[exif_key]
+                    if field_name == 'WhiteBalanceFineTune':
+                        value = parse_wbft(value)
+                    self._set_field_value(field_name, value)
+                    
             self._set_field_value('Sensor', 'X-Trans V')
         except Exception as e:
             QMessageBox.warning(self, "Error", f"Failed to extract EXIF: {e}")

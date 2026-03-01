@@ -4089,4 +4089,21 @@
     <Clarity>0</Clarity>
     <Sensor>X-Trans V</Sensor>
   </profile>
+  <profile>
+    <Name>Reggie's Superia clean</Name>
+    <FilmMode>Classic Negative</FilmMode>
+    <GrainEffectRoughness>Off</GrainEffectRoughness>
+    <GrainEffectSize>Off</GrainEffectSize>
+    <ColorChromeEffect>Strong</ColorChromeEffect>
+    <ColorChromeFXBlue>Strong</ColorChromeFXBlue>
+    <WhiteBalance>Auto</WhiteBalance>
+    <WhiteBalanceFineTune>Red +1, Blue -3</WhiteBalanceFineTune>
+    <HighlightTone>-2 (soft)</HighlightTone>
+    <ShadowTone>-1 (medium soft)</ShadowTone>
+    <Saturation>+1 (medium high)</Saturation>
+    <Sharpness>Soft</Sharpness>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Clarity>0</Clarity>
+    <Sensor>X-Trans V</Sensor>
+  </profile>
 </profiles>
