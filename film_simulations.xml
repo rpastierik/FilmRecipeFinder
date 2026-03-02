@@ -4106,4 +4106,22 @@
     <Clarity>0</Clarity>
     <Sensor>X-Trans V</Sensor>
   </profile>
+  <profile>
+    <Name>Kodak Vericolor III 160</Name>
+    <FilmMode>Nostalgic Neg</FilmMode>
+    <GrainEffectRoughness>Weak</GrainEffectRoughness>
+    <GrainEffectSize>Small</GrainEffectSize>
+    <ColorChromeEffect>Strong</ColorChromeEffect>
+    <ColorChromeFXBlue>Strong</ColorChromeFXBlue>
+    <WhiteBalance>Kelvin</WhiteBalance>
+    <WhiteBalanceFineTune>Red +7, Blue -8</WhiteBalanceFineTune>
+    <ColorTemperature>3200</ColorTemperature>
+    <HighlightTone>-2 (soft)</HighlightTone>
+    <ShadowTone>-1 (medium soft)</ShadowTone>
+    <Saturation>+2 (high)</Saturation>
+    <Sharpness>Soft</Sharpness>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Clarity>-2</Clarity>
+    <Sensor>X-Trans V</Sensor>
+  </profile>
 </profiles>
