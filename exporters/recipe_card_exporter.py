@@ -77,20 +77,6 @@ def export_recipe_card(
     output_path: str,
     app_name: str = "Film Recipe Finder",
 ) -> str:
-    """
-    Generate a recipe card image and save it to output_path.
-
-    Parameters
-    ----------
-    photo_path  : path to the source JPEG
-    recipe      : dict with recipe fields (Name, FilmMode, WhiteBalance, …)
-    output_path : where to save the PNG
-    app_name    : branding text shown top-right
-
-    Returns
-    -------
-    output_path on success
-    """
 
     # ── 1. Load & orient source photo ──────────────
     src = Image.open(photo_path)
@@ -150,8 +136,7 @@ def export_recipe_card(
     # ── 4. Header ───────────────────────────────────
     name = recipe.get("Name", "Unknown Recipe")
     film_mode = recipe.get("FilmMode", "")
-    #sensor = recipe.get("Sensor", "")
-
+    
     # Recipe name
     draw.text((PADDING, PADDING), name, font=f_title, fill=(255, 255, 255))
     title_h = f_title.size + 6
