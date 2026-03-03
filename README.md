@@ -2,7 +2,6 @@
 
 A desktop application for identifying and managing Fujifilm film simulation recipes from JPEG photos using EXIF metadata.
 
-
 ![Python](https://img.shields.io/badge/Python-3.10+-blue)
 ![PyQt6](https://img.shields.io/badge/PyQt6-6.x-green)
 ![License](https://img.shields.io/badge/License-GPL%20v3-yellow)
@@ -18,6 +17,7 @@ A desktop application for identifying and managing Fujifilm film simulation reci
 - **Histogram** – RGB or luminance histogram for each photo (optional)
 - **Full EXIF viewer** – view full EXIF data for any photo
 - **Detail view** – click on any image card to open a full-size detail with complete EXIF
+- **Export Recipe Card** – export a stylized recipe card as PNG from any photo
 - **Dark / Light theme** – Gruvbox-inspired dark theme and Catppuccin Latte light theme
 - **Persistent settings** – remembers last directory, theme, histogram preferences and active sensor filter
 
@@ -131,6 +131,10 @@ FilmRecipeFinder/
 │   ├── recipe_browser_dialog.py # Browse & search all recipes
 │   └── settings_dialog.py     # Application settings
 │
+├── exporters/                 # Export utilities
+│   ├── __init__.py
+│   └── recipe_card_exporter.py  # Recipe card PNG generator
+│
 ├── film_simulations.xml       # Recipe database
 ├── user_settings.json         # User preferences (auto-generated)
 ├── icon.png
@@ -154,6 +158,11 @@ FilmRecipeFinder/
 - Use the **Recipes** menu or the toolbar buttons
 - Recipes can also be loaded directly from a photo using **From Picture**
 
+### Export Recipe Card
+- Open any photo's detail view by clicking on an image card
+- Click **Export Recipe Card** to generate a stylized PNG card
+- The card includes the photo, film simulation settings, white balance, grain, and all other recipe parameters
+
 ### Settings
 - Go to **View → Settings** to toggle histogram display, switch between RGB/luminance, and change histogram type
 - Use the **Sensor** dropdown in the toolbar to filter recipes by X-Trans generation
@@ -174,6 +183,8 @@ Recipes are stored in `film_simulations.xml`. Each recipe contains:
 | ColorChromeEffect | Color Chrome effect |
 | ColorChromeFXBlue | Color Chrome FX Blue |
 | WhiteBalance | White balance setting |
+| WhiteBalanceFineTune | White balance fine tune (Red / Blue shift) |
+| ColorTemperature | Color temperature in Kelvin (if applicable) |
 | HighlightTone | Highlight tone adjustment |
 | ShadowTone | Shadow tone adjustment |
 | Saturation | Saturation |
