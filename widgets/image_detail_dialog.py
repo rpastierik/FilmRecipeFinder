@@ -1,5 +1,5 @@
 # ──────────────────────────────────────────────
-# IMAGE DETAIL DIALOG
+# IMAGE DETAIL DIALOG  (updated)
 # ──────────────────────────────────────────────
 import os
 
@@ -7,8 +7,11 @@ from PIL import Image, ExifTags
 from PyQt6.QtCore import Qt
 from PyQt6.QtGui import QFont, QImage, QPixmap
 from PyQt6.QtWidgets import (
-    QDialog, QHBoxLayout, QLabel, QPushButton, QScrollArea, QVBoxLayout
+    QDialog, QFileDialog, QHBoxLayout, QLabel, QMessageBox,
+    QPushButton, QScrollArea, QVBoxLayout
 )
+
+from exporters.recipe_card_exporter import export_recipe_card   # ← NEW
 
 
 class ImageDetailDialog(QDialog):
@@ -17,6 +20,9 @@ class ImageDetailDialog(QDialog):
         self.setWindowTitle(os.path.basename(filename))
         self.setMinimumSize(1800, 1150)
         self.setModal(True)
+
+        self._filename = filename       # ← NEW  (potrebujeme pri exporte)
+        self._sim_data = sim_data       # ← NEW
 
         img_pil = Image.open(filename)
         exif = img_pil.getexif()
@@ -81,9 +87,19 @@ class ImageDetailDialog(QDialog):
         top_row.addLayout(right_col)
         main_layout.addLayout(top_row)
 
-        # ── Close button ──
+        # ── Button row ──────────────────────────────── ← ZMENENÉ
         btn_row = QHBoxLayout()
         btn_row.addStretch()
+
+        export_btn = QPushButton("📤  Export Recipe Card")    # ← NEW
+        export_btn.setStyleSheet(
+            "QPushButton { background-color: #D05F3B; color: white; "
+            "border-radius: 6px; padding: 7px 24px; font-weight: bold; }"
+            "QPushButton:hover { background-color: #E8714A; }"
+        )
+        export_btn.clicked.connect(self._on_export_card)     # ← NEW
+        btn_row.addWidget(export_btn)
+
         close_btn = QPushButton("Close")
         close_btn.setStyleSheet(
             "QPushButton { background-color: #9E9E9E; color: white; "
@@ -92,3 +108,25 @@ class ImageDetailDialog(QDialog):
         close_btn.clicked.connect(self.accept)
         btn_row.addWidget(close_btn)
         main_layout.addLayout(btn_row)
+
+    # ── Export slot ──────────────────────────────── ← NEW
+    def _on_export_card(self):
+        if not self._sim_data:
+            QMessageBox.warning(self, "No Recipe", "No recipe data found for this photo.")
+            return
+
+        base = os.path.splitext(os.path.basename(self._filename))[0]
+        recipe_name = self._sim_data.get("Name", base).replace(" ", "_")
+        suggested = os.path.join(os.path.dirname(self._filename), f"{recipe_name}_card.png")
+
+        out_path, _ = QFileDialog.getSaveFileName(
+            self, "Save Recipe Card", suggested, "PNG Image (*.png)"
+        )
+        if not out_path:
+            return
+
+        try:
+            export_recipe_card(self._filename, self._sim_data, out_path)
+            QMessageBox.information(self, "Exported", f"Recipe card saved to:\n{out_path}")
+        except Exception as e:
+            QMessageBox.critical(self, "Export Failed", str(e))

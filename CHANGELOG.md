@@ -1,6 +1,9 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## [0.4.0] - 2026.03.03
+- Added: Recipe Card Exporter
+
 ## [0.3.2] - 2026.03.01
 - Changed: Minor fixes
 
