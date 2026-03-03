@@ -11,6 +11,8 @@ from PyQt6.QtWidgets import (
     QPushButton, QScrollArea, QVBoxLayout
 )
 
+import sys, os
+sys.path.insert(0, os.path.join(os.path.dirname(__file__), ".."))
 from exporters.recipe_card_exporter import export_recipe_card   # ← NEW
 
 
