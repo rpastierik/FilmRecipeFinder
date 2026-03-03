@@ -150,12 +150,12 @@ def export_recipe_card(
     # ── 4. Header ───────────────────────────────────
     name = recipe.get("Name", "Unknown Recipe")
     film_mode = recipe.get("FilmMode", "")
-    sensor = recipe.get("Sensor", "")
+    #sensor = recipe.get("Sensor", "")
 
     # Recipe name
     draw.text((PADDING, PADDING), name, font=f_title, fill=(255, 255, 255))
     title_h = f_title.size + 6
-    sub_text = f"{sensor}  ·  {film_mode}" if sensor else film_mode
+    sub_text = film_mode if film_mode and film_mode.strip() and film_mode != "None" else ""
     draw.text((PADDING, PADDING + title_h), sub_text, font=f_sub, fill=(200, 200, 200))
 
     # Branding top-right
