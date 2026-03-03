@@ -2,15 +2,21 @@
 # IMAGE CARD WIDGET
 # ──────────────────────────────────────────────
 import os
+import sys
 
 from PIL import Image, ExifTags
 from PyQt6.QtCore import Qt
 from PyQt6.QtGui import QCursor, QFont, QImage, QPixmap
-from PyQt6.QtWidgets import QFrame, QHBoxLayout, QLabel, QSizePolicy
+from PyQt6.QtWidgets import (
+    QFileDialog, QFrame, QHBoxLayout, QLabel, QMenu, QMessageBox, QSizePolicy
+)
 
 from managers import ExifManager
 from widgets.histogram_widget import HistogramWidget
 from widgets.image_detail_dialog import ImageDetailDialog
+
+sys.path.insert(0, os.path.join(os.path.dirname(__file__), ".."))
+from exporters.recipe_card_exporter import export_recipe_card   # ← NEW
 
 
 class ImageCard(QFrame):
@@ -117,3 +123,34 @@ class ImageCard(QFrame):
                 full_exif, self.settings, self.dark
             )
             dlg.exec()
+
+    def contextMenuEvent(self, event):                          # ← NEW
+        menu = QMenu(self)
+        export_action = menu.addAction("📤  Export Recipe Card")
+        export_action.setEnabled(bool(self.sim_data))           # sivé ak nie je recept
+
+        action = menu.exec(event.globalPos())
+
+        if action == export_action:
+            self._export_card()
+
+    def _export_card(self):                                     # ← NEW
+        if not self.sim_data:
+            QMessageBox.warning(self, "No Recipe", "No recipe data found for this photo.")
+            return
+
+        base = os.path.splitext(os.path.basename(self.filename))[0]
+        recipe_name = self.sim_data.get("Name", base).replace(" ", "_")
+        suggested = os.path.join(os.path.dirname(self.filename), f"{recipe_name}_card.png")
+
+        out_path, _ = QFileDialog.getSaveFileName(
+            self, "Save Recipe Card", suggested, "PNG Image (*.png)"
+        )
+        if not out_path:
+            return
+
+        try:
+            export_recipe_card(self.filename, self.sim_data, out_path)
+            QMessageBox.information(self, "Exported", f"Recipe card saved to:\n{out_path}")
+        except Exception as e:
+            QMessageBox.critical(self, "Export Failed", str(e))
