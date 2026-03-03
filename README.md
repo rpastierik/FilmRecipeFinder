@@ -159,9 +159,10 @@ FilmRecipeFinder/
 - Recipes can also be loaded directly from a photo using **From Picture**
 
 ### Export Recipe Card
-- Open any photo's detail view by clicking on an image card
-- Click **Export Recipe Card** to generate a stylized PNG card
+- Right-click on any image card in the main window and select Export Recipe Card
+- Alternatively, open the detail view by clicking on an image card and click the Export Recipe Card button
 - The card includes the photo, film simulation settings, white balance, grain, and all other recipe parameters
+- Export is only available for photos with a matched recipe
 
 ### Settings
 - Go to **View → Settings** to toggle histogram display, switch between RGB/luminance, and change histogram type
