@@ -2393,7 +2393,7 @@
     <ShadowTone>-2 (soft)</ShadowTone>
     <Saturation>+2 (high)</Saturation>
     <NoiseReduction>-4 (weakest)</NoiseReduction>
-    <Sharpness>-0</Sharpness>
+    <Sharpness>Normal</Sharpness>
     <Clarity>+3</Clarity>
     <GrainEffectRoughness>Strong</GrainEffectRoughness>
     <GrainEffectSize>Small</GrainEffectSize>
