@@ -18,6 +18,7 @@ A desktop application for identifying and managing Fujifilm film simulation reci
 - **Full EXIF viewer** – view full EXIF data for any photo
 - **Detail view** – click on any image card to open a full-size detail with complete EXIF
 - **Export Recipe Card** – export a stylized recipe card as PNG from any photo
+- **Import from Text** – paste recipe text from Fuji X Weekly or similar sources and auto-fill all fields
 - **Dark / Light theme** – Gruvbox-inspired dark theme and Catppuccin Latte light theme
 - **Persistent settings** – remembers last directory, theme, histogram preferences and active sensor filter
 
@@ -103,6 +104,35 @@ python film_recipe_finder.py
 
 ---
 
+## Running on macOS
+
+1. Clone the repository and install dependencies as described in [Getting Started](#getting-started)
+
+2. Install ExifTool via Homebrew:
+```bash
+brew install exiftool
+```
+If you don't have Homebrew installed, get it first at [brew.sh](https://brew.sh).
+
+3. Run the application:
+```bash
+python film_recipe_finder.py
+```
+
+### Possible issues on macOS
+
+- **`python` vs `python3`** – on newer Macs you may need to use `python3` and `pip3` instead
+- **PyQt6 and macOS permissions** – if the window doesn't open, try running with `pythonw` or grant terminal permissions under *System Settings → Privacy & Security*
+- **Virtual environment** – recommended to avoid mixing system packages:
+```bash
+python3 -m venv venv
+source venv/bin/activate
+pip install PyQt6 Pillow numpy matplotlib
+python film_recipe_finder.py
+```
+
+---
+
 ## File Structure
 
 ```
@@ -112,8 +142,11 @@ FilmRecipeFinder/
 ├── film_recipe_finder.py      # Entry point
 ├── main_window.py             # Main application window
 ├── constants.py               # Constants and recipe field definitions
-├── utils.py                   # Shared utilities (resource_path)
 ├── themes.py                  # Dark and light QSS themes
+│
+├── utils/                     # Shared utilities
+│   ├── __init__.py            # resource_path, parse_wbft
+│   └── recipe_text_parser.py  # Recipe text import parser
 │
 ├── managers/                  # Data & business logic
 │   ├── settings_manager.py    # Load/save user settings
@@ -160,10 +193,11 @@ FilmRecipeFinder/
 ### Add / Edit / Delete Recipes
 - Use the **Recipes** menu or the toolbar buttons
 - Recipes can also be loaded directly from a photo using **From Picture**
+- Use **From Text** to paste recipe text from Fuji X Weekly or similar sources – all recognized fields will be auto-filled
 
 ### Export Recipe Card
-- Right-click on any image card in the main window and select Export Recipe Card
-- Alternatively, open the detail view by clicking on an image card and click the Export Recipe Card button
+- **Right-click** on any image card in the main window and select **Export Recipe Card**
+- Alternatively, open the detail view by clicking on an image card and click the **Export Recipe Card** button
 - The card includes the photo, film simulation settings, white balance, grain, and all other recipe parameters
 - Export is only available for photos with a matched recipe
 
