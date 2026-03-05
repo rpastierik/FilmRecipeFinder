@@ -4124,4 +4124,58 @@
     <Clarity>-2</Clarity>
     <Sensor>X-Trans V</Sensor>
   </profile>
+  <profile>
+    <Name>Vivid Velvia</Name>
+    <FilmMode>F2/Fujichrome (Velvia)</FilmMode>
+    <GrainEffectRoughness>Weak</GrainEffectRoughness>
+    <GrainEffectSize>Small</GrainEffectSize>
+    <ColorChromeEffect>Strong</ColorChromeEffect>
+    <ColorChromeFXBlue>Weak</ColorChromeFXBlue>
+    <WhiteBalance>Auto</WhiteBalance>
+    <WhiteBalanceFineTune>Red +1, Blue -3</WhiteBalanceFineTune>
+    <DevelopmentDynamicRange>400</DevelopmentDynamicRange>
+    <HighlightTone>-1 (medium soft)</HighlightTone>
+    <ShadowTone>-1 (medium soft)</ShadowTone>
+    <Saturation>+4 (highest)</Saturation>
+    <Sharpness>Hard</Sharpness>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Clarity>+3</Clarity>
+    <Sensor>X-Trans V</Sensor>
+  </profile>
+  <profile>
+    <Name>Provia 400</Name>
+    <FilmMode>F0/Standard (Provia)</FilmMode>
+    <GrainEffectRoughness>Strong</GrainEffectRoughness>
+    <GrainEffectSize>Off</GrainEffectSize>
+    <ColorChromeEffect>Strong</ColorChromeEffect>
+    <ColorChromeFXBlue>Off</ColorChromeFXBlue>
+    <WhiteBalance>Fluorescent</WhiteBalance>
+    <WhiteBalanceFineTune>Red -2, Blue -2</WhiteBalanceFineTune>
+    <DevelopmentDynamicRange>400</DevelopmentDynamicRange>
+    <HighlightTone>+1 (medium hard)</HighlightTone>
+    <ShadowTone>+2 (hard)</ShadowTone>
+    <Saturation>+4 (highest)</Saturation>
+    <Sharpness>Normal</Sharpness>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Clarity>0</Clarity>
+    <Sensor>X-Trans V</Sensor>
+  </profile>
+  <profile>
+    <Name>Agfa Scala</Name>
+    <FilmMode>None</FilmMode>
+    <GrainEffectRoughness>Weak</GrainEffectRoughness>
+    <GrainEffectSize>Off</GrainEffectSize>
+    <ColorChromeEffect>Off</ColorChromeEffect>
+    <ColorChromeFXBlue>Off</ColorChromeFXBlue>
+    <WhiteBalance>Auto</WhiteBalance>
+    <WhiteBalanceFineTune>Red +0, Blue +0</WhiteBalanceFineTune>
+    <DevelopmentDynamicRange>100</DevelopmentDynamicRange>
+    <HighlightTone>+4 (hardest)</HighlightTone>
+    <ShadowTone>0 (normal)</ShadowTone>
+    <Saturation>Acros Red Filter</Saturation>
+    <Sharpness>Normal</Sharpness>
+    <NoiseReduction>-3 (very weak)</NoiseReduction>
+    <Clarity>0</Clarity>
+    <Sensor>X-Trans V</Sensor>
+  </profile>
 </profiles>

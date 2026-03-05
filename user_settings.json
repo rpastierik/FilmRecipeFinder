@@ -1,6 +1,6 @@
 {
     "theme": "Dracula",
-    "show_histogram": true,
+    "show_histogram": false,
     "rgb_histogram": true,
     "histogram_type": "bar",
     "active_sensors": [
