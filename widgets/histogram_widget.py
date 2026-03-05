@@ -8,9 +8,13 @@ from matplotlib.figure import Figure
 
 
 class HistogramWidget(FigureCanvas):
-    def __init__(self, img: Image.Image, rgb=True, hist_type="step", dark=True, size=(390, 350)):
-        bg = "#1d2021" if dark else "#dce0e8"
-        fg = "#ebdbb2" if dark else "#4c4f69"
+    def __init__(self, img: Image.Image, rgb=True, hist_type="step",
+                 dark=True, size=(390, 350), bg=None, fg=None):
+        # Ak sú explicitné farby, použi ich; inak fallback na dark/light
+        if bg is None:
+            bg = "#1d2021" if dark else "#dce0e8"
+        if fg is None:
+            fg = "#ebdbb2" if dark else "#4c4f69"
 
         fig = Figure(figsize=(size[0] / 100, size[1] / 100), tight_layout=True)
         fig.patch.set_facecolor(bg)

@@ -2,12 +2,13 @@
 # SETTINGS DIALOG
 # ──────────────────────────────────────────────
 from PyQt6.QtWidgets import (
-    QButtonGroup, QCheckBox, QDialog, QHBoxLayout,
+    QButtonGroup, QCheckBox, QComboBox, QDialog, QHBoxLayout,
     QLabel, QPushButton, QRadioButton, QVBoxLayout
 )
 
 from constants import Constants
 from managers import SettingsManager
+from themes import THEMES
 
 
 class SettingsDialog(QDialog):
@@ -22,6 +23,17 @@ class SettingsDialog(QDialog):
         layout = QVBoxLayout(self)
         layout.setSpacing(12)
         layout.setContentsMargins(24, 24, 24, 24)
+
+        # ── Theme ──
+        layout.addWidget(QLabel("Theme:"))
+        self.theme_combo = QComboBox()
+        self.theme_combo.addItems(THEMES.keys())
+        current_theme = settings.get("theme", "Gruvbox Dark")
+        idx = self.theme_combo.findText(current_theme)
+        self.theme_combo.setCurrentIndex(idx if idx >= 0 else 0)
+        layout.addWidget(self.theme_combo)
+
+        layout.addSpacing(8)
 
         # ── Histogram ──
         self.show_hist_cb = QCheckBox("Show Histogram")
@@ -64,6 +76,7 @@ class SettingsDialog(QDialog):
         layout.addLayout(btn_row)
 
     def _save(self):
+        self.settings["theme"] = self.theme_combo.currentText()
         self.settings["show_histogram"] = self.show_hist_cb.isChecked()
         self.settings["rgb_histogram"] = self.rgb_hist_cb.isChecked()
         self.settings["histogram_type"] = "bar" if self.radio_bar.isChecked() else "step"

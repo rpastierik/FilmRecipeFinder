@@ -19,7 +19,7 @@ A desktop application for identifying and managing Fujifilm film simulation reci
 - **Detail view** – click on any image card to open a full-size detail with complete EXIF
 - **Export Recipe Card** – export a stylized recipe card as PNG from any photo
 - **Import from Text** – paste recipe text from Fuji X Weekly or similar sources and auto-fill all fields
-- **Dark / Light theme** – Gruvbox-inspired dark theme and Catppuccin Latte light theme
+- **Multiple themes** – choose from Gruvbox Dark, Catppuccin Latte, Nord, Dracula, Tokyo Night, Solarized Light, and Monochrome Dark
 - **Persistent settings** – remembers last directory, theme, histogram preferences and active sensor filter
 
 ---
@@ -205,9 +205,8 @@ FilmRecipeFinder/
 - Export is only available for photos with a matched recipe
 
 ### Settings
-- Go to **View → Settings** to toggle histogram display, switch between RGB/luminance, and change histogram type
+- Go to **Tools → Settings** to toggle histogram display, switch between RGB/luminance, change histogram type, and select theme
 - Use the **Sensor** dropdown in the toolbar to filter recipes by X-Trans generation
-- Go to **View → Switch to Light/Dark Mode** to change the theme
 
 ---
 
@@ -246,7 +245,7 @@ See [LICENSE](LICENSE) for details.
 ## Credits
 
 - **ExifTool** by Phil Harvey (philharvey66@gmail.com) – [exiftool.org](https://exiftool.org/)
-- Themes inspired by [Gruvbox](https://github.com/morhetz/gruvbox) and [Catppuccin](https://github.com/catppuccin/catppuccin)
+- Themes inspired by [Gruvbox](https://github.com/morhetz/gruvbox), [Catppuccin](https://github.com/catppuccin/catppuccin), [Nord](https://www.nordtheme.com/), [Dracula](https://draculatheme.com/), [Tokyo Night](https://github.com/enkia/tokyo-night-vscode-theme) and [Solarized](https://ethanschoonover.com/solarized/)
 
 ---
 

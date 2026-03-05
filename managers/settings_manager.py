@@ -11,7 +11,7 @@ class SettingsManager:
     @staticmethod
     def load():
         defaults = {
-            "theme": "dark",
+            "theme": "Gruvbox Dark",
             "show_histogram": True,
             "rgb_histogram": True,
             "histogram_type": "step",
@@ -21,6 +21,11 @@ class SettingsManager:
             try:
                 with open(Constants.SETTINGS_FILE, "r") as f:
                     loaded = json.load(f)
+                    # Migrácia zo starého formátu "dark"/"light"
+                    if loaded.get("theme") == "dark":
+                        loaded["theme"] = "Gruvbox Dark"
+                    elif loaded.get("theme") == "light":
+                        loaded["theme"] = "Catppuccin Latte"
                     defaults.update(loaded)
             except Exception:
                 pass

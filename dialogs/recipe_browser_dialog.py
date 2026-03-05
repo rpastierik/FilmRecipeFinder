@@ -8,9 +8,12 @@ from PyQt6.QtWidgets import (
 )
 
 from constants import Constants
+from themes import THEMES
 from dialogs.add_recipe_dialog import AddRecipeDialog
 from dialogs.edit_recipe_dialog import EditRecipeDialog
 from dialogs.delete_recipe_dialog import DeleteRecipeDialog
+
+LIGHT_THEMES = {"Catppuccin Latte", "Solarized Light"}
 
 
 class RecipeBrowserDialog(QDialog):
@@ -65,6 +68,10 @@ class RecipeBrowserDialog(QDialog):
 
         self._show_all()
 
+    def _is_dark(self):
+        theme = getattr(self.parent(), 'current_theme', 'Gruvbox Dark')
+        return theme not in LIGHT_THEMES
+
     def _show_all(self):
         self._display(self.simulations)
 
@@ -81,22 +88,21 @@ class RecipeBrowserDialog(QDialog):
 
     def _display(self, simulations):
         parent_settings = getattr(self.parent(), 'settings', {})
-        active_sensors = parent_settings.get("active_sensors", Constants.ALL_SENSORS)
+        active_sensors  = parent_settings.get("active_sensors", Constants.ALL_SENSORS)
 
         filtered = {
             name: data for name, data in simulations.items()
             if data.get("Sensor", "") in active_sensors
         }
 
-        parent_dark = getattr(self.parent(), 'dark_mode', True)
-        name_color   = "#b8bb26" if parent_dark else "#4c9a2a"
-        text_color   = "#ebdbb2" if parent_dark else "#4c4f69"
-        header_color = "#458588" if parent_dark else "#1e66f5"
+        dark = self._is_dark()
+        name_color   = "#b8bb26" if dark else "#4c9a2a"
+        text_color   = "#ebdbb2" if dark else "#4c4f69"
+        header_color = "#458588" if dark else "#1e66f5"
 
         self.text_area.clear()
         cursor = self.text_area.textCursor()
 
-        # ── Header ──
         header_fmt = QTextCharFormat()
         header_fmt.setFontWeight(QFont.Weight.Bold)
         header_fmt.setFontPointSize(11)

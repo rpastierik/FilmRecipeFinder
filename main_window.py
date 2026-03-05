@@ -13,7 +13,7 @@ from PyQt6.QtWidgets import (
 
 from constants import Constants
 from managers import ExifManager, SettingsManager, XMLManager
-from themes import DARK_THEME, LIGHT_THEME
+from themes import THEMES, DEFAULT_THEME
 from utils import resource_path
 from widgets import ImageCard
 from dialogs import (
@@ -31,10 +31,10 @@ class MainWindow(QMainWindow):
         self.setWindowTitle(f"Film Recipe Finder [{ver}]")
         self.resize(1200, 850)
 
-        self.settings    = SettingsManager.load()
-        self.simulations = XMLManager.load_simulations(Constants.XML_FILE)
-        self.dark_mode   = self.settings.get("theme", "dark") == "dark"
-        self.last_dir    = self.settings.get("last_dir", "")
+        self.settings      = SettingsManager.load()
+        self.simulations   = XMLManager.load_simulations(Constants.XML_FILE)
+        self.current_theme = self.settings.get("theme", DEFAULT_THEME)
+        self.last_dir      = self.settings.get("last_dir", "")
 
         self._build_ui()
         self._build_menu()
@@ -42,11 +42,9 @@ class MainWindow(QMainWindow):
         self._apply_theme()
         self._update_status()
         self.setAcceptDrops(True)
-        
+
     # ── ABOUT ─────────────────────────────────
     def _about(self):
-        # build the text from a single version constant so it only has to be
-        # updated in one place (Constants.APP_VERSION)
         msg = QMessageBox(self)
         msg.setWindowTitle("About")
         msg.setWindowIcon(QIcon(resource_path("icon.png")))
@@ -55,7 +53,6 @@ class MainWindow(QMainWindow):
             Qt.AspectRatioMode.KeepAspectRatio,
             Qt.TransformationMode.SmoothTransformation
         ))
-        # grab the value from constants so the string is not hardcoded here
         ver = Constants.APP_VERSION
         msg.setText(
             f"Film Recipe Finder\n\n"
@@ -105,7 +102,7 @@ class MainWindow(QMainWindow):
         for i in range(self.cards_layout.count()):
             widget = self.cards_layout.itemAt(i).widget()
             if isinstance(widget, ImageCard):
-                widget.update_theme(self.dark_mode)
+                widget.update_theme()
 
     def _build_toolbar(self):
         toolbar = QToolBar("Main Toolbar")
@@ -114,8 +111,9 @@ class MainWindow(QMainWindow):
         toolbar.setStyleSheet("")
         self.addToolBar(toolbar)
 
-        hover_color   = "#3c3836" if self.dark_mode else "#ccd0da"
-        pressed_color = "#504945" if self.dark_mode else "#bcc0cc"
+        dark = self.current_theme not in ("Catppuccin Latte", "Solarized Light")
+        hover_color   = "#3c3836" if dark else "#ccd0da"
+        pressed_color = "#504945" if dark else "#bcc0cc"
 
         actions = [
             ("🔍", "Identify Recipe",  self.identify_recipe),
@@ -126,7 +124,6 @@ class MainWindow(QMainWindow):
             ("🗑️", "Delete Recipe",    self.open_delete_recipe),
             None,
             ("⚙️", "Settings",         self.open_settings),
-            ("🌙", "Toggle Theme",     self.toggle_theme),
         ]
 
         for item in actions:
@@ -169,7 +166,7 @@ class MainWindow(QMainWindow):
 
         self.sensor_combo.currentTextChanged.connect(self._on_sensor_combo_changed)
         toolbar.addWidget(self.sensor_combo)
-
+        
     # ── MENU BUILD ────────────────────────────
     def _build_menu(self):
         menubar = self.menuBar()
@@ -184,13 +181,7 @@ class MainWindow(QMainWindow):
         recipes_menu.addSeparator()
         recipes_menu.addAction(self._action("Exit", self.close))
 
-        view_menu = menubar.addMenu("View")
-        self.theme_action = QAction(
-            "Switch to Light Mode" if self.dark_mode else "Switch to Dark Mode", self
-        )
-        self.theme_action.triggered.connect(self.toggle_theme)
-        view_menu.addAction(self.theme_action)
-        view_menu.addSeparator()
+        view_menu = menubar.addMenu("Tools")        
         view_menu.addAction(self._action("Settings", self.open_settings))
 
         help_menu = menubar.addMenu("Help")
@@ -213,23 +204,10 @@ class MainWindow(QMainWindow):
 
     # ── THEME ─────────────────────────────────
     def _apply_theme(self):
-        QApplication.instance().setStyleSheet(DARK_THEME if self.dark_mode else LIGHT_THEME)
+        qss = THEMES.get(self.current_theme, THEMES[DEFAULT_THEME])
+        QApplication.instance().setStyleSheet(qss)
         self._refresh_cards()
 
-    def toggle_theme(self):
-        self.dark_mode = not self.dark_mode
-        self.settings["theme"] = "dark" if self.dark_mode else "light"
-        SettingsManager.save(self.settings)
-        self.theme_action.setText(
-            "Switch to Light Mode" if self.dark_mode else "Switch to Dark Mode"
-        )
-        for toolbar in self.findChildren(QToolBar):
-            self.removeToolBar(toolbar)
-            toolbar.deleteLater()
-        self._build_toolbar()
-        self._apply_theme()
-
-    # ── STATUS BAR ────────────────────────────
     def _update_status(self):
         counts = {}
         for sim_data in self.simulations.values():
@@ -239,7 +217,7 @@ class MainWindow(QMainWindow):
         recipes_text = "Recipes:  " + ",  ".join(
             f"{k} ({v})" for k, v in sorted(counts.items())
         )
-        self.status_label.setText(f"{recipes_text}     |     {self.last_dir}   ")
+        self.status_label.setText(f"{recipes_text}     |     {self.current_theme}     |     {self.last_dir}   ")
 
     # ── COMPARE ───────────────────────────────
     def _compare(self, exif_data):
@@ -282,7 +260,7 @@ class MainWindow(QMainWindow):
         if filenames:
             self._process_files(filenames)
 
-    # ── PROCESS FILES (shared logic) ──────────
+    # ── PROCESS FILES ─────────────────────────
     def _process_files(self, filenames):
         self.placeholder.hide()
         self.last_dir = os.path.dirname(filenames[0])
@@ -296,12 +274,11 @@ class MainWindow(QMainWindow):
 
         for filename in filenames:
             try:
-                exif_data = ExifManager.get_exif_data(filename, relevant_keys)
-                sim_name  = self._compare(exif_data)
-                sim_data  = self.simulations.get(sim_name) if sim_name else None
+                exif_data    = ExifManager.get_exif_data(filename, relevant_keys)
+                sim_name     = self._compare(exif_data)
+                sim_data     = self.simulations.get(sim_name) if sim_name else None
                 exif_fallback = {} if sim_data else ExifManager.get_exif(filename, 'short')
-                card = ImageCard(filename, sim_data, exif_fallback,
-                                 self.settings, dark=self.dark_mode)
+                card = ImageCard(filename, sim_data, exif_fallback, self.settings)
                 self.cards_layout.insertWidget(self.cards_layout.count() - 1, card)
             except Exception as e:
                 QMessageBox.warning(
@@ -332,6 +309,13 @@ class MainWindow(QMainWindow):
         SettingsDialog(self, self.settings, self._on_settings_saved).exec()
 
     def _on_settings_saved(self):
+        self.current_theme = self.settings.get("theme", DEFAULT_THEME)
+        self._apply_theme()
+        for toolbar in self.findChildren(QToolBar):
+            self.removeToolBar(toolbar)
+            toolbar.deleteLater()
+        self._build_toolbar()
+        self._update_status()
         active = self.settings.get("active_sensors", [])
         if hasattr(self, 'sensor_combo'):
             if len(active) == 1:
@@ -339,5 +323,13 @@ class MainWindow(QMainWindow):
                 self.sensor_combo.setCurrentIndex(idx if idx >= 0 else 0)
             else:
                 self.sensor_combo.setCurrentIndex(0)
-
-    
+                
+    def _on_theme_combo_changed(self, theme_name):
+        if theme_name == self.current_theme:
+            return
+        self.current_theme = theme_name
+        self.settings["theme"] = theme_name
+        SettingsManager.save(self.settings)
+        self.theme_action.setText(f"Theme: {self.current_theme}")
+        self._apply_theme()
+        self._update_status()

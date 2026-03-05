@@ -16,7 +16,8 @@ from widgets.histogram_widget import HistogramWidget
 from widgets.image_detail_dialog import ImageDetailDialog
 
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), ".."))
-from exporters.recipe_card_exporter import export_recipe_card   # ← NEW
+from exporters.recipe_card_exporter import export_recipe_card
+from themes import THEME_HISTOGRAM_COLORS, DEFAULT_THEME
 
 
 class ImageCard(QFrame):
@@ -90,25 +91,28 @@ class ImageCard(QFrame):
 
         # ── Histogram ──
         if settings.get("show_histogram", True):
+            theme = settings.get("theme", DEFAULT_THEME)
+            hist_bg, hist_fg = THEME_HISTOGRAM_COLORS.get(theme, ("#1d2021", "#ebdbb2"))
             self.hist = HistogramWidget(
                 img_thumb,
                 rgb=settings.get("rgb_histogram", True),
                 hist_type=settings.get("histogram_type", "step"),
-                dark=dark
+                bg=hist_bg, fg=hist_fg
             )
             layout.addWidget(self.hist)
 
-    def update_theme(self, dark):
-        self.dark = dark
+    def update_theme(self):
         if self.hist is not None:
             layout = self.layout()
             layout.removeWidget(self.hist)
             self.hist.deleteLater()
+            theme = self.settings.get("theme", DEFAULT_THEME)
+            hist_bg, hist_fg = THEME_HISTOGRAM_COLORS.get(theme, ("#1d2021", "#ebdbb2"))
             self.hist = HistogramWidget(
                 self.img_pil,
                 rgb=self.settings.get("rgb_histogram", True),
                 hist_type=self.settings.get("histogram_type", "step"),
-                dark=dark
+                bg=hist_bg, fg=hist_fg
             )
             layout.addWidget(self.hist)
 
