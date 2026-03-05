@@ -46,7 +46,7 @@ def _parse_lines(lines, filter_keys=None):
         value = value.strip()
         if filter_keys and key not in filter_keys:
             continue
-        if key == 'WhiteBalanceFineTune':
+        if key == 'WhiteBalanceFineTune':            
             value = parse_wbft(value)
         exif_data[key] = value
     return exif_data

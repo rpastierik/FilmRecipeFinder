@@ -1,6 +1,9 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## [0.4.1] - 2026.03.04
+- Added: Import recipe from text
+
 ## [0.4.0] - 2026.03.03
 - Added: Recipe Card Exporter
 

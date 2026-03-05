@@ -5,12 +5,13 @@ from utils import parse_wbft
 
 from PyQt6.QtWidgets import (
     QDialog, QFileDialog, QHBoxLayout, QLabel,
-    QLineEdit, QMessageBox, QPushButton, QVBoxLayout
+    QLineEdit, QMessageBox, QPushButton, QTextEdit, QVBoxLayout
 )
 
 from constants import Constants
 from managers import ExifManager, RecipeManager, XMLManager
 from dialogs.recipe_dialog import RecipeDialog
+from utils.recipe_text_parser import parse_recipe_text          # ← NEW
 
 
 class AddRecipeDialog(RecipeDialog):
@@ -23,6 +24,7 @@ class AddRecipeDialog(RecipeDialog):
         self._add_button("Save Recipe",   "#4CAF50", self._save)
         self._add_button("Reset",         "#FF9800", self._reset)
         self._add_button("From Picture",  "#00BCD4", self._load_from_picture)
+        self._add_button("From Text",     "#9C27B0", self._load_from_text)  # ← NEW
         self.btn_box.layout().addStretch()
         self._add_button("Cancel",        "#f44336", self.reject)
 
@@ -62,10 +64,62 @@ class AddRecipeDialog(RecipeDialog):
                     if field_name == 'WhiteBalanceFineTune':
                         value = parse_wbft(value)
                     self._set_field_value(field_name, value)
-                    
             self._set_field_value('Sensor', 'X-Trans V')
         except Exception as e:
             QMessageBox.warning(self, "Error", f"Failed to extract EXIF: {e}")
+
+    def _load_from_text(self):                                   # ← NEW
+        dlg = QDialog(self)
+        dlg.setWindowTitle("Import Recipe from Text")
+        dlg.setMinimumSize(500, 340)
+        layout = QVBoxLayout(dlg)
+
+        lbl = QLabel("Paste recipe text below (e.g. from Fuji X Weekly):")
+        layout.addWidget(lbl)
+
+        text_edit = QTextEdit()
+        text_edit.setPlaceholderText(
+            "Film Simulation: Classic Chrome\n"
+            "Grain Effect: Weak, Small\n"
+            "White Balance: Auto, +1 Red & -3 Blue\n"
+            "..."
+        )
+        layout.addWidget(text_edit)
+
+        btn_row = QHBoxLayout()
+        import_btn = QPushButton("Import")
+        import_btn.setStyleSheet(
+            "QPushButton { background-color: #9C27B0; color: white; "
+            "border-radius: 6px; padding: 6px 18px; font-weight: bold; }"
+            "QPushButton:hover { background-color: #AB47BC; }"
+        )
+        cancel_btn = QPushButton("Cancel")
+        cancel_btn.setStyleSheet(
+            "QPushButton { background-color: #9E9E9E; color: white; "
+            "border-radius: 6px; padding: 6px 18px; }"
+        )
+        btn_row.addStretch()
+        btn_row.addWidget(import_btn)
+        btn_row.addWidget(cancel_btn)
+        layout.addLayout(btn_row)
+
+        cancel_btn.clicked.connect(dlg.reject)
+
+        def do_import():
+            raw = text_edit.toPlainText().strip()
+            if not raw:
+                QMessageBox.warning(dlg, "Empty", "Please paste some recipe text first.")
+                return
+            parsed = parse_recipe_text(raw)
+            if not parsed:
+                QMessageBox.warning(dlg, "Parse Error", "Could not find any recognizable recipe fields.")
+                return
+            for field, value in parsed.items():
+                self._set_field_value(field, value)
+            dlg.accept()
+
+        import_btn.clicked.connect(do_import)
+        dlg.exec()
 
     def _save(self):
         recipe_data = self._get_recipe_data()
