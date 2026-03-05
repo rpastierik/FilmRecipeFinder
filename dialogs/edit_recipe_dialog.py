@@ -3,7 +3,7 @@
 # ──────────────────────────────────────────────
 from PyQt6.QtCore import Qt
 from PyQt6.QtWidgets import (
-    QComboBox, QHBoxLayout, QLabel, QMessageBox, QVBoxLayout, QWidget
+    QComboBox, QCompleter, QHBoxLayout, QLabel, QMessageBox, QVBoxLayout, QWidget
 )
 
 from constants import Constants
@@ -23,9 +23,18 @@ class EditRecipeDialog(RecipeDialog):
         selector_layout.addWidget(QLabel("Select Recipe:"))
 
         self.recipe_combo = QComboBox()
-        self.recipe_combo.addItem("-- select --")
+        self.recipe_combo.setEditable(True)                         # ← NEW
+        self.recipe_combo.setInsertPolicy(QComboBox.InsertPolicy.NoInsert)  # ← NEW
+        self.recipe_combo.addItem("")
         self.recipe_combo.addItems(sorted(simulations.keys()))
         self.recipe_combo.setMinimumWidth(300)
+
+        # Completer pre vyhľadávanie počas písania
+        completer = QCompleter(sorted(simulations.keys()))          # ← NEW
+        completer.setCaseSensitivity(Qt.CaseSensitivity.CaseInsensitive)  # ← NEW
+        completer.setFilterMode(Qt.MatchFlag.MatchContains)         # ← NEW
+        self.recipe_combo.setCompleter(completer)                   # ← NEW
+
         self.recipe_combo.currentTextChanged.connect(self._load_recipe)
         selector_layout.addWidget(self.recipe_combo)
         selector_layout.addStretch()
