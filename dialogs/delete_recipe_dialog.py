@@ -1,9 +1,10 @@
 # ──────────────────────────────────────────────
 # DELETE RECIPE DIALOG
 # ──────────────────────────────────────────────
+from PyQt6.QtCore import Qt
 from PyQt6.QtGui import QFont
 from PyQt6.QtWidgets import (
-    QComboBox, QDialog, QHBoxLayout, QLabel,
+    QComboBox, QCompleter, QDialog, QHBoxLayout, QLabel,
     QMessageBox, QPushButton, QVBoxLayout
 )
 
@@ -30,9 +31,17 @@ class DeleteRecipeDialog(QDialog):
         layout.addWidget(QLabel("Select recipe to delete:"))
 
         self.recipe_combo = QComboBox()
-        self.recipe_combo.addItem("-- select --")
+        self.recipe_combo.setEditable(True)
+        self.recipe_combo.setInsertPolicy(QComboBox.InsertPolicy.NoInsert)
+        self.recipe_combo.addItem("")
         self.recipe_combo.addItems(sorted(simulations.keys()))
         self.recipe_combo.setMinimumWidth(340)
+
+        completer = QCompleter(sorted(simulations.keys()))
+        completer.setCaseSensitivity(Qt.CaseSensitivity.CaseInsensitive)
+        completer.setFilterMode(Qt.MatchFlag.MatchContains)
+        self.recipe_combo.setCompleter(completer)
+
         layout.addWidget(self.recipe_combo)
 
         layout.addStretch()
