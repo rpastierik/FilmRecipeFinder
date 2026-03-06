@@ -48,6 +48,7 @@ class RecipeBrowserDialog(QDialog):
         self.search_edit.setCompleter(completer)
 
         self.search_edit.currentTextChanged.connect(self._filter)
+        self.search_edit.lineEdit().textEdited.connect(self._filter)
         layout.addWidget(self.search_edit)
 
         # ── Recipe list ──
