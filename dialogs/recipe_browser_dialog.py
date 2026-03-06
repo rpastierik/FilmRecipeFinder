@@ -4,7 +4,7 @@
 from PyQt6.QtCore import Qt
 from PyQt6.QtGui import QColor, QFont, QTextCharFormat
 from PyQt6.QtWidgets import (
-    QDialog, QHBoxLayout, QLineEdit, QPushButton, QTextEdit, QVBoxLayout
+    QComboBox, QCompleter, QDialog, QHBoxLayout, QPushButton, QTextEdit, QVBoxLayout
 )
 
 from constants import Constants
@@ -30,9 +30,24 @@ class RecipeBrowserDialog(QDialog):
         layout.setSpacing(8)
 
         # ── Search ──
-        self.search_edit = QLineEdit()
-        self.search_edit.setPlaceholderText("🔍  Search recipes...")
-        self.search_edit.textChanged.connect(self._filter)
+        self.search_edit = QComboBox()
+        self.search_edit.setEditable(True)
+        self.search_edit.setInsertPolicy(QComboBox.InsertPolicy.NoInsert)
+        self.search_edit.addItem("")
+        self.search_edit.addItems(sorted(simulations.keys()))
+        self.search_edit.lineEdit().setPlaceholderText("🔍  Search recipes...")
+
+        all_values = sorted(set(
+            item
+            for name, data in simulations.items()
+            for item in [name] + [str(v) for v in data.values()]
+        ))
+        completer = QCompleter(all_values)
+        completer.setCaseSensitivity(Qt.CaseSensitivity.CaseInsensitive)
+        completer.setFilterMode(Qt.MatchFlag.MatchContains)
+        self.search_edit.setCompleter(completer)
+
+        self.search_edit.currentTextChanged.connect(self._filter)
         layout.addWidget(self.search_edit)
 
         # ── Recipe list ──
