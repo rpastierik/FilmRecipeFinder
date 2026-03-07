@@ -14,7 +14,7 @@ A desktop application for identifying and managing Fujifilm film simulation reci
 - **Drag & Drop** support – simply drag photos into the application window
 - **Recipe browser** – browse, search, add, edit and delete recipes
 - **Sensor filter** – filter recipes by X-Trans generation (I–V) via toolbar or Settings
-- **Histogram** – RGB or luminance histogram for each photo (optional)
+- **Histogram** – RGB or luminance histogram for each photo; click to toggle mode, hover for pixel values, optional grid overlay
 - **Full EXIF viewer** – view full EXIF data for any photo
 - **Detail view** – click on any image card to open a full-size detail with complete EXIF
 - **Export Recipe Card** – export a stylized recipe card as PNG from any photo
@@ -154,7 +154,7 @@ FilmRecipeFinder/
 │   └── recipe_manager.py      # Recipe duplicate detection
 │
 ├── widgets/                   # UI components
-│   ├── histogram_widget.py    # Matplotlib histogram
+│   ├── histogram_widget.py    # Pure-Qt histogram (QPainter)
 │   ├── image_card.py          # Photo card with thumbnail + info
 │   └── image_detail_dialog.py # Full-size image detail dialog
 │
@@ -202,7 +202,9 @@ FilmRecipeFinder/
 - Export is only available for photos with a matched recipe
 
 ### Settings
-- Go to **Tools → Settings** to toggle histogram display, switch between RGB/luminance, change histogram type, and select theme
+- Go to **Tools → Settings** to toggle histogram display, switch between RGB/luminance, change histogram type, toggle histogram grid, and select theme
+- Click directly on the histogram to toggle between RGB and luminance mode
+- Hover over the histogram to see pixel counts per channel at any brightness value
 - Button colors throughout all dialogs automatically adapt to the selected theme
 - Use the **Sensor** dropdown in the toolbar to filter recipes by X-Trans generation
 

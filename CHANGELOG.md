@@ -6,6 +6,10 @@ All notable changes to this project will be documented in this file.
 - Changed: Histogram background color now reflects the active theme
 - Changed: RGB channel colors adapt to dark/light theme for better contrast
 - Changed: Button colors in all dialogs now reflect the active theme
+- Added: Histogram tooltip – hover to see pixel counts per channel at any brightness value
+- Added: Click on histogram to toggle between RGB and luminance mode
+- Added: Histogram grid overlay with brightness and percentage markers (toggleable in Settings)
+- Added: Histogram computations run in background thread (QThread) – UI stays responsive
 - Fixed: Button text contrast in Dracula, Nord, and Monochrome Dark themes
 - Fixed: Histogram baseline aligned with image and info panel
 

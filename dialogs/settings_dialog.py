@@ -45,10 +45,14 @@ class SettingsDialog(QDialog):
         self.rgb_hist_cb.setChecked(settings.get("rgb_histogram", True))
         layout.addWidget(self.rgb_hist_cb)
 
+        self.show_grid_cb = QCheckBox("Show Histogram Grid")
+        self.show_grid_cb.setChecked(settings.get("histogram_grid", True))
+        layout.addWidget(self.show_grid_cb)
+
         layout.addWidget(QLabel("Histogram Type:"))
         self.btn_group = QButtonGroup(self)
         self.radio_step = QRadioButton("Step")
-        self.radio_bar = QRadioButton("Bar")
+        self.radio_bar  = QRadioButton("Bar")
         self.btn_group.addButton(self.radio_step)
         self.btn_group.addButton(self.radio_bar)
         if settings.get("histogram_type", "step") == "bar":
@@ -83,10 +87,11 @@ class SettingsDialog(QDialog):
         layout.addLayout(btn_row)
 
     def _save(self):
-        self.settings["theme"] = self.theme_combo.currentText()
-        self.settings["show_histogram"] = self.show_hist_cb.isChecked()
-        self.settings["rgb_histogram"] = self.rgb_hist_cb.isChecked()
-        self.settings["histogram_type"] = "bar" if self.radio_bar.isChecked() else "step"
+        self.settings["theme"]            = self.theme_combo.currentText()
+        self.settings["show_histogram"]   = self.show_hist_cb.isChecked()
+        self.settings["rgb_histogram"]    = self.rgb_hist_cb.isChecked()
+        self.settings["histogram_grid"]   = self.show_grid_cb.isChecked()
+        self.settings["histogram_type"]   = "bar" if self.radio_bar.isChecked() else "step"
         SettingsManager.save(self.settings)
         self.accept()
         self.on_success()

@@ -106,7 +106,8 @@ class ImageCard(QFrame):
             rgb=self.settings.get("rgb_histogram", True),
             hist_type=self.settings.get("histogram_type", "step"),
             bg=hist_bg, fg=hist_fg,
-            size=(INFO_MAX_W, CARD_HEIGHT)
+            size=(INFO_MAX_W, CARD_HEIGHT),
+            show_grid=self.settings.get("histogram_grid", True)
         )
         self.hist.setMinimumWidth(INFO_MIN_W)
         self.hist.setMaximumWidth(INFO_MAX_W)
@@ -126,7 +127,8 @@ class ImageCard(QFrame):
                 rgb=self.settings.get("rgb_histogram", True),
                 hist_type=self.settings.get("histogram_type", "step"),
                 bg=hist_bg, fg=hist_fg,
-                size=(INFO_MAX_W, CARD_HEIGHT)
+                size=(INFO_MAX_W, CARD_HEIGHT),
+                show_grid=self.settings.get("histogram_grid", True)
             )
             self.hist.setMinimumWidth(INFO_MIN_W)
             self.hist.setMaximumWidth(INFO_MAX_W)
