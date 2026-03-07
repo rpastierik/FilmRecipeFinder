@@ -17,7 +17,7 @@ from themes import THEMES, DEFAULT_THEME
 from utils import resource_path
 from widgets import ImageCard
 from dialogs import (
-    AddRecipeDialog, DeleteRecipeDialog, EditRecipeDialog,
+    AboutDialog,AddRecipeDialog, DeleteRecipeDialog, EditRecipeDialog,
     RecipeBrowserDialog, SettingsDialog
 )
 
@@ -45,26 +45,27 @@ class MainWindow(QMainWindow):
 
     # ── ABOUT ─────────────────────────────────
     def _about(self):
-        msg = QMessageBox(self)
-        msg.setWindowTitle("About")
-        msg.setWindowIcon(QIcon(resource_path("icon.png")))
-        msg.setIconPixmap(QPixmap(resource_path("icon.png")).scaled(
-            64, 64,
-            Qt.AspectRatioMode.KeepAspectRatio,
-            Qt.TransformationMode.SmoothTransformation
-        ))
-        ver = Constants.APP_VERSION
-        msg.setText(
-            f"Film Recipe Finder\n\n"
-            f"Version {ver}  (March 2026)\n"
-            "© 2026 Roman Pastierik\n\n"
-            "Support development:\n"
-            "Ko-fi: ko-fi.com/rpastierik\n\n"
-            "License: GNU General Public License v3\n\n"
-            "Uses ExifTool by Phil Harvey\n"
-            "philharvey66@gmail.com"
-        )
-        msg.exec()
+        AboutDialog(self).exec()
+        # msg = QMessageBox(self)
+        # msg.setWindowTitle("About")
+        # msg.setWindowIcon(QIcon(resource_path("icon.png")))
+        # msg.setIconPixmap(QPixmap(resource_path("icon.png")).scaled(
+        #     64, 64,
+        #     Qt.AspectRatioMode.KeepAspectRatio,
+        #     Qt.TransformationMode.SmoothTransformation
+        # ))
+        # ver = Constants.APP_VERSION
+        # msg.setText(
+        #     f"Film Recipe Finder\n\n"
+        #     f"Version {ver}  (March 2026)\n"
+        #     "© 2026 Roman Pastierik\n\n"
+        #     "Support development:\n"
+        #     "Ko-fi: ko-fi.com/rpastierik\n\n"
+        #     "License: GNU General Public License v3\n\n"
+        #     "Uses ExifTool by Phil Harvey\n"
+        #     "philharvey66@gmail.com"
+        # )
+        # msg.exec()
 
     # ── UI BUILD ──────────────────────────────
     def _build_ui(self):

@@ -8,24 +8,30 @@ from PyQt6.QtCore import Qt
 from PyQt6.QtGui import QFont, QImage, QPixmap
 from PyQt6.QtWidgets import (
     QDialog, QFileDialog, QHBoxLayout, QLabel, QMessageBox,
-    QPushButton, QScrollArea, QVBoxLayout
+    QPushButton, QScrollArea, QSizePolicy, QVBoxLayout
 )
 
-import sys, os
+import sys
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), ".."))
-from exporters.recipe_card_exporter import export_recipe_card   # ← NEW
+from exporters.recipe_card_exporter import export_recipe_card
+
+INFO_PANEL_W = 280
+BTN_ROW_H    = 48
+MARGINS      = 32   # 16 * 2
 
 
 class ImageDetailDialog(QDialog):
     def __init__(self, parent, filename, sim_data, full_exif, settings, dark=True):
         super().__init__(parent)
         self.setWindowTitle(os.path.basename(filename))
-        self.setMinimumSize(1800, 1150)
+        self.setMinimumSize(900, 600)
+        self.resize(1800, 1150)
         self.setModal(True)
 
-        self._filename = filename       # ← NEW  (potrebujeme pri exporte)
-        self._sim_data = sim_data       # ← NEW
+        self._filename = filename
+        self._sim_data = sim_data
 
+        # ── Load & orient image ──
         img_pil = Image.open(filename)
         exif = img_pil.getexif()
         orientation = exif.get(ExifTags.Base.Orientation, 1)
@@ -36,6 +42,14 @@ class ImageDetailDialog(QDialog):
         elif orientation == 3:
             img_pil = img_pil.rotate(180, expand=True)
 
+        # Keep full-res pixmap for scaling
+        img_rgb = img_pil.convert("RGB")
+        data = img_rgb.tobytes("raw", "RGB")
+        bpl = img_rgb.width * 3
+        qimg = QImage(data, img_rgb.width, img_rgb.height, bpl, QImage.Format.Format_RGB888)
+        self._full_pixmap = QPixmap.fromImage(qimg)
+
+        # ── Layout ──
         main_layout = QVBoxLayout(self)
         main_layout.setContentsMargins(16, 16, 16, 16)
         main_layout.setSpacing(12)
@@ -43,22 +57,12 @@ class ImageDetailDialog(QDialog):
         top_row = QHBoxLayout()
         top_row.setSpacing(16)
 
-        # ── Large image ──
-        img_big = img_pil.copy()
-        img_big.thumbnail((1600, 1067), Image.LANCZOS)
-        img_rgb = img_big.convert("RGB")
-        data = img_rgb.tobytes("raw", "RGB")
-        bpl = img_rgb.width * 3
-        qimg = QImage(data, img_rgb.width, img_rgb.height, bpl, QImage.Format.Format_RGB888)
-        pixmap = QPixmap.fromImage(qimg)
-
-        img_label = QLabel()
-        img_label.setObjectName("imageLabel")
-        img_label.setPixmap(pixmap)
-        img_label.setFixedSize(1600, 1067)
-        img_label.setScaledContents(False)
-        img_label.setAlignment(Qt.AlignmentFlag.AlignCenter)
-        top_row.addWidget(img_label)
+        # ── Image label (responsive) ──
+        self._img_label = QLabel()
+        self._img_label.setObjectName("imageLabel")
+        self._img_label.setAlignment(Qt.AlignmentFlag.AlignCenter)
+        self._img_label.setSizePolicy(QSizePolicy.Policy.Expanding, QSizePolicy.Policy.Expanding)
+        top_row.addWidget(self._img_label, stretch=1)
 
         # ── Info panel ──
         right_col = QVBoxLayout()
@@ -83,23 +87,23 @@ class ImageDetailDialog(QDialog):
         info_scroll.setWidgetResizable(True)
         info_scroll.setHorizontalScrollBarPolicy(Qt.ScrollBarPolicy.ScrollBarAlwaysOff)
         info_scroll.setWidget(info_label)
-        info_scroll.setFixedWidth(280)
+        info_scroll.setFixedWidth(INFO_PANEL_W)
         right_col.addWidget(info_scroll)
 
         top_row.addLayout(right_col)
-        main_layout.addLayout(top_row)
+        main_layout.addLayout(top_row, stretch=1)
 
-        # ── Button row ──────────────────────────────── ← ZMENENÉ
+        # ── Button row ──
         btn_row = QHBoxLayout()
         btn_row.addStretch()
 
-        export_btn = QPushButton("📤  Export Recipe Card")    # ← NEW
+        export_btn = QPushButton("📤  Export Recipe Card")
         export_btn.setStyleSheet(
             "QPushButton { background-color: #D05F3B; color: white; "
             "border-radius: 6px; padding: 7px 24px; font-weight: bold; }"
             "QPushButton:hover { background-color: #E8714A; }"
         )
-        export_btn.clicked.connect(self._on_export_card)     # ← NEW
+        export_btn.clicked.connect(self._on_export_card)
         btn_row.addWidget(export_btn)
 
         close_btn = QPushButton("Close")
@@ -111,7 +115,30 @@ class ImageDetailDialog(QDialog):
         btn_row.addWidget(close_btn)
         main_layout.addLayout(btn_row)
 
-    # ── Export slot ──────────────────────────────── ← NEW
+        # Initial render
+        self._update_image()
+
+    # ── Responsive image ──────────────────────────────────────────────────
+
+    def _update_image(self):
+        """Scale pixmap to fit available space while keeping aspect ratio."""
+        available_w = self.width()  - MARGINS - INFO_PANEL_W - 16  # 16 = spacing
+        available_h = self.height() - MARGINS - BTN_ROW_H - 12     # 12 = spacing
+        if available_w < 1 or available_h < 1:
+            return
+        scaled = self._full_pixmap.scaled(
+            available_w, available_h,
+            Qt.AspectRatioMode.KeepAspectRatio,
+            Qt.TransformationMode.SmoothTransformation
+        )
+        self._img_label.setPixmap(scaled)
+
+    def resizeEvent(self, event):
+        super().resizeEvent(event)
+        self._update_image()
+
+    # ── Export ────────────────────────────────────────────────────────────
+
     def _on_export_card(self):
         if not self._sim_data:
             QMessageBox.warning(self, "No Recipe", "No recipe data found for this photo.")
