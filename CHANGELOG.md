@@ -6,6 +6,8 @@ All notable changes to this project will be documented in this file.
 - Added: Search/autocomplete in Recipe Browser
 - Changed: Settings moved from View menu to Tools menu
 - Changed: Add Recipe and Edit Recipe dialogs are now taller to show all fields without scrolling
+- Changed: Button colors in all dialogs now reflect the active theme
+- Fixed: Button text contrast in Dracula, Nord, and Monochrome Dark themes
 
 ## [0.5.0] - 2026.03.05
 - Added: Multiple themes – Nord, Dracula, Tokyo Night, Solarized Light, Monochrome Dark

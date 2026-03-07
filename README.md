@@ -20,6 +20,7 @@ A desktop application for identifying and managing Fujifilm film simulation reci
 - **Export Recipe Card** – export a stylized recipe card as PNG from any photo
 - **Import from Text** – paste recipe text from Fuji X Weekly or similar sources and auto-fill all fields
 - **Multiple themes** – choose from Gruvbox Dark, Catppuccin Latte, Nord, Dracula, Tokyo Night, Solarized Light, and Monochrome Dark
+- **Theme-aware UI** – button colors in all dialogs automatically reflect the active theme
 - **Persistent settings** – remembers last directory, theme, histogram preferences and active sensor filter
 
 ---
@@ -204,6 +205,7 @@ FilmRecipeFinder/
 
 ### Settings
 - Go to **Tools → Settings** to toggle histogram display, switch between RGB/luminance, change histogram type, and select theme
+- Button colors throughout all dialogs automatically adapt to the selected theme
 - Use the **Sensor** dropdown in the toolbar to filter recipes by X-Trans generation
 
 ---
