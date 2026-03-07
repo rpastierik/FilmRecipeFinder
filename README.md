@@ -27,10 +27,10 @@ A desktop application for identifying and managing Fujifilm film simulation reci
 
 ## Screenshots
 
-### Dark Theme
+### Dark Theme - Dracula
 ![Dark Theme](screenshots/dark_theme.png)
 
-### Light Theme
+### Light Theme - Captpuccin Latte
 ![Light Theme](screenshots/light_theme.png)
 
 ### Recipe Browser - Dark Theme
