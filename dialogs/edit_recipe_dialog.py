@@ -23,17 +23,16 @@ class EditRecipeDialog(RecipeDialog):
         selector_layout.addWidget(QLabel("Select Recipe:"))
 
         self.recipe_combo = QComboBox()
-        self.recipe_combo.setEditable(True)                         # ← NEW
-        self.recipe_combo.setInsertPolicy(QComboBox.InsertPolicy.NoInsert)  # ← NEW
+        self.recipe_combo.setEditable(True)
+        self.recipe_combo.setInsertPolicy(QComboBox.InsertPolicy.NoInsert)
         self.recipe_combo.addItem("")
         self.recipe_combo.addItems(sorted(simulations.keys()))
         self.recipe_combo.setMinimumWidth(300)
 
-        # Completer pre vyhľadávanie počas písania
-        completer = QCompleter(sorted(simulations.keys()))          # ← NEW
-        completer.setCaseSensitivity(Qt.CaseSensitivity.CaseInsensitive)  # ← NEW
-        completer.setFilterMode(Qt.MatchFlag.MatchContains)         # ← NEW
-        self.recipe_combo.setCompleter(completer)                   # ← NEW
+        completer = QCompleter(sorted(simulations.keys()))
+        completer.setCaseSensitivity(Qt.CaseSensitivity.CaseInsensitive)
+        completer.setFilterMode(Qt.MatchFlag.MatchContains)
+        self.recipe_combo.setCompleter(completer)
 
         self.recipe_combo.currentTextChanged.connect(self._load_recipe)
         selector_layout.addWidget(self.recipe_combo)
@@ -46,9 +45,9 @@ class EditRecipeDialog(RecipeDialog):
         if name_widget:
             name_widget.setReadOnly(True)
 
-        self._add_button("Save Changes", "#4CAF50", self._save)
+        self._add_button("Save Changes", "primary", self._save)
         self.btn_box.layout().addStretch()
-        self._add_button("Cancel", "#f44336", self.reject)
+        self._add_button("Cancel", "neutral", self.reject)
 
     def _load_recipe(self, name):
         if name == "-- select --" or name not in self.simulations:

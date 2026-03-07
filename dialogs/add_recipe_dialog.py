@@ -10,8 +10,8 @@ from PyQt6.QtWidgets import (
 
 from constants import Constants
 from managers import ExifManager, RecipeManager, XMLManager
-from dialogs.recipe_dialog import RecipeDialog
-from utils.recipe_text_parser import parse_recipe_text          # ← NEW
+from dialogs.recipe_dialog import RecipeDialog, get_button_color
+from utils.recipe_text_parser import parse_recipe_text
 
 
 class AddRecipeDialog(RecipeDialog):
@@ -21,12 +21,12 @@ class AddRecipeDialog(RecipeDialog):
         self.on_success = on_success
 
         self._build_fields(Constants.RECIPE_FIELDS)
-        self._add_button("Save Recipe",   "#4CAF50", self._save)
-        self._add_button("Reset",         "#FF9800", self._reset)
-        self._add_button("From Picture",  "#00BCD4", self._load_from_picture)
-        self._add_button("From Text",     "#9C27B0", self._load_from_text)  # ← NEW
+        self._add_button("Save Recipe",   "primary", self._save)
+        self._add_button("Reset",         "warning", self._reset)
+        self._add_button("From Picture",  "info",    self._load_from_picture)
+        self._add_button("From Text",     "purple",  self._load_from_text)
         self.btn_box.layout().addStretch()
-        self._add_button("Cancel",        "#f44336", self.reject)
+        self._add_button("Cancel",        "neutral", self.reject)
 
     def _reset(self):
         for field in Constants.RECIPE_FIELDS:
@@ -68,7 +68,7 @@ class AddRecipeDialog(RecipeDialog):
         except Exception as e:
             QMessageBox.warning(self, "Error", f"Failed to extract EXIF: {e}")
 
-    def _load_from_text(self):                                   # ← NEW
+    def _load_from_text(self):
         dlg = QDialog(self)
         dlg.setWindowTitle("Import Recipe from Text")
         dlg.setMinimumSize(500, 340)
@@ -87,16 +87,19 @@ class AddRecipeDialog(RecipeDialog):
         layout.addWidget(text_edit)
 
         btn_row = QHBoxLayout()
+        c_purple  = get_button_color(self.parent(), "purple")
+        c_neutral = get_button_color(self.parent(), "neutral")
+
         import_btn = QPushButton("Import")
         import_btn.setStyleSheet(
-            "QPushButton { background-color: #9C27B0; color: white; "
-            "border-radius: 6px; padding: 6px 18px; font-weight: bold; }"
-            "QPushButton:hover { background-color: #AB47BC; }"
+            f"QPushButton {{ background-color: {c_purple}; color: white; "
+            f"border-radius: 6px; padding: 6px 18px; font-weight: bold; }}"
+            f"QPushButton:hover {{ background-color: {c_purple}cc; }}"
         )
         cancel_btn = QPushButton("Cancel")
         cancel_btn.setStyleSheet(
-            "QPushButton { background-color: #9E9E9E; color: white; "
-            "border-radius: 6px; padding: 6px 18px; }"
+            f"QPushButton {{ background-color: {c_neutral}; color: white; "
+            f"border-radius: 6px; padding: 6px 18px; }}"
         )
         btn_row.addStretch()
         btn_row.addWidget(import_btn)
@@ -158,13 +161,14 @@ class AddRecipeDialog(RecipeDialog):
         layout.addWidget(QLabel(msg))
 
         btn_row = QHBoxLayout()
-        colors = ["#4CAF50", "#FF9800", "#f44336"]
+        type_map = ["primary", "warning", "neutral"]
         result = [None]
 
         for i, choice in enumerate(choices):
+            color = get_button_color(self.parent(), type_map[i])
             btn = QPushButton(choice)
             btn.setStyleSheet(
-                f"QPushButton {{ background-color: {colors[i]}; color: white; "
+                f"QPushButton {{ background-color: {color}; color: white; "
                 f"border-radius: 5px; padding: 5px 12px; }}"
             )
             btn.clicked.connect(lambda _, c=choice: (result.__setitem__(0, c), dlg.accept()))
@@ -196,11 +200,20 @@ class AddRecipeDialog(RecipeDialog):
         name_edit = QLineEdit(recipe_data["Name"])
         layout.addWidget(name_edit)
 
+        c_primary = get_button_color(self.parent(), "primary")
+        c_neutral = get_button_color(self.parent(), "neutral")
+
         btn_row = QHBoxLayout()
         save_btn = QPushButton("Save")
-        save_btn.setStyleSheet("background-color: #4CAF50; color: white; border-radius: 5px; padding: 5px 12px;")
+        save_btn.setStyleSheet(
+            f"QPushButton {{ background-color: {c_primary}; color: white; "
+            f"border-radius: 5px; padding: 5px 12px; }}"
+        )
         cancel_btn = QPushButton("Cancel")
-        cancel_btn.setStyleSheet("background-color: #f44336; color: white; border-radius: 5px; padding: 5px 12px;")
+        cancel_btn.setStyleSheet(
+            f"QPushButton {{ background-color: {c_neutral}; color: white; "
+            f"border-radius: 5px; padding: 5px 12px; }}"
+        )
         btn_row.addWidget(save_btn)
         btn_row.addWidget(cancel_btn)
         layout.addLayout(btn_row)

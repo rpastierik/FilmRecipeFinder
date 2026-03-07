@@ -12,6 +12,7 @@ from themes import THEMES, THEME_BROWSER_COLORS
 from dialogs.add_recipe_dialog import AddRecipeDialog
 from dialogs.edit_recipe_dialog import EditRecipeDialog
 from dialogs.delete_recipe_dialog import DeleteRecipeDialog
+from dialogs.recipe_dialog import get_button_color
 
 LIGHT_THEMES = {"Catppuccin Latte", "Solarized Light"}
 
@@ -70,24 +71,27 @@ class RecipeBrowserDialog(QDialog):
 
         # ── Buttons ──
         btn_row = QHBoxLayout()
-        for text, color, slot in [
-            ("Add Recipe",    "#4CAF50", self._add),
-            ("Edit Recipe",   "#FF9800", self._edit),
-            ("Delete Recipe", "#f44336", self._delete),
+        for text, btn_type, slot in [
+            ("Add Recipe",    "primary", self._add),
+            ("Edit Recipe",   "warning", self._edit),
+            ("Delete Recipe", "danger",  self._delete),
         ]:
+            color = get_button_color(parent, btn_type)
             btn = QPushButton(text)
             btn.setStyleSheet(
                 f"QPushButton {{ background-color: {color}; color: white; "
                 f"border-radius: 6px; padding: 6px 14px; }}"
+                f"QPushButton:hover {{ background-color: {color}cc; }}"
             )
             btn.clicked.connect(slot)
             btn_row.addWidget(btn)
 
         btn_row.addStretch()
+        c_neutral = get_button_color(parent, "neutral")
         close_btn = QPushButton("Close")
         close_btn.setStyleSheet(
-            "QPushButton { background-color: #9E9E9E; color: white; "
-            "border-radius: 6px; padding: 6px 14px; }"
+            f"QPushButton {{ background-color: {c_neutral}; color: white; "
+            f"border-radius: 6px; padding: 6px 14px; }}"
         )
         close_btn.clicked.connect(self.close)
         btn_row.addWidget(close_btn)

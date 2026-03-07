@@ -8,6 +8,31 @@ from PyQt6.QtWidgets import (
 )
 
 from constants import Constants
+from themes import THEME_BUTTON_COLORS
+
+# Button type → index in THEME_BUTTON_COLORS tuple
+BUTTON_TYPES = {
+    "primary": 0,   # Save, confirm
+    "warning": 1,   # Reset, secondary
+    "info":    2,   # From Picture, import
+    "purple":  3,   # From Text, special
+    "danger":  4,   # Delete, destructive Cancel
+    "neutral": 5,   # Cancel, Close
+}
+
+
+def get_button_color(parent, btn_type: str) -> str:
+    """Resolve the correct button color from the active theme."""
+    theme = getattr(parent, 'current_theme', None)
+    # Walk up parent chain if direct parent doesn't have current_theme
+    node = parent
+    while theme is None and node is not None:
+        theme = getattr(node, 'current_theme', None)
+        node = getattr(node, 'parent', lambda: None)()
+    theme = theme or "Gruvbox Dark"
+    colors = THEME_BUTTON_COLORS.get(theme, THEME_BUTTON_COLORS["Gruvbox Dark"])
+    idx = BUTTON_TYPES.get(btn_type, 5)
+    return colors[idx]
 
 
 class RecipeDialog(QDialog):
@@ -84,12 +109,17 @@ class RecipeDialog(QDialog):
         else:
             widget.setText(value)
 
-    def _add_button(self, text, color, slot):
+    def _add_button(self, text, btn_type, slot):
+        """
+        btn_type: "primary" | "warning" | "info" | "purple" | "danger" | "neutral"
+        """
+        color = get_button_color(self.parent(), btn_type)
         btn = QPushButton(text)
         btn.setMinimumWidth(130)
         btn.setStyleSheet(
             f"QPushButton {{ background-color: {color}; color: white; "
             f"border-radius: 6px; padding: 6px 14px; }}"
+            f"QPushButton:hover {{ background-color: {color}cc; }}"
         )
         btn.clicked.connect(slot)
         self.btn_box.layout().addWidget(btn)

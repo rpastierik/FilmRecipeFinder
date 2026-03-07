@@ -9,6 +9,7 @@ from PyQt6.QtWidgets import (
 )
 
 from managers import XMLManager
+from dialogs.recipe_dialog import get_button_color
 
 
 class DeleteRecipeDialog(QDialog):
@@ -43,21 +44,24 @@ class DeleteRecipeDialog(QDialog):
         self.recipe_combo.setCompleter(completer)
 
         layout.addWidget(self.recipe_combo)
-
         layout.addStretch()
+
+        c_danger  = get_button_color(parent, "danger")
+        c_neutral = get_button_color(parent, "neutral")
 
         btn_row = QHBoxLayout()
         del_btn = QPushButton("Delete Recipe")
         del_btn.setStyleSheet(
-            "QPushButton { background-color: #f44336; color: white; "
-            "border-radius: 6px; padding: 7px 18px; font-weight: bold; }"
+            f"QPushButton {{ background-color: {c_danger}; color: white; "
+            f"border-radius: 6px; padding: 7px 18px; font-weight: bold; }}"
+            f"QPushButton:hover {{ background-color: {c_danger}cc; }}"
         )
         del_btn.clicked.connect(self._delete)
 
         cancel_btn = QPushButton("Cancel")
         cancel_btn.setStyleSheet(
-            "QPushButton { background-color: #9E9E9E; color: white; "
-            "border-radius: 6px; padding: 7px 18px; }"
+            f"QPushButton {{ background-color: {c_neutral}; color: white; "
+            f"border-radius: 6px; padding: 7px 18px; }}"
         )
         cancel_btn.clicked.connect(self.reject)
 

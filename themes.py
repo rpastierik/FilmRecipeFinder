@@ -195,3 +195,21 @@ THEME_BROWSER_COLORS = {
     "Solarized Light":  ("#859900", "#657b83", "#268bd2"),
     "Monochrome Dark":  ("#ffffff", "#e0e0e0", "#aaaaaa"),
 }
+
+# Button colors per theme: primary, warning, info, danger, neutral
+# primary  = Save / confirm action
+# warning  = Reset / secondary action
+# info     = From Picture / import
+# purple   = From Text / special import
+# danger   = Delete / Cancel destructive
+# neutral  = Cancel / Close
+THEME_BUTTON_COLORS = {
+    #                    primary     warning     info        purple      danger      neutral
+    "Gruvbox Dark":     ("#98971a", "#d79921", "#458588", "#b16286", "#cc241d", "#7c6f64"),
+    "Catppuccin Latte": ("#4c9a2a", "#df8e1d", "#209fb5", "#8839ef", "#d20f39", "#8c8fa1"),
+    "Nord":             ("#3d6b30", "#8a6200", "#88c0d0", "#b48ead", "#bf616a", "#616e88"),
+    "Dracula":          ("#28a745", "#c8a000", "#8be9fd", "#bd93f9", "#ff5555", "#6272a4"),
+    "Tokyo Night":      ("#9ece6a", "#e0af68", "#7dcfff", "#bb9af7", "#f7768e", "#565f89"),
+    "Solarized Light":  ("#859900", "#b58900", "#268bd2", "#6c71c4", "#dc322f", "#93a1a1"),
+    "Monochrome Dark":  ("#555555", "#444444", "#666666", "#777777", "#222222", "#3a3a3a"),
+}

@@ -9,6 +9,7 @@ from PyQt6.QtWidgets import (
 from constants import Constants
 from managers import SettingsManager
 from themes import THEMES
+from dialogs.recipe_dialog import get_button_color
 
 
 class SettingsDialog(QDialog):
@@ -59,14 +60,20 @@ class SettingsDialog(QDialog):
         layout.addStretch()
 
         # ── Buttons ──
+        c_primary = get_button_color(parent, "primary")
+        c_neutral = get_button_color(parent, "neutral")
+
         btn_row = QHBoxLayout()
         save_btn = QPushButton("Save")
         save_btn.setStyleSheet(
-            "QPushButton { background-color: #4CAF50; color: white; border-radius: 6px; padding: 6px 18px; }"
+            f"QPushButton {{ background-color: {c_primary}; color: white; "
+            f"border-radius: 6px; padding: 6px 18px; }}"
+            f"QPushButton:hover {{ background-color: {c_primary}cc; }}"
         )
         cancel_btn = QPushButton("Cancel")
         cancel_btn.setStyleSheet(
-            "QPushButton { background-color: #9E9E9E; color: white; border-radius: 6px; padding: 6px 18px; }"
+            f"QPushButton {{ background-color: {c_neutral}; color: white; "
+            f"border-radius: 6px; padding: 6px 18px; }}"
         )
         save_btn.clicked.connect(self._save)
         cancel_btn.clicked.connect(self.reject)
