@@ -33,11 +33,8 @@ A desktop application for identifying and managing Fujifilm film simulation reci
 ### Light Theme - Captpuccin Latte
 ![Light Theme](screenshots/light_theme.png)
 
-### Recipe Browser - Dark Theme
+### Recipe Browser
 ![Recipe Browser](screenshots/recipe_browser_dark_theme.png)
-
-### Recipe Browser - Light Theme
-![Recipe Browser](screenshots/recipe_browser_light_theme.png)
 
 ### Detail View with Full Exif
 ![Detail View](screenshots/detail_view_with_full_exif.png)
