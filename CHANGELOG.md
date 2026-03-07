@@ -1,13 +1,19 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## [0.5.2] - 2026.03.07
+- Changed: Histogram rewritten as pure Qt widget (QPainter) – matplotlib and numpy dependencies removed
+- Changed: Histogram background color now reflects the active theme
+- Changed: RGB channel colors adapt to dark/light theme for better contrast
+- Changed: Button colors in all dialogs now reflect the active theme
+- Fixed: Button text contrast in Dracula, Nord, and Monochrome Dark themes
+- Fixed: Histogram baseline aligned with image and info panel
+
 ## [0.5.1] - 2026.03.07
 - Added: Sort dropdown in Recipe Browser (XML order, XML reversed, Name A-Z/Z-A, Sensor, Film Simulation)
 - Added: Search/autocomplete in Recipe Browser
 - Changed: Settings moved from View menu to Tools menu
 - Changed: Add Recipe and Edit Recipe dialogs are now taller to show all fields without scrolling
-- Changed: Button colors in all dialogs now reflect the active theme
-- Fixed: Button text contrast in Dracula, Nord, and Monochrome Dark themes
 
 ## [0.5.0] - 2026.03.05
 - Added: Multiple themes – Nord, Dracula, Tokyo Night, Solarized Light, Monochrome Dark

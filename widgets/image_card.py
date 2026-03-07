@@ -19,6 +19,11 @@ sys.path.insert(0, os.path.join(os.path.dirname(__file__), ".."))
 from exporters.recipe_card_exporter import export_recipe_card
 from themes import THEME_HISTOGRAM_COLORS, DEFAULT_THEME
 
+CARD_HEIGHT  = 350
+THUMB_WIDTH  = 390
+INFO_MIN_W   = 280
+INFO_MAX_W   = 390
+
 
 class ImageCard(QFrame):
     def __init__(self, filename, sim_data, exif_fallback, settings, dark=True):
@@ -48,7 +53,7 @@ class ImageCard(QFrame):
             self.img_pil = self.img_pil.rotate(180, expand=True)
 
         img_thumb = self.img_pil.copy()
-        img_thumb.thumbnail((390, 350), Image.LANCZOS)
+        img_thumb.thumbnail((THUMB_WIDTH, CARD_HEIGHT), Image.LANCZOS)
 
         img_rgb = img_thumb.convert("RGB")
         data = img_rgb.tobytes("raw", "RGB")
@@ -60,7 +65,7 @@ class ImageCard(QFrame):
         img_label = QLabel()
         img_label.setObjectName("imageLabel")
         img_label.setPixmap(pixmap)
-        img_label.setFixedSize(390, 350)
+        img_label.setFixedSize(THUMB_WIDTH, CARD_HEIGHT)
         img_label.setScaledContents(False)
         img_label.setAlignment(Qt.AlignmentFlag.AlignCenter)
         layout.addWidget(img_label)
@@ -71,9 +76,9 @@ class ImageCard(QFrame):
         info_label.setFont(QFont("Courier New", 10))
         info_label.setAlignment(Qt.AlignmentFlag.AlignTop | Qt.AlignmentFlag.AlignLeft)
         info_label.setWordWrap(True)
-        info_label.setMinimumWidth(280)
-        info_label.setMaximumWidth(390)
-        info_label.setFixedHeight(350)
+        info_label.setMinimumWidth(INFO_MIN_W)
+        info_label.setMaximumWidth(INFO_MAX_W)
+        info_label.setFixedHeight(CARD_HEIGHT)
         info_label.setContentsMargins(12, 8, 0, 0)
         info_label.setSizePolicy(QSizePolicy.Policy.Expanding, QSizePolicy.Policy.Preferred)
 
@@ -91,15 +96,23 @@ class ImageCard(QFrame):
 
         # ── Histogram ──
         if settings.get("show_histogram", True):
-            theme = settings.get("theme", DEFAULT_THEME)
-            hist_bg, hist_fg = THEME_HISTOGRAM_COLORS.get(theme, ("#1d2021", "#ebdbb2"))
-            self.hist = HistogramWidget(
-                img_thumb,
-                rgb=settings.get("rgb_histogram", True),
-                hist_type=settings.get("histogram_type", "step"),
-                bg=hist_bg, fg=hist_fg
-            )
-            layout.addWidget(self.hist)
+            self._add_histogram(layout, img_thumb)
+
+    def _add_histogram(self, layout, img_thumb):
+        theme = self.settings.get("theme", DEFAULT_THEME)
+        hist_bg, hist_fg = THEME_HISTOGRAM_COLORS.get(theme, ("#1d2021", "#ebdbb2"))
+        self.hist = HistogramWidget(
+            img_thumb,
+            rgb=self.settings.get("rgb_histogram", True),
+            hist_type=self.settings.get("histogram_type", "step"),
+            bg=hist_bg, fg=hist_fg,
+            size=(INFO_MAX_W, CARD_HEIGHT)
+        )
+        self.hist.setMinimumWidth(INFO_MIN_W)
+        self.hist.setMaximumWidth(INFO_MAX_W)
+        self.hist.setFixedHeight(CARD_HEIGHT)
+        self.hist.setSizePolicy(QSizePolicy.Policy.Expanding, QSizePolicy.Policy.Fixed)
+        layout.addWidget(self.hist, 0, Qt.AlignmentFlag.AlignBottom)
 
     def update_theme(self):
         if self.hist is not None:
@@ -112,8 +125,13 @@ class ImageCard(QFrame):
                 self.img_pil,
                 rgb=self.settings.get("rgb_histogram", True),
                 hist_type=self.settings.get("histogram_type", "step"),
-                bg=hist_bg, fg=hist_fg
+                bg=hist_bg, fg=hist_fg,
+                size=(INFO_MAX_W, CARD_HEIGHT)
             )
+            self.hist.setMinimumWidth(INFO_MIN_W)
+            self.hist.setMaximumWidth(INFO_MAX_W)
+            self.hist.setFixedHeight(CARD_HEIGHT)
+            self.hist.setSizePolicy(QSizePolicy.Policy.Expanding, QSizePolicy.Policy.Fixed)
             layout.addWidget(self.hist)
 
     def mousePressEvent(self, event):
@@ -128,17 +146,16 @@ class ImageCard(QFrame):
             )
             dlg.exec()
 
-    def contextMenuEvent(self, event):                          # ← NEW
+    def contextMenuEvent(self, event):
         menu = QMenu(self)
         export_action = menu.addAction("📤  Export Recipe Card")
-        export_action.setEnabled(bool(self.sim_data))           # sivé ak nie je recept
+        export_action.setEnabled(bool(self.sim_data))
 
         action = menu.exec(event.globalPos())
-
         if action == export_action:
             self._export_card()
 
-    def _export_card(self):                                     # ← NEW
+    def _export_card(self):
         if not self.sim_data:
             QMessageBox.warning(self, "No Recipe", "No recipe data found for this photo.")
             return

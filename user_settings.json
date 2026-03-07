@@ -1,6 +1,6 @@
 {
-    "theme": "Nord",
-    "show_histogram": false,
+    "theme": "Dracula",
+    "show_histogram": true,
     "rgb_histogram": true,
     "histogram_type": "bar",
     "active_sensors": [

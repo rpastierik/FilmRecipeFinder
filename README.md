@@ -20,7 +20,7 @@ A desktop application for identifying and managing Fujifilm film simulation reci
 - **Export Recipe Card** – export a stylized recipe card as PNG from any photo
 - **Import from Text** – paste recipe text from Fuji X Weekly or similar sources and auto-fill all fields
 - **Multiple themes** – choose from Gruvbox Dark, Catppuccin Latte, Nord, Dracula, Tokyo Night, Solarized Light, and Monochrome Dark
-- **Theme-aware UI** – button colors in all dialogs automatically reflect the active theme
+- **Theme-aware UI** – button colors and histogram appearance automatically reflect the active theme
 - **Persistent settings** – remembers last directory, theme, histogram preferences and active sensor filter
 
 ---
@@ -66,14 +66,12 @@ A desktop application for identifying and managing Fujifilm film simulation reci
 ```
 PyQt6
 Pillow
-numpy
-matplotlib
 ```
 
 Install with:
 
 ```bash
-pip install PyQt6 Pillow numpy matplotlib
+pip install PyQt6 Pillow
 ```
 
 ---
@@ -90,7 +88,7 @@ cd FilmRecipeFinder
 2. Install dependencies:
 
 ```bash
-pip install PyQt6 Pillow numpy matplotlib
+pip install PyQt6 Pillow
 ```
 
 3. Make sure **ExifTool** is available:
@@ -128,7 +126,7 @@ python film_recipe_finder.py
 ```bash
 python3 -m venv venv
 source venv/bin/activate
-pip install PyQt6 Pillow numpy matplotlib
+pip install PyQt6 Pillow
 python film_recipe_finder.py
 ```
 
