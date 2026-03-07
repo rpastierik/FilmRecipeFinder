@@ -3,7 +3,7 @@
 # ──────────────────────────────────────────────
 from PIL import Image
 from PyQt6.QtCore import Qt, QThread, pyqtSignal
-from PyQt6.QtGui import QColor, QFont, QPainter, QPainterPath, QPen
+from PyQt6.QtGui import QBrush, QColor, QFont, QLinearGradient, QPainter, QPainterPath, QPen
 from PyQt6.QtWidgets import QWidget
 
 PAD_L, PAD_R, PAD_T, PAD_B = 6, 6, 6, 0
@@ -42,13 +42,13 @@ class HistogramWorker(QThread):
                 (r, self._r_col, "R"),
             ]
             # clipping: any channel clipped counts
-            shadows_r  = (r[0]   + g[0]   + b[0])   / (total * 3)
+            shadows_r    = (r[0]   + g[0]   + b[0])   / (total * 3)
             highlights_r = (r[255] + g[255] + b[255]) / (total * 3)
             clipping = {
                 "shadows":    shadows_r,
                 "highlights": highlights_r,
-                "shadow_col":    self._r_col,   # red for highlights
-                "highlight_col": self._b_col,   # blue for shadows (unused, white used)
+                "shadow_col":    self._r_col,
+                "highlight_col": self._b_col,
             }
         else:
             arr = self._img.convert("L").tobytes()
@@ -302,7 +302,6 @@ class HistogramWidget(QWidget):
         p.setPen(tc)
         p.drawText(bx + 6, by + fm.ascent() + 3, text)
 
-
     # ── grid ──────────────────────────────────────────────────────────────
 
     def _draw_grid(self, p, plot_w, plot_h):
@@ -439,9 +438,16 @@ class HistogramWidget(QWidget):
     # ── histogram draw modes ───────────────────────────────────────────────
 
     def _draw_step(self, p, buckets, color, ox, oy, pw, ph, max_val, log_max):
-        c = QColor(color)
-        c.setAlpha(220)
-        p.setPen(c)
+        grad = QLinearGradient(0, oy, 0, oy + ph)
+        c_top = QColor(color)
+        c_top.setAlpha(220)
+        c_bot = QColor(color)
+        c_bot.setAlpha(60)
+        grad.setColorAt(0.0, c_top)
+        grad.setColorAt(1.0, c_bot)
+
+        pen = QPen(QBrush(grad), 1.5)
+        p.setPen(pen)
         p.setBrush(Qt.BrushStyle.NoBrush)
 
         path = QPainterPath()
@@ -456,10 +462,16 @@ class HistogramWidget(QWidget):
         p.drawPath(path)
 
     def _draw_filled(self, p, buckets, color, ox, oy, pw, ph, max_val, log_max):
-        c = QColor(color)
-        c.setAlpha(160)
+        grad = QLinearGradient(0, oy, 0, oy + ph)
+        c_top = QColor(color)
+        c_top.setAlpha(200)
+        c_bot = QColor(color)
+        c_bot.setAlpha(30)
+        grad.setColorAt(0.0, c_top)
+        grad.setColorAt(1.0, c_bot)
+
         p.setPen(Qt.PenStyle.NoPen)
-        p.setBrush(c)
+        p.setBrush(QBrush(grad))
 
         path = QPainterPath()
         path.moveTo(ox, oy + ph)
