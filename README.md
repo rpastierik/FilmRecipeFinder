@@ -14,9 +14,9 @@ A desktop application for identifying and managing Fujifilm film simulation reci
 - **Drag & Drop** support – simply drag photos into the application window
 - **Recipe browser** – browse, search, add, edit and delete recipes
 - **Sensor filter** – filter recipes by X-Trans generation (I–V) via toolbar or Settings
-- **Histogram** – RGB or luminance histogram for each photo; click to toggle mode, hover for pixel values, optional grid overlay
+- **Histogram** – RGB or luminance histogram for each photo; click to toggle mode, right-click for log/linear scale, hover for pixel values, optional grid overlay; gradient fill for better readability
 - **Full EXIF viewer** – view full EXIF data for any photo
-- **Detail view** – click on any image card to open a full-size detail with complete EXIF
+- **Detail view** – click on any image card to open a full-size detail with complete EXIF; image scales responsively with window resize
 - **Export Recipe Card** – export a stylized recipe card as PNG from any photo
 - **Import from Text** – paste recipe text from Fuji X Weekly or similar sources and auto-fill all fields
 - **Multiple themes** – choose from Gruvbox Dark, Catppuccin Latte, Nord, Dracula, Tokyo Night, Solarized Light, and Monochrome Dark
@@ -30,7 +30,7 @@ A desktop application for identifying and managing Fujifilm film simulation reci
 ### Dark Theme - Dracula
 ![Dark Theme](screenshots/dark_theme.png)
 
-### Light Theme - Captpuccin Latte
+### Light Theme - Catppuccin Latte
 ![Light Theme](screenshots/light_theme.png)
 
 ### Recipe Browser
@@ -156,6 +156,7 @@ FilmRecipeFinder/
 │   └── image_detail_dialog.py # Full-size image detail dialog
 │
 ├── dialogs/                   # Application dialogs
+│   ├── about_dialog.py        # About dialog with clickable links
 │   ├── recipe_dialog.py       # Base dialog for recipe forms
 │   ├── add_recipe_dialog.py   # Add new recipe
 │   ├── edit_recipe_dialog.py  # Edit existing recipe
@@ -193,15 +194,18 @@ FilmRecipeFinder/
 - Use **From Text** to paste recipe text from Fuji X Weekly or similar sources – all recognized fields will be auto-filled
 
 ### Export Recipe Card
-- **Right-click** on any image card in the main window and select **Export Recipe Card**
+- **Right-click** on any image card (on the photo area) and select **Export Recipe Card**
 - Alternatively, open the detail view by clicking on an image card and click the **Export Recipe Card** button
 - The card includes the photo, film simulation settings, white balance, grain, and all other recipe parameters
 - Export is only available for photos with a matched recipe
 
+### Histogram
+- Click on the histogram to toggle between **RGB** and **luminance** mode
+- **Right-click** on the histogram to toggle between **linear** and **logarithmic** scale
+- Hover over the histogram to see pixel counts per channel at any brightness value
+
 ### Settings
 - Go to **Tools → Settings** to toggle histogram display, switch between RGB/luminance, change histogram type, toggle histogram grid, and select theme
-- Click directly on the histogram to toggle between RGB and luminance mode
-- Hover over the histogram to see pixel counts per channel at any brightness value
 - Button colors throughout all dialogs automatically adapt to the selected theme
 - Use the **Sensor** dropdown in the toolbar to filter recipes by X-Trans generation
 

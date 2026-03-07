@@ -1,6 +1,12 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## [0.5.3] - 2026.03.07
+- Added: About dialog with clickable Ko-fi and email links
+- Added: Gradient fill for histogram channels (RGB and luminance)
+- Changed: Detail view image now scales responsively with window resize
+- Changed: Export Recipe Card context menu now only activates on the photo, not on histogram or info panel
+
 ## [0.5.2] - 2026.03.07
 - Changed: Histogram rewritten as pure Qt widget (QPainter) – matplotlib and numpy dependencies removed
 - Changed: Histogram background color now reflects the active theme
