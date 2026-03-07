@@ -8,12 +8,15 @@ from PyQt6.QtWidgets import QWidget
 
 PAD_L, PAD_R, PAD_T, PAD_B = 6, 6, 6, 0
 
+# Clipping threshold – % of total pixels to trigger indicator
+CLIP_THRESHOLD = 0.001
+
 
 # ── Background worker ──────────────────────────────────────────────────────
 
 class HistogramWorker(QThread):
-    """Computes histogram buckets in a background thread."""
-    finished = pyqtSignal(list)  # emits list of (buckets, QColor, label)
+    """Computes histogram buckets + clipping info in a background thread."""
+    finished = pyqtSignal(list, dict)  # channels, clipping
 
     def __init__(self, img: Image.Image, rgb: bool, r_col, g_col, b_col, fg_col):
         super().__init__()
@@ -27,6 +30,7 @@ class HistogramWorker(QThread):
     def run(self):
         if self._rgb:
             arr = self._img.convert("RGB").tobytes()
+            total = len(arr) // 3
             r, g, b = [0] * 256, [0] * 256, [0] * 256
             for i in range(0, len(arr), 3):
                 r[arr[i]]     += 1
@@ -37,14 +41,28 @@ class HistogramWorker(QThread):
                 (g, self._g_col, "G"),
                 (r, self._r_col, "R"),
             ]
+            # clipping: any channel clipped counts
+            shadows_r  = (r[0]   + g[0]   + b[0])   / (total * 3)
+            highlights_r = (r[255] + g[255] + b[255]) / (total * 3)
+            clipping = {
+                "shadows":    shadows_r,
+                "highlights": highlights_r,
+                "shadow_col":    self._r_col,   # red for highlights
+                "highlight_col": self._b_col,   # blue for shadows (unused, white used)
+            }
         else:
             arr = self._img.convert("L").tobytes()
+            total = len(arr)
             luma = [0] * 256
             for v in arr:
                 luma[v] += 1
             channels = [(luma, self._fg_col, "L")]
+            clipping = {
+                "shadows":    luma[0]   / total,
+                "highlights": luma[255] / total,
+            }
 
-        self.finished.emit(channels)
+        self.finished.emit(channels, clipping)
 
 
 # ── Widget ─────────────────────────────────────────────────────────────────
@@ -58,17 +76,18 @@ class HistogramWidget(QWidget):
         self.setCursor(Qt.CursorShape.PointingHandCursor)
         self._hover_x  = None
         self._channels = []
+        self._clipping = {}
         self._loading  = True
-        self._rgb      = rgb   # current mode – toggled on click
+        self._rgb      = rgb
 
         if bg is None:
             bg = "#1d2021" if dark else "#dce0e8"
         if fg is None:
             fg = "#ebdbb2" if dark else "#4c4f69"
 
-        self._bg     = QColor(bg)
-        self._fg     = QColor(fg)
-        self._filled = (hist_type == "bar")
+        self._bg        = QColor(bg)
+        self._fg        = QColor(fg)
+        self._filled    = (hist_type == "bar")
         self._show_grid = show_grid
 
         bg_color = QColor(bg)
@@ -83,22 +102,21 @@ class HistogramWidget(QWidget):
             self._g_col = QColor(30,  130, 30)
             self._b_col = QColor(30,  80,  180)
 
-        # store thumb for re-use when toggling mode
         self._thumb = img.copy()
         self._thumb.thumbnail((256, 256), Image.LANCZOS)
 
+        self._log_scale = False   # toggled by right-click
         self._worker = None
-        self._show_grid = show_grid
         self._start_worker()
         self.setFixedSize(*size)
 
     # ── worker ─────────────────────────────────────────────────────────────
 
     def _start_worker(self):
-        self._loading = True
+        self._loading  = True
         self._channels = []
+        self._clipping = {}
         self.update()
-        # stop previous worker if still running
         if self._worker and self._worker.isRunning():
             self._worker.finished.disconnect()
             self._worker.quit()
@@ -110,8 +128,9 @@ class HistogramWidget(QWidget):
         self._worker.finished.connect(self._on_ready)
         self._worker.start()
 
-    def _on_ready(self, channels):
+    def _on_ready(self, channels, clipping):
         self._channels = channels
+        self._clipping = clipping
         self._loading  = False
         self.update()
 
@@ -121,6 +140,9 @@ class HistogramWidget(QWidget):
         if event.button() == Qt.MouseButton.LeftButton:
             self._rgb = not self._rgb
             self._start_worker()
+        elif event.button() == Qt.MouseButton.RightButton:
+            self._log_scale = not self._log_scale
+            self.update()
 
     def mouseMoveEvent(self, event):
         self._hover_x = event.position().x()
@@ -148,44 +170,156 @@ class HistogramWidget(QWidget):
             return
 
         global_max = max(max(buckets) for buckets, _, _l in self._channels) or 1
+        import math
+        log_max = math.log1p(global_max)
 
-        # grid below histogram
         if self._show_grid:
             self._draw_grid(p, plot_w, plot_h)
 
         for buckets, color, _label in self._channels:
             if self._filled:
-                self._draw_filled(p, buckets, color, PAD_L, PAD_T, plot_w, plot_h, global_max)
+                self._draw_filled(p, buckets, color, PAD_L, PAD_T, plot_w, plot_h, global_max, log_max)
             else:
-                self._draw_step(p, buckets, color, PAD_L, PAD_T, plot_w, plot_h, global_max)
+                self._draw_step(p, buckets, color, PAD_L, PAD_T, plot_w, plot_h, global_max, log_max)
 
-        # mode indicator – small label in bottom-right corner
+        self._draw_clipping_indicators(p, w, h)
         self._draw_mode_label(p, w, h)
 
         if self._hover_x is not None:
-            self._draw_crosshair(p, plot_w, plot_h, global_max)
+            self._draw_crosshair(p, plot_w, plot_h, global_max, log_max)
 
         p.end()
 
+    # ── clipping indicators ────────────────────────────────────────────────
+
+    def _draw_clipping_indicators(self, p, w, h):
+        """Triangles in top-left (shadows) and top-right (highlights)."""
+        SIZE = 14
+
+        shadows_pct    = self._clipping.get("shadows",    0.0)
+        highlights_pct = self._clipping.get("highlights", 0.0)
+
+        self._draw_triangle(
+            p,
+            x=PAD_L + 2, y=PAD_T + 2,
+            size=SIZE,
+            tip="top-left",
+            active=shadows_pct > CLIP_THRESHOLD,
+            pct=shadows_pct,
+            active_color=QColor(80, 140, 255),   # blue = shadows clipped
+        )
+
+        self._draw_triangle(
+            p,
+            x=w - PAD_R - 2, y=PAD_T + 2,
+            size=SIZE,
+            tip="top-right",
+            active=highlights_pct > CLIP_THRESHOLD,
+            pct=highlights_pct,
+            active_color=QColor(240, 80, 80),    # red = highlights clipped
+        )
+
+        # tooltip on hover near triangles – shown beside the triangle at top
+        if self._hover_x is not None:
+            mx = self._hover_x
+            # left triangle area
+            if mx < PAD_L + SIZE + 6:
+                self._draw_clipping_tooltip(
+                    p, PAD_L + SIZE + 4, PAD_T + 2,
+                    f"Shadows clipped: {shadows_pct * 100:.2f}%",
+                    shadows_pct > CLIP_THRESHOLD,
+                    QColor(80, 140, 255)
+                )
+            # right triangle area
+            elif mx > w - PAD_R - SIZE - 6:
+                self._draw_clipping_tooltip(
+                    p, w - PAD_R - SIZE - 4, PAD_T + 2,
+                    f"Highlights clipped: {highlights_pct * 100:.2f}%",
+                    highlights_pct > CLIP_THRESHOLD,
+                    QColor(240, 80, 80),
+                    align_right=True
+                )
+
+    def _draw_triangle(self, p, x, y, size, tip, active, pct, active_color):
+        """
+        Draw a right-angle triangle anchored at top corner.
+        tip="top-left"  → anchor top-left
+        tip="top-right" → anchor top-right
+        """
+        path = QPainterPath()
+        if tip == "top-left":
+            path.moveTo(x, y)
+            path.lineTo(x + size, y)
+            path.lineTo(x, y + size)
+        else:
+            path.moveTo(x, y)
+            path.lineTo(x - size, y)
+            path.lineTo(x, y + size)
+        path.closeSubpath()
+
+        if active:
+            intensity = min(pct / 0.05, 1.0)
+            c = QColor(active_color)
+            c.setAlpha(int(140 + 115 * intensity))
+            p.setPen(Qt.PenStyle.NoPen)
+            p.setBrush(c)
+        else:
+            dim = QColor(self._fg)
+            dim.setAlpha(30)
+            p.setPen(QPen(dim))
+            p.setBrush(Qt.BrushStyle.NoBrush)
+
+        p.drawPath(path)
+
+    def _draw_clipping_tooltip(self, p, x, y, text, active, color, align_right=False):
+        """Small tooltip next to clipping triangle."""
+        font = QFont("Segoe UI", 8)
+        p.setFont(font)
+        fm   = p.fontMetrics()
+        tw   = fm.horizontalAdvance(text) + 12
+        th   = fm.height() + 6
+
+        bx = x - tw if align_right else x
+        by = y
+
+        # box background
+        box_bg = QColor(self._bg)
+        box_bg.setAlpha(210)
+        p.setPen(Qt.PenStyle.NoPen)
+        p.setBrush(box_bg)
+        p.drawRoundedRect(bx, by, tw, th, 3, 3)
+
+        # box border in indicator color
+        border = QColor(color)
+        border.setAlpha(80 if active else 30)
+        p.setPen(QPen(border))
+        p.setBrush(Qt.BrushStyle.NoBrush)
+        p.drawRoundedRect(bx, by, tw, th, 3, 3)
+
+        # text
+        tc = QColor(color if active else self._fg)
+        tc.setAlpha(200 if active else 80)
+        p.setPen(tc)
+        p.drawText(bx + 6, by + fm.ascent() + 3, text)
+
+
+    # ── grid ──────────────────────────────────────────────────────────────
+
     def _draw_grid(self, p, plot_w, plot_h):
-        """Subtle horizontal and vertical grid lines."""
         grid_col = QColor(self._fg)
         grid_col.setAlpha(18)
         pen = QPen(grid_col)
         pen.setWidth(1)
         p.setPen(pen)
 
-        # horizontal lines at 25%, 50%, 75%
         for frac in (0.25, 0.50, 0.75):
             y = int(PAD_T + plot_h * (1.0 - frac))
             p.drawLine(PAD_L, y, PAD_L + plot_w, y)
 
-        # vertical lines at brightness 64, 128, 192
         for val in (64, 128, 192):
             x = int(PAD_L + val * plot_w / 256)
             p.drawLine(x, PAD_T, x, PAD_T + plot_h)
 
-        # subtle percent labels on horizontal lines
         label_col = QColor(self._fg)
         label_col.setAlpha(35)
         p.setPen(label_col)
@@ -195,7 +329,6 @@ class HistogramWidget(QWidget):
             y = int(PAD_T + plot_h * (1.0 - frac))
             p.drawText(PAD_L + 3, y - 2, label)
 
-        # subtle brightness labels on vertical lines
         for val in (64, 128, 192):
             x = int(PAD_L + val * plot_w / 256)
             label = str(val)
@@ -210,13 +343,14 @@ class HistogramWidget(QWidget):
         p.drawText(0, 0, w, h, Qt.AlignmentFlag.AlignCenter, "Loading…")
 
     def _draw_mode_label(self, p, w, h):
-        """Small RGB / LUM label in bottom-right so user knows current mode."""
-        label = "RGB" if self._rgb else "LUM"
+        mode  = "RGB" if self._rgb else "LUM"
+        scale = "LOG" if self._log_scale else "LIN"
+        label = f"{mode}  {scale}"
         font = QFont("Segoe UI", 8)
         font.setBold(True)
         p.setFont(font)
         fm = p.fontMetrics()
-        lw = fm.horizontalAdvance(label) + 8
+        lw = fm.horizontalAdvance(label) + 10
         lh = fm.height() + 4
         bx = w - lw - 6
         by = h - lh - 4
@@ -227,14 +361,22 @@ class HistogramWidget(QWidget):
         p.setBrush(box_bg)
         p.drawRoundedRect(bx, by, lw, lh, 3, 3)
 
+        # draw RGB/LUM part
         c = QColor(self._fg)
         c.setAlpha(140)
         p.setPen(c)
-        p.drawText(bx + 4, by + fm.ascent() + 2, label)
+        p.drawText(bx + 5, by + fm.ascent() + 2, mode)
+
+        # draw LOG/LIN part in accent color when active
+        sep_x = bx + 5 + fm.horizontalAdvance(mode) + 2
+        log_col = QColor(200, 160, 80) if self._log_scale else QColor(self._fg)
+        log_col.setAlpha(200 if self._log_scale else 80)
+        p.setPen(log_col)
+        p.drawText(sep_x + 2, by + fm.ascent() + 2, scale)
 
     # ── crosshair + tooltip ────────────────────────────────────────────────
 
-    def _draw_crosshair(self, p, plot_w, plot_h, global_max):
+    def _draw_crosshair(self, p, plot_w, plot_h, global_max, log_max):
         mx = self._hover_x
         if mx < PAD_L or mx > PAD_L + plot_w:
             return
@@ -266,7 +408,7 @@ class HistogramWidget(QWidget):
         bx = int(mx) + 10
         if bx + box_w > self.width() - 4:
             bx = int(mx) - box_w - 10
-        by = PAD_T + 8
+        by = PAD_T + 28  # below clipping triangle
 
         box_bg = QColor(self._bg)
         box_bg.setAlpha(220)
@@ -287,9 +429,16 @@ class HistogramWidget(QWidget):
             p.setPen(c)
             p.drawText(bx + 8, int(ty + i * line_h), line)
 
+    def _scale_val(self, val, max_val, log_max):
+        """Normalise val to [0,1] using linear or log scale."""
+        import math
+        if self._log_scale:
+            return math.log1p(val) / log_max if log_max else 0.0
+        return val / max_val if max_val else 0.0
+
     # ── histogram draw modes ───────────────────────────────────────────────
 
-    def _draw_step(self, p, buckets, color, ox, oy, pw, ph, max_val):
+    def _draw_step(self, p, buckets, color, ox, oy, pw, ph, max_val, log_max):
         c = QColor(color)
         c.setAlpha(220)
         p.setPen(c)
@@ -299,14 +448,14 @@ class HistogramWidget(QWidget):
         path.moveTo(ox, oy + ph)
         for i, val in enumerate(buckets):
             x = ox + i * pw / 256
-            y = oy + ph - (val / max_val) * ph
+            y = oy + ph - self._scale_val(val, max_val, log_max) * ph
             path.lineTo(x, y)
             path.lineTo(x + pw / 256, y)
         path.lineTo(ox + pw, oy + ph)
         path.lineTo(ox, oy + ph)
         p.drawPath(path)
 
-    def _draw_filled(self, p, buckets, color, ox, oy, pw, ph, max_val):
+    def _draw_filled(self, p, buckets, color, ox, oy, pw, ph, max_val, log_max):
         c = QColor(color)
         c.setAlpha(160)
         p.setPen(Qt.PenStyle.NoPen)
@@ -316,7 +465,7 @@ class HistogramWidget(QWidget):
         path.moveTo(ox, oy + ph)
         for i, val in enumerate(buckets):
             x = ox + i * pw / 256
-            y = oy + ph - (val / max_val) * ph
+            y = oy + ph - self._scale_val(val, max_val, log_max) * ph
             path.lineTo(x, y)
             path.lineTo(x + pw / 256, y)
         path.lineTo(ox + pw, oy + ph)
