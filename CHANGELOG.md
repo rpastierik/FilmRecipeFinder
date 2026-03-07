@@ -1,6 +1,12 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## [0.5.1] - 2026.03.07
+- Added: Sort dropdown in Recipe Browser (XML order, XML reversed, Name A-Z/Z-A, Sensor, Film Simulation)
+- Added: Search/autocomplete in Recipe Browser
+- Changed: Settings moved from View menu to Tools menu
+- Changed: Add Recipe and Edit Recipe dialogs are now taller to show all fields without scrolling
+
 ## [0.5.0] - 2026.03.05
 - Added: Multiple themes – Nord, Dracula, Tokyo Night, Solarized Light, Monochrome Dark
 - Added: Theme dropdown in Settings dialog

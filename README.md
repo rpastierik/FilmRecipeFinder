@@ -47,9 +47,6 @@ A desktop application for identifying and managing Fujifilm film simulation reci
 ### Edit Recipe
 ![Edit Recipe](screenshots/edit_recipe.png)
 
-### Export Recipe Card (right click)
-![Export Recipe Card](screenshots/export_recipe_card.png)
-
 ### Export Recipe Card
 ![Export Recipe Card](screenshots/Classic_Cuban_Negative_card.png)
 
@@ -191,6 +188,7 @@ FilmRecipeFinder/
 ### Browse Recipes
 - Go to **Recipes → Show All Recipes**
 - Use the search box to filter by name or any recipe parameter
+- Use the **Sort** dropdown to sort by XML order, name, sensor, or film simulation
 - Use the **Sensor** dropdown in the toolbar to filter by X-Trans generation
 
 ### Add / Edit / Delete Recipes

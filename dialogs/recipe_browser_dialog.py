@@ -4,7 +4,7 @@
 from PyQt6.QtCore import Qt
 from PyQt6.QtGui import QColor, QFont, QTextCharFormat
 from PyQt6.QtWidgets import (
-    QComboBox, QCompleter, QDialog, QHBoxLayout, QPushButton, QTextEdit, QVBoxLayout
+    QComboBox, QCompleter, QDialog, QHBoxLayout, QLabel, QPushButton, QTextEdit, QVBoxLayout
 )
 
 from constants import Constants
@@ -29,7 +29,9 @@ class RecipeBrowserDialog(QDialog):
         layout.setContentsMargins(12, 12, 12, 12)
         layout.setSpacing(8)
 
-        # ── Search ──
+        # ── Search + Sort ──
+        search_row = QHBoxLayout()
+
         self.search_edit = QComboBox()
         self.search_edit.setEditable(True)
         self.search_edit.setInsertPolicy(QComboBox.InsertPolicy.NoInsert)
@@ -46,10 +48,19 @@ class RecipeBrowserDialog(QDialog):
         completer.setCaseSensitivity(Qt.CaseSensitivity.CaseInsensitive)
         completer.setFilterMode(Qt.MatchFlag.MatchContains)
         self.search_edit.setCompleter(completer)
-
         self.search_edit.currentTextChanged.connect(self._filter)
         self.search_edit.lineEdit().textEdited.connect(self._filter)
-        layout.addWidget(self.search_edit)
+        search_row.addWidget(self.search_edit)
+
+        search_row.addStretch()
+        search_row.addWidget(QLabel("Sort:"))
+        self.sort_combo = QComboBox()
+        self.sort_combo.addItems(["Default (XML order)", "Default (XML reversed)", "Name (A-Z)", "Name (Z-A)", "Sensor", "Film Simulation"])
+        self.sort_combo.setMinimumWidth(150)
+        self.sort_combo.currentTextChanged.connect(lambda _: self._filter(self.search_edit.currentText()))
+        search_row.addWidget(self.sort_combo)
+
+        layout.addLayout(search_row)
 
         # ── Recipe list ──
         self.text_area = QTextEdit()
@@ -141,7 +152,26 @@ class RecipeBrowserDialog(QDialog):
         normal_fmt.setFontWeight(QFont.Weight.Normal)
         normal_fmt.setForeground(QColor(text_color))
 
-        for name, data in sorted(filtered.items()):
+        sort = getattr(self, 'sort_combo', None)
+        sort_key = sort.currentText() if sort else "Name (A-Z)"
+
+        if sort_key == "Default (XML order)":
+            items = list(filtered.items())
+        elif sort_key == "Default (XML reversed)":
+            items = list(reversed(list(filtered.items())))
+        elif sort_key == "Name (A-Z)":
+            items = sorted(filtered.items(), key=lambda x: x[0].lower())
+        elif sort_key == "Name (Z-A)":
+            items = sorted(filtered.items(), key=lambda x: x[0].lower(), reverse=True)
+        elif sort_key == "Sensor":
+            sensor_order = {s: i for i, s in enumerate(Constants.ALL_SENSORS)}
+            items = sorted(filtered.items(), key=lambda x: sensor_order.get(x[1].get("Sensor", ""), 99))
+        elif sort_key == "Film Simulation":
+            items = sorted(filtered.items(), key=lambda x: x[1].get("FilmMode", "").lower())
+        else:
+            items = sorted(filtered.items())
+
+        for name, data in items:
             cursor.insertText(f"  # {name}\n", bold_fmt)
             for key, value in data.items():
                 cursor.insertText(f"    - {key}: {value}\n", normal_fmt)
