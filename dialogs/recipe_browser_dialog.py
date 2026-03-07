@@ -8,7 +8,7 @@ from PyQt6.QtWidgets import (
 )
 
 from constants import Constants
-from themes import THEMES
+from themes import THEMES, THEME_BROWSER_COLORS
 from dialogs.add_recipe_dialog import AddRecipeDialog
 from dialogs.edit_recipe_dialog import EditRecipeDialog
 from dialogs.delete_recipe_dialog import DeleteRecipeDialog
@@ -122,10 +122,10 @@ class RecipeBrowserDialog(QDialog):
             if data.get("Sensor", "") in active_sensors
         }
 
-        dark = self._is_dark()
-        name_color   = "#b8bb26" if dark else "#4c9a2a"
-        text_color   = "#ebdbb2" if dark else "#4c4f69"
-        header_color = "#458588" if dark else "#1e66f5"
+        theme = getattr(self.parent(), 'current_theme', 'Gruvbox Dark')
+        name_color, text_color, header_color = THEME_BROWSER_COLORS.get(
+            theme, ("#b8bb26", "#ebdbb2", "#458588")
+        )
 
         self.text_area.clear()
         cursor = self.text_area.textCursor()

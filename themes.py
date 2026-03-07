@@ -184,3 +184,14 @@ THEME_HISTOGRAM_COLORS = {
     "Solarized Light":  ("#eee8d5", "#657b83"),
     "Monochrome Dark":  ("#111111", "#e0e0e0"),
 }
+
+# name_color, text_color, header_color
+THEME_BROWSER_COLORS = {
+    "Gruvbox Dark":     ("#b8bb26", "#ebdbb2", "#458588"),
+    "Catppuccin Latte": ("#4c9a2a", "#4c4f69", "#1e66f5"),
+    "Nord":             ("#a3be8c", "#eceff4", "#88c0d0"),
+    "Dracula":          ("#50fa7b", "#f8f8f2", "#bd93f9"),
+    "Tokyo Night":      ("#9ece6a", "#c0caf5", "#7aa2f7"),
+    "Solarized Light":  ("#859900", "#657b83", "#268bd2"),
+    "Monochrome Dark":  ("#ffffff", "#e0e0e0", "#aaaaaa"),
+}
