@@ -62,7 +62,8 @@ class ImageCard(QFrame):
                       bytes_per_line, QImage.Format.Format_RGB888)
         pixmap = QPixmap.fromImage(qimg)
 
-        img_label = QLabel()
+        self.img_label = QLabel()
+        img_label = self.img_label
         img_label.setObjectName("imageLabel")
         img_label.setPixmap(pixmap)
         img_label.setFixedSize(THUMB_WIDTH, CARD_HEIGHT)
@@ -149,6 +150,11 @@ class ImageCard(QFrame):
             dlg.exec()
 
     def contextMenuEvent(self, event):
+        # Show context menu only when right-clicking on the image
+        if not self.img_label.geometry().contains(event.pos()):
+            event.ignore()
+            return
+
         menu = QMenu(self)
         export_action = menu.addAction("📤  Export Recipe Card")
         export_action.setEnabled(bool(self.sim_data))
