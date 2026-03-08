@@ -41,7 +41,6 @@ class HistogramWorker(QThread):
                 (g, self._g_col, "G"),
                 (r, self._r_col, "R"),
             ]
-            # clipping: any channel clipped counts
             shadows_r    = (r[0]   + g[0]   + b[0])   / (total * 3)
             highlights_r = (r[255] + g[255] + b[255]) / (total * 3)
             clipping = {
@@ -94,18 +93,18 @@ class HistogramWidget(QWidget):
         is_dark  = (bg_color.red() + bg_color.green() + bg_color.blue()) < 384
 
         if is_dark:
-            self._r_col = QColor(255, 70,  70)   
-            self._g_col = QColor(80,  230, 100)  
-            self._b_col = QColor(60,  160, 255)  
+            self._r_col = QColor(255, 70,  70)
+            self._g_col = QColor(80,  230, 100)
+            self._b_col = QColor(60,  160, 255)
         else:
-            self._r_col = QColor(210, 40,  40)   
-            self._g_col = QColor(30,  160, 50)   
-            self._b_col = QColor(30,  90,  210)  
+            self._r_col = QColor(210, 40,  40)
+            self._g_col = QColor(30,  160, 50)
+            self._b_col = QColor(30,  90,  210)
 
         self._thumb = img.copy()
         self._thumb.thumbnail((256, 256), Image.LANCZOS)
 
-        self._log_scale = False   # toggled by right-click
+        self._log_scale = False
         self._worker = None
         self._start_worker()
         self.setFixedSize(*size)
@@ -176,11 +175,13 @@ class HistogramWidget(QWidget):
         if self._show_grid:
             self._draw_grid(p, plot_w, plot_h)
 
+        # 1. Všetky kanály ako vyplnené vrstvy
         for buckets, color, _label in self._channels:
-            if self._filled:
-                self._draw_filled(p, buckets, color, PAD_L, PAD_T, plot_w, plot_h, global_max, log_max)
-            else:
-                self._draw_step(p, buckets, color, PAD_L, PAD_T, plot_w, plot_h, global_max, log_max)
+            self._draw_filled(p, buckets, color, PAD_L, PAD_T, plot_w, plot_h, global_max, log_max)
+
+        # 2. Obrysová linka pre každý kanál
+        for buckets, color, _label in self._channels:
+            self._draw_channel_line(p, buckets, color, PAD_L, PAD_T, plot_w, plot_h, global_max, log_max)
 
         self._draw_clipping_indicators(p, w, h)
         self._draw_mode_label(p, w, h)
@@ -190,10 +191,30 @@ class HistogramWidget(QWidget):
 
         p.end()
 
+    # ── overlap line ───────────────────────────────────────────────────────
+
+    def _draw_channel_line(self, p, buckets, color, ox, oy, pw, ph, max_val, log_max):
+        """Obrysová linka kanála — čistá farba kanála, kreslí sa navrch výplne."""
+        c = QColor(color)
+        c.setAlpha(160)
+        pen = QPen(c, 0.8)
+        pen.setCapStyle(Qt.PenCapStyle.FlatCap)
+        p.setPen(pen)
+        p.setBrush(Qt.BrushStyle.NoBrush)
+
+        path = QPainterPath()
+        path.moveTo(ox, oy + ph)
+        for i, val in enumerate(buckets):
+            x = ox + i * pw / 256
+            y = oy + ph - self._scale_val(val, max_val, log_max) * ph
+            path.lineTo(x, y)
+            path.lineTo(x + pw / 256, y)
+        path.lineTo(ox + pw, oy + ph)
+        p.drawPath(path)
+
     # ── clipping indicators ────────────────────────────────────────────────
 
     def _draw_clipping_indicators(self, p, w, h):
-        """Triangles in top-left (shadows) and top-right (highlights)."""
         SIZE = 14
 
         shadows_pct    = self._clipping.get("shadows",    0.0)
@@ -206,7 +227,7 @@ class HistogramWidget(QWidget):
             tip="top-left",
             active=shadows_pct > CLIP_THRESHOLD,
             pct=shadows_pct,
-            active_color=QColor(80, 140, 255),   # blue = shadows clipped
+            active_color=QColor(80, 140, 255),
         )
 
         self._draw_triangle(
@@ -216,13 +237,11 @@ class HistogramWidget(QWidget):
             tip="top-right",
             active=highlights_pct > CLIP_THRESHOLD,
             pct=highlights_pct,
-            active_color=QColor(240, 80, 80),    # red = highlights clipped
+            active_color=QColor(240, 80, 80),
         )
 
-        # tooltip on hover near triangles – shown beside the triangle at top
         if self._hover_x is not None:
             mx = self._hover_x
-            # left triangle area
             if mx < PAD_L + SIZE + 6:
                 self._draw_clipping_tooltip(
                     p, PAD_L + SIZE + 4, PAD_T + 2,
@@ -230,7 +249,6 @@ class HistogramWidget(QWidget):
                     shadows_pct > CLIP_THRESHOLD,
                     QColor(80, 140, 255)
                 )
-            # right triangle area
             elif mx > w - PAD_R - SIZE - 6:
                 self._draw_clipping_tooltip(
                     p, w - PAD_R - SIZE - 4, PAD_T + 2,
@@ -241,11 +259,6 @@ class HistogramWidget(QWidget):
                 )
 
     def _draw_triangle(self, p, x, y, size, tip, active, pct, active_color):
-        """
-        Draw a right-angle triangle anchored at top corner.
-        tip="top-left"  → anchor top-left
-        tip="top-right" → anchor top-right
-        """
         path = QPainterPath()
         if tip == "top-left":
             path.moveTo(x, y)
@@ -272,7 +285,6 @@ class HistogramWidget(QWidget):
         p.drawPath(path)
 
     def _draw_clipping_tooltip(self, p, x, y, text, active, color, align_right=False):
-        """Small tooltip next to clipping triangle."""
         font = QFont("Segoe UI", 8)
         p.setFont(font)
         fm   = p.fontMetrics()
@@ -282,21 +294,18 @@ class HistogramWidget(QWidget):
         bx = x - tw if align_right else x
         by = y
 
-        # box background
         box_bg = QColor(self._bg)
         box_bg.setAlpha(210)
         p.setPen(Qt.PenStyle.NoPen)
         p.setBrush(box_bg)
         p.drawRoundedRect(bx, by, tw, th, 3, 3)
 
-        # box border in indicator color
         border = QColor(color)
         border.setAlpha(80 if active else 30)
         p.setPen(QPen(border))
         p.setBrush(Qt.BrushStyle.NoBrush)
         p.drawRoundedRect(bx, by, tw, th, 3, 3)
 
-        # text
         tc = QColor(color if active else self._fg)
         tc.setAlpha(200 if active else 80)
         p.setPen(tc)
@@ -360,13 +369,11 @@ class HistogramWidget(QWidget):
         p.setBrush(box_bg)
         p.drawRoundedRect(bx, by, lw, lh, 3, 3)
 
-        # draw RGB/LUM part
         c = QColor(self._fg)
         c.setAlpha(140)
         p.setPen(c)
         p.drawText(bx + 5, by + fm.ascent() + 2, mode)
 
-        # draw LOG/LIN part in accent color when active
         sep_x = bx + 5 + fm.horizontalAdvance(mode) + 2
         log_col = QColor(200, 160, 80) if self._log_scale else QColor(self._fg)
         log_col.setAlpha(200 if self._log_scale else 80)
@@ -407,7 +414,7 @@ class HistogramWidget(QWidget):
         bx = int(mx) + 10
         if bx + box_w > self.width() - 4:
             bx = int(mx) - box_w - 10
-        by = PAD_T + 28  # below clipping triangle
+        by = PAD_T + 28
 
         box_bg = QColor(self._bg)
         box_bg.setAlpha(220)
@@ -437,36 +444,13 @@ class HistogramWidget(QWidget):
 
     # ── histogram draw modes ───────────────────────────────────────────────
 
-    def _draw_step(self, p, buckets, color, ox, oy, pw, ph, max_val, log_max):
-        grad = QLinearGradient(0, oy, 0, oy + ph)
-        c_top = QColor(color)
-        c_top.setAlpha(220)
-        c_bot = QColor(color)
-        c_bot.setAlpha(60)
-        grad.setColorAt(0.0, c_top)
-        grad.setColorAt(1.0, c_bot)
-
-        pen = QPen(QBrush(grad), 1.5)
-        p.setPen(pen)
-        p.setBrush(Qt.BrushStyle.NoBrush)
-
-        path = QPainterPath()
-        path.moveTo(ox, oy + ph)
-        for i, val in enumerate(buckets):
-            x = ox + i * pw / 256
-            y = oy + ph - self._scale_val(val, max_val, log_max) * ph
-            path.lineTo(x, y)
-            path.lineTo(x + pw / 256, y)
-        path.lineTo(ox + pw, oy + ph)
-        path.lineTo(ox, oy + ph)
-        p.drawPath(path)
-
     def _draw_filled(self, p, buckets, color, ox, oy, pw, ph, max_val, log_max):
+        """Vyplnená vrstva kanála s gradientom — priehľadná aby boli viditeľné vrstvy pod ňou."""
         grad = QLinearGradient(0, oy, 0, oy + ph)
         c_top = QColor(color)
-        c_top.setAlpha(200)
+        c_top.setAlpha(130)
         c_bot = QColor(color)
-        c_bot.setAlpha(30)
+        c_bot.setAlpha(20)
         grad.setColorAt(0.0, c_top)
         grad.setColorAt(1.0, c_bot)
 
