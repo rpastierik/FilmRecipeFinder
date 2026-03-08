@@ -12,7 +12,7 @@
 #   them against a local XML database of saved recipes.
 #
 # Dependencies:
-#   PyQt6, Pillow, NumPy, Matplotlib, ExifTool (Phil Harvey)
+#   PyQt6, Pillow, ExifTool (Phil Harvey)
 #
 # Repository:
 #   https://github.com/rpastierik/FilmRecipeFinder
@@ -32,9 +32,6 @@ from constants import Constants
 __version__ = Constants.APP_VERSION
 
 os.environ["QT_LOGGING_RULES"] = "*=false"
-
-import matplotlib
-matplotlib.use('QtAgg')
 
 from PyQt6.QtCore import qInstallMessageHandler
 from PyQt6.QtWidgets import QApplication
