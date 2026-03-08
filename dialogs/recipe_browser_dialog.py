@@ -13,8 +13,7 @@ from dialogs.add_recipe_dialog import AddRecipeDialog
 from dialogs.edit_recipe_dialog import EditRecipeDialog
 from dialogs.delete_recipe_dialog import DeleteRecipeDialog
 from dialogs.recipe_dialog import get_button_color
-
-LIGHT_THEMES = {"Catppuccin Latte", "Solarized Light"}
+from managers import SettingsManager
 
 
 class RecipeBrowserDialog(QDialog):
@@ -57,8 +56,12 @@ class RecipeBrowserDialog(QDialog):
         search_row.addWidget(QLabel("Sort:"))
         self.sort_combo = QComboBox()
         self.sort_combo.addItems(["Default (XML order)", "Default (XML reversed)", "Name (A-Z)", "Name (Z-A)", "Sensor", "Film Simulation"])
+        saved_sort = getattr(self.parent(), 'settings', {}).get("recipe_browser_sort", "Default (XML order)")
+        idx = self.sort_combo.findText(saved_sort)
+        if idx >= 0:
+            self.sort_combo.setCurrentIndex(idx)
         self.sort_combo.setMinimumWidth(150)
-        self.sort_combo.currentTextChanged.connect(lambda _: self._filter(self.search_edit.currentText()))
+        self.sort_combo.currentTextChanged.connect(self._on_sort_changed)
         search_row.addWidget(self.sort_combo)
 
         layout.addLayout(search_row)
@@ -98,10 +101,6 @@ class RecipeBrowserDialog(QDialog):
         layout.addLayout(btn_row)
 
         self._show_all()
-
-    def _is_dark(self):
-        theme = getattr(self.parent(), 'current_theme', 'Gruvbox Dark')
-        return theme not in LIGHT_THEMES
 
     def _show_all(self):
         self._display(self.simulations)
@@ -197,3 +196,10 @@ class RecipeBrowserDialog(QDialog):
 
     def _delete(self):
         DeleteRecipeDialog(self, self.simulations, self._refresh).exec()
+        
+    def _on_sort_changed(self, value):
+        parent = self.parent()
+        if hasattr(parent, 'settings'):
+            parent.settings["recipe_browser_sort"] = value
+            SettingsManager.save(parent.settings)
+        self._filter(self.search_edit.currentText())
