@@ -52,6 +52,7 @@ class EditRecipeDialog(RecipeDialog):
     def _load_recipe(self, name):
         if name == "-- select --" or name not in self.simulations:
             return
+        self._clear_fields()
         recipe_data = self.simulations[name]
         for widget in self.widgets.values():
             widget.setEnabled(True)
@@ -70,3 +71,14 @@ class EditRecipeDialog(RecipeDialog):
             QMessageBox.information(self, "Success", f"Recipe '{recipe_data['Name']}' updated!")
             self.accept()
             self.on_success()
+
+    def _clear_fields(self):
+        for field in Constants.RECIPE_FIELDS:
+            widget = self.widgets.get(field.name)
+            if widget is None:
+                continue
+            if isinstance(widget, QComboBox):
+                idx = widget.findText(field.default_value)
+                widget.setCurrentIndex(idx if idx >= 0 else 0)
+            else:
+                widget.setText(field.default_value)
