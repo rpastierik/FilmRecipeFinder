@@ -159,6 +159,34 @@ MONOCHROME_THEME = _build_theme(
     "#ffffff", "#666666", "#111111"
 )
 
+EVERFOREST_THEME = _build_theme(
+    "#2d353b", "#232a2e", "#3d484d",
+    "#d3c6aa", "#859289",
+    "#3d484d", "#475258",
+    "#a7c080", "#859289", "#232a2e"
+)
+
+ROSE_PINE_THEME = _build_theme(
+    "#191724", "#1f1d2e", "#2a2737",
+    "#e0def4", "#6e6a86",
+    "#2a2737", "#393552",
+    "#ebbcba", "#6e6a86", "#1f1d2e"
+)
+
+ONE_DARK_THEME = _build_theme(
+    "#282c34", "#21252b", "#2c313c",
+    "#abb2bf", "#5c6370",
+    "#2c313c", "#3e4452",
+    "#98c379", "#5c6370", "#21252b"
+)
+
+KANAGAWA_THEME = _build_theme(
+    "#1f1f28", "#16161d", "#2a2a37",
+    "#dcd7ba", "#727169",
+    "#2a2a37", "#363646",
+    "#7e9cd8", "#727169", "#16161d"
+)
+
 
 # ── Registry ────────────────────────────────────────────────────────────────
 
@@ -170,6 +198,10 @@ THEMES = {
     "Tokyo Night":       TOKYO_NIGHT_THEME,
     "Solarized Light":   SOLARIZED_LIGHT_THEME,
     "Monochrome Dark":   MONOCHROME_THEME,
+    "Everforest":        EVERFOREST_THEME,
+    "Rose Pine":         ROSE_PINE_THEME,
+    "One Dark":          ONE_DARK_THEME,
+    "Kanagawa":          KANAGAWA_THEME,
 }
 
 DEFAULT_THEME = "Gruvbox Dark"
@@ -183,6 +215,10 @@ THEME_HISTOGRAM_COLORS = {
     "Tokyo Night":      ("#13141f", "#c0caf5"),
     "Solarized Light":  ("#eee8d5", "#657b83"),
     "Monochrome Dark":  ("#111111", "#e0e0e0"),
+    "Everforest":       ("#232a2e", "#d3c6aa"),
+    "Rose Pine":        ("#1f1d2e", "#e0def4"),
+    "One Dark":         ("#21252b", "#abb2bf"),
+    "Kanagawa":         ("#16161d", "#dcd7ba"),
 }
 
 # name_color, text_color, header_color
@@ -194,15 +230,13 @@ THEME_BROWSER_COLORS = {
     "Tokyo Night":      ("#9ece6a", "#c0caf5", "#7aa2f7"),
     "Solarized Light":  ("#859900", "#657b83", "#268bd2"),
     "Monochrome Dark":  ("#ffffff", "#e0e0e0", "#aaaaaa"),
+    "Everforest":       ("#a7c080", "#d3c6aa", "#7fbbb3"),
+    "Rose Pine":        ("#ebbcba", "#e0def4", "#c4a7e7"),
+    "One Dark":         ("#98c379", "#abb2bf", "#61afef"),
+    "Kanagawa":         ("#98bb6c", "#dcd7ba", "#7e9cd8"),
 }
 
-# Button colors per theme: primary, warning, info, danger, neutral
-# primary  = Save / confirm action
-# warning  = Reset / secondary action
-# info     = From Picture / import
-# purple   = From Text / special import
-# danger   = Delete / Cancel destructive
-# neutral  = Cancel / Close
+# Button colors per theme: primary, warning, info, purple, danger, neutral
 THEME_BUTTON_COLORS = {
     #                    primary     warning     info        purple      danger      neutral
     "Gruvbox Dark":     ("#98971a", "#d79921", "#458588", "#b16286", "#cc241d", "#7c6f64"),
@@ -212,4 +246,8 @@ THEME_BUTTON_COLORS = {
     "Tokyo Night":      ("#9ece6a", "#e0af68", "#7dcfff", "#bb9af7", "#f7768e", "#565f89"),
     "Solarized Light":  ("#859900", "#b58900", "#268bd2", "#6c71c4", "#dc322f", "#93a1a1"),
     "Monochrome Dark":  ("#555555", "#444444", "#666666", "#777777", "#222222", "#3a3a3a"),
+    "Everforest":       ("#a7c080", "#dbbc7f", "#7fbbb3", "#d699b6", "#e67e80", "#859289"),
+    "Rose Pine":        ("#31748f", "#f6c177", "#ebbcba", "#c4a7e7", "#eb6f92", "#6e6a86"),
+    "One Dark":         ("#98c379", "#e5c07b", "#61afef", "#c678dd", "#e06c75", "#5c6370"),
+    "Kanagawa":         ("#98bb6c", "#dca561", "#7e9cd8", "#957fb8", "#e46876", "#727169"),
 }
