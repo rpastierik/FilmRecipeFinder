@@ -94,13 +94,13 @@ class HistogramWidget(QWidget):
         is_dark  = (bg_color.red() + bg_color.green() + bg_color.blue()) < 384
 
         if is_dark:
-            self._r_col = QColor(240, 80,  80)
-            self._g_col = QColor(80,  200, 80)
-            self._b_col = QColor(80,  140, 255)
+            self._r_col = QColor(255, 70,  70)   
+            self._g_col = QColor(80,  230, 100)  
+            self._b_col = QColor(60,  160, 255)  
         else:
-            self._r_col = QColor(180, 30,  30)
-            self._g_col = QColor(30,  130, 30)
-            self._b_col = QColor(30,  80,  180)
+            self._r_col = QColor(210, 40,  40)   
+            self._g_col = QColor(30,  160, 50)   
+            self._b_col = QColor(30,  90,  210)  
 
         self._thumb = img.copy()
         self._thumb.thumbnail((256, 256), Image.LANCZOS)
