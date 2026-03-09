@@ -51,6 +51,7 @@ class Constants:
                    ["-4 (weakest)", "-3 (very weak)", "-2 (weak)", "-1 (medium weak)",
                     "0 (normal)", "+1 (medium strong)", "+2 (strong)", "+3 (very strong)", "+4 (strongest)"]),
         RecipeField("Clarity", "0"),
+        RecipeField("Favourite", "No", "combo", ["No", "Yes"]),
         RecipeField("Sensor", "X-Trans V", "combo",
                    ["X-Trans I", "X-Trans II", "X-Trans III", "X-Trans IV", "X-Trans V"])
     ]

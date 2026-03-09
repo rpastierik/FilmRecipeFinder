@@ -2,6 +2,7 @@
 All notable changes to this project will be documented in this file.
 
 ## [0.5.4] - 2026.03.09
+- Added: Favourite field for recipes – use "Favourites" sort in Recipe Browser to show only favourite recipes
 - Added: Edit Recipe and Delete Recipe dialogs pre-select the recipe when exactly one is shown/searched in Recipe Browser
 - Fixed: Recipe Browser sort preference is now saved and restored between sessions
 - Fixed: Edit Recipe dialog clears all fields correctly when switching between recipes

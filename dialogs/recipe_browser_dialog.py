@@ -55,7 +55,7 @@ class RecipeBrowserDialog(QDialog):
         search_row.addStretch()
         search_row.addWidget(QLabel("Sort:"))
         self.sort_combo = QComboBox()
-        self.sort_combo.addItems(["Default (XML order)", "Default (XML reversed)", "Name (A-Z)", "Name (Z-A)", "Sensor", "Film Simulation"])
+        self.sort_combo.addItems(["Default (XML order)", "Default (XML reversed)", "Name (A-Z)", "Name (Z-A)", "Sensor", "Film Simulation", "Favourites"])
         saved_sort = getattr(self.parent(), 'settings', {}).get("recipe_browser_sort", "Default (XML order)")
         idx = self.sort_combo.findText(saved_sort)
         if idx >= 0:
@@ -171,6 +171,11 @@ class RecipeBrowserDialog(QDialog):
             items = sorted(filtered.items(), key=lambda x: sensor_order.get(x[1].get("Sensor", ""), 99))
         elif sort_key == "Film Simulation":
             items = sorted(filtered.items(), key=lambda x: x[1].get("FilmMode", "").lower())
+        elif sort_key == "Favourites":
+            items = sorted(
+                [(n, d) for n, d in filtered.items() if d.get("Favourite") == "Yes"],
+                key=lambda x: x[0].lower()
+            )
         else:
             items = sorted(filtered.items())
 

@@ -1,5 +1,5 @@
 {
-    "theme": "Gruvbox Dark",
+    "theme": "Dracula",
     "show_histogram": true,
     "rgb_histogram": true,
     "histogram_type": "bar",
@@ -12,5 +12,5 @@
     ],
     "last_dir": "G:/Photos/2026/20260308_Zitavsky_Luh/jpg",
     "histogram_grid": true,
-    "recipe_browser_sort": "Default (XML reversed)"
+    "recipe_browser_sort": "Favourites"
 }
