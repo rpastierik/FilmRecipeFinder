@@ -193,7 +193,7 @@ class RecipeBrowserDialog(QDialog):
                     cursor.insertText(f"{value}\n", url_fmt)
                 else:
                     cursor.insertText(f"    - {key}: {value}\n", normal_fmt)
-                        
+            cursor.insertText("\n", normal_fmt)       
 
         self.text_area.setTextCursor(cursor)
         self.text_area.moveCursor(self.text_area.textCursor().MoveOperation.Start)
