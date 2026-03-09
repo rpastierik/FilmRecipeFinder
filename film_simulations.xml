@@ -4548,4 +4548,38 @@
     <Clarity>-2</Clarity>
     <Sensor>X-Trans V</Sensor>
   </profile>
+  <profile>
+    <Name>Jake’s Gold (Jake Cowan)</Name>
+    <FilmMode>Classic Negative</FilmMode>
+    <GrainEffectRoughness>Strong</GrainEffectRoughness>
+    <GrainEffectSize>Large</GrainEffectSize>
+    <ColorChromeEffect>Strong</ColorChromeEffect>
+    <ColorChromeFXBlue>Weak</ColorChromeFXBlue>
+    <WhiteBalance>Auto</WhiteBalance>
+    <WhiteBalanceFineTune>Red +3, Blue -4</WhiteBalanceFineTune>
+    <HighlightTone>-2 (soft)</HighlightTone>
+    <ShadowTone>+2.5</ShadowTone>
+    <Saturation>+4 (highest)</Saturation>
+    <Sharpness>0</Sharpness>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Clarity>-5</Clarity>
+    <Sensor>X-Trans V</Sensor>
+  </profile>
+  <profile>
+    <Name>Terracotta Sun</Name>
+    <FilmMode>F0/Standard (Provia)</FilmMode>
+    <GrainEffectRoughness>Weak</GrainEffectRoughness>
+    <GrainEffectSize>Small</GrainEffectSize>
+    <ColorChromeEffect>Strong</ColorChromeEffect>
+    <ColorChromeFXBlue>Weak</ColorChromeFXBlue>
+    <WhiteBalance>Auto</WhiteBalance>
+    <WhiteBalanceFineTune>Red +5, Blue -5</WhiteBalanceFineTune>
+    <HighlightTone>-2 (soft)</HighlightTone>
+    <ShadowTone>-1.5</ShadowTone>
+    <Saturation>+2 (high)</Saturation>
+    <Sharpness>0</Sharpness>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Clarity>-4</Clarity>
+    <Sensor>X-Trans V</Sensor>
+  </profile>
 </profiles>
