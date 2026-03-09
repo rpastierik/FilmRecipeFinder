@@ -12,7 +12,7 @@ from dialogs.recipe_dialog import RecipeDialog
 
 
 class EditRecipeDialog(RecipeDialog):
-    def __init__(self, parent, simulations, on_success):
+    def __init__(self, parent, simulations, on_success, preselect=None):
         super().__init__(parent, "Edit Recipe")
         self.simulations = simulations
         self.on_success = on_success
@@ -43,6 +43,11 @@ class EditRecipeDialog(RecipeDialog):
         self._add_button("Save Changes", "primary", self._save)
         self.btn_box.layout().addStretch()
         self._add_button("Cancel", "neutral", self.reject)
+        
+        if preselect and preselect in simulations:
+            idx = self.recipe_combo.findText(preselect)
+            if idx >= 0:
+                self.recipe_combo.setCurrentIndex(idx)
 
     def _load_recipe(self, name):
         if name == "-- select --" or name not in self.simulations:

@@ -191,11 +191,17 @@ class RecipeBrowserDialog(QDialog):
     def _add(self):
         AddRecipeDialog(self, self.simulations, self._refresh).exec()
 
+    def _get_selected_recipe(self):
+        query = self.search_edit.currentText().strip()
+        if query and query in self.simulations:
+            return query
+        return None
+
     def _edit(self):
-        EditRecipeDialog(self, self.simulations, self._refresh).exec()
+        EditRecipeDialog(self, self.simulations, self._refresh, preselect=self._get_selected_recipe()).exec()
 
     def _delete(self):
-        DeleteRecipeDialog(self, self.simulations, self._refresh).exec()
+        DeleteRecipeDialog(self, self.simulations, self._refresh, preselect=self._get_selected_recipe()).exec()
         
     def _on_sort_changed(self, value):
         parent = self.parent()

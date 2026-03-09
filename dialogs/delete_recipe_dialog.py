@@ -13,7 +13,7 @@ from dialogs.recipe_dialog import get_button_color
 
 
 class DeleteRecipeDialog(QDialog):
-    def __init__(self, parent, simulations, on_success):
+    def __init__(self, parent, simulations, on_success, preselect=None):
         super().__init__(parent)
         self.setWindowTitle("Delete Recipe")
         self.setMinimumWidth(420)
@@ -69,6 +69,11 @@ class DeleteRecipeDialog(QDialog):
         btn_row.addWidget(cancel_btn)
         btn_row.addStretch()
         layout.addLayout(btn_row)
+        
+        if preselect and preselect in simulations:
+            idx = self.recipe_combo.findText(preselect)
+            if idx >= 0:
+                self.recipe_combo.setCurrentIndex(idx)
 
     def _delete(self):
         name = self.recipe_combo.currentText()
