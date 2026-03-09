@@ -620,6 +620,7 @@
     <ColorChromeFXBlue>Off</ColorChromeFXBlue>
     <WhiteBalance>Daylight</WhiteBalance>
     <WhiteBalanceFineTune>Red +4, Blue -5</WhiteBalanceFineTune>
+    <DevelopmentDynamicRange>400</DevelopmentDynamicRange>
     <HighlightTone>-1.5</HighlightTone>
     <ShadowTone>0.5</ShadowTone>
     <Saturation>+3 (very high)</Saturation>
@@ -3408,7 +3409,7 @@
     <Sensor>X-Trans V</Sensor>
   </profile>
   <profile>
-    <Name>Dreamy Negative</Name>
+    <Name>Dreamy Negative (Keem UEL)</Name>
     <FilmMode>Classic Negative</FilmMode>
     <GrainEffectRoughness>Weak</GrainEffectRoughness>
     <GrainEffectSize>Small</GrainEffectSize>
@@ -3418,10 +3419,10 @@
     <WhiteBalanceFineTune>Red +4, Blue -7</WhiteBalanceFineTune>
     <DevelopmentDynamicRange>400</DevelopmentDynamicRange>
     <HighlightTone>-2 (soft)</HighlightTone>
-    <ShadowTone>-2 (soft)</ShadowTone>
+    <ShadowTone>-1.5</ShadowTone>
     <Saturation>+2 (high)</Saturation>
     <Sharpness>0</Sharpness>
-    <NoiseReduction>-1 (medium weak)</NoiseReduction>
+    <NoiseReduction>+1 (medium strong)</NoiseReduction>
     <Clarity>0</Clarity>
     <Sensor>X-Trans V</Sensor>
   </profile>
@@ -3462,7 +3463,7 @@
     <Sensor>X-Trans V</Sensor>
   </profile>
   <profile>
-    <Name>Nightmare Neg</Name>
+    <Name>Nightmare Neg (Keem Uel)</Name>
     <FilmMode>Classic Negative</FilmMode>
     <GrainEffectRoughness>Strong</GrainEffectRoughness>
     <GrainEffectSize>Small</GrainEffectSize>
@@ -3550,7 +3551,7 @@
     <Sensor>X-Trans V</Sensor>
   </profile>
   <profile>
-    <Name>Classic Cuban Negative</Name>
+    <Name>Classic Cuban Negative (Osan Bilgi)</Name>
     <FilmMode>Classic Negative</FilmMode>
     <GrainEffectRoughness>Strong</GrainEffectRoughness>
     <GrainEffectSize>Large</GrainEffectSize>
@@ -3730,7 +3731,7 @@
     <Sensor>X-Trans V</Sensor>
   </profile>
   <profile>
-    <Name>Last Summer Roll</Name>
+    <Name>Last Summer Roll (@emadeluca89)</Name>
     <FilmMode>Classic Negative</FilmMode>
     <GrainEffectRoughness>Strong</GrainEffectRoughness>
     <GrainEffectSize>Small</GrainEffectSize>
@@ -3738,6 +3739,7 @@
     <ColorChromeFXBlue>Weak</ColorChromeFXBlue>
     <WhiteBalance>Auto</WhiteBalance>
     <WhiteBalanceFineTune>Red +3, Blue -5</WhiteBalanceFineTune>
+    <DevelopmentDynamicRange>400</DevelopmentDynamicRange>
     <HighlightTone>-2 (soft)</HighlightTone>
     <ShadowTone>0 (normal)</ShadowTone>
     <Saturation>+4 (highest)</Saturation>
@@ -3784,7 +3786,7 @@
     <Sensor>X-Trans V</Sensor>
   </profile>
   <profile>
-    <Name>Summer Chrome</Name>
+    <Name>Summer Chrome (Osan Bilgi)</Name>
     <FilmMode>Classic Chrome</FilmMode>
     <GrainEffectRoughness>Strong</GrainEffectRoughness>
     <GrainEffectSize>Large</GrainEffectSize>
@@ -3802,7 +3804,7 @@
     <Sensor>X-Trans V</Sensor>
   </profile>
   <profile>
-    <Name>Cinematic Gold</Name>
+    <Name>Cinematic Gold (@gr.scha)</Name>
     <FilmMode>Classic Negative</FilmMode>
     <GrainEffectRoughness>Strong</GrainEffectRoughness>
     <GrainEffectSize>Small</GrainEffectSize>
@@ -4337,7 +4339,6 @@
     <ColorChromeFXBlue>Off</ColorChromeFXBlue>
     <WhiteBalance>Auto</WhiteBalance>
     <WhiteBalanceFineTune>Red +0, Blue +0</WhiteBalanceFineTune>
-    <DevelopmentDynamicRange>DR-Auto</DevelopmentDynamicRange>
     <HighlightTone>+4 (hardest)</HighlightTone>
     <ShadowTone>+2 (hard)</ShadowTone>
     <Saturation>Acros Red Filter</Saturation>
@@ -4566,7 +4567,7 @@
     <Sensor>X-Trans V</Sensor>
   </profile>
   <profile>
-    <Name>Terracotta Sun</Name>
+    <Name>Terracotta Sun (@richardgphotos)</Name>
     <FilmMode>F0/Standard (Provia)</FilmMode>
     <GrainEffectRoughness>Weak</GrainEffectRoughness>
     <GrainEffectSize>Small</GrainEffectSize>
@@ -4597,6 +4598,41 @@
     <Saturation>+3 (very high)</Saturation>
     <Sharpness>-2</Sharpness>
     <NoiseReduction>0 (normal)</NoiseReduction>
+    <Clarity>0</Clarity>
+    <Sensor>X-Trans V</Sensor>
+  </profile>
+  <profile>
+    <Name>Gold CC (Keem Uel)</Name>
+    <FilmMode>Classic Chrome</FilmMode>
+    <GrainEffectRoughness>Weak</GrainEffectRoughness>
+    <GrainEffectSize>Small</GrainEffectSize>
+    <ColorChromeEffect>Strong</ColorChromeEffect>
+    <ColorChromeFXBlue>Weak</ColorChromeFXBlue>
+    <WhiteBalance>Shade</WhiteBalance>
+    <WhiteBalanceFineTune>Red +2, Blue -5</WhiteBalanceFineTune>
+    <DevelopmentDynamicRange>200</DevelopmentDynamicRange>
+    <HighlightTone>-2 (soft)</HighlightTone>
+    <ShadowTone>-2 (soft)</ShadowTone>
+    <Saturation>+3 (very high)</Saturation>
+    <Sharpness>-1</Sharpness>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Clarity>0</Clarity>
+    <Sensor>X-Trans V</Sensor>
+  </profile>
+  <profile>
+    <Name>Classic Continental (@richardgphotos)</Name>
+    <FilmMode>Classic Negative</FilmMode>
+    <GrainEffectRoughness>Weak</GrainEffectRoughness>
+    <GrainEffectSize>Small</GrainEffectSize>
+    <ColorChromeEffect>Weak</ColorChromeEffect>
+    <ColorChromeFXBlue>Weak</ColorChromeFXBlue>
+    <WhiteBalance>Auto</WhiteBalance>
+    <WhiteBalanceFineTune>Red +3, Blue -2</WhiteBalanceFineTune>
+    <HighlightTone>-1 (medium soft)</HighlightTone>
+    <ShadowTone>-0.5</ShadowTone>
+    <Saturation>+1 (medium high)</Saturation>
+    <Sharpness>-1</Sharpness>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
     <Clarity>0</Clarity>
     <Sensor>X-Trans V</Sensor>
   </profile>
