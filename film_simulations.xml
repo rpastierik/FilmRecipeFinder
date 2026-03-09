@@ -18,7 +18,7 @@
     <HighlightTone>-1 (medium soft)</HighlightTone>
     <ShadowTone>-1 (medium soft)</ShadowTone>
     <Saturation>+4 (highest)</Saturation>
-    <Sharpness>Soft</Sharpness>
+    <Sharpness>-1</Sharpness>
     <NoiseReduction>-4 (weakest)</NoiseReduction>
     <Clarity>-2</Clarity>
     <Sensor>X-Trans V</Sensor>
@@ -36,7 +36,7 @@
     <HighlightTone>-1 (medium soft)</HighlightTone>
     <ShadowTone>0 (normal)</ShadowTone>
     <Saturation>0 (normal)</Saturation>
-    <Sharpness>Normal</Sharpness>
+    <Sharpness>0</Sharpness>
     <NoiseReduction>-4 (weakest)</NoiseReduction>
     <Clarity>0</Clarity>
     <Sensor>X-Trans V</Sensor>
@@ -55,7 +55,7 @@
     <HighlightTone>-1 (medium soft)</HighlightTone>
     <ShadowTone>-0.5</ShadowTone>
     <Saturation>+2 (high)</Saturation>
-    <Sharpness>Soft</Sharpness>
+    <Sharpness>-1</Sharpness>
     <NoiseReduction>-4 (weakest)</NoiseReduction>
     <Clarity>-2</Clarity>
     <Sensor>X-Trans V</Sensor>
@@ -74,7 +74,7 @@
     <HighlightTone>-1 (medium soft)</HighlightTone>
     <ShadowTone>-0.5</ShadowTone>
     <Saturation>-2 (low)</Saturation>
-    <Sharpness>Soft</Sharpness>
+    <Sharpness>-1</Sharpness>
     <NoiseReduction>-4 (weakest)</NoiseReduction>
     <Clarity>-2</Clarity>
     <Sensor>X-Trans V</Sensor>
@@ -93,7 +93,7 @@
     <HighlightTone>0.5</HighlightTone>
     <ShadowTone>+1.5</ShadowTone>
     <Saturation>-1 (medium low)</Saturation>
-    <Sharpness>Soft</Sharpness>
+    <Sharpness>-1</Sharpness>
     <NoiseReduction>-4 (weakest)</NoiseReduction>
     <Clarity>-2</Clarity>
     <Sensor>X-Trans V</Sensor>
@@ -111,7 +111,7 @@
     <HighlightTone>1.5</HighlightTone>
     <ShadowTone>+2 (hard)</ShadowTone>
     <Saturation>+4 (highest)</Saturation>
-    <Sharpness>Soft</Sharpness>
+    <Sharpness>-1</Sharpness>
     <NoiseReduction>-4 (weakest)</NoiseReduction>
     <Clarity>-3</Clarity>
     <Sensor>X-Trans V</Sensor>
@@ -129,7 +129,7 @@
     <HighlightTone>-1 (medium soft)</HighlightTone>
     <ShadowTone>+1 (medium hard)</ShadowTone>
     <Saturation>+4 (highest)</Saturation>
-    <Sharpness>Soft</Sharpness>
+    <Sharpness>-1</Sharpness>
     <NoiseReduction>-4 (weakest)</NoiseReduction>
     <Clarity>-3</Clarity>
     <Sensor>X-Trans V</Sensor>
@@ -147,7 +147,7 @@
     <HighlightTone>+2 (hard)</HighlightTone>
     <ShadowTone>-2 (soft)</ShadowTone>
     <Saturation>-3 (very low)</Saturation>
-    <Sharpness>Normal</Sharpness>
+    <Sharpness>0</Sharpness>
     <NoiseReduction>-4 (weakest)</NoiseReduction>
     <Clarity>-2</Clarity>
     <Sensor>X-Trans V</Sensor>
@@ -166,7 +166,7 @@
     <HighlightTone>1.5</HighlightTone>
     <ShadowTone>1.5</ShadowTone>
     <Saturation>+1 (medium high)</Saturation>
-    <Sharpness>Soft</Sharpness>
+    <Sharpness>-1</Sharpness>
     <NoiseReduction>-4 (weakest)</NoiseReduction>
     <Clarity>-2</Clarity>
     <Sensor>X-Trans V</Sensor>
@@ -184,7 +184,7 @@
     <HighlightTone>+4 (hardest)</HighlightTone>
     <ShadowTone>+3 (very hard)</ShadowTone>
     <Saturation>-1 (medium low)</Saturation>
-    <Sharpness>Soft</Sharpness>
+    <Sharpness>-1</Sharpness>
     <NoiseReduction>-4 (weakest)</NoiseReduction>
     <Clarity>-2</Clarity>
     <Sensor>X-Trans V</Sensor>
@@ -203,7 +203,7 @@
     <HighlightTone>-1.5</HighlightTone>
     <ShadowTone>0 (normal)</ShadowTone>
     <Saturation>+4 (highest)</Saturation>
-    <Sharpness>Hard</Sharpness>
+    <Sharpness>+2</Sharpness>
     <NoiseReduction>-4 (weakest)</NoiseReduction>
     <Clarity>0</Clarity>
     <Sensor>X-Trans V</Sensor>
@@ -222,7 +222,7 @@
     <HighlightTone>1.5</HighlightTone>
     <ShadowTone>+1 (medium hard)</ShadowTone>
     <Saturation>+3 (very high)</Saturation>
-    <Sharpness>Soft</Sharpness>
+    <Sharpness>-2</Sharpness>
     <NoiseReduction>-4 (weakest)</NoiseReduction>
     <Clarity>-2</Clarity>
     <Sensor>X-Trans V</Sensor>
@@ -240,7 +240,7 @@
     <HighlightTone>-2 (soft)</HighlightTone>
     <ShadowTone>+2 (hard)</ShadowTone>
     <Saturation>+4 (highest)</Saturation>
-    <Sharpness>Soft</Sharpness>
+    <Sharpness>-2</Sharpness>
     <NoiseReduction>-4 (weakest)</NoiseReduction>
     <Clarity>-3</Clarity>
     <Sensor>X-Trans V</Sensor>
@@ -259,7 +259,7 @@
     <HighlightTone>+4 (hardest)</HighlightTone>
     <ShadowTone>+2 (hard)</ShadowTone>
     <Saturation>+3 (very high)</Saturation>
-    <Sharpness>Soft</Sharpness>
+    <Sharpness>-4</Sharpness>
     <NoiseReduction>-4 (weakest)</NoiseReduction>
     <Clarity>-3</Clarity>
     <Sensor>X-Trans V</Sensor>
@@ -277,7 +277,7 @@
     <HighlightTone>1.5</HighlightTone>
     <ShadowTone>+3 (very hard)</ShadowTone>
     <Saturation>+4 (highest)</Saturation>
-    <Sharpness>Soft</Sharpness>
+    <Sharpness>-2</Sharpness>
     <NoiseReduction>-4 (weakest)</NoiseReduction>
     <Clarity>-3</Clarity>
     <Sensor>X-Trans V</Sensor>
@@ -296,7 +296,7 @@
     <HighlightTone>-2 (soft)</HighlightTone>
     <ShadowTone>-0.5</ShadowTone>
     <Saturation>-2 (low)</Saturation>
-    <Sharpness>Soft</Sharpness>
+    <Sharpness>-2</Sharpness>
     <NoiseReduction>-4 (weakest)</NoiseReduction>
     <Clarity>-3</Clarity>
     <Sensor>X-Trans V</Sensor>
@@ -315,7 +315,7 @@
     <HighlightTone>-1 (medium soft)</HighlightTone>
     <ShadowTone>-1.5</ShadowTone>
     <Saturation>-2 (low)</Saturation>
-    <Sharpness>Soft</Sharpness>
+    <Sharpness>-2</Sharpness>
     <NoiseReduction>-4 (weakest)</NoiseReduction>
     <Clarity>-3</Clarity>
     <Sensor>X-Trans V</Sensor>
@@ -334,7 +334,7 @@
     <HighlightTone>-2 (soft)</HighlightTone>
     <ShadowTone>-1 (medium soft)</ShadowTone>
     <Saturation>+2 (high)</Saturation>
-    <Sharpness>Soft</Sharpness>
+    <Sharpness>-2</Sharpness>
     <NoiseReduction>-4 (weakest)</NoiseReduction>
     <Clarity>-2</Clarity>
     <Sensor>X-Trans V</Sensor>
@@ -352,7 +352,7 @@
     <HighlightTone>-0.5</HighlightTone>
     <ShadowTone>2.5</ShadowTone>
     <Saturation>+4 (highest)</Saturation>
-    <Sharpness>Soft</Sharpness>
+    <Sharpness>-1</Sharpness>
     <NoiseReduction>-4 (weakest)</NoiseReduction>
     <Clarity>-3</Clarity>
     <Sensor>X-Trans V</Sensor>
@@ -371,7 +371,7 @@
     <HighlightTone>-2 (soft)</HighlightTone>
     <ShadowTone>-1 (medium soft)</ShadowTone>
     <Saturation>+4 (highest)</Saturation>
-    <Sharpness>Soft</Sharpness>
+    <Sharpness>-2</Sharpness>
     <NoiseReduction>-4 (weakest)</NoiseReduction>
     <Clarity>-4</Clarity>
     <Sensor>X-Trans V</Sensor>
@@ -389,7 +389,7 @@
     <DRangePriority>Fixed</DRangePriority>
     <DRangePriorityAuto>Strong</DRangePriorityAuto>
     <Saturation>+4 (highest)</Saturation>
-    <Sharpness>Soft</Sharpness>
+    <Sharpness>-2</Sharpness>
     <NoiseReduction>-4 (weakest)</NoiseReduction>
     <Clarity>-3</Clarity>
     <Sensor>X-Trans V</Sensor>
@@ -408,7 +408,7 @@
     <HighlightTone>-2 (soft)</HighlightTone>
     <ShadowTone>+3 (very hard)</ShadowTone>
     <Saturation>+4 (highest)</Saturation>
-    <Sharpness>Soft</Sharpness>
+    <Sharpness>-2</Sharpness>
     <NoiseReduction>-4 (weakest)</NoiseReduction>
     <Clarity>-3</Clarity>
     <Sensor>X-Trans V</Sensor>
@@ -426,7 +426,7 @@
     <HighlightTone>-1 (medium soft)</HighlightTone>
     <ShadowTone>+1 (medium hard)</ShadowTone>
     <Saturation>+2 (high)</Saturation>
-    <Sharpness>Normal</Sharpness>
+    <Sharpness>0</Sharpness>
     <NoiseReduction>-4 (weakest)</NoiseReduction>
     <Clarity>2</Clarity>
     <Sensor>X-Trans V</Sensor>
@@ -443,7 +443,7 @@
     <HighlightTone>-1 (medium soft)</HighlightTone>
     <ShadowTone>-2 (soft)</ShadowTone>
     <Saturation>+1 (medium high)</Saturation>
-    <Sharpness>Soft</Sharpness>
+    <Sharpness>-2</Sharpness>
     <NoiseReduction>-4 (weakest)</NoiseReduction>
     <Clarity>-2</Clarity>
     <Sensor>X-Trans V</Sensor>
@@ -456,12 +456,12 @@
     <ColorChromeEffect>Strong</ColorChromeEffect>
     <ColorChromeFXBlue>Strong</ColorChromeFXBlue>
     <WhiteBalance>Auto</WhiteBalance>
-    <WhiteBalanceFineTune>Red +1, Blue +1</WhiteBalanceFineTune>
+    <WhiteBalanceFineTune>Red -1, Blue +1</WhiteBalanceFineTune>
     <DevelopmentDynamicRange>400</DevelopmentDynamicRange>
     <HighlightTone>-1.5</HighlightTone>
     <ShadowTone>-2 (soft)</ShadowTone>
     <Saturation>+2 (high)</Saturation>
-    <Sharpness>Normal</Sharpness>
+    <Sharpness>0</Sharpness>
     <NoiseReduction>-4 (weakest)</NoiseReduction>
     <Clarity>-2</Clarity>
     <Sensor>X-Trans V</Sensor>
@@ -479,7 +479,7 @@
     <HighlightTone>-1 (medium soft)</HighlightTone>
     <ShadowTone>-1 (medium soft)</ShadowTone>
     <Saturation>0 (normal)</Saturation>
-    <Sharpness>Soft</Sharpness>
+    <Sharpness>-2</Sharpness>
     <NoiseReduction>-4 (weakest)</NoiseReduction>
     <Clarity>-3</Clarity>
     <Sensor>X-Trans V</Sensor>
@@ -497,7 +497,7 @@
     <HighlightTone>0 (normal)</HighlightTone>
     <ShadowTone>-1 (medium soft)</ShadowTone>
     <Saturation>+4 (highest)</Saturation>
-    <Sharpness>Soft</Sharpness>
+    <Sharpness>-1</Sharpness>
     <NoiseReduction>-4 (weakest)</NoiseReduction>
     <Clarity>-2</Clarity>
     <Sensor>X-Trans V</Sensor>
@@ -516,7 +516,7 @@
     <HighlightTone>-1.5</HighlightTone>
     <ShadowTone>1.5</ShadowTone>
     <Saturation>-2 (low)</Saturation>
-    <Sharpness>Soft</Sharpness>
+    <Sharpness>-2</Sharpness>
     <NoiseReduction>-4 (weakest)</NoiseReduction>
     <Clarity>-4</Clarity>
     <Sensor>X-Trans V</Sensor>
@@ -534,7 +534,7 @@
     <HighlightTone>0 (normal)</HighlightTone>
     <ShadowTone>+2 (hard)</ShadowTone>
     <Saturation>-3 (very low)</Saturation>
-    <Sharpness>Soft</Sharpness>
+    <Sharpness>-1</Sharpness>
     <NoiseReduction>-4 (weakest)</NoiseReduction>
     <Clarity>-4</Clarity>
     <Sensor>X-Trans V</Sensor>
@@ -553,7 +553,7 @@
     <HighlightTone>-2 (soft)</HighlightTone>
     <ShadowTone>-0.5</ShadowTone>
     <Saturation>+3 (very high)</Saturation>
-    <Sharpness>Soft</Sharpness>
+    <Sharpness>-2</Sharpness>
     <NoiseReduction>-4 (weakest)</NoiseReduction>
     <Clarity>-3</Clarity>
     <Sensor>X-Trans V</Sensor>
@@ -572,7 +572,7 @@
     <HighlightTone>0 (normal)</HighlightTone>
     <ShadowTone>-2 (soft)</ShadowTone>
     <Saturation>+2 (high)</Saturation>
-    <Sharpness>Soft</Sharpness>
+    <Sharpness>-2</Sharpness>
     <NoiseReduction>-4 (weakest)</NoiseReduction>
     <Clarity>-2</Clarity>
     <Sensor>X-Trans V</Sensor>
@@ -589,7 +589,7 @@
     <HighlightTone>0 (normal)</HighlightTone>
     <ShadowTone>0 (normal)</ShadowTone>
     <Saturation>0 (normal)</Saturation>
-    <Sharpness>Soft</Sharpness>
+    <Sharpness>-1</Sharpness>
     <NoiseReduction>-4 (weakest)</NoiseReduction>
     <Clarity>-2</Clarity>
     <Sensor>X-Trans V</Sensor>
@@ -606,7 +606,7 @@
     <HighlightTone>+1 (medium hard)</HighlightTone>
     <ShadowTone>+1 (medium hard)</ShadowTone>
     <Saturation>+4 (highest)</Saturation>
-    <Sharpness>Normal</Sharpness>
+    <Sharpness>0</Sharpness>
     <NoiseReduction>-4 (weakest)</NoiseReduction>
     <Clarity>3</Clarity>
     <Sensor>X-Trans V</Sensor>
@@ -623,7 +623,7 @@
     <HighlightTone>-1.5</HighlightTone>
     <ShadowTone>0.5</ShadowTone>
     <Saturation>+3 (very high)</Saturation>
-    <Sharpness>Soft</Sharpness>
+    <Sharpness>-2</Sharpness>
     <NoiseReduction>-4 (weakest)</NoiseReduction>
     <Clarity>-2</Clarity>
     <Sensor>X-Trans V</Sensor>
@@ -640,7 +640,7 @@
     <HighlightTone>-1 (medium soft)</HighlightTone>
     <ShadowTone>+1 (medium hard)</ShadowTone>
     <Saturation>+4 (highest)</Saturation>
-    <Sharpness>Soft</Sharpness>
+    <Sharpness>-1</Sharpness>
     <NoiseReduction>-4 (weakest)</NoiseReduction>
     <Clarity>-3</Clarity>
     <Sensor>X-Trans V</Sensor>
@@ -658,7 +658,7 @@
     <HighlightTone>-0.5</HighlightTone>
     <ShadowTone>-2 (soft)</ShadowTone>
     <Saturation>+3 (very high)</Saturation>
-    <Sharpness>Soft</Sharpness>
+    <Sharpness>-2</Sharpness>
     <NoiseReduction>-4 (weakest)</NoiseReduction>
     <Clarity>-2</Clarity>
     <Sensor>X-Trans V</Sensor>
@@ -676,7 +676,7 @@
     <HighlightTone>0 (normal)</HighlightTone>
     <ShadowTone>0.5</ShadowTone>
     <Saturation>+2 (high)</Saturation>
-    <Sharpness>Hard</Sharpness>
+    <Sharpness>+1</Sharpness>
     <NoiseReduction>-4 (weakest)</NoiseReduction>
     <Clarity>3</Clarity>
     <Sensor>X-Trans V</Sensor>
@@ -693,7 +693,7 @@
     <HighlightTone>0.5</HighlightTone>
     <ShadowTone>-0.5</ShadowTone>
     <Saturation>+1 (medium high)</Saturation>
-    <Sharpness>Hard</Sharpness>
+    <Sharpness>+3</Sharpness>
     <NoiseReduction>-4 (weakest)</NoiseReduction>
     <Clarity>3</Clarity>
     <Sensor>X-Trans V</Sensor>
@@ -711,7 +711,7 @@
     <HighlightTone>+1 (medium hard)</HighlightTone>
     <ShadowTone>+1 (medium hard)</ShadowTone>
     <Saturation>+2 (high)</Saturation>
-    <Sharpness>Hard</Sharpness>
+    <Sharpness>+1</Sharpness>
     <NoiseReduction>-2 (weak)</NoiseReduction>
     <Clarity>1</Clarity>
     <Sensor>X-Trans V</Sensor>
@@ -730,7 +730,7 @@
     <HighlightTone>1.5</HighlightTone>
     <ShadowTone>0.5</ShadowTone>
     <Saturation>+1 (medium high)</Saturation>
-    <Sharpness>Soft</Sharpness>
+    <Sharpness>-1</Sharpness>
     <NoiseReduction>-4 (weakest)</NoiseReduction>
     <Clarity>3</Clarity>
     <Sensor>X-Trans V</Sensor>
@@ -748,7 +748,7 @@
     <HighlightTone>+3 (very hard)</HighlightTone>
     <ShadowTone>+1 (medium hard)</ShadowTone>
     <Saturation>+2 (high)</Saturation>
-    <Sharpness>Soft</Sharpness>
+    <Sharpness>-2</Sharpness>
     <NoiseReduction>-4 (weakest)</NoiseReduction>
     <Clarity>-4</Clarity>
     <Sensor>X-Trans V</Sensor>
@@ -766,7 +766,7 @@
     <HighlightTone>-2 (soft)</HighlightTone>
     <ShadowTone>0 (normal)</ShadowTone>
     <Saturation>+2 (high)</Saturation>
-    <Sharpness>Soft</Sharpness>
+    <Sharpness>-2</Sharpness>
     <NoiseReduction>-4 (weakest)</NoiseReduction>
     <Clarity>-4</Clarity>
     <Sensor>X-Trans V</Sensor>
@@ -785,7 +785,7 @@
     <HighlightTone>-0.5</HighlightTone>
     <ShadowTone>1.5</ShadowTone>
     <Saturation>+3 (very high)</Saturation>
-    <Sharpness>Normal</Sharpness>
+    <Sharpness>0</Sharpness>
     <NoiseReduction>-4 (weakest)</NoiseReduction>
     <Clarity>-3</Clarity>
     <Sensor>X-Trans V</Sensor>
@@ -804,7 +804,7 @@
     <HighlightTone>0.5</HighlightTone>
     <ShadowTone>-1 (medium soft)</ShadowTone>
     <Saturation>+1 (medium high)</Saturation>
-    <Sharpness>Soft</Sharpness>
+    <Sharpness>-3</Sharpness>
     <NoiseReduction>-4 (weakest)</NoiseReduction>
     <Clarity>-4</Clarity>
     <Sensor>X-Trans V</Sensor>
@@ -822,7 +822,7 @@
     <HighlightTone>-2 (soft)</HighlightTone>
     <ShadowTone>-2 (soft)</ShadowTone>
     <Saturation>-1 (medium low)</Saturation>
-    <Sharpness>Soft</Sharpness>
+    <Sharpness>-2</Sharpness>
     <NoiseReduction>-4 (weakest)</NoiseReduction>
     <Clarity>-3</Clarity>
     <Sensor>X-Trans V</Sensor>
@@ -840,7 +840,7 @@
     <HighlightTone>-1 (medium soft)</HighlightTone>
     <ShadowTone>-1.5</ShadowTone>
     <Saturation>+4 (highest)</Saturation>
-    <Sharpness>Soft</Sharpness>
+    <Sharpness>-2</Sharpness>
     <NoiseReduction>-4 (weakest)</NoiseReduction>
     <Clarity>-3</Clarity>
     <Sensor>X-Trans V</Sensor>
@@ -858,7 +858,7 @@
     <HighlightTone>0 (normal)</HighlightTone>
     <ShadowTone>+2 (hard)</ShadowTone>
     <Saturation>+4 (highest)</Saturation>
-    <Sharpness>Soft</Sharpness>
+    <Sharpness>-3</Sharpness>
     <NoiseReduction>-4 (weakest)</NoiseReduction>
     <Clarity>-5</Clarity>
     <Sensor>X-Trans V</Sensor>
@@ -876,7 +876,7 @@
     <HighlightTone>0 (normal)</HighlightTone>
     <ShadowTone>-1 (medium soft)</ShadowTone>
     <Saturation>0 (normal)</Saturation>
-    <Sharpness>Soft</Sharpness>
+    <Sharpness>-2</Sharpness>
     <NoiseReduction>-4 (weakest)</NoiseReduction>
     <Clarity>-2</Clarity>
     <Sensor>X-Trans V</Sensor>
@@ -894,7 +894,7 @@
     <HighlightTone>+3 (very hard)</HighlightTone>
     <ShadowTone>-1 (medium soft)</ShadowTone>
     <Saturation>+2 (high)</Saturation>
-    <Sharpness>Soft</Sharpness>
+    <Sharpness>-1</Sharpness>
     <NoiseReduction>-4 (weakest)</NoiseReduction>
     <Clarity>-2</Clarity>
     <Sensor>X-Trans V</Sensor>
@@ -913,7 +913,7 @@
     <HighlightTone>+3 (very hard)</HighlightTone>
     <ShadowTone>-2 (soft)</ShadowTone>
     <Saturation>-1 (medium low)</Saturation>
-    <Sharpness>Soft</Sharpness>
+    <Sharpness>-2</Sharpness>
     <NoiseReduction>-4 (weakest)</NoiseReduction>
     <Clarity>-4</Clarity>
     <Sensor>X-Trans V</Sensor>
@@ -931,7 +931,7 @@
     <HighlightTone>-2 (soft)</HighlightTone>
     <ShadowTone>-1 (medium soft)</ShadowTone>
     <Saturation>+2 (high)</Saturation>
-    <Sharpness>Soft</Sharpness>
+    <Sharpness>-1</Sharpness>
     <NoiseReduction>-4 (weakest)</NoiseReduction>
     <Clarity>-2</Clarity>
     <Sensor>X-Trans V</Sensor>
@@ -949,7 +949,7 @@
     <HighlightTone>2.5</HighlightTone>
     <ShadowTone>0 (normal)</ShadowTone>
     <Saturation>+4 (highest)</Saturation>
-    <Sharpness>Soft</Sharpness>
+    <Sharpness>-1</Sharpness>
     <NoiseReduction>-4 (weakest)</NoiseReduction>
     <Clarity>-3</Clarity>
     <Sensor>X-Trans V</Sensor>
@@ -967,7 +967,7 @@
     <HighlightTone>-0.5</HighlightTone>
     <ShadowTone>-1.5</ShadowTone>
     <Saturation>None (B&amp;W)</Saturation>
-    <Sharpness>Normal</Sharpness>
+    <Sharpness>0</Sharpness>
     <NoiseReduction>-4 (weakest)</NoiseReduction>
     <Clarity>2</Clarity>
     <Sensor>X-Trans V</Sensor>
@@ -985,7 +985,7 @@
     <HighlightTone>-0.5</HighlightTone>
     <ShadowTone>1.5</ShadowTone>
     <Saturation>B&amp;W Green Filter</Saturation>
-    <Sharpness>Soft</Sharpness>
+    <Sharpness>-1</Sharpness>
     <NoiseReduction>-4 (weakest)</NoiseReduction>
     <Clarity>-1</Clarity>
     <Sensor>X-Trans V</Sensor>
@@ -1006,7 +1006,7 @@
     <HighlightTone>+1 (medium hard)</HighlightTone>
     <ShadowTone>+3 (very hard)</ShadowTone>
     <Saturation>Acros</Saturation>
-    <Sharpness>Hard</Sharpness>
+    <Sharpness>+2</Sharpness>
     <NoiseReduction>-4 (weakest)</NoiseReduction>
     <Clarity>1</Clarity>
     <Sensor>X-Trans V</Sensor>
@@ -1024,7 +1024,7 @@
     <HighlightTone>0 (normal)</HighlightTone>
     <ShadowTone>+3 (very hard)</ShadowTone>
     <Saturation>Acros Red Filter</Saturation>
-    <Sharpness>Hard</Sharpness>
+    <Sharpness>+1</Sharpness>
     <NoiseReduction>-4 (weakest)</NoiseReduction>
     <Clarity>4</Clarity>
     <Sensor>X-Trans V</Sensor>
@@ -1043,7 +1043,7 @@
     <HighlightTone>-2 (soft)</HighlightTone>
     <ShadowTone>-0.5</ShadowTone>
     <Saturation>+4 (highest)</Saturation>
-    <Sharpness>Soft</Sharpness>
+    <Sharpness>-2</Sharpness>
     <NoiseReduction>-4 (weakest)</NoiseReduction>
     <Clarity>0</Clarity>
     <Sensor>X-Trans V</Sensor>
@@ -1061,7 +1061,7 @@
     <HighlightTone>-1.5</HighlightTone>
     <ShadowTone>-1 (medium soft)</ShadowTone>
     <Saturation>+3 (very high)</Saturation>
-    <Sharpness>Soft</Sharpness>
+    <Sharpness>-1</Sharpness>
     <NoiseReduction>-4 (weakest)</NoiseReduction>
     <Clarity>-2</Clarity>
     <Sensor>X-Trans V</Sensor>
@@ -1079,7 +1079,7 @@
     <HighlightTone>-2 (soft)</HighlightTone>
     <ShadowTone>1.5</ShadowTone>
     <Saturation>+4 (highest)</Saturation>
-    <Sharpness>Soft</Sharpness>
+    <Sharpness>-1</Sharpness>
     <NoiseReduction>-4 (weakest)</NoiseReduction>
     <Clarity>-5</Clarity>
     <Sensor>X-Trans V</Sensor>
@@ -1104,7 +1104,7 @@
     <HighlightTone>0 (normal)</HighlightTone>
     <ShadowTone>0 (normal)</ShadowTone>
     <Saturation>+2 (high)</Saturation>
-    <Sharpness>Hard</Sharpness>
+    <Sharpness>+1</Sharpness>
     <NoiseReduction>-4 (weakest)</NoiseReduction>
     <Clarity>3</Clarity>
     <Sensor>X-Trans IV</Sensor>
@@ -1120,8 +1120,8 @@
     <DevelopmentDynamicRange>400</DevelopmentDynamicRange>
     <HighlightTone>0.5</HighlightTone>
     <ShadowTone>-0.5</ShadowTone>
-    <Saturation>+4 (highest)</Saturation>
-    <Sharpness>Soft</Sharpness>
+    <Saturation>+1 (medium high)</Saturation>
+    <Sharpness>+3</Sharpness>
     <NoiseReduction>-4 (weakest)</NoiseReduction>
     <Clarity>1</Clarity>
     <Sensor>X-Trans IV</Sensor>
@@ -1129,7 +1129,7 @@
   <profile>
     <Name>Kodachrome 1 (IV)</Name>
     <FilmMode>Classic Chrome</FilmMode>
-    <GrainEffectRoughness>Strong</GrainEffectRoughness>
+    <GrainEffectRoughness>Small</GrainEffectRoughness>
     <ColorChromeEffect>Strong</ColorChromeEffect>
     <ColorChromeFXBlue>Weak</ColorChromeFXBlue>
     <WhiteBalance>Auto</WhiteBalance>
@@ -1138,9 +1138,9 @@
     <HighlightTone>+4 (hardest)</HighlightTone>
     <ShadowTone>-2 (soft)</ShadowTone>
     <Saturation>+1 (medium high)</Saturation>
-    <Sharpness>Hard</Sharpness>
+    <Sharpness>-2</Sharpness>
     <NoiseReduction>-4 (weakest)</NoiseReduction>
-    <Clarity>3</Clarity>
+    <Clarity>+1</Clarity>
     <Sensor>X-Trans IV</Sensor>
   </profile>
   <profile>
@@ -1156,7 +1156,7 @@
     <HighlightTone>+1 (medium hard)</HighlightTone>
     <ShadowTone>+2 (hard)</ShadowTone>
     <Saturation>+1 (medium high)</Saturation>
-    <Sharpness>Hard</Sharpness>
+    <Sharpness>+1</Sharpness>
     <NoiseReduction>-4 (weakest)</NoiseReduction>
     <Clarity>-2</Clarity>
     <Sensor>X-Trans IV</Sensor>
@@ -1175,7 +1175,7 @@
     <HighlightTone>0 (normal)</HighlightTone>
     <ShadowTone>0 (normal)</ShadowTone>
     <Saturation>+2 (high)</Saturation>
-    <Sharpness>Soft</Sharpness>
+    <Sharpness>-2</Sharpness>
     <NoiseReduction>-2 (weak)</NoiseReduction>
     <Clarity>0</Clarity>
     <Sensor>X-Trans IV</Sensor>
@@ -1193,7 +1193,7 @@
     <HighlightTone>+3 (very hard)</HighlightTone>
     <ShadowTone>+4 (hardest)</ShadowTone>
     <Saturation>+3 (very high)</Saturation>
-    <Sharpness>Soft</Sharpness>
+    <Sharpness>-2</Sharpness>
     <NoiseReduction>-4 (weakest)</NoiseReduction>
     <Clarity>-2</Clarity>
     <Sensor>X-Trans IV</Sensor>
@@ -1212,7 +1212,7 @@
     <HighlightTone>-1 (medium soft)</HighlightTone>
     <ShadowTone>-2 (soft)</ShadowTone>
     <Saturation>0 (normal)</Saturation>
-    <Sharpness>Soft</Sharpness>
+    <Sharpness>-2</Sharpness>
     <NoiseReduction>-4 (weakest)</NoiseReduction>
     <Clarity>-3</Clarity>
     <Sensor>X-Trans IV</Sensor>
@@ -1229,7 +1229,7 @@
     <HighlightTone>-1 (medium soft)</HighlightTone>
     <ShadowTone>-2 (soft)</ShadowTone>
     <Saturation>+2 (high)</Saturation>
-    <Sharpness>Soft</Sharpness>
+    <Sharpness>-2</Sharpness>
     <NoiseReduction>-4 (weakest)</NoiseReduction>
     <Clarity>2</Clarity>
     <Sensor>X-Trans IV</Sensor>
@@ -1248,7 +1248,7 @@
     <HighlightTone>0 (normal)</HighlightTone>
     <ShadowTone>-2 (soft)</ShadowTone>
     <Saturation>+2 (high)</Saturation>
-    <Sharpness>Soft</Sharpness>
+    <Sharpness>-2</Sharpness>
     <NoiseReduction>-4 (weakest)</NoiseReduction>
     <Clarity>-2</Clarity>
     <Sensor>X-Trans IV</Sensor>
@@ -1267,7 +1267,7 @@
     <HighlightTone>-1 (medium soft)</HighlightTone>
     <ShadowTone>-2 (soft)</ShadowTone>
     <Saturation>+2 (high)</Saturation>
-    <Sharpness>Soft</Sharpness>
+    <Sharpness>-2</Sharpness>
     <NoiseReduction>-4 (weakest)</NoiseReduction>
     <Clarity>-2</Clarity>
     <Sensor>X-Trans IV</Sensor>
@@ -1285,7 +1285,7 @@
     <HighlightTone>-1 (medium soft)</HighlightTone>
     <ShadowTone>-1 (medium soft)</ShadowTone>
     <Saturation>+2 (high)</Saturation>
-    <Sharpness>Soft</Sharpness>
+    <Sharpness>-2</Sharpness>
     <NoiseReduction>-4 (weakest)</NoiseReduction>
     <Clarity>0</Clarity>
     <Sensor>X-Trans IV</Sensor>
@@ -1303,7 +1303,7 @@
     <HighlightTone>0 (normal)</HighlightTone>
     <ShadowTone>0 (normal)</ShadowTone>
     <Saturation>+1 (medium high)</Saturation>
-    <Sharpness>Soft</Sharpness>
+    <Sharpness>-2</Sharpness>
     <NoiseReduction>-4 (weakest)</NoiseReduction>
     <Clarity>3</Clarity>
     <Sensor>X-Trans IV</Sensor>
@@ -1321,7 +1321,7 @@
     <HighlightTone>+1 (medium hard)</HighlightTone>
     <ShadowTone>0 (normal)</ShadowTone>
     <Saturation>+3 (very high)</Saturation>
-    <Sharpness>Soft</Sharpness>
+    <Sharpness>-2</Sharpness>
     <NoiseReduction>-4 (weakest)</NoiseReduction>
     <Clarity>-4</Clarity>
     <Sensor>X-Trans IV</Sensor>
@@ -1338,7 +1338,7 @@
     <HighlightTone>0 (normal)</HighlightTone>
     <ShadowTone>-2 (soft)</ShadowTone>
     <Saturation>-4 (lowest)</Saturation>
-    <Sharpness>Soft</Sharpness>
+    <Sharpness>-2</Sharpness>
     <NoiseReduction>-4 (weakest)</NoiseReduction>
     <Clarity>-5</Clarity>
     <Sensor>X-Trans IV</Sensor>
@@ -1356,7 +1356,7 @@
     <HighlightTone>-2 (soft)</HighlightTone>
     <ShadowTone>-0.5</ShadowTone>
     <Saturation>+3 (very high)</Saturation>
-    <Sharpness>Soft</Sharpness>
+    <Sharpness>-2</Sharpness>
     <NoiseReduction>-4 (weakest)</NoiseReduction>
     <Clarity>-3</Clarity>
     <Sensor>X-Trans IV</Sensor>
@@ -1374,7 +1374,7 @@
     <HighlightTone>0 (normal)</HighlightTone>
     <ShadowTone>-1 (medium soft)</ShadowTone>
     <Saturation>-1 (medium low)</Saturation>
-    <Sharpness>Soft</Sharpness>
+    <Sharpness>-1</Sharpness>
     <NoiseReduction>-4 (weakest)</NoiseReduction>
     <Clarity>-2</Clarity>
     <Sensor>X-Trans IV</Sensor>
@@ -1391,7 +1391,7 @@
     <HighlightTone>+1 (medium hard)</HighlightTone>
     <ShadowTone>+1 (medium hard)</ShadowTone>
     <Saturation>+4 (highest)</Saturation>
-    <Sharpness>Normal</Sharpness>
+    <Sharpness>0</Sharpness>
     <NoiseReduction>-4 (weakest)</NoiseReduction>
     <Clarity>3</Clarity>
     <Sensor>X-Trans IV</Sensor>
@@ -1409,7 +1409,7 @@
     <HighlightTone>-2 (soft)</HighlightTone>
     <ShadowTone>+1 (medium hard)</ShadowTone>
     <Saturation>-1 (medium low)</Saturation>
-    <Sharpness>Soft</Sharpness>
+    <Sharpness>-2</Sharpness>
     <NoiseReduction>-4 (weakest)</NoiseReduction>
     <Clarity>-4</Clarity>
     <Sensor>X-Trans IV</Sensor>
@@ -1427,7 +1427,7 @@
     <HighlightTone>-1 (medium soft)</HighlightTone>
     <ShadowTone>+1 (medium hard)</ShadowTone>
     <Saturation>+4 (highest)</Saturation>
-    <Sharpness>Soft</Sharpness>
+    <Sharpness>-1</Sharpness>
     <NoiseReduction>-4 (weakest)</NoiseReduction>
     <Clarity>-3</Clarity>
     <Sensor>X-Trans IV</Sensor>
@@ -1445,7 +1445,7 @@
     <HighlightTone>+1 (medium hard)</HighlightTone>
     <ShadowTone>-2 (soft)</ShadowTone>
     <Saturation>+4 (highest)</Saturation>
-    <Sharpness>Normal</Sharpness>
+    <Sharpness>0</Sharpness>
     <NoiseReduction>-4 (weakest)</NoiseReduction>
     <Clarity>3</Clarity>
     <Sensor>X-Trans IV</Sensor>
@@ -1460,7 +1460,7 @@
     <ShadowTone>+1 (medium hard)</ShadowTone>
     <Saturation>-1 (medium low)</Saturation>
     <NoiseReduction>-4 (weakest)</NoiseReduction>
-    <Sharpness>Soft</Sharpness>
+    <Sharpness>-1</Sharpness>
     <Clarity>-4</Clarity>
     <GrainEffectRoughness>Strong</GrainEffectRoughness>
     <GrainEffectSize>Large</GrainEffectSize>
@@ -1478,7 +1478,7 @@
     <ShadowTone>+1 (medium hard)</ShadowTone>
     <Saturation>+2 (high)</Saturation>
     <NoiseReduction>-4 (weakest)</NoiseReduction>
-    <Sharpness>Normal</Sharpness>
+    <Sharpness>0</Sharpness>
     <Clarity>-3</Clarity>
     <GrainEffectRoughness>Weak</GrainEffectRoughness>
     <GrainEffectSize>Small</GrainEffectSize>
@@ -1497,7 +1497,7 @@
     <ShadowTone>-0.5</ShadowTone>
     <Saturation>+3 (very high)</Saturation>
     <NoiseReduction>-4 (weakest)</NoiseReduction>
-    <Sharpness>Soft</Sharpness>
+    <Sharpness>-2</Sharpness>
     <Clarity>-2</Clarity>
     <GrainEffectRoughness>Strong</GrainEffectRoughness>
     <GrainEffectSize>Small</GrainEffectSize>
@@ -1515,7 +1515,7 @@
     <ShadowTone>+1 (medium hard)</ShadowTone>
     <Saturation>+4 (highest)</Saturation>
     <NoiseReduction>-4 (weakest)</NoiseReduction>
-    <Sharpness>Normal</Sharpness>
+    <Sharpness>0</Sharpness>
     <Clarity>+3</Clarity>
     <GrainEffectRoughness>Weak</GrainEffectRoughness>
     <GrainEffectSize>Small</GrainEffectSize>
@@ -1533,7 +1533,7 @@
     <ShadowTone>-2 (soft)</ShadowTone>
     <Saturation>+4 (highest)</Saturation>
     <NoiseReduction>-4 (weakest)</NoiseReduction>
-    <Sharpness>Soft</Sharpness>
+    <Sharpness>-1</Sharpness>
     <Clarity>+2</Clarity>
     <GrainEffectRoughness>Weak</GrainEffectRoughness>
     <GrainEffectSize>Small</GrainEffectSize>
@@ -1557,7 +1557,7 @@
     <HighlightTone>-0.5</HighlightTone>
     <ShadowTone>-2 (soft)</ShadowTone>
     <Saturation>+3 (very high)</Saturation>
-    <Sharpness>Soft</Sharpness>
+    <Sharpness>-2</Sharpness>
     <NoiseReduction>-4 (weakest)</NoiseReduction>
     <Clarity>-2</Clarity>
     <Sensor>X-Trans IV</Sensor>
@@ -1570,7 +1570,7 @@
     <ShadowTone>+1 (medium hard)</ShadowTone>
     <Saturation>+2 (high)</Saturation>
     <NoiseReduction>-2 (weak)</NoiseReduction>
-    <Sharpness>Soft</Sharpness>
+    <Sharpness>-1</Sharpness>
     <Clarity>+2</Clarity>
     <GrainEffectRoughness>Strong</GrainEffectRoughness>
     <GrainEffectSize>Large</GrainEffectSize>
@@ -1588,7 +1588,7 @@
     <ShadowTone>+2 (hard)</ShadowTone>
     <Saturation>-4 (lowest)</Saturation>
     <NoiseReduction>-4 (weakest)</NoiseReduction>
-    <Sharpness>Hard</Sharpness>
+    <Sharpness>+1</Sharpness>
     <Clarity>-2</Clarity>
     <GrainEffectRoughness>Weak</GrainEffectRoughness>
     <GrainEffectSize>Small</GrainEffectSize>
@@ -1606,7 +1606,7 @@
     <ShadowTone>+1 (medium hard)</ShadowTone>
     <Saturation>+4 (highest)</Saturation>
     <NoiseReduction>-4 (weakest)</NoiseReduction>
-    <Sharpness>Normal</Sharpness>
+    <Sharpness>0</Sharpness>
     <Clarity>+3</Clarity>
     <GrainEffectRoughness>Weak</GrainEffectRoughness>
     <GrainEffectSize>Small</GrainEffectSize>
@@ -1624,7 +1624,7 @@
     <ShadowTone>+2 (hard)</ShadowTone>
     <Saturation>+4 (highest)</Saturation>
     <NoiseReduction>-4 (weakest)</NoiseReduction>
-    <Sharpness>Soft</Sharpness>
+    <Sharpness>-2</Sharpness>
     <Clarity>-4</Clarity>
     <GrainEffectRoughness>Weak</GrainEffectRoughness>
     <GrainEffectSize>Large</GrainEffectSize>
@@ -1643,7 +1643,7 @@
     <ShadowTone>-1 (medium soft)</ShadowTone>
     <Saturation>+1 (medium high)</Saturation>
     <NoiseReduction>-4 (weakest)</NoiseReduction>
-    <Sharpness>Normal</Sharpness>
+    <Sharpness>0</Sharpness>
     <Clarity>-4</Clarity>
     <GrainEffectRoughness>Weak</GrainEffectRoughness>
     <GrainEffectSize>Small</GrainEffectSize>
@@ -1662,7 +1662,7 @@
     <ShadowTone>+3 (very hard)</ShadowTone>
     <Saturation>+4 (highest)</Saturation>
     <NoiseReduction>-4 (weakest)</NoiseReduction>
-    <Sharpness>Soft</Sharpness>
+    <Sharpness>-2</Sharpness>
     <Clarity>-3</Clarity>
     <GrainEffectRoughness>Strong</GrainEffectRoughness>
     <GrainEffectSize>Large</GrainEffectSize>
@@ -1681,7 +1681,7 @@
     <ShadowTone>+3 (very hard)</ShadowTone>
     <Saturation>-2 (low)</Saturation>
     <NoiseReduction>-4 (weakest)</NoiseReduction>
-    <Sharpness>Soft</Sharpness>
+    <Sharpness>-2</Sharpness>
     <Clarity>-4</Clarity>
     <GrainEffectRoughness>Strong</GrainEffectRoughness>
     <GrainEffectSize>Large</GrainEffectSize>
@@ -1700,7 +1700,7 @@
     <ShadowTone>0 (normal)</ShadowTone>
     <Saturation>-4 (lowest)</Saturation>
     <NoiseReduction>-4 (weakest)</NoiseReduction>
-    <Sharpness>Soft</Sharpness>
+    <Sharpness>-2</Sharpness>
     <Clarity>-3</Clarity>
     <GrainEffectRoughness>Strong</GrainEffectRoughness>
     <GrainEffectSize>Small</GrainEffectSize>
@@ -1719,7 +1719,7 @@
     <ShadowTone>+2 (hard)</ShadowTone>
     <Saturation>-3 (very low)</Saturation>
     <NoiseReduction>-4 (weakest)</NoiseReduction>
-    <Sharpness>Soft</Sharpness>
+    <Sharpness>-4</Sharpness>
     <Clarity>-5</Clarity>
     <GrainEffectRoughness>Strong</GrainEffectRoughness>
     <GrainEffectSize>Large</GrainEffectSize>
@@ -1738,7 +1738,7 @@
     <ShadowTone>+3 (very hard)</ShadowTone>
     <Saturation>-1 (medium low)</Saturation>
     <NoiseReduction>-4 (weakest)</NoiseReduction>
-    <Sharpness>Soft</Sharpness>
+    <Sharpness>-2</Sharpness>
     <Clarity>-3</Clarity>
     <GrainEffectRoughness>Strong</GrainEffectRoughness>
     <GrainEffectSize>Large</GrainEffectSize>
@@ -1757,7 +1757,7 @@
     <ShadowTone>0 (normal)</ShadowTone>
     <Saturation>-4 (lowest)</Saturation>
     <NoiseReduction>-4 (weakest)</NoiseReduction>
-    <Sharpness>Soft</Sharpness>
+    <Sharpness>-1</Sharpness>
     <Clarity>-2</Clarity>
     <GrainEffectRoughness>Strong</GrainEffectRoughness>
     <GrainEffectSize>Small</GrainEffectSize>
@@ -1781,20 +1781,20 @@
     <HighlightTone>+2 (hard)</HighlightTone>
     <ShadowTone>-2 (soft)</ShadowTone>
     <Saturation>-4 (lowest)</Saturation>
-    <Sharpness>Soft</Sharpness>
+    <Sharpness>-4</Sharpness>
     <NoiseReduction>-4 (weakest)</NoiseReduction>
     <Clarity>-4</Clarity>
     <Sensor>X-Trans IV</Sensor>
   </profile>
   <profile>
-    <Name>Vintage Vibe (IV)</Name>
+    <Name>Vintage Vibes (IV)</Name>
     <FilmMode>Classic Negative</FilmMode>
     <DevelopmentDynamicRange>400</DevelopmentDynamicRange>
     <HighlightTone>0 (normal)</HighlightTone>
     <ShadowTone>-2 (soft)</ShadowTone>
     <Saturation>+2 (high)</Saturation>
     <NoiseReduction>-4 (weakest)</NoiseReduction>
-    <Sharpness>Soft</Sharpness>
+    <Sharpness>-2</Sharpness>
     <Clarity>-2</Clarity>
     <GrainEffectRoughness>Strong</GrainEffectRoughness>
     <GrainEffectSize>Small</GrainEffectSize>
@@ -1813,7 +1813,7 @@
     <ShadowTone>-1 (medium soft)</ShadowTone>
     <Saturation>+3 (very high)</Saturation>
     <NoiseReduction>-4 (weakest)</NoiseReduction>
-    <Sharpness>Normal</Sharpness>
+    <Sharpness>0</Sharpness>
     <Clarity>-2</Clarity>
     <GrainEffectRoughness>Weak</GrainEffectRoughness>
     <GrainEffectSize>Small</GrainEffectSize>
@@ -1836,7 +1836,7 @@
     <HighlightTone>+2.5</HighlightTone>
     <ShadowTone>0 (normal)</ShadowTone>
     <Saturation>+4 (highest)</Saturation>
-    <Sharpness>Soft</Sharpness>
+    <Sharpness>-1</Sharpness>
     <NoiseReduction>-4 (weakest)</NoiseReduction>
     <Clarity>-3</Clarity>
     <Sensor>X-Trans IV</Sensor>
@@ -1849,7 +1849,7 @@
     <ShadowTone>+2 (hard)</ShadowTone>
     <Saturation>+3 (very high)</Saturation>
     <NoiseReduction>-4 (weakest)</NoiseReduction>
-    <Sharpness>Normal</Sharpness>
+    <Sharpness>0</Sharpness>
     <Clarity>-3</Clarity>
     <GrainEffectRoughness>Strong</GrainEffectRoughness>
     <GrainEffectSize>Small</GrainEffectSize>
@@ -1867,7 +1867,7 @@
     <ShadowTone>+3 (very hard)</ShadowTone>
     <Saturation>-2 (low)</Saturation>
     <NoiseReduction>-4 (weakest)</NoiseReduction>
-    <Sharpness>Soft</Sharpness>
+    <Sharpness>-2</Sharpness>
     <Clarity>-3</Clarity>
     <GrainEffectRoughness>Strong</GrainEffectRoughness>
     <GrainEffectSize>Small</GrainEffectSize>
@@ -1890,7 +1890,7 @@
     <HighlightTone>-2 (soft)</HighlightTone>
     <ShadowTone>-1 (medium soft)</ShadowTone>
     <Saturation>+2 (high)</Saturation>
-    <Sharpness>Soft</Sharpness>
+    <Sharpness>-1</Sharpness>
     <NoiseReduction>-4 (weakest)</NoiseReduction>
     <Clarity>-2</Clarity>
     <Sensor>X-Trans IV</Sensor>
@@ -1903,7 +1903,7 @@
     <ShadowTone>-1 (medium soft)</ShadowTone>
     <Saturation>+0</Saturation>
     <NoiseReduction>-4 (weakest)</NoiseReduction>
-    <Sharpness>Soft</Sharpness>
+    <Sharpness>-2</Sharpness>
     <Clarity>-3</Clarity>
     <GrainEffectRoughness>Weak</GrainEffectRoughness>
     <GrainEffectSize>Small</GrainEffectSize>
@@ -1920,7 +1920,7 @@
     <ShadowTone>-2 (soft)</ShadowTone>
     <Saturation>+1 (medium high)</Saturation>
     <NoiseReduction>-4 (weakest)</NoiseReduction>
-    <Sharpness>Soft</Sharpness>
+    <Sharpness>-2</Sharpness>
     <Clarity>-2</Clarity>
     <GrainEffectRoughness>Weak</GrainEffectRoughness>
     <GrainEffectSize>Small</GrainEffectSize>
@@ -1938,7 +1938,7 @@
     <ShadowTone>-1 (medium soft)</ShadowTone>
     <Saturation>+4 (highest)</Saturation>
     <NoiseReduction>-4 (weakest)</NoiseReduction>
-    <Sharpness>Soft</Sharpness>
+    <Sharpness>-1</Sharpness>
     <Clarity>-2</Clarity>
     <GrainEffectRoughness>Strong</GrainEffectRoughness>
     <GrainEffectSize>Small</GrainEffectSize>
@@ -1956,7 +1956,7 @@
     <ShadowTone>0 (normal)</ShadowTone>
     <Saturation>+4 (highest)</Saturation>
     <NoiseReduction>-4 (weakest)</NoiseReduction>
-    <Sharpness>Soft</Sharpness>
+    <Sharpness>-1</Sharpness>
     <Clarity>-2</Clarity>
     <GrainEffectRoughness>Strong</GrainEffectRoughness>
     <GrainEffectSize>Small</GrainEffectSize>
@@ -1975,7 +1975,7 @@
     <ShadowTone>+1 (medium hard)</ShadowTone>
     <Saturation>-1 (medium low)</Saturation>
     <NoiseReduction>-4 (weakest)</NoiseReduction>
-    <Sharpness>Soft</Sharpness>
+    <Sharpness>-1</Sharpness>
     <Clarity>-4</Clarity>
     <GrainEffectRoughness>Strong</GrainEffectRoughness>
     <GrainEffectSize>Large</GrainEffectSize>
@@ -1993,7 +1993,7 @@
     <ShadowTone>+2 (hard)</ShadowTone>
     <Saturation>-3 (very low)</Saturation>
     <NoiseReduction>-4 (weakest)</NoiseReduction>
-    <Sharpness>Soft</Sharpness>
+    <Sharpness>-1</Sharpness>
     <Clarity>-4</Clarity>
     <GrainEffectRoughness>Strong</GrainEffectRoughness>
     <GrainEffectSize>Large</GrainEffectSize>
@@ -2011,7 +2011,7 @@
     <ShadowTone>+1.5</ShadowTone>
     <Saturation>-2 (low)</Saturation>
     <NoiseReduction>-4 (weakest)</NoiseReduction>
-    <Sharpness>Soft</Sharpness>
+    <Sharpness>-2</Sharpness>
     <Clarity>-4</Clarity>
     <GrainEffectRoughness>Strong</GrainEffectRoughness>
     <GrainEffectSize>Large</GrainEffectSize>
@@ -2029,7 +2029,7 @@
     <DRangePriorityAuto>Auto</DRangePriorityAuto>
     <Saturation>+3 (very high)</Saturation>
     <NoiseReduction>-4 (weakest)</NoiseReduction>
-    <Sharpness>Soft</Sharpness>
+    <Sharpness>-3</Sharpness>
     <Clarity>+3</Clarity>
     <GrainEffectRoughness>Weak</GrainEffectRoughness>
     <GrainEffectSize>Small</GrainEffectSize>
@@ -2047,7 +2047,7 @@
     <ShadowTone>-0.5</ShadowTone>
     <Saturation>+1 (medium high)</Saturation>
     <NoiseReduction>-4 (weakest)</NoiseReduction>
-    <Sharpness>Soft</Sharpness>
+    <Sharpness>-1</Sharpness>
     <Clarity>-4</Clarity>
     <GrainEffectRoughness>Weak</GrainEffectRoughness>
     <GrainEffectSize>Small</GrainEffectSize>
@@ -2065,7 +2065,7 @@
     <DRangePriorityAuto>Strong</DRangePriorityAuto>
     <Saturation>+3 (very high)</Saturation>
     <NoiseReduction>-4 (weakest)</NoiseReduction>
-    <Sharpness>Soft</Sharpness>
+    <Sharpness>-2</Sharpness>
     <Clarity>+2</Clarity>
     <GrainEffectRoughness>Weak</GrainEffectRoughness>
     <GrainEffectSize>Small</GrainEffectSize>
@@ -2083,7 +2083,7 @@
     <ShadowTone>-2 (soft)</ShadowTone>
     <Saturation>-4 (lowest)</Saturation>
     <NoiseReduction>-4 (weakest)</NoiseReduction>
-    <Sharpness>Hard</Sharpness>
+    <Sharpness>+1</Sharpness>
     <Clarity>-2</Clarity>
     <GrainEffectRoughness>Weak</GrainEffectRoughness>
     <GrainEffectSize>Small</GrainEffectSize>
@@ -2101,7 +2101,7 @@
     <ShadowTone>+1 (medium hard)</ShadowTone>
     <Saturation>+3 (very high)</Saturation>
     <NoiseReduction>-4 (weakest)</NoiseReduction>
-    <Sharpness>Soft</Sharpness>
+    <Sharpness>-2</Sharpness>
     <Clarity>-2</Clarity>
     <GrainEffectRoughness>Strong</GrainEffectRoughness>
     <GrainEffectSize>Small</GrainEffectSize>
@@ -2119,7 +2119,7 @@
     <ShadowTone>-1 (medium soft)</ShadowTone>
     <Saturation>0 (normal)</Saturation>
     <NoiseReduction>-4 (weakest)</NoiseReduction>
-    <Sharpness>Soft</Sharpness>
+    <Sharpness>-2</Sharpness>
     <Clarity>-4</Clarity>
     <GrainEffectRoughness>Strong</GrainEffectRoughness>
     <GrainEffectSize>Large</GrainEffectSize>
@@ -2138,7 +2138,7 @@
     <ShadowTone>-0.5</ShadowTone>
     <Saturation>+2 (high)</Saturation>
     <NoiseReduction>-4 (weakest)</NoiseReduction>
-    <Sharpness>Soft</Sharpness>
+    <Sharpness>-3</Sharpness>
     <Clarity>-3</Clarity>
     <GrainEffectRoughness>Weak</GrainEffectRoughness>
     <GrainEffectSize>Large</GrainEffectSize>
@@ -2156,7 +2156,7 @@
     <ShadowTone>+4 (hardest)</ShadowTone>
     <Saturation>+4 (highest)</Saturation>
     <NoiseReduction>-4 (weakest)</NoiseReduction>
-    <Sharpness>Soft</Sharpness>
+    <Sharpness>-2</Sharpness>
     <Clarity>-4</Clarity>
     <GrainEffectRoughness>Strong</GrainEffectRoughness>
     <GrainEffectSize>Small</GrainEffectSize>
@@ -2175,7 +2175,7 @@
     <ShadowTone>0 (normal)</ShadowTone>
     <Saturation>0 (normal)</Saturation>
     <NoiseReduction>-4 (weakest)</NoiseReduction>
-    <Sharpness>Normal</Sharpness>
+    <Sharpness>0</Sharpness>
     <Clarity>-3</Clarity>
     <GrainEffectRoughness>Weak</GrainEffectRoughness>
     <GrainEffectSize>Large</GrainEffectSize>
@@ -2194,7 +2194,7 @@
     <ShadowTone>+3 (very hard)</ShadowTone>
     <Saturation>-4 (lowest)</Saturation>
     <NoiseReduction>-4 (weakest)</NoiseReduction>
-    <Sharpness>Soft</Sharpness>
+    <Sharpness>-2</Sharpness>
     <Clarity>-3</Clarity>
     <GrainEffectRoughness>Strong</GrainEffectRoughness>
     <GrainEffectSize>Small</GrainEffectSize>
@@ -2212,7 +2212,7 @@
     <ShadowTone>0 (normal)</ShadowTone>
     <Saturation>-3 (very low)</Saturation>
     <NoiseReduction>-4 (weakest)</NoiseReduction>
-    <Sharpness>Normal</Sharpness>
+    <Sharpness>0</Sharpness>
     <Clarity>-3</Clarity>
     <GrainEffectRoughness>Weak</GrainEffectRoughness>
     <GrainEffectSize>Small</GrainEffectSize>
@@ -2231,7 +2231,7 @@
     <ShadowTone>+1 (medium hard)</ShadowTone>
     <Saturation>+2 (high)</Saturation>
     <NoiseReduction>-4 (weakest)</NoiseReduction>
-    <Sharpness>Normal</Sharpness>
+    <Sharpness>0</Sharpness>
     <Clarity>-3</Clarity>
     <GrainEffectRoughness>Weak</GrainEffectRoughness>
     <GrainEffectSize>Large</GrainEffectSize>
@@ -2249,7 +2249,7 @@
     <ShadowTone>+1 (medium hard)</ShadowTone>
     <Saturation>+2 (high)</Saturation>
     <NoiseReduction>-4 (weakest)</NoiseReduction>
-    <Sharpness>Normal</Sharpness>
+    <Sharpness>0</Sharpness>
     <Clarity>+2</Clarity>
     <GrainEffectRoughness>Weak</GrainEffectRoughness>
     <GrainEffectSize>Large</GrainEffectSize>
@@ -2267,7 +2267,7 @@
     <ShadowTone>+1 (medium hard)</ShadowTone>
     <Saturation>+2 (high)</Saturation>
     <NoiseReduction>-4 (weakest)</NoiseReduction>
-    <Sharpness>Soft</Sharpness>
+    <Sharpness>-1</Sharpness>
     <Clarity>+2</Clarity>
     <GrainEffectRoughness>Weak</GrainEffectRoughness>
     <GrainEffectSize>Small</GrainEffectSize>
@@ -2285,7 +2285,7 @@
     <ShadowTone>+1 (medium hard)</ShadowTone>
     <Saturation>+2 (high)</Saturation>
     <NoiseReduction>-4 (weakest)</NoiseReduction>
-    <Sharpness>Normal</Sharpness>
+    <Sharpness>0</Sharpness>
     <Clarity>-3</Clarity>
     <GrainEffectRoughness>Weak</GrainEffectRoughness>
     <GrainEffectSize>Small</GrainEffectSize>
@@ -2303,7 +2303,7 @@
     <ShadowTone>+3 (very hard)</ShadowTone>
     <Saturation>+4 (highest)</Saturation>
     <NoiseReduction>-4 (weakest)</NoiseReduction>
-    <Sharpness>Soft</Sharpness>
+    <Sharpness>-1</Sharpness>
     <Clarity>-3</Clarity>
     <GrainEffectRoughness>Weak</GrainEffectRoughness>
     <GrainEffectSize>Small</GrainEffectSize>
@@ -2321,7 +2321,7 @@
     <ShadowTone>+4 (hardest)</ShadowTone>
     <Saturation>+4 (highest)</Saturation>
     <NoiseReduction>-4 (weakest)</NoiseReduction>
-    <Sharpness>Normal</Sharpness>
+    <Sharpness>0</Sharpness>
     <Clarity>-5</Clarity>
     <GrainEffectRoughness>Weak</GrainEffectRoughness>
     <GrainEffectSize>Large</GrainEffectSize>
@@ -2344,7 +2344,7 @@
     <HighlightTone>+0.5</HighlightTone>
     <ShadowTone>-1.5</ShadowTone>
     <Saturation>+4 (highest)</Saturation>
-    <Sharpness>Soft</Sharpness>
+    <Sharpness>-1</Sharpness>
     <NoiseReduction>-4 (weakest)</NoiseReduction>
     <Clarity>-2</Clarity>
     <Sensor>X-Trans IV</Sensor>
@@ -2357,7 +2357,7 @@
     <ShadowTone>-1 (medium soft)</ShadowTone>
     <Saturation>+2 (high)</Saturation>
     <NoiseReduction>-4 (weakest)</NoiseReduction>
-    <Sharpness>Soft</Sharpness>
+    <Sharpness>-2</Sharpness>
     <Clarity>-3</Clarity>
     <GrainEffectRoughness>Strong</GrainEffectRoughness>
     <GrainEffectSize>Small</GrainEffectSize>
@@ -2375,7 +2375,7 @@
     <ShadowTone>-2 (soft)</ShadowTone>
     <Saturation>+2 (high)</Saturation>
     <NoiseReduction>-4 (weakest)</NoiseReduction>
-    <Sharpness>Soft</Sharpness>
+    <Sharpness>-1</Sharpness>
     <Clarity>-3</Clarity>
     <GrainEffectRoughness>Weak</GrainEffectRoughness>
     <GrainEffectSize>Large</GrainEffectSize>
@@ -2393,7 +2393,7 @@
     <ShadowTone>-2 (soft)</ShadowTone>
     <Saturation>+2 (high)</Saturation>
     <NoiseReduction>-4 (weakest)</NoiseReduction>
-    <Sharpness>Normal</Sharpness>
+    <Sharpness>0</Sharpness>
     <Clarity>+3</Clarity>
     <GrainEffectRoughness>Strong</GrainEffectRoughness>
     <GrainEffectSize>Small</GrainEffectSize>
@@ -2412,7 +2412,7 @@
     <ShadowTone>0 (normal)</ShadowTone>
     <Saturation>+3 (very high)</Saturation>
     <NoiseReduction>-4 (weakest)</NoiseReduction>
-    <Sharpness>Normal</Sharpness>
+    <Sharpness>0</Sharpness>
     <Clarity>+2</Clarity>
     <GrainEffectRoughness>Weak</GrainEffectRoughness>
     <GrainEffectSize>Large</GrainEffectSize>
@@ -2430,7 +2430,7 @@
     <ShadowTone>+1.5</ShadowTone>
     <Saturation>+3 (very high)</Saturation>
     <NoiseReduction>-4 (weakest)</NoiseReduction>
-    <Sharpness>Hard</Sharpness>
+    <Sharpness>+1</Sharpness>
     <Clarity>0</Clarity>
     <GrainEffectRoughness>Weak</GrainEffectRoughness>
     <GrainEffectSize>Small</GrainEffectSize>
@@ -2448,7 +2448,7 @@
     <ShadowTone>+2 (hard)</ShadowTone>
     <Saturation>+4 (highest)</Saturation>
     <NoiseReduction>-4 (weakest)</NoiseReduction>
-    <Sharpness>Normal</Sharpness>
+    <Sharpness>0</Sharpness>
     <Clarity>-2</Clarity>
     <GrainEffectRoughness>Weak</GrainEffectRoughness>
     <GrainEffectSize>Small</GrainEffectSize>
@@ -2466,7 +2466,7 @@
     <ShadowTone>-2 (soft)</ShadowTone>
     <Saturation>+4 (highest)</Saturation>
     <NoiseReduction>-4 (weakest)</NoiseReduction>
-    <Sharpness>Normal</Sharpness>
+    <Sharpness>0</Sharpness>
     <Clarity>-3</Clarity>
     <GrainEffectRoughness>Weak</GrainEffectRoughness>
     <GrainEffectSize>Small</GrainEffectSize>
@@ -2484,7 +2484,7 @@
     <ShadowTone>+4 (hardest)</ShadowTone>
     <Saturation>+4 (highest)</Saturation>
     <NoiseReduction>-4 (weakest)</NoiseReduction>
-    <Sharpness>Soft</Sharpness>
+    <Sharpness>-2</Sharpness>
     <Clarity>-3</Clarity>
     <GrainEffectRoughness>Weak</GrainEffectRoughness>
     <GrainEffectSize>Small</GrainEffectSize>
@@ -2503,7 +2503,7 @@
     <ShadowTone>+4 (hardest)</ShadowTone>
     <Saturation>-4 (lowest)</Saturation>
     <NoiseReduction>-4 (weakest)</NoiseReduction>
-    <Sharpness>Soft</Sharpness>
+    <Sharpness>-4</Sharpness>
     <Clarity>-5</Clarity>
     <GrainEffectRoughness>Strong</GrainEffectRoughness>
     <GrainEffectSize>Large</GrainEffectSize>
@@ -2522,7 +2522,7 @@
     <ShadowTone>+2 (hard)</ShadowTone>
     <Saturation>+3 (very high)</Saturation>
     <NoiseReduction>-4 (weakest)</NoiseReduction>
-    <Sharpness>Soft</Sharpness>
+    <Sharpness>-2</Sharpness>
     <Clarity>-4</Clarity>
     <GrainEffectRoughness>Weak</GrainEffectRoughness>
     <GrainEffectSize>Small</GrainEffectSize>
@@ -2540,7 +2540,7 @@
     <ShadowTone>+2.5</ShadowTone>
     <Saturation>-2 (low)</Saturation>
     <NoiseReduction>-4 (weakest)</NoiseReduction>
-    <Sharpness>Soft</Sharpness>
+    <Sharpness>-4</Sharpness>
     <Clarity>-5</Clarity>
     <GrainEffectRoughness>Strong</GrainEffectRoughness>
     <GrainEffectSize>Large</GrainEffectSize>
@@ -2559,7 +2559,7 @@
     <ShadowTone>+1.5</ShadowTone>
     <Saturation>+3 (very high)</Saturation>
     <NoiseReduction>-4 (weakest)</NoiseReduction>
-    <Sharpness>Soft</Sharpness>
+    <Sharpness>-2</Sharpness>
     <Clarity>-4</Clarity>
     <GrainEffectRoughness>Strong</GrainEffectRoughness>
     <GrainEffectSize>Small</GrainEffectSize>
@@ -2582,7 +2582,7 @@
     <DRangePriority>Fixed</DRangePriority>
     <DRangePriorityAuto>Strong</DRangePriorityAuto>
     <Saturation>+4 (highest)</Saturation>
-    <Sharpness>Soft</Sharpness>
+    <Sharpness>-2</Sharpness>
     <NoiseReduction>-4 (weakest)</NoiseReduction>
     <Clarity>-3</Clarity>
     <Sensor>X-Trans IV</Sensor>
@@ -2600,7 +2600,7 @@
     <HighlightTone>-2 (soft)</HighlightTone>
     <ShadowTone>-2 (soft)</ShadowTone>
     <Saturation>-1 (medium low)</Saturation>
-    <Sharpness>Soft</Sharpness>
+    <Sharpness>-2</Sharpness>
     <NoiseReduction>-4 (weakest)</NoiseReduction>
     <Clarity>-3</Clarity>
     <Sensor>X-Trans IV</Sensor>
@@ -2613,7 +2613,7 @@
     <ShadowTone>+4 (hardest)</ShadowTone>
     <Saturation>0 (normal)</Saturation>
     <NoiseReduction>-4 (weakest)</NoiseReduction>
-    <Sharpness>Soft</Sharpness>
+    <Sharpness>-3</Sharpness>
     <Clarity>-2</Clarity>
     <GrainEffectRoughness>Strong</GrainEffectRoughness>
     <GrainEffectSize>Large</GrainEffectSize>
@@ -2632,7 +2632,7 @@
     <ShadowTone>+2 (hard)</ShadowTone>
     <Saturation>+4 (highest)</Saturation>
     <NoiseReduction>-4 (weakest)</NoiseReduction>
-    <Sharpness>Soft</Sharpness>
+    <Sharpness>-1</Sharpness>
     <Clarity>-2</Clarity>
     <GrainEffectRoughness>Weak</GrainEffectRoughness>
     <GrainEffectSize>Small</GrainEffectSize>
@@ -2650,7 +2650,7 @@
     <ShadowTone>-1 (medium soft)</ShadowTone>
     <Saturation>+4 (highest)</Saturation>
     <NoiseReduction>-4 (weakest)</NoiseReduction>
-    <Sharpness>Hard</Sharpness>
+    <Sharpness>+4</Sharpness>
     <Clarity>+5</Clarity>
     <GrainEffectRoughness>Weak</GrainEffectRoughness>
     <GrainEffectSize>Small</GrainEffectSize>
@@ -2668,7 +2668,7 @@
     <ShadowTone>-1 (medium soft)</ShadowTone>
     <Saturation>+4 (highest)</Saturation>
     <NoiseReduction>-4 (weakest)</NoiseReduction>
-    <Sharpness>Normal</Sharpness>
+    <Sharpness>0</Sharpness>
     <Clarity>+4</Clarity>
     <GrainEffectRoughness>Weak</GrainEffectRoughness>
     <GrainEffectSize>Small</GrainEffectSize>
@@ -2686,7 +2686,7 @@
     <ShadowTone>+4 (hardest)</ShadowTone>
     <Saturation>-4 (lowest)</Saturation>
     <NoiseReduction>-4 (weakest)</NoiseReduction>
-    <Sharpness>Soft</Sharpness>
+    <Sharpness>-1</Sharpness>
     <Clarity>+3</Clarity>
     <GrainEffectRoughness>Strong</GrainEffectRoughness>
     <GrainEffectSize>Large</GrainEffectSize>
@@ -2709,7 +2709,7 @@
     <HighlightTone>+2.5</HighlightTone>
     <ShadowTone>-1.5</ShadowTone>
     <Saturation>-4 (lowest)</Saturation>
-    <Sharpness>Normal</Sharpness>
+    <Sharpness>0</Sharpness>
     <NoiseReduction>-4 (weakest)</NoiseReduction>
     <Clarity>+2</Clarity>
     <Sensor>X-Trans IV</Sensor>
@@ -2722,7 +2722,7 @@
     <ShadowTone>+1 (medium hard)</ShadowTone>
     <Saturation>-4 (lowest)</Saturation>
     <NoiseReduction>-4 (weakest)</NoiseReduction>
-    <Sharpness>Normal</Sharpness>
+    <Sharpness>0</Sharpness>
     <Clarity>-2</Clarity>
     <GrainEffectRoughness>Weak</GrainEffectRoughness>
     <GrainEffectSize>Small</GrainEffectSize>
@@ -2740,7 +2740,7 @@
     <ShadowTone>-2 (soft)</ShadowTone>
     <Saturation>+2 (high)</Saturation>
     <NoiseReduction>-4 (weakest)</NoiseReduction>
-    <Sharpness>Soft</Sharpness>
+    <Sharpness>-2</Sharpness>
     <Clarity>-2</Clarity>
     <GrainEffectRoughness>Strong</GrainEffectRoughness>
     <GrainEffectSize>Small</GrainEffectSize>
@@ -2759,7 +2759,7 @@
     <ShadowTone>+2.5</ShadowTone>
     <Saturation>-2 (low)</Saturation>
     <NoiseReduction>-4 (weakest)</NoiseReduction>
-    <Sharpness>Soft</Sharpness>
+    <Sharpness>-1</Sharpness>
     <Clarity>+4</Clarity>
     <GrainEffectRoughness>Strong</GrainEffectRoughness>
     <GrainEffectSize>Small</GrainEffectSize>
@@ -2777,7 +2777,7 @@
     <ShadowTone>+1 (medium hard)</ShadowTone>
     <Saturation>+4 (highest)</Saturation>
     <NoiseReduction>-4 (weakest)</NoiseReduction>
-    <Sharpness>Soft</Sharpness>
+    <Sharpness>-2</Sharpness>
     <Clarity>-3</Clarity>
     <GrainEffectRoughness>Strong</GrainEffectRoughness>
     <GrainEffectSize>Small</GrainEffectSize>
@@ -2796,7 +2796,7 @@
     <ShadowTone>-2 (soft)</ShadowTone>
     <Saturation>+4 (highest)</Saturation>
     <NoiseReduction>-4 (weakest)</NoiseReduction>
-    <Sharpness>Normal</Sharpness>
+    <Sharpness>0</Sharpness>
     <Clarity>-3</Clarity>
     <GrainEffectRoughness>Strong</GrainEffectRoughness>
     <GrainEffectSize>Small</GrainEffectSize>
@@ -2820,7 +2820,7 @@
     <HighlightTone>+0.5</HighlightTone>
     <ShadowTone>-1 (medium soft)</ShadowTone>
     <Saturation>+1 (medium high)</Saturation>
-    <Sharpness>Soft</Sharpness>
+    <Sharpness>-3</Sharpness>
     <NoiseReduction>-4 (weakest)</NoiseReduction>
     <Clarity>-4</Clarity>
     <Sensor>X-Trans IV</Sensor>
@@ -2833,7 +2833,7 @@
     <ShadowTone>+4 (hardest)</ShadowTone>
     <Saturation>-2 (low)</Saturation>
     <NoiseReduction>-4 (weakest)</NoiseReduction>
-    <Sharpness>Soft</Sharpness>
+    <Sharpness>-2</Sharpness>
     <Clarity>0</Clarity>
     <GrainEffectRoughness>Weak</GrainEffectRoughness>
     <GrainEffectSize>Large</GrainEffectSize>
@@ -2851,7 +2851,7 @@
     <ShadowTone>0 (normal)</ShadowTone>
     <Saturation>-4 (lowest)</Saturation>
     <NoiseReduction>-4 (weakest)</NoiseReduction>
-    <Sharpness>Normal</Sharpness>
+    <Sharpness>0</Sharpness>
     <Clarity>-4</Clarity>
     <GrainEffectRoughness>Weak</GrainEffectRoughness>
     <GrainEffectSize>Small</GrainEffectSize>
@@ -2870,7 +2870,7 @@
     <ShadowTone>-2 (soft)</ShadowTone>
     <Saturation>+4 (highest)</Saturation>
     <NoiseReduction>-4 (weakest)</NoiseReduction>
-    <Sharpness>Soft</Sharpness>
+    <Sharpness>-2</Sharpness>
     <Clarity>-3</Clarity>
     <GrainEffectRoughness>Strong</GrainEffectRoughness>
     <GrainEffectSize>Large</GrainEffectSize>
@@ -2888,7 +2888,7 @@
     <ShadowTone>-2 (soft)</ShadowTone>
     <Saturation>+4 (highest)</Saturation>
     <NoiseReduction>-4 (weakest)</NoiseReduction>
-    <Sharpness>Normal</Sharpness>
+    <Sharpness>0</Sharpness>
     <Clarity>-5</Clarity>
     <GrainEffect>Off</GrainEffect>
     <ColorChromeEffect>Strong</ColorChromeEffect>
@@ -2912,7 +2912,7 @@
     <HighlightTone>+2 (hard)</HighlightTone>
     <ShadowTone>-2 (soft)</ShadowTone>
     <Saturation>+3 (very high)</Saturation>
-    <Sharpness>Soft</Sharpness>
+    <Sharpness>-2</Sharpness>
     <NoiseReduction>-4 (weakest)</NoiseReduction>
     <Clarity>-4</Clarity>
     <Sensor>X-Trans IV</Sensor>
@@ -2925,7 +2925,7 @@
     <ShadowTone>-1 (medium soft)</ShadowTone>
     <Saturation>-4 (lowest)</Saturation>
     <NoiseReduction>-4 (weakest)</NoiseReduction>
-    <Sharpness>Soft</Sharpness>
+    <Sharpness>-2</Sharpness>
     <Clarity>-2</Clarity>
     <GrainEffectRoughness>Strong</GrainEffectRoughness>
     <GrainEffectSize>Large</GrainEffectSize>
@@ -2944,7 +2944,7 @@
     <ShadowTone>-1 (medium soft)</ShadowTone>
     <Saturation>-4 (lowest)</Saturation>
     <NoiseReduction>-4 (weakest)</NoiseReduction>
-    <Sharpness>Soft</Sharpness>
+    <Sharpness>-2</Sharpness>
     <Clarity>-2</Clarity>
     <GrainEffectRoughness>Strong</GrainEffectRoughness>
     <GrainEffectSize>Large</GrainEffectSize>
@@ -2963,7 +2963,7 @@
     <ShadowTone>0 (normal)</ShadowTone>
     <Saturation>+4 (highest)</Saturation>
     <NoiseReduction>-4 (weakest)</NoiseReduction>
-    <Sharpness>Soft</Sharpness>
+    <Sharpness>-4</Sharpness>
     <Clarity>-4</Clarity>
     <GrainEffectRoughness>Strong</GrainEffectRoughness>
     <GrainEffectSize>Large</GrainEffectSize>
@@ -2981,7 +2981,7 @@
     <ShadowTone>+4 (hardest)</ShadowTone>
     <Saturation>-1 (medium low)</Saturation>
     <NoiseReduction>-4 (weakest)</NoiseReduction>
-    <Sharpness>Soft</Sharpness>
+    <Sharpness>-2</Sharpness>
     <Clarity>-5</Clarity>
     <GrainEffectRoughness>Weak</GrainEffectRoughness>
     <GrainEffectSize>Large</GrainEffectSize>
@@ -3000,7 +3000,7 @@
     <ShadowTone>+2 (hard)</ShadowTone>
     <Saturation>+4 (highest)</Saturation>
     <NoiseReduction>-4 (weakest)</NoiseReduction>
-    <Sharpness>Soft</Sharpness>
+    <Sharpness>-3</Sharpness>
     <Clarity>-5</Clarity>
     <GrainEffectRoughness>Strong</GrainEffectRoughness>
     <GrainEffectSize>Large</GrainEffectSize>
@@ -3018,7 +3018,7 @@
     <ShadowTone>-1.5</ShadowTone>
     <Saturation>+3 (very high)</Saturation>
     <NoiseReduction>-4 (weakest)</NoiseReduction>
-    <Sharpness>Normal</Sharpness>
+    <Sharpness>0</Sharpness>
     <Clarity>-3</Clarity>
     <GrainEffectRoughness>Strong</GrainEffectRoughness>
     <GrainEffectSize>Large</GrainEffectSize>
@@ -3036,7 +3036,7 @@
     <ShadowTone>-1 (medium soft)</ShadowTone>
     <Saturation>-1 (medium low)</Saturation>
     <NoiseReduction>-2 (weak)</NoiseReduction>
-    <Sharpness>Soft</Sharpness>
+    <Sharpness>-1</Sharpness>
     <Clarity>0</Clarity>
     <GrainEffectRoughness>Strong</GrainEffectRoughness>
     <GrainEffectSize>Large</GrainEffectSize>
@@ -3060,7 +3060,7 @@
     <HighlightTone>0 (normal)</HighlightTone>
     <ShadowTone>+3 (very hard)</ShadowTone>
     <Saturation>Acros Red Filter</Saturation>
-    <Sharpness>Hard</Sharpness>
+    <Sharpness>+1</Sharpness>
     <NoiseReduction>-4 (weakest)</NoiseReduction>
     <Clarity>4</Clarity>
     <Sensor>X-Trans IV</Sensor>
@@ -3078,7 +3078,7 @@
     <HighlightTone>+1 (medium hard)</HighlightTone>
     <ShadowTone>+4 (hardest)</ShadowTone>
     <Saturation>Acros Red Filter</Saturation>
-    <Sharpness>Hard</Sharpness>
+    <Sharpness>+1</Sharpness>
     <NoiseReduction>-4 (weakest)</NoiseReduction>
     <Clarity>0</Clarity>
     <Sensor>X-Trans V</Sensor>
@@ -3099,7 +3099,7 @@
     <HighlightTone>+1 (medium hard)</HighlightTone>
     <ShadowTone>+3 (very hard)</ShadowTone>
     <Saturation>Acros</Saturation>
-    <Sharpness>Hard</Sharpness>
+    <Sharpness>+2</Sharpness>
     <NoiseReduction>-4 (weakest)</NoiseReduction>
     <Clarity>1</Clarity>
     <Sensor>X-Trans IV</Sensor>
@@ -3111,7 +3111,7 @@
     <HighlightTone>0 (normal)</HighlightTone>
     <ShadowTone>+3 (very hard)</ShadowTone>
     <NoiseReduction>-4 (weakest)</NoiseReduction>
-    <Sharpness>Hard</Sharpness>
+    <Sharpness>+2</Sharpness>
     <Clarity>+3</Clarity>
     <BWAdjustment>+2</BWAdjustment>
     <BWMagentaGreen>0</BWMagentaGreen>
@@ -3131,7 +3131,7 @@
     <HighlightTone>0 (normal)</HighlightTone>
     <ShadowTone>+2 (hard)</ShadowTone>
     <NoiseReduction>-4 (weakest)</NoiseReduction>
-    <Sharpness>Soft</Sharpness>
+    <Sharpness>-1</Sharpness>
     <Clarity>-4</Clarity>
     <GrainEffectRoughness>Weak</GrainEffectRoughness>
     <GrainEffectSize>Large</GrainEffectSize>
@@ -3151,7 +3151,7 @@
     <HighlightTone>+4 (hardest)</HighlightTone>
     <ShadowTone>+2 (hard)</ShadowTone>
     <NoiseReduction>-4 (weakest)</NoiseReduction>
-    <Sharpness>Hard</Sharpness>
+    <Sharpness>+1</Sharpness>
     <Clarity>+4</Clarity>
     <BWAdjustment>+1</BWAdjustment>
     <BWMagentaGreen>0</BWMagentaGreen>
@@ -3171,7 +3171,7 @@
     <HighlightTone>+3 (very hard)</HighlightTone>
     <ShadowTone>0 (normal)</ShadowTone>
     <NoiseReduction>-4 (weakest)</NoiseReduction>
-    <Sharpness>Soft</Sharpness>
+    <Sharpness>-2</Sharpness>
     <Clarity>0</Clarity>
     <GrainEffectRoughness>Strong</GrainEffectRoughness>
     <GrainEffectSize>Small</GrainEffectSize>
@@ -3195,7 +3195,7 @@
     <WhiteBalanceFineTune>Red +7, Blue +6</WhiteBalanceFineTune>
     <HighlightTone>+1 (medium hard)</HighlightTone>
     <ShadowTone>+1 (medium hard)</ShadowTone>
-    <Sharpness>Hard</Sharpness>
+    <Sharpness>+3</Sharpness>
     <NoiseReduction>-4 (weakest)</NoiseReduction>
     <Clarity>+1</Clarity>
     <Saturation>Acros Green Filter</Saturation>
@@ -3208,7 +3208,7 @@
     <HighlightTone>-1 (medium soft)</HighlightTone>
     <ShadowTone>+1 (medium hard)</ShadowTone>
     <NoiseReduction>-4 (weakest)</NoiseReduction>
-    <Sharpness>Soft</Sharpness>
+    <Sharpness>-2</Sharpness>
     <Clarity>0</Clarity>
     <GrainEffectRoughness>Strong</GrainEffectRoughness>
     <GrainEffectSize>Large</GrainEffectSize>
@@ -3226,7 +3226,7 @@
     <HighlightTone>0 (normal)</HighlightTone>
     <ShadowTone>+1 (medium hard)</ShadowTone>
     <NoiseReduction>-4 (weakest)</NoiseReduction>
-    <Sharpness>Normal</Sharpness>
+    <Sharpness>0</Sharpness>
     <Clarity>+2</Clarity>
     <GrainEffectRoughness>Weak</GrainEffectRoughness>
     <GrainEffectSize>Large</GrainEffectSize>
@@ -3244,7 +3244,7 @@
     <HighlightTone>+2 (hard)</HighlightTone>
     <ShadowTone>+3 (very hard)</ShadowTone>
     <NoiseReduction>-4 (weakest)</NoiseReduction>
-    <Sharpness>Hard</Sharpness>
+    <Sharpness>+2</Sharpness>
     <Clarity>-2</Clarity>
     <BWAdjustment>+1</BWAdjustment>
     <BWMagentaGreen>0</BWMagentaGreen>
@@ -3265,7 +3265,7 @@
     <HighlightTone>-1 (medium soft)</HighlightTone>
     <ShadowTone>+4 (hardest)</ShadowTone>
     <NoiseReduction>-4 (weakest)</NoiseReduction>
-    <Sharpness>Soft</Sharpness>
+    <Sharpness>-2</Sharpness>
     <Clarity>-3</Clarity>
     <GrainEffectRoughness>Strong</GrainEffectRoughness>
     <GrainEffectSize>Large</GrainEffectSize>
@@ -3283,7 +3283,7 @@
     <HighlightTone>+4 (hardest)</HighlightTone>
     <ShadowTone>+3 (very hard)</ShadowTone>
     <NoiseReduction>-4 (weakest)</NoiseReduction>
-    <Sharpness>Soft</Sharpness>
+    <Sharpness>-4</Sharpness>
     <Clarity>+5</Clarity>
     <GrainEffectRoughness>Strong</GrainEffectRoughness>
     <GrainEffectSize>Large</GrainEffectSize>
@@ -3302,7 +3302,7 @@
     <HighlightTone>+3 (very hard)</HighlightTone>
     <ShadowTone>+3 (very hard)</ShadowTone>
     <NoiseReduction>-4 (weakest)</NoiseReduction>
-    <Sharpness>Soft</Sharpness>
+    <Sharpness>-2</Sharpness>
     <Clarity>0</Clarity>
     <GrainEffectRoughness>Strong</GrainEffectRoughness>
     <GrainEffectSize>Large</GrainEffectSize>
@@ -3330,7 +3330,7 @@
     <HighlightTone>+2 (hard)</HighlightTone>
     <ShadowTone>+3 (very hard)</ShadowTone>
     <Saturation>B&amp;W Green Filter</Saturation>
-    <Sharpness>Hard</Sharpness>
+    <Sharpness>+4</Sharpness>
     <NoiseReduction>+2 (strong)</NoiseReduction>
     <Clarity>0</Clarity>
     <Sensor>X-Trans V</Sensor>
@@ -3348,7 +3348,7 @@
     <HighlightTone>-1 (medium soft)</HighlightTone>
     <ShadowTone>+1 (medium hard)</ShadowTone>
     <Saturation>+3 (very high)</Saturation>
-    <Sharpness>Hard</Sharpness>
+    <Sharpness>+3</Sharpness>
     <NoiseReduction>-1 (medium weak)</NoiseReduction>
     <Clarity>0</Clarity>
     <Sensor>X-Trans V</Sensor>
@@ -3366,7 +3366,7 @@
     <HighlightTone>+2 (hard)</HighlightTone>
     <ShadowTone>+2 (hard)</ShadowTone>
     <Saturation>Acros Red Filter</Saturation>
-    <Sharpness>Soft</Sharpness>
+    <Sharpness>-1</Sharpness>
     <NoiseReduction>-3 (very weak)</NoiseReduction>
     <Clarity>0</Clarity>
     <Sensor>X-Trans V</Sensor>
@@ -3384,7 +3384,7 @@
     <HighlightTone>-1 (medium soft)</HighlightTone>
     <ShadowTone>-1 (medium soft)</ShadowTone>
     <Saturation>+2 (high)</Saturation>
-    <Sharpness>Soft</Sharpness>
+    <Sharpness>-2</Sharpness>
     <NoiseReduction>-4 (weakest)</NoiseReduction>
     <Clarity>0</Clarity>
     <Sensor>X-Trans V</Sensor>
@@ -3402,7 +3402,7 @@
     <HighlightTone>+1 (medium hard)</HighlightTone>
     <ShadowTone>-1 (medium soft)</ShadowTone>
     <Saturation>+3 (very high)</Saturation>
-    <Sharpness>Soft</Sharpness>
+    <Sharpness>-2</Sharpness>
     <NoiseReduction>-4 (weakest)</NoiseReduction>
     <Clarity>0</Clarity>
     <Sensor>X-Trans V</Sensor>
@@ -3420,7 +3420,7 @@
     <HighlightTone>-2 (soft)</HighlightTone>
     <ShadowTone>-2 (soft)</ShadowTone>
     <Saturation>+2 (high)</Saturation>
-    <Sharpness>Normal</Sharpness>
+    <Sharpness>0</Sharpness>
     <NoiseReduction>-1 (medium weak)</NoiseReduction>
     <Clarity>0</Clarity>
     <Sensor>X-Trans V</Sensor>
@@ -3438,7 +3438,7 @@
     <HighlightTone>1.5</HighlightTone>
     <ShadowTone>+1 (medium hard)</ShadowTone>
     <Saturation>+2 (high)</Saturation>
-    <Sharpness>Hard</Sharpness>
+    <Sharpness>+1</Sharpness>
     <NoiseReduction>-4 (weakest)</NoiseReduction>
     <Clarity>1</Clarity>
     <Sensor>X-Trans V</Sensor>
@@ -3456,7 +3456,7 @@
     <HighlightTone>+3 (very hard)</HighlightTone>
     <ShadowTone>+4 (hardest)</ShadowTone>
     <Saturation>Acros Red Filter</Saturation>
-    <Sharpness>Hard</Sharpness>
+    <Sharpness>+4</Sharpness>
     <NoiseReduction>-4 (weakest)</NoiseReduction>
     <Clarity>0</Clarity>
     <Sensor>X-Trans V</Sensor>
@@ -3474,7 +3474,7 @@
     <HighlightTone>+1 (medium hard)</HighlightTone>
     <ShadowTone>2.5</ShadowTone>
     <Saturation>+4 (highest)</Saturation>
-    <Sharpness>Hard</Sharpness>
+    <Sharpness>+1</Sharpness>
     <NoiseReduction>-1 (medium weak)</NoiseReduction>
     <Clarity>0</Clarity>
     <Sensor>X-Trans V</Sensor>
@@ -3492,7 +3492,7 @@
     <HighlightTone>-1 (medium soft)</HighlightTone>
     <ShadowTone>0 (normal)</ShadowTone>
     <Saturation>-2 (low)</Saturation>
-    <Sharpness>Normal</Sharpness>
+    <Sharpness>0</Sharpness>
     <NoiseReduction>-2 (weak)</NoiseReduction>
     <Clarity>0</Clarity>
     <Sensor>X-Trans V</Sensor>
@@ -3509,7 +3509,7 @@
     <HighlightTone>+3 (very hard)</HighlightTone>
     <ShadowTone>+3 (very hard)</ShadowTone>
     <Saturation>Acros Red Filter</Saturation>
-    <Sharpness>Hard</Sharpness>
+    <Sharpness>+1</Sharpness>
     <NoiseReduction>-4 (weakest)</NoiseReduction>
     <Clarity>0</Clarity>
     <Sensor>X-Trans V</Sensor>
@@ -3526,7 +3526,7 @@
     <HighlightTone>+4 (hardest)</HighlightTone>
     <ShadowTone>+4 (hardest)</ShadowTone>
     <Saturation>Acros Red Filter</Saturation>
-    <Sharpness>Hard</Sharpness>
+    <Sharpness>+4</Sharpness>
     <NoiseReduction>-2 (weak)</NoiseReduction>
     <Clarity>0</Clarity>
     <Sensor>X-Trans V</Sensor>
@@ -3544,7 +3544,7 @@
     <HighlightTone>-1 (medium soft)</HighlightTone>
     <ShadowTone>+1 (medium hard)</ShadowTone>
     <Saturation>+4 (highest)</Saturation>
-    <Sharpness>Soft</Sharpness>
+    <Sharpness>-1</Sharpness>
     <NoiseReduction>-4 (weakest)</NoiseReduction>
     <Clarity>-3</Clarity>
     <Sensor>X-Trans V</Sensor>
@@ -3562,7 +3562,7 @@
     <HighlightTone>-2 (soft)</HighlightTone>
     <ShadowTone>+1 (medium hard)</ShadowTone>
     <Saturation>+4 (highest)</Saturation>
-    <Sharpness>Normal</Sharpness>
+    <Sharpness>0</Sharpness>
     <NoiseReduction>-4 (weakest)</NoiseReduction>
     <Clarity>-4</Clarity>
     <Sensor>X-Trans V</Sensor>
@@ -3580,7 +3580,7 @@
     <HighlightTone>2.5</HighlightTone>
     <ShadowTone>2.5</ShadowTone>
     <Saturation>+2 (high)</Saturation>
-    <Sharpness>Hard</Sharpness>
+    <Sharpness>+2</Sharpness>
     <NoiseReduction>0 (normal)</NoiseReduction>
     <Clarity>0</Clarity>
     <Sensor>X-Trans V</Sensor>
@@ -3598,7 +3598,7 @@
     <HighlightTone>2.5</HighlightTone>
     <ShadowTone>2.5</ShadowTone>
     <Saturation>+2 (high)</Saturation>
-    <Sharpness>Hard</Sharpness>
+    <Sharpness>+2</Sharpness>
     <NoiseReduction>0 (normal)</NoiseReduction>
     <Clarity>0</Clarity>
     <Sensor>X-Trans V</Sensor>
@@ -3616,7 +3616,7 @@
     <HighlightTone>2.5</HighlightTone>
     <ShadowTone>2.5</ShadowTone>
     <Saturation>+2 (high)</Saturation>
-    <Sharpness>Hard</Sharpness>
+    <Sharpness>+2</Sharpness>
     <NoiseReduction>0 (normal)</NoiseReduction>
     <Clarity>0</Clarity>
     <Sensor>X-Trans V</Sensor>
@@ -3634,7 +3634,7 @@
     <HighlightTone>2.5</HighlightTone>
     <ShadowTone>2.5</ShadowTone>
     <Saturation>+2 (high)</Saturation>
-    <Sharpness>Hard</Sharpness>
+    <Sharpness>+2</Sharpness>
     <NoiseReduction>0 (normal)</NoiseReduction>
     <Clarity>0</Clarity>
     <Sensor>X-Trans V</Sensor>
@@ -3652,7 +3652,7 @@
     <HighlightTone>2.5</HighlightTone>
     <ShadowTone>2.5</ShadowTone>
     <Saturation>+2 (high)</Saturation>
-    <Sharpness>Hard</Sharpness>
+    <Sharpness>+2</Sharpness>
     <NoiseReduction>0 (normal)</NoiseReduction>
     <Clarity>0</Clarity>
     <Sensor>X-Trans V</Sensor>
@@ -3670,7 +3670,7 @@
     <HighlightTone>-1 (medium soft)</HighlightTone>
     <ShadowTone>1.5</ShadowTone>
     <Saturation>+4 (highest)</Saturation>
-    <Sharpness>Soft</Sharpness>
+    <Sharpness>-1</Sharpness>
     <NoiseReduction>-4 (weakest)</NoiseReduction>
     <Clarity>0</Clarity>
     <Sensor>X-Trans V</Sensor>
@@ -3688,7 +3688,7 @@
     <HighlightTone>+2 (hard)</HighlightTone>
     <ShadowTone>+2 (hard)</ShadowTone>
     <Saturation>0 (normal)</Saturation>
-    <Sharpness>Soft</Sharpness>
+    <Sharpness>-3</Sharpness>
     <NoiseReduction>-4 (weakest)</NoiseReduction>
     <Clarity>0</Clarity>
     <Sensor>X-Trans V</Sensor>
@@ -3707,7 +3707,7 @@
     <HighlightTone>0 (normal)</HighlightTone>
     <ShadowTone>-2 (soft)</ShadowTone>
     <Saturation>-2 (low)</Saturation>
-    <Sharpness>Soft</Sharpness>
+    <Sharpness>-1</Sharpness>
     <NoiseReduction>-4 (weakest)</NoiseReduction>
     <Clarity>0</Clarity>
     <Sensor>X-Trans V</Sensor>
@@ -3724,7 +3724,7 @@
     <HighlightTone>-1 (medium soft)</HighlightTone>
     <ShadowTone>0 (normal)</ShadowTone>
     <Saturation>+4 (highest)</Saturation>
-    <Sharpness>Hard</Sharpness>
+    <Sharpness>+3</Sharpness>
     <NoiseReduction>-4 (weakest)</NoiseReduction>
     <Clarity>0</Clarity>
     <Sensor>X-Trans V</Sensor>
@@ -3741,7 +3741,7 @@
     <HighlightTone>-2 (soft)</HighlightTone>
     <ShadowTone>0 (normal)</ShadowTone>
     <Saturation>+4 (highest)</Saturation>
-    <Sharpness>Normal</Sharpness>
+    <Sharpness>0</Sharpness>
     <NoiseReduction>-4 (weakest)</NoiseReduction>
     <Clarity>0</Clarity>
     <Sensor>X-Trans V</Sensor>
@@ -3760,7 +3760,7 @@
     <HighlightTone>-1.5</HighlightTone>
     <ShadowTone>1.5</ShadowTone>
     <Saturation>-2 (low)</Saturation>
-    <Sharpness>Soft</Sharpness>
+    <Sharpness>-2</Sharpness>
     <NoiseReduction>-4 (weakest)</NoiseReduction>
     <Clarity>-3</Clarity>
     <Sensor>X-Trans V</Sensor>
@@ -3778,7 +3778,7 @@
     <HighlightTone>-1.5</HighlightTone>
     <ShadowTone>+2.5</ShadowTone>
     <Saturation>+3 (very high)</Saturation>
-    <Sharpness>Soft</Sharpness>
+    <Sharpness>-3</Sharpness>
     <NoiseReduction>-4 (weakest)</NoiseReduction>
     <Clarity>-3</Clarity>
     <Sensor>X-Trans V</Sensor>
@@ -3796,7 +3796,7 @@
     <HighlightTone>-2 (soft)</HighlightTone>
     <ShadowTone>-2 (soft)</ShadowTone>
     <Saturation>+4 (highest)</Saturation>
-    <Sharpness>Normal</Sharpness>
+    <Sharpness>0</Sharpness>
     <NoiseReduction>-4 (weakest)</NoiseReduction>
     <Clarity>-4</Clarity>
     <Sensor>X-Trans V</Sensor>
@@ -3814,7 +3814,7 @@
     <HighlightTone>0 (normal)</HighlightTone>
     <ShadowTone>0 (normal)</ShadowTone>
     <Saturation>+3 (very high)</Saturation>
-    <Sharpness>Soft</Sharpness>
+    <Sharpness>-2</Sharpness>
     <NoiseReduction>-4 (weakest)</NoiseReduction>
     <Clarity>-2</Clarity>
     <Sensor>X-Trans V</Sensor>
@@ -3832,7 +3832,7 @@
     <HighlightTone>-1 (medium soft)</HighlightTone>
     <ShadowTone>-2 (soft)</ShadowTone>
     <Saturation>+3 (very high)</Saturation>
-    <Sharpness>Normal</Sharpness>
+    <Sharpness>0</Sharpness>
     <NoiseReduction>-1 (medium weak)</NoiseReduction>
     <Clarity>0</Clarity>
     <Sensor>X-Trans V</Sensor>
@@ -3851,7 +3851,7 @@
     <HighlightTone>-1.5</HighlightTone>
     <ShadowTone>-1.5</ShadowTone>
     <Saturation>+3 (very high)</Saturation>
-    <Sharpness>Soft</Sharpness>
+    <Sharpness>-4</Sharpness>
     <NoiseReduction>-4 (weakest)</NoiseReduction>
     <Clarity>-1</Clarity>
     <Sensor>X-Trans V</Sensor>
@@ -3870,7 +3870,7 @@
     <HighlightTone>-0.5</HighlightTone>
     <ShadowTone>-0.5</ShadowTone>
     <Saturation>+4 (highest)</Saturation>
-    <Sharpness>Soft</Sharpness>
+    <Sharpness>-4</Sharpness>
     <NoiseReduction>-4 (weakest)</NoiseReduction>
     <Clarity>-4</Clarity>
     <Sensor>X-Trans V</Sensor>
@@ -3889,7 +3889,7 @@
     <HighlightTone>-2 (soft)</HighlightTone>
     <ShadowTone>0 (normal)</ShadowTone>
     <Saturation>+1 (medium high)</Saturation>
-    <Sharpness>Soft</Sharpness>
+    <Sharpness>-2</Sharpness>
     <NoiseReduction>-4 (weakest)</NoiseReduction>
     <Clarity>-2</Clarity>
     <Sensor>X-Trans V</Sensor>
@@ -3907,7 +3907,7 @@
     <HighlightTone>-1 (medium soft)</HighlightTone>
     <ShadowTone>-1 (medium soft)</ShadowTone>
     <Saturation>0 (normal)</Saturation>
-    <Sharpness>Soft</Sharpness>
+    <Sharpness>-2</Sharpness>
     <NoiseReduction>-4 (weakest)</NoiseReduction>
     <Clarity>-2</Clarity>
     <Sensor>X-Trans V</Sensor>
@@ -3925,7 +3925,7 @@
     <HighlightTone>+1 (medium hard)</HighlightTone>
     <ShadowTone>0 (normal)</ShadowTone>
     <Saturation>+4 (highest)</Saturation>
-    <Sharpness>Soft</Sharpness>
+    <Sharpness>-2</Sharpness>
     <NoiseReduction>-4 (weakest)</NoiseReduction>
     <Clarity>+4</Clarity>
     <Sensor>X-Trans V</Sensor>
@@ -3943,7 +3943,7 @@
     <HighlightTone>+2 (hard)</HighlightTone>
     <ShadowTone>+1 (medium hard)</ShadowTone>
     <Saturation>+2 (high)</Saturation>
-    <Sharpness>Normal</Sharpness>
+    <Sharpness>0</Sharpness>
     <NoiseReduction>-2 (weak)</NoiseReduction>
     <Clarity>0</Clarity>
     <Sensor>X-Trans V</Sensor>
@@ -3962,7 +3962,7 @@
     <HighlightTone>-2 (soft)</HighlightTone>
     <ShadowTone>-2 (soft)</ShadowTone>
     <Saturation>+4 (highest)</Saturation>
-    <Sharpness>Soft</Sharpness>
+    <Sharpness>-4</Sharpness>
     <NoiseReduction>-4 (weakest)</NoiseReduction>
     <Clarity>0</Clarity>
     <Sensor>X-Trans V</Sensor>
@@ -3980,7 +3980,7 @@
     <HighlightTone>-2 (soft)</HighlightTone>
     <ShadowTone>-2 (soft)</ShadowTone>
     <Saturation>+3 (very high)</Saturation>
-    <Sharpness>Soft</Sharpness>
+    <Sharpness>-1</Sharpness>
     <NoiseReduction>-3 (very weak)</NoiseReduction>
     <Clarity>-1</Clarity>
     <Sensor>X-Trans V</Sensor>
@@ -3997,7 +3997,7 @@
     <HighlightTone>-1.5</HighlightTone>
     <ShadowTone>0.5</ShadowTone>
     <Saturation>+3 (very high)</Saturation>
-    <Sharpness>Normal</Sharpness>
+    <Sharpness>0</Sharpness>
     <NoiseReduction>-4 (weakest)</NoiseReduction>
     <Clarity>-2</Clarity>
     <Sensor>X-Trans V</Sensor>
@@ -4015,7 +4015,7 @@
     <HighlightTone>-1.5</HighlightTone>
     <ShadowTone>2.5</ShadowTone>
     <Saturation>+4 (highest)</Saturation>
-    <Sharpness>Soft</Sharpness>
+    <Sharpness>-2</Sharpness>
     <NoiseReduction>-4 (weakest)</NoiseReduction>
     <Clarity>0</Clarity>
     <Sensor>X-Trans V</Sensor>
@@ -4032,7 +4032,7 @@
     <HighlightTone>-1.5</HighlightTone>
     <ShadowTone>+1 (medium hard)</ShadowTone>
     <Saturation>+4 (highest)</Saturation>
-    <Sharpness>Normal</Sharpness>
+    <Sharpness>0</Sharpness>
     <NoiseReduction>-2 (weak)</NoiseReduction>
     <Clarity>0</Clarity>
     <Sensor>X-Trans V</Sensor>
@@ -4049,7 +4049,7 @@
     <HighlightTone>-1.5</HighlightTone>
     <ShadowTone>0 (normal)</ShadowTone>
     <Saturation>+3 (very high)</Saturation>
-    <Sharpness>Normal</Sharpness>
+    <Sharpness>0</Sharpness>
     <NoiseReduction>-2 (weak)</NoiseReduction>
     <Clarity>0</Clarity>
     <Sensor>X-Trans V</Sensor>
@@ -4067,7 +4067,7 @@
     <HighlightTone>-2 (soft)</HighlightTone>
     <ShadowTone>+1 (medium hard)</ShadowTone>
     <Saturation>+3 (very high)</Saturation>
-    <Sharpness>Soft</Sharpness>
+    <Sharpness>-2</Sharpness>
     <NoiseReduction>0 (normal)</NoiseReduction>
     <Clarity>0</Clarity>
     <Sensor>X-Trans V</Sensor>
@@ -4084,7 +4084,7 @@
     <HighlightTone>-2 (soft)</HighlightTone>
     <ShadowTone>-1 (medium soft)</ShadowTone>
     <Saturation>+1 (medium high)</Saturation>
-    <Sharpness>Soft</Sharpness>
+    <Sharpness>-2</Sharpness>
     <NoiseReduction>-4 (weakest)</NoiseReduction>
     <Clarity>0</Clarity>
     <Sensor>X-Trans V</Sensor>
@@ -4101,7 +4101,7 @@
     <HighlightTone>-2 (soft)</HighlightTone>
     <ShadowTone>-1 (medium soft)</ShadowTone>
     <Saturation>+1 (medium high)</Saturation>
-    <Sharpness>Soft</Sharpness>
+    <Sharpness>-2</Sharpness>
     <NoiseReduction>-4 (weakest)</NoiseReduction>
     <Clarity>0</Clarity>
     <Sensor>X-Trans V</Sensor>
@@ -4119,7 +4119,7 @@
     <HighlightTone>-2 (soft)</HighlightTone>
     <ShadowTone>-1 (medium soft)</ShadowTone>
     <Saturation>+2 (high)</Saturation>
-    <Sharpness>Soft</Sharpness>
+    <Sharpness>-2</Sharpness>
     <NoiseReduction>-4 (weakest)</NoiseReduction>
     <Clarity>-2</Clarity>
     <Sensor>X-Trans V</Sensor>
@@ -4137,7 +4137,7 @@
     <HighlightTone>-1 (medium soft)</HighlightTone>
     <ShadowTone>-1 (medium soft)</ShadowTone>
     <Saturation>+4 (highest)</Saturation>
-    <Sharpness>Hard</Sharpness>
+    <Sharpness>+1</Sharpness>
     <NoiseReduction>-4 (weakest)</NoiseReduction>
     <Clarity>+3</Clarity>
     <Sensor>X-Trans V</Sensor>
@@ -4155,7 +4155,7 @@
     <HighlightTone>+1 (medium hard)</HighlightTone>
     <ShadowTone>+2 (hard)</ShadowTone>
     <Saturation>+4 (highest)</Saturation>
-    <Sharpness>Normal</Sharpness>
+    <Sharpness>0</Sharpness>
     <NoiseReduction>-4 (weakest)</NoiseReduction>
     <Clarity>0</Clarity>
     <Sensor>X-Trans V</Sensor>
@@ -4173,9 +4173,379 @@
     <HighlightTone>+4 (hardest)</HighlightTone>
     <ShadowTone>0 (normal)</ShadowTone>
     <Saturation>Acros Red Filter</Saturation>
-    <Sharpness>Normal</Sharpness>
+    <Sharpness>0</Sharpness>
     <NoiseReduction>-3 (very weak)</NoiseReduction>
     <Clarity>0</Clarity>
+    <Sensor>X-Trans V</Sensor>
+  </profile>
+  <profile>
+    <Name>Summer Sun</Name>
+    <FilmMode>Reala ACE</FilmMode>
+    <GrainEffectRoughness>Strong</GrainEffectRoughness>
+    <GrainEffectSize>Small</GrainEffectSize>
+    <ColorChromeEffect>Strong</ColorChromeEffect>
+    <ColorChromeFXBlue>Weak</ColorChromeFXBlue>
+    <WhiteBalance>Kelvin</WhiteBalance>
+    <WhiteBalanceFineTune>Red -2, Blue +2</WhiteBalanceFineTune>
+    <ColorTemperature>7200</ColorTemperature>
+    <DevelopmentDynamicRange>200</DevelopmentDynamicRange>
+    <HighlightTone>-1 (medium soft)</HighlightTone>
+    <ShadowTone>-2 (soft)</ShadowTone>
+    <Saturation>+4 (highest)</Saturation>
+    <Sharpness>-1</Sharpness>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Clarity>-3</Clarity>
+    <Sensor>X-Trans V</Sensor>
+  </profile>
+  <profile>
+    <Name>Kodak Vericolor VPS</Name>
+    <FilmMode>Nostalgic Neg</FilmMode>
+    <GrainEffectRoughness>Strong</GrainEffectRoughness>
+    <GrainEffectSize>Large</GrainEffectSize>
+    <ColorChromeEffect>Strong</ColorChromeEffect>
+    <ColorChromeFXBlue>Strong</ColorChromeFXBlue>
+    <WhiteBalance>Kelvin</WhiteBalance>
+    <WhiteBalanceFineTune>Red +2, Blue -5</WhiteBalanceFineTune>
+    <ColorTemperature>4500</ColorTemperature>
+    <DevelopmentDynamicRange>400</DevelopmentDynamicRange>
+    <HighlightTone>-1 (medium soft)</HighlightTone>
+    <ShadowTone>+2 (hard)</ShadowTone>
+    <Saturation>+3 (very high)</Saturation>
+    <Sharpness>-1</Sharpness>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Clarity>-2</Clarity>
+    <Sensor>X-Trans V</Sensor>
+  </profile>
+  <profile>
+    <Name>Kodak Farbwelt 200 Expired</Name>
+    <FilmMode>Classic Chrome</FilmMode>
+    <GrainEffectRoughness>Strong</GrainEffectRoughness>
+    <GrainEffectSize>Large</GrainEffectSize>
+    <ColorChromeEffect>Weak</ColorChromeEffect>
+    <ColorChromeFXBlue>Strong</ColorChromeFXBlue>
+    <WhiteBalance>Kelvin</WhiteBalance>
+    <WhiteBalanceFineTune>Red +1, Blue -4</WhiteBalanceFineTune>
+    <ColorTemperature>7500</ColorTemperature>
+    <DevelopmentDynamicRange>100</DevelopmentDynamicRange>
+    <HighlightTone>-2 (soft)</HighlightTone>
+    <ShadowTone>-2 (soft)</ShadowTone>
+    <Saturation>-3 (very low)</Saturation>
+    <Sharpness>-4</Sharpness>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Clarity>-4</Clarity>
+    <Sensor>X-Trans V</Sensor>
+  </profile>
+  <profile>
+    <Name>Kodacolor VR 200</Name>
+    <FilmMode>Classic Chrome</FilmMode>
+    <GrainEffectRoughness>Weak</GrainEffectRoughness>
+    <GrainEffectSize>Large</GrainEffectSize>
+    <ColorChromeEffect>Strong</ColorChromeEffect>
+    <ColorChromeFXBlue>Weak</ColorChromeFXBlue>
+    <WhiteBalance>Kelvin</WhiteBalance>
+    <WhiteBalanceFineTune>Red +8, Blue -8</WhiteBalanceFineTune>
+    <ColorTemperature>3000</ColorTemperature>
+    <DevelopmentDynamicRange>200</DevelopmentDynamicRange>
+    <HighlightTone>+1 (medium hard)</HighlightTone>
+    <ShadowTone>+2 (hard)</ShadowTone>
+    <Saturation>-4 (lowest)</Saturation>
+    <Sharpness>+1</Sharpness>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Clarity>-2</Clarity>
+    <Sensor>X-Trans V</Sensor>
+  </profile>
+  <profile>
+    <Name>BewareMyVelvia</Name>
+    <FilmMode>F2/Fujichrome (Velvia)</FilmMode>
+    <GrainEffectRoughness>Weak</GrainEffectRoughness>
+    <GrainEffectSize>Small</GrainEffectSize>
+    <ColorChromeEffect>Strong</ColorChromeEffect>
+    <ColorChromeFXBlue>Strong</ColorChromeFXBlue>
+    <WhiteBalance>Kelvin</WhiteBalance>
+    <WhiteBalanceFineTune>Red -9, Blue +0</WhiteBalanceFineTune>
+    <ColorTemperature>6590</ColorTemperature>
+    <DevelopmentDynamicRange>200</DevelopmentDynamicRange>
+    <HighlightTone>+2 (hard)</HighlightTone>
+    <ShadowTone>+2 (hard)</ShadowTone>
+    <Saturation>+4 (highest)</Saturation>
+    <Sharpness>+1</Sharpness>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Clarity>0</Clarity>
+    <Sensor>X-Trans V</Sensor>
+  </profile>
+  <profile>
+    <Name>Red Scale</Name>
+    <FilmMode>Classic Negative</FilmMode>
+    <GrainEffectRoughness>Strong</GrainEffectRoughness>
+    <GrainEffectSize>Small</GrainEffectSize>
+    <ColorChromeEffect>Strong</ColorChromeEffect>
+    <ColorChromeFXBlue>Off</ColorChromeFXBlue>
+    <WhiteBalance>Kelvin</WhiteBalance>
+    <WhiteBalanceFineTune>Red +9, Blue -9</WhiteBalanceFineTune>
+    <ColorTemperature>10000</ColorTemperature>
+    <DevelopmentDynamicRange>200</DevelopmentDynamicRange>
+    <HighlightTone>0 (normal)</HighlightTone>
+    <ShadowTone>+2 (hard)</ShadowTone>
+    <Saturation>+4 (highest)</Saturation>
+    <Sharpness>-2</Sharpness>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Clarity>-3</Clarity>
+    <Sensor>X-Trans V</Sensor>
+  </profile>
+  <profile>
+    <Name>Expired Kodak Vision2 250D</Name>
+    <FilmMode>Eterna</FilmMode>
+    <GrainEffectRoughness>Weak</GrainEffectRoughness>
+    <GrainEffectSize>Small</GrainEffectSize>
+    <ColorChromeEffect>Strong</ColorChromeEffect>
+    <ColorChromeFXBlue>Off</ColorChromeFXBlue>
+    <WhiteBalance>Kelvin</WhiteBalance>
+    <WhiteBalanceFineTune>Red -4, Blue -3</WhiteBalanceFineTune>
+    <ColorTemperature>8700</ColorTemperature>
+    <HighlightTone>0 (normal)</HighlightTone>
+    <ShadowTone>0 (normal)</ShadowTone>
+    <Saturation>-2 (low)</Saturation>
+    <Sharpness>-2</Sharpness>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Clarity>-2</Clarity>
+    <Sensor>X-Trans V</Sensor>
+  </profile>
+  <profile>
+    <Name>Kodak Plus-X 125</Name>
+    <FilmMode>None</FilmMode>
+    <GrainEffectRoughness>Weak</GrainEffectRoughness>
+    <GrainEffectSize>Large</GrainEffectSize>
+    <ColorChromeEffect>Strong</ColorChromeEffect>
+    <ColorChromeFXBlue>Off</ColorChromeFXBlue>
+    <WhiteBalance>Daylight</WhiteBalance>
+    <WhiteBalanceFineTune>Red +9, Blue +9</WhiteBalanceFineTune>
+    <DevelopmentDynamicRange>200</DevelopmentDynamicRange>
+    <HighlightTone>-1 (medium soft)</HighlightTone>
+    <ShadowTone>+1 (medium hard)</ShadowTone>
+    <Saturation>Acros Red Filter</Saturation>
+    <Sharpness>-1</Sharpness>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Clarity>+2</Clarity>
+    <Sensor>X-Trans V</Sensor>
+  </profile>
+  <profile>
+    <Name>FRGMT B&amp;W</Name>
+    <FilmMode>None</FilmMode>
+    <GrainEffectRoughness>Strong</GrainEffectRoughness>
+    <GrainEffectSize>Large</GrainEffectSize>
+    <ColorChromeEffect>Off</ColorChromeEffect>
+    <ColorChromeFXBlue>Off</ColorChromeFXBlue>
+    <WhiteBalance>Auto</WhiteBalance>
+    <WhiteBalanceFineTune>Red +0, Blue +0</WhiteBalanceFineTune>
+    <DevelopmentDynamicRange>DR-Auto</DevelopmentDynamicRange>
+    <HighlightTone>+4 (hardest)</HighlightTone>
+    <ShadowTone>+2 (hard)</ShadowTone>
+    <Saturation>Acros Red Filter</Saturation>
+    <Sharpness>-4</Sharpness>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Clarity>+5</Clarity>
+    <Sensor>X-Trans V</Sensor>
+  </profile>
+  <profile>
+    <Name>Old Ektachrome</Name>
+    <FilmMode>Classic Chrome</FilmMode>
+    <GrainEffectRoughness>Strong</GrainEffectRoughness>
+    <GrainEffectSize>Large</GrainEffectSize>
+    <ColorChromeEffect>Strong</ColorChromeEffect>
+    <ColorChromeFXBlue>Weak</ColorChromeFXBlue>
+    <WhiteBalance>Daylight</WhiteBalance>
+    <WhiteBalanceFineTune>Red +3, Blue +2</WhiteBalanceFineTune>
+    <DevelopmentDynamicRange>400</DevelopmentDynamicRange>
+    <HighlightTone>+2 (hard)</HighlightTone>
+    <ShadowTone>+1 (medium hard)</ShadowTone>
+    <Saturation>+3 (very high)</Saturation>
+    <Sharpness>0</Sharpness>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Clarity>-4</Clarity>
+    <Sensor>X-Trans V</Sensor>
+  </profile>
+  <profile>
+    <Name>Nostalgic Negative</Name>
+    <FilmMode>Classic Chrome</FilmMode>
+    <GrainEffectRoughness>Weak</GrainEffectRoughness>
+    <GrainEffectSize>Large</GrainEffectSize>
+    <ColorChromeEffect>Strong</ColorChromeEffect>
+    <ColorChromeFXBlue>Off</ColorChromeFXBlue>
+    <WhiteBalance>Auto</WhiteBalance>
+    <WhiteBalanceFineTune>Red +3, Blue -5</WhiteBalanceFineTune>
+    <DevelopmentDynamicRange>200</DevelopmentDynamicRange>
+    <HighlightTone>-1 (medium soft)</HighlightTone>
+    <ShadowTone>0 (normal)</ShadowTone>
+    <Saturation>+4 (highest)</Saturation>
+    <Sharpness>+4</Sharpness>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Clarity>-5</Clarity>
+    <Sensor>X-Trans V</Sensor>
+  </profile>
+  <profile>
+    <Name>Vintage Color</Name>
+    <FilmMode>Eterna</FilmMode>
+    <GrainEffectRoughness>Strong</GrainEffectRoughness>
+    <GrainEffectSize>Large</GrainEffectSize>
+    <ColorChromeEffect>Strong</ColorChromeEffect>
+    <ColorChromeFXBlue>Strong</ColorChromeFXBlue>
+    <WhiteBalance>Kelvin</WhiteBalance>
+    <WhiteBalanceFineTune>Red -1, Blue -4</WhiteBalanceFineTune>
+    <ColorTemperature>7350</ColorTemperature>
+    <DevelopmentDynamicRange>200</DevelopmentDynamicRange>
+    <HighlightTone>+2 (hard)</HighlightTone>
+    <ShadowTone>+3 (very hard)</ShadowTone>
+    <Saturation>+1 (medium high)</Saturation>
+    <Sharpness>-2</Sharpness>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Clarity>-2</Clarity>
+    <Sensor>X-Trans V</Sensor>
+  </profile>
+  <profile>
+    <Name>1981 Kodak</Name>
+    <FilmMode>Eterna</FilmMode>
+    <GrainEffectRoughness>Strong</GrainEffectRoughness>
+    <GrainEffectSize>Small</GrainEffectSize>
+    <ColorChromeEffect>Strong</ColorChromeEffect>
+    <ColorChromeFXBlue>Off</ColorChromeFXBlue>
+    <WhiteBalance>Daylight</WhiteBalance>
+    <WhiteBalanceFineTune>Red +7, Blue -7</WhiteBalanceFineTune>
+    <DevelopmentDynamicRange>200</DevelopmentDynamicRange>
+    <HighlightTone>-2 (soft)</HighlightTone>
+    <ShadowTone>+4 (hardest)</ShadowTone>
+    <Saturation>-4 (lowest)</Saturation>
+    <Sharpness>-2</Sharpness>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Clarity>-4</Clarity>
+    <Sensor>X-Trans V</Sensor>
+  </profile>
+  <profile>
+    <Name>Kodak Portra do Sol</Name>
+    <FilmMode>Classic Chrome</FilmMode>
+    <GrainEffectRoughness>Off</GrainEffectRoughness>
+    <GrainEffectSize>Off</GrainEffectSize>
+    <ColorChromeEffect>Strong</ColorChromeEffect>
+    <ColorChromeFXBlue>Off</ColorChromeFXBlue>
+    <WhiteBalance>Auto</WhiteBalance>
+    <WhiteBalanceFineTune>Red +2, Blue -6</WhiteBalanceFineTune>
+    <DevelopmentDynamicRange>400</DevelopmentDynamicRange>
+    <HighlightTone>-2 (soft)</HighlightTone>
+    <ShadowTone>-2 (soft)</ShadowTone>
+    <Saturation>+3 (very high)</Saturation>
+    <Sharpness>-2</Sharpness>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Clarity>-1</Clarity>
+    <Sensor>X-Trans V</Sensor>
+  </profile>
+  <profile>
+    <Name>Red Scale (IV)</Name>
+    <FilmMode>Classic Negative</FilmMode>
+    <GrainEffectRoughness>Strong</GrainEffectRoughness>
+    <GrainEffectSize>Small</GrainEffectSize>
+    <ColorChromeEffect>Strong</ColorChromeEffect>
+    <ColorChromeFXBlue>Off</ColorChromeFXBlue>
+    <WhiteBalance>Kelvin</WhiteBalance>
+    <WhiteBalanceFineTune>Red +9, Blue -9</WhiteBalanceFineTune>
+    <ColorTemperature>10000</ColorTemperature>
+    <DevelopmentDynamicRange>200</DevelopmentDynamicRange>
+    <HighlightTone>0 (normal)</HighlightTone>
+    <ShadowTone>+2 (hard)</ShadowTone>
+    <Saturation>+4 (highest)</Saturation>
+    <Sharpness>-2</Sharpness>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Clarity>-3</Clarity>
+    <Sensor>X-Trans IV</Sensor>
+  </profile>
+  <profile>
+    <Name>BewareMyVelvia (IV)</Name>
+    <FilmMode>F2/Fujichrome (Velvia)</FilmMode>
+    <GrainEffectRoughness>Weak</GrainEffectRoughness>
+    <GrainEffectSize>Small</GrainEffectSize>
+    <ColorChromeEffect>Strong</ColorChromeEffect>
+    <ColorChromeFXBlue>Strong</ColorChromeFXBlue>
+    <WhiteBalance>Kelvin</WhiteBalance>
+    <WhiteBalanceFineTune>Red -9, Blue +0</WhiteBalanceFineTune>
+    <ColorTemperature>6590</ColorTemperature>
+    <DevelopmentDynamicRange>200</DevelopmentDynamicRange>
+    <HighlightTone>+2 (hard)</HighlightTone>
+    <ShadowTone>+2 (hard)</ShadowTone>
+    <Saturation>+4 (highest)</Saturation>
+    <Sharpness>+1</Sharpness>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Clarity>0</Clarity>
+    <Sensor>X-Trans IV</Sensor>
+  </profile>
+  <profile>
+    <Name>Kodak Plus-X 125 +R (IV)</Name>
+    <FilmMode>None</FilmMode>
+    <GrainEffectRoughness>Weak</GrainEffectRoughness>
+    <GrainEffectSize>Large</GrainEffectSize>
+    <ColorChromeEffect>Strong</ColorChromeEffect>
+    <ColorChromeFXBlue>Off</ColorChromeFXBlue>
+    <WhiteBalance>Daylight</WhiteBalance>
+    <WhiteBalanceFineTune>Red +9, Blue +9</WhiteBalanceFineTune>
+    <DevelopmentDynamicRange>200</DevelopmentDynamicRange>
+    <HighlightTone>-1 (medium soft)</HighlightTone>
+    <ShadowTone>+1 (medium hard)</ShadowTone>
+    <Saturation>Acros Red Filter</Saturation>
+    <Sharpness>-1</Sharpness>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Clarity>+2</Clarity>
+    <Sensor>X-Trans V</Sensor>
+  </profile>
+  <profile>
+    <Name>Chrome Memory</Name>
+    <FilmMode>Classic Chrome</FilmMode>
+    <GrainEffectRoughness>Strong</GrainEffectRoughness>
+    <GrainEffectSize>Large</GrainEffectSize>
+    <ColorChromeEffect>Off</ColorChromeEffect>
+    <ColorChromeFXBlue>Weak</ColorChromeFXBlue>
+    <WhiteBalance>Auto</WhiteBalance>
+    <WhiteBalanceFineTune>Red +5, Blue -7</WhiteBalanceFineTune>
+    <DevelopmentDynamicRange>100</DevelopmentDynamicRange>
+    <HighlightTone>-2 (soft)</HighlightTone>
+    <ShadowTone>1.5</ShadowTone>
+    <Saturation>+3 (very high)</Saturation>
+    <Sharpness>+2</Sharpness>
+    <NoiseReduction>-2 (weak)</NoiseReduction>
+    <Clarity>+3</Clarity>
+    <Sensor>X-Trans V</Sensor>
+  </profile>
+  <profile>
+    <Name>Daily Aesthetics</Name>
+    <FilmMode>Classic Chrome</FilmMode>
+    <GrainEffectRoughness>Off</GrainEffectRoughness>
+    <GrainEffectSize>Off</GrainEffectSize>
+    <ColorChromeEffect>Weak</ColorChromeEffect>
+    <ColorChromeFXBlue>Off</ColorChromeFXBlue>
+    <WhiteBalance>Shade</WhiteBalance>
+    <WhiteBalanceFineTune>Red +0, Blue -1</WhiteBalanceFineTune>
+    <DevelopmentDynamicRange>400</DevelopmentDynamicRange>
+    <HighlightTone>-2 (soft)</HighlightTone>
+    <ShadowTone>-2 (soft)</ShadowTone>
+    <Saturation>-2 (low)</Saturation>
+    <Sharpness>-2</Sharpness>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Clarity>-1</Clarity>
+    <Sensor>X-Trans V</Sensor>
+  </profile>
+  <profile>
+    <Name>Budapest</Name>
+    <FilmMode>Classic Negative</FilmMode>
+    <GrainEffectRoughness>Strong</GrainEffectRoughness>
+    <GrainEffectSize>Small</GrainEffectSize>
+    <ColorChromeEffect>Strong</ColorChromeEffect>
+    <ColorChromeFXBlue>Strong</ColorChromeFXBlue>
+    <WhiteBalance>Kelvin</WhiteBalance>
+    <WhiteBalanceFineTune>Red -3, Blue -3</WhiteBalanceFineTune>
+    <ColorTemperature>7000</ColorTemperature>
+    <DevelopmentDynamicRange>400</DevelopmentDynamicRange>
+    <HighlightTone>+2.5</HighlightTone>
+    <ShadowTone>-1.5</ShadowTone>
+    <Saturation>-1 (medium low)</Saturation>
+    <Sharpness>-2</Sharpness>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Clarity>-2</Clarity>
     <Sensor>X-Trans V</Sensor>
   </profile>
 </profiles>

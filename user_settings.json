@@ -1,5 +1,5 @@
 {
-    "theme": "Gruvbox Dark",
+    "theme": "Dracula",
     "show_histogram": true,
     "rgb_histogram": true,
     "histogram_type": "bar",
@@ -10,7 +10,7 @@
         "X-Trans IV",
         "X-Trans V"
     ],
-    "last_dir": "G:/Photos/2025/20251118_Nitra_rieka_podvecer/jpg",
+    "last_dir": "G:/Photos/2026/20260111_mrtve_rameno_Nitry/jpg",
     "histogram_grid": true,
     "recipe_browser_sort": "Default (XML reversed)"
 }

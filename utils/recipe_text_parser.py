@@ -232,17 +232,7 @@ def parse_recipe_text(text: str) -> dict:
             result["Saturation"] = _parse_saturation(val)
 
         elif field == "Sharpness":
-            n = _extract_number(val)
-            try:
-                nv = int(n)
-                if nv > 0:
-                    result["Sharpness"] = "Hard"
-                elif nv < 0:
-                    result["Sharpness"] = "Soft"
-                else:
-                    result["Sharpness"] = "Normal"
-            except ValueError:
-                result["Sharpness"] = val.strip().title()
+            result["Sharpness"] = _extract_number(val)
 
         elif field == "NoiseReduction":
             result["NoiseReduction"] = _parse_noise_reduction(val)

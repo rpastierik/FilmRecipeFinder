@@ -45,7 +45,7 @@ class Constants:
                     "+1 (medium high)", "+2 (high)", "+3 (very high)", "+4 (highest)",
                     "None (B&W)", "Acros", "Acros Green Filter", "Acros Red Filter", "Acros Yellow Filter",
                     "B&W Green Filter", "B&W Red Filter", "B&W Sepia"]),
-        RecipeField("Sharpness", "Normal", "combo", ["Soft", "Normal", "Hard"]),
+        RecipeField("Sharpness", "0", "combo", ["+4","+3","+2","+1","0","-1", "-2", "-3", "-4"]),
         RecipeField("NoiseReduction", "0 (normal)", "combo",
                    ["-4 (weakest)", "-3 (very weak)", "-2 (weak)", "-1 (medium weak)",
                     "0 (normal)", "+1 (medium strong)", "+2 (strong)", "+3 (very strong)", "+4 (strongest)"]),

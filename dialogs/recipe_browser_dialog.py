@@ -19,7 +19,7 @@ from managers import SettingsManager
 class RecipeBrowserDialog(QDialog):
     def __init__(self, parent, simulations, on_change):
         super().__init__(parent)
-        self.setWindowTitle("All Recipes")
+        self.setWindowTitle("Recipe Browser")
         self.setMinimumSize(600, 700)
         self.setModal(False)
         self.simulations = simulations
