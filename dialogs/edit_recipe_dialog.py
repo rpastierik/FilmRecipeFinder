@@ -39,12 +39,7 @@ class EditRecipeDialog(RecipeDialog):
         selector_layout.addStretch()
 
         self.layout().insertWidget(0, selector_widget)
-
-        self._build_fields(Constants.RECIPE_FIELDS, disabled=True)
-        name_widget = self.widgets.get("Name")
-        if name_widget:
-            name_widget.setReadOnly(True)
-
+        self._build_fields(Constants.RECIPE_FIELDS, disabled=True) 
         self._add_button("Save Changes", "primary", self._save)
         self.btn_box.layout().addStretch()
         self._add_button("Cancel", "neutral", self.reject)
@@ -53,12 +48,10 @@ class EditRecipeDialog(RecipeDialog):
         if name == "-- select --" or name not in self.simulations:
             return
         self._clear_fields()
+        self.original_name = name  # ulož pôvodný názov
         recipe_data = self.simulations[name]
         for widget in self.widgets.values():
             widget.setEnabled(True)
-        name_widget = self.widgets.get("Name")
-        if name_widget:
-            name_widget.setReadOnly(True)
         for key, value in recipe_data.items():
             self._set_field_value(key, value)
 
@@ -67,7 +60,7 @@ class EditRecipeDialog(RecipeDialog):
             QMessageBox.warning(self, "Error", "Please select a recipe first!")
             return
         recipe_data = self._get_recipe_data()
-        if XMLManager.update_recipe(recipe_data):
+        if XMLManager.update_recipe(recipe_data, original_name=self.original_name):
             QMessageBox.information(self, "Success", f"Recipe '{recipe_data['Name']}' updated!")
             self.accept()
             self.on_success()

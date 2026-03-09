@@ -52,21 +52,20 @@ class XMLManager:
             return False
 
     @staticmethod
-    def update_recipe(recipe_data):
-        """Update an existing recipe in the XML."""
+    def update_recipe(recipe_data, original_name=None):
         xml_file = resource_path(Constants.XML_FILE)
         try:
             tree = ET.parse(xml_file)
             root = tree.getroot()
-            recipe_name = recipe_data["Name"]
+            search_name = original_name or recipe_data["Name"]  # hľadaj podľa pôvodného názvu
             profile_to_update = None
             for profile in root.findall('profile'):
                 name_el = profile.find('Name')
-                if name_el is not None and name_el.text == recipe_name:
+                if name_el is not None and name_el.text == search_name:
                     profile_to_update = profile
                     break
             if profile_to_update is None:
-                QMessageBox.critical(None, "Error", f"Recipe '{recipe_name}' not found!")
+                QMessageBox.critical(None, "Error", f"Recipe '{search_name}' not found!")
                 return False
             profile_to_update.clear()
             for key, value in recipe_data.items():
