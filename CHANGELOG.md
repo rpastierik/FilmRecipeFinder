@@ -9,6 +9,7 @@ All notable changes to this project will be documented in this file.
 - Changed: Sharpness values changed from Hard/Soft/Normal to numeric scale (-4 to +4)
 - Fixed: Dynamic Range import from text now saves as plain number (400) instead of DR400
 - Removed: Dead code – LIGHT_THEMES constant and _is_dark() method removed from Recipe Browser
+- Fixed: Recipe Browser crashed after editing a recipe due to .text() called on QComboBox instead of .currentText()
 
 ## [0.5.3] - 2026.03.07
 - Added: About dialog with clickable Ko-fi and email links

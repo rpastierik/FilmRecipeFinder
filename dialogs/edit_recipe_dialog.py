@@ -65,7 +65,8 @@ class EditRecipeDialog(RecipeDialog):
             QMessageBox.warning(self, "Error", "Please select a recipe first!")
             return
         recipe_data = self._get_recipe_data()
-        if XMLManager.update_recipe(recipe_data, original_name=self.original_name):
+        original_name = getattr(self, 'original_name', recipe_data.get('Name'))
+        if XMLManager.update_recipe(recipe_data, original_name=original_name):
             QMessageBox.information(self, "Success", f"Recipe '{recipe_data['Name']}' updated!")
             self.accept()
             self.on_success()

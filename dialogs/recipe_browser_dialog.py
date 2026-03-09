@@ -186,7 +186,7 @@ class RecipeBrowserDialog(QDialog):
     def _refresh(self):
         self.on_change()
         self.simulations = self.parent().simulations
-        self._filter(self.search_edit.text())
+        self._filter(self.search_edit.currentText())
 
     def _add(self):
         AddRecipeDialog(self, self.simulations, self._refresh).exec()

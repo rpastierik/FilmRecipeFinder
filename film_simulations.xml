@@ -4582,4 +4582,22 @@
     <Clarity>-4</Clarity>
     <Sensor>X-Trans V</Sensor>
   </profile>
+  <profile>
+    <Name>3001 (Shadi Mahayni)</Name>
+    <FilmMode>Classic Chrome</FilmMode>
+    <GrainEffectRoughness>Off</GrainEffectRoughness>
+    <GrainEffectSize>Off</GrainEffectSize>
+    <ColorChromeEffect>Strong</ColorChromeEffect>
+    <ColorChromeFXBlue>Weak</ColorChromeFXBlue>
+    <WhiteBalance>Daylight</WhiteBalance>
+    <WhiteBalanceFineTune>Red +0, Blue +0</WhiteBalanceFineTune>
+    <DevelopmentDynamicRange>400</DevelopmentDynamicRange>
+    <HighlightTone>-1.5</HighlightTone>
+    <ShadowTone>0.5</ShadowTone>
+    <Saturation>+3 (very high)</Saturation>
+    <Sharpness>-2</Sharpness>
+    <NoiseReduction>0 (normal)</NoiseReduction>
+    <Clarity>0</Clarity>
+    <Sensor>X-Trans V</Sensor>
+  </profile>
 </profiles>
