@@ -80,11 +80,8 @@ def _parse_white_balance(value: str) -> tuple[str, str, str]:
 
 
 def _parse_dynamic_range(value: str) -> str:
-    """'DR400' or '400%' → 'DR400'"""
     m = re.search(r"(\d+)", value)
-    if m:
-        return f"DR{m.group(1)}"
-    return value.strip()
+    return m.group(1) if m else value.strip()
 
 
 def _parse_tone(value: str) -> str:
