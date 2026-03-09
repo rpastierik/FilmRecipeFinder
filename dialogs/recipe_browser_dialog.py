@@ -14,7 +14,7 @@ from dialogs.edit_recipe_dialog import EditRecipeDialog
 from dialogs.delete_recipe_dialog import DeleteRecipeDialog
 from dialogs.recipe_dialog import get_button_color
 from managers import SettingsManager
-
+from PyQt6.QtWidgets import QTextBrowser
 
 class RecipeBrowserDialog(QDialog):
     def __init__(self, parent, simulations, on_change):
@@ -67,9 +67,9 @@ class RecipeBrowserDialog(QDialog):
         layout.addLayout(search_row)
 
         # ── Recipe list ──
-        self.text_area = QTextEdit()
-        self.text_area.setReadOnly(True)
+        self.text_area = QTextBrowser()
         self.text_area.setFont(QFont("Courier New", 10))
+        self.text_area.setOpenExternalLinks(True)
         layout.addWidget(self.text_area)
 
         # ── Buttons ──
@@ -182,8 +182,18 @@ class RecipeBrowserDialog(QDialog):
         for name, data in items:
             cursor.insertText(f"  # {name}\n", bold_fmt)
             for key, value in data.items():
-                cursor.insertText(f"    - {key}: {value}\n", normal_fmt)
-            cursor.insertText("\n", normal_fmt)
+                if key == "URL" and value.startswith("http"):
+                    url_fmt = QTextCharFormat()
+                    url_fmt.setFontWeight(QFont.Weight.Normal)
+                    url_fmt.setForeground(QColor("#458588"))
+                    url_fmt.setFontUnderline(True)
+                    url_fmt.setAnchor(True)
+                    url_fmt.setAnchorHref(value)
+                    cursor.insertText(f"    - {key}: ", normal_fmt)
+                    cursor.insertText(f"{value}\n", url_fmt)
+                else:
+                    cursor.insertText(f"    - {key}: {value}\n", normal_fmt)
+                        
 
         self.text_area.setTextCursor(cursor)
         self.text_area.moveCursor(self.text_area.textCursor().MoveOperation.Start)
