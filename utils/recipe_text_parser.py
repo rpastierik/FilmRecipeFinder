@@ -1,6 +1,6 @@
 # ──────────────────────────────────────────────
 # RECIPE TEXT PARSER
-# Parses pasted recipe text (e.g. from Fuji X Weekly)
+# Parses pasted recipe text 
 # into a dict compatible with Constants.RECIPE_FIELDS
 # ──────────────────────────────────────────────
 import re

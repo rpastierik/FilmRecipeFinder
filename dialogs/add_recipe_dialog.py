@@ -74,7 +74,7 @@ class AddRecipeDialog(RecipeDialog):
         dlg.setMinimumSize(500, 340)
         layout = QVBoxLayout(dlg)
 
-        lbl = QLabel("Paste recipe text below (e.g. from Fuji X Weekly):")
+        lbl = QLabel("Paste recipe text below:")
         layout.addWidget(lbl)
 
         text_edit = QTextEdit()

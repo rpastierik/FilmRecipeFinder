@@ -17,7 +17,7 @@ class AboutDialog(QDialog):
         self.setWindowTitle("About")
         self.setWindowIcon(QIcon(resource_path("icon.png")))
         self.setModal(True)
-        self.setFixedWidth(340)
+        self.setFixedWidth(350)
 
         layout = QVBoxLayout(self)
         layout.setContentsMargins(20, 20, 20, 16)
