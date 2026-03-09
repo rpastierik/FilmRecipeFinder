@@ -1,6 +1,14 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## [0.5.4] - 2026.03.09
+- Fixed: Recipe Browser sort preference is now saved and restored between sessions
+- Fixed: Edit Recipe dialog clears all fields correctly when switching between recipes
+- Changed: Recipe name is now editable in Edit Recipe dialog
+- Changed: Sharpness values changed from Hard/Soft/Normal to numeric scale (-4 to +4)
+- Fixed: Dynamic Range import from text now saves as plain number (400) instead of DR400
+- Removed: Dead code – LIGHT_THEMES constant and _is_dark() method removed from Recipe Browser
+
 ## [0.5.3] - 2026.03.07
 - Added: About dialog with clickable Ko-fi and email links
 - Added: Gradient fill for histogram channels (RGB and luminance)
