@@ -50,7 +50,7 @@ class RecipeDialog(QDialog):
         scroll = QScrollArea()
         scroll.setWidgetResizable(True)
         scroll.setHorizontalScrollBarPolicy(Qt.ScrollBarPolicy.ScrollBarAlwaysOff)
-        scroll.setMinimumHeight(620)
+        scroll.setMinimumHeight(730)
 
         form_widget = QWidget()
         self.form_layout = QFormLayout(form_widget)

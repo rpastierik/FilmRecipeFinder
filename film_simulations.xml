@@ -1282,13 +1282,14 @@
     <ColorChromeFXBlue>Weak</ColorChromeFXBlue>
     <WhiteBalance>Auto</WhiteBalance>
     <WhiteBalanceFineTune>Red +2, Blue -4</WhiteBalanceFineTune>
-    <DevelopmentDynamicRange />
     <HighlightTone>-1 (medium soft)</HighlightTone>
     <ShadowTone>-1 (medium soft)</ShadowTone>
     <Saturation>+2 (high)</Saturation>
     <Sharpness>-2</Sharpness>
     <NoiseReduction>-4 (weakest)</NoiseReduction>
     <Clarity>0</Clarity>
+    <Favourite>No</Favourite>
+    <URL>https://reggiebphotography.com/blog/the-most-versatile-fujifilm-x-trans-iv-film-simulation-recipe-reggies-portra</URL>
     <Sensor>X-Trans IV</Sensor>
   </profile>
   <profile>
@@ -3381,13 +3382,14 @@
     <ColorChromeFXBlue>Weak</ColorChromeFXBlue>
     <WhiteBalance>Auto</WhiteBalance>
     <WhiteBalanceFineTune>Red +2, Blue -4</WhiteBalanceFineTune>
-    <DevelopmentDynamicRange />
     <HighlightTone>-1 (medium soft)</HighlightTone>
     <ShadowTone>-1 (medium soft)</ShadowTone>
     <Saturation>+2 (high)</Saturation>
     <Sharpness>-2</Sharpness>
     <NoiseReduction>-4 (weakest)</NoiseReduction>
     <Clarity>0</Clarity>
+    <Favourite>Yes</Favourite>
+    <URL>https://reggiebphotography.com/blog/the-most-versatile-fujifilm-x-trans-iv-film-simulation-recipe-reggies-portra</URL>
     <Sensor>X-Trans V</Sensor>
   </profile>
   <profile>
