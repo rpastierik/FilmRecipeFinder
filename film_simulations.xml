@@ -4668,7 +4668,7 @@
     <GrainEffectSize>Small</GrainEffectSize>
     <ColorChromeEffect>Off</ColorChromeEffect>
     <ColorChromeFXBlue>Weak</ColorChromeFXBlue>
-    <WhiteBalance>Shade</WhiteBalance>
+    <WhiteBalance>Cloudy</WhiteBalance>
     <WhiteBalanceFineTune>Red +0, Blue -9</WhiteBalanceFineTune>
     <DevelopmentDynamicRange>400</DevelopmentDynamicRange>
     <HighlightTone>-1 (medium soft)</HighlightTone>

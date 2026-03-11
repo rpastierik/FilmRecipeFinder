@@ -28,7 +28,7 @@ class Constants:
         RecipeField("ColorChromeEffect", "Off", "combo", ["Off", "Weak", "Strong"]),
         RecipeField("ColorChromeFXBlue", "Off", "combo", ["Off", "Weak", "Strong"]),
         RecipeField("WhiteBalance", "Auto", "combo",
-                   ["Auto", "Auto (white priority)","Auto (ambiance priority)","Daylight", "Shade", "Fluorescent", "Incandescent", "Kelvin", "Daylight Fluorescent",
+                   ["Auto", "Auto (white priority)","Auto (ambiance priority)","Daylight", "Cloudy", "Fluorescent", "Incandescent", "Kelvin", "Daylight Fluorescent",
                     "Day White Fluorescent","White Fluorescent","Warm White Fluorescent","Living Room Warm White Fluorescent","Underwater"]),
         RecipeField("WhiteBalanceFineTune", "Red +0, Blue +0"),
         RecipeField("ColorTemperature", ""),
