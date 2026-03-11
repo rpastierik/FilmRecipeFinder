@@ -202,7 +202,7 @@ class MainWindow(QMainWindow):
 
     # ── COMPARE ───────────────────────────────
     def _compare(self, exif_data):
-        skip = {"Name", "FilmMode", "DevelopmentDynamicRange", "Sensor", "Clarity", "Sharpness"}
+        skip = {"Name", "FilmMode", "DevelopmentDynamicRange", "Sensor", "Clarity", "Sharpness", "Favourite", "Description", "URL"}
         for sim_name, sim_data in self.simulations.items():
             if all(exif_data.get(k) == v for k, v in sim_data.items() if k not in skip):
                 return sim_name

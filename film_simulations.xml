@@ -4641,4 +4641,106 @@
     <Clarity>0</Clarity>
     <Sensor>X-Trans V</Sensor>
   </profile>
+  <profile>
+    <Name>Real Leica</Name>
+    <FilmMode>Reala ACE</FilmMode>
+    <GrainEffectRoughness>Off</GrainEffectRoughness>
+    <GrainEffectSize>Off</GrainEffectSize>
+    <ColorChromeEffect>Strong</ColorChromeEffect>
+    <ColorChromeFXBlue>Weak</ColorChromeFXBlue>
+    <WhiteBalance>Auto</WhiteBalance>
+    <WhiteBalanceFineTune>Red +2, Blue -1</WhiteBalanceFineTune>
+    <DevelopmentDynamicRange>200</DevelopmentDynamicRange>
+    <HighlightTone>-1 (medium soft)</HighlightTone>
+    <ShadowTone>0 (normal)</ShadowTone>
+    <Saturation>+3 (very high)</Saturation>
+    <Sharpness>0</Sharpness>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Clarity>0</Clarity>
+    <Favourite>No</Favourite>
+    <URL>https://film.recipes/2026/02/15/real-leica-film-recipe/</URL>
+    <Sensor>X-Trans V</Sensor>
+  </profile>
+  <profile>
+    <Name>Sunset Strip E6</Name>
+    <FilmMode>Classic Negative</FilmMode>
+    <GrainEffectRoughness>Weak</GrainEffectRoughness>
+    <GrainEffectSize>Small</GrainEffectSize>
+    <ColorChromeEffect>Off</ColorChromeEffect>
+    <ColorChromeFXBlue>Weak</ColorChromeFXBlue>
+    <WhiteBalance>Shade</WhiteBalance>
+    <WhiteBalanceFineTune>Red +0, Blue -9</WhiteBalanceFineTune>
+    <DevelopmentDynamicRange>400</DevelopmentDynamicRange>
+    <HighlightTone>-1 (medium soft)</HighlightTone>
+    <ShadowTone>-1 (medium soft)</ShadowTone>
+    <Saturation>+2 (high)</Saturation>
+    <Sharpness>-4</Sharpness>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Clarity>-4</Clarity>
+    <Favourite>No</Favourite>
+    <URL>https://film.recipes/2025/11/13/sunset-strip-e6-lomochrome-film-recipe/</URL>
+    <Sensor>X-Trans V</Sensor>
+  </profile>
+  <profile>
+    <Name>Bananarama</Name>
+    <FilmMode>Classic Chrome</FilmMode>
+    <GrainEffectRoughness>Off</GrainEffectRoughness>
+    <GrainEffectSize>Off</GrainEffectSize>
+    <ColorChromeEffect>Weak</ColorChromeEffect>
+    <ColorChromeFXBlue>Off</ColorChromeFXBlue>
+    <WhiteBalance>Kelvin</WhiteBalance>
+    <WhiteBalanceFineTune>Red +1, Blue -9</WhiteBalanceFineTune>
+    <ColorTemperature>9900</ColorTemperature>
+    <DevelopmentDynamicRange>200</DevelopmentDynamicRange>
+    <HighlightTone>0 (normal)</HighlightTone>
+    <ShadowTone>-2 (soft)</ShadowTone>
+    <Saturation>-4 (lowest)</Saturation>
+    <Sharpness>0</Sharpness>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Clarity>0</Clarity>
+    <Favourite>No</Favourite>
+    <Description>Bananarama, Yellow Wes Anderson Look</Description>
+    <URL>https://film.recipes/2024/04/11/bananarama-yellow-wes-anderson-look/</URL>
+    <Sensor>X-Trans V</Sensor>
+  </profile>
+  <profile>
+    <Name>Polaroid SX70</Name>
+    <FilmMode>Classic Negative</FilmMode>
+    <GrainEffectRoughness>Off</GrainEffectRoughness>
+    <GrainEffectSize>Off</GrainEffectSize>
+    <ColorChromeEffect>Weak</ColorChromeEffect>
+    <ColorChromeFXBlue>Weak</ColorChromeFXBlue>
+    <WhiteBalance>Auto</WhiteBalance>
+    <WhiteBalanceFineTune>Red +3, Blue +1</WhiteBalanceFineTune>
+    <DevelopmentDynamicRange>100</DevelopmentDynamicRange>
+    <HighlightTone>-1 (medium soft)</HighlightTone>
+    <ShadowTone>-2 (soft)</ShadowTone>
+    <Saturation>-4 (lowest)</Saturation>
+    <Sharpness>-4</Sharpness>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Clarity>0</Clarity>
+    <Favourite>No</Favourite>
+    <URL>https://film.recipes/2024/02/18/polaroid-sx70-film-recipe/</URL>
+    <Sensor>X-Trans V</Sensor>
+  </profile>
+  <profile>
+    <Name>Pastel Vibes</Name>
+    <FilmMode>Classic Negative</FilmMode>
+    <GrainEffectRoughness>Off</GrainEffectRoughness>
+    <GrainEffectSize>Off</GrainEffectSize>
+    <ColorChromeEffect>Weak</ColorChromeEffect>
+    <ColorChromeFXBlue>Strong</ColorChromeFXBlue>
+    <WhiteBalance>Auto</WhiteBalance>
+    <WhiteBalanceFineTune>Red  -1, Blue +0</WhiteBalanceFineTune>
+    <DevelopmentDynamicRange>400</DevelopmentDynamicRange>
+    <HighlightTone>-2 (soft)</HighlightTone>
+    <ShadowTone>-1 (medium soft)</ShadowTone>
+    <Saturation>+3 (very high)</Saturation>
+    <Sharpness>+1</Sharpness>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Clarity>+2</Clarity>
+    <Favourite>No</Favourite>
+    <URL>https://film.recipes/2022/08/21/pastel-vibes-film-recipe-by-willow-rotter/</URL>
+    <Sensor>X-Trans V</Sensor>
+  </profile>
 </profiles>

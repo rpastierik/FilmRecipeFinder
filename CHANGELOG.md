@@ -1,6 +1,9 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## [0.5.5] - 2026.03.11
+- Fixed: Recipe identification broken after adding Favourite, Description and URL fields – added to comparison skip list
+
 ## [0.5.4] - 2026.03.09
 - Added: Favourite field for recipes – use "Favourites" sort in Recipe Browser to show only favourite recipes
 - Added: Description and URL fields for recipes
