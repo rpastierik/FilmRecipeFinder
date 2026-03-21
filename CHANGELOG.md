@@ -1,6 +1,9 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## [0.5.6] - 2026.03.21
+- Fixed: Histogram in step mode no longer renders fill – only the outline is drawn
+
 ## [0.5.5] - 2026.03.11
 - Fixed: Recipe identification broken after adding Favourite, Description and URL fields – added to comparison skip list
 

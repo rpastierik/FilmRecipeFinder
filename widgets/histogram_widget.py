@@ -176,10 +176,12 @@ class HistogramWidget(QWidget):
             self._draw_grid(p, plot_w, plot_h)
 
         # 1. Všetky kanály ako vyplnené vrstvy
-        for buckets, color, _label in self._channels:
-            self._draw_filled(p, buckets, color, PAD_L, PAD_T, plot_w, plot_h, global_max, log_max)
+        # 1. Vyplnené vrstvy — len ak je hist_type="bar"
+        if self._filled:
+            for buckets, color, _label in self._channels:
+                self._draw_filled(p, buckets, color, PAD_L, PAD_T, plot_w, plot_h, global_max, log_max)
 
-        # 2. Obrysová linka pre každý kanál
+        # 2. Obrysová linka pre každý kanál — vždy
         for buckets, color, _label in self._channels:
             self._draw_channel_line(p, buckets, color, PAD_L, PAD_T, plot_w, plot_h, global_max, log_max)
 
@@ -196,7 +198,7 @@ class HistogramWidget(QWidget):
     def _draw_channel_line(self, p, buckets, color, ox, oy, pw, ph, max_val, log_max):
         """Obrysová linka kanála — čistá farba kanála, kreslí sa navrch výplne."""
         c = QColor(color)
-        c.setAlpha(160)
+        c.setAlpha(220 if not self._filled else 160)
         pen = QPen(c, 0.8)
         pen.setCapStyle(Qt.PenCapStyle.FlatCap)
         p.setPen(pen)

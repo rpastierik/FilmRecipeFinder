@@ -1028,6 +1028,8 @@
     <Sharpness>+1</Sharpness>
     <NoiseReduction>-4 (weakest)</NoiseReduction>
     <Clarity>4</Clarity>
+    <Favourite>Yes</Favourite>
+    <URL>https://fujixweekly.com/2020/06/18/fujifilm-x100v-film-simulation-recipe-kodak-tri-x-400/</URL>
     <Sensor>X-Trans V</Sensor>
   </profile>
   <profile>
@@ -3532,6 +3534,8 @@
     <Sharpness>+4</Sharpness>
     <NoiseReduction>-2 (weak)</NoiseReduction>
     <Clarity>0</Clarity>
+    <Favourite>Yes</Favourite>
+    <URL>https://www.kevinmullinsphotography.co.uk/blog/fujifilm-black-and-white-recipe</URL>
     <Sensor>X-Trans V</Sensor>
   </profile>
   <profile>
@@ -3745,11 +3749,13 @@
     <WhiteBalanceFineTune>Red +3, Blue -5</WhiteBalanceFineTune>
     <DevelopmentDynamicRange>400</DevelopmentDynamicRange>
     <HighlightTone>-2 (soft)</HighlightTone>
-    <ShadowTone>0 (normal)</ShadowTone>
+    <ShadowTone>0.5</ShadowTone>
     <Saturation>+4 (highest)</Saturation>
     <Sharpness>0</Sharpness>
     <NoiseReduction>-4 (weakest)</NoiseReduction>
     <Clarity>0</Clarity>
+    <Favourite>Yes</Favourite>
+    <URL>https://fujifilmsimulations.com/project/last-summer-roll/</URL>
     <Sensor>X-Trans V</Sensor>
   </profile>
   <profile>
@@ -4524,7 +4530,7 @@
     <GrainEffectSize>Off</GrainEffectSize>
     <ColorChromeEffect>Weak</ColorChromeEffect>
     <ColorChromeFXBlue>Off</ColorChromeFXBlue>
-    <WhiteBalance>Shade</WhiteBalance>
+    <WhiteBalance>Cloudy</WhiteBalance>
     <WhiteBalanceFineTune>Red +0, Blue -1</WhiteBalanceFineTune>
     <DevelopmentDynamicRange>400</DevelopmentDynamicRange>
     <HighlightTone>-2 (soft)</HighlightTone>
@@ -4613,7 +4619,7 @@
     <GrainEffectSize>Small</GrainEffectSize>
     <ColorChromeEffect>Strong</ColorChromeEffect>
     <ColorChromeFXBlue>Weak</ColorChromeFXBlue>
-    <WhiteBalance>Shade</WhiteBalance>
+    <WhiteBalance>Cloudy</WhiteBalance>
     <WhiteBalanceFineTune>Red +2, Blue -5</WhiteBalanceFineTune>
     <DevelopmentDynamicRange>200</DevelopmentDynamicRange>
     <HighlightTone>-2 (soft)</HighlightTone>
