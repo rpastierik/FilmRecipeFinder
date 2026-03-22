@@ -1,6 +1,9 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## [0.5.7] - 2026.03.22
+- Changed: Recipe Card Exporter output aspect ratio changed to 4:5 portrait (900×1125 px)
+
 ## [0.5.6] - 2026.03.21
 - Fixed: Histogram in step mode no longer renders fill – only the outline is drawn
 

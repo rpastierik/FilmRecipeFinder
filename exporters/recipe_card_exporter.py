@@ -63,6 +63,9 @@ def _try_font(size: int, bold: bool = False) -> ImageFont.FreeTypeFont | ImageFo
 # ── Layout constants ────────────────────────────
 
 CARD_W = 900
+# Aspect ratio 4 (width) : 5 (height)  →  portrait format
+CARD_H = int(CARD_W * 5 / 4)   # = 1125 px
+
 PADDING = 36
 PHOTO_RADIUS = 22
 PILL_RADIUS = 16
@@ -94,24 +97,9 @@ def export_recipe_card(
         pass
     src = src.convert("RGB")
 
-    # ── 2. Calculate dynamic card height ───────────
-    title_h = 38 + 6          # f_title.size + gap
-    sub_h   = 20 + 14         # f_sub + gap below
-    header_h = PADDING + title_h + sub_h
-
-    photo_h  = 440
-    big_pill_h = 90
-    ROWS_SMALL = math.ceil(9 / 5)
-    small_pill_h = 72
-    small_gap = 10
-    content_h = (
-        header_h
-        + photo_h + 24          # photo + gap
-        + big_pill_h + 20       # big pills + gap
-        + ROWS_SMALL * small_pill_h + (ROWS_SMALL - 1) * small_gap
-        + PADDING               # bottom padding
-    )
-    CARD_H = content_h
+    # ── 2. Fixed card dimensions (4:5 portrait) ────
+    # CARD_W and CARD_H are defined as module-level constants above.
+    # All layout sections below are distributed within CARD_H.
 
     # ── 3. Build blurred background ────────────────
     dom = _dominant_color(src)
@@ -136,7 +124,7 @@ def export_recipe_card(
     # ── 4. Header ───────────────────────────────────
     name = recipe.get("Name", "Unknown Recipe")
     film_mode = recipe.get("FilmMode", "")
-    
+
     # Recipe name
     draw.text((PADDING, PADDING), name, font=f_title, fill=(255, 255, 255))
     title_h = f_title.size + 6
@@ -149,12 +137,26 @@ def export_recipe_card(
     draw.text((CARD_W - PADDING - brand_w, PADDING + 6), app_name, font=f_brand, fill=(150, 150, 150))
 
     # ── 5. Photo thumbnail ──────────────────────────
-    photo_y = PADDING + title_h + 34 + 14
+    # Header block height
+    header_block_h = PADDING + title_h + 20 + 14   # top pad + title + sub + gap
+
+    # Distribute remaining vertical space:
+    #   big pills row  →  90 px
+    #   gap after big  →  20 px
+    #   small pills    →  2 rows × 72 px + 1 × 10 gap = 154 px
+    #   bottom padding →  PADDING
+    ROWS_SMALL = math.ceil(9 / 5)
+    small_pill_h = 72
+    small_gap = 10
+    big_pill_h = 90
+    bottom_reserved = big_pill_h + 20 + ROWS_SMALL * small_pill_h + (ROWS_SMALL - 1) * small_gap + PADDING
+
+    photo_y = header_block_h
+    photo_h = CARD_H - photo_y - bottom_reserved - 24   # 24 = gap between photo and big pills
+
     photo_w = CARD_W - 2 * PADDING
-    photo_h = 440
 
     thumb = src.copy()
-    # Crop to target aspect ratio
     src_ratio = src.width / src.height
     target_ratio = photo_w / photo_h
     if src_ratio > target_ratio:
@@ -172,7 +174,6 @@ def export_recipe_card(
 
     # ── 6. Big pills row (Film Sim · WB · Grain) ────
     big_pill_y = photo_y + photo_h + 24
-    big_pill_h = 90
     gap = 12
 
     wb_val = recipe.get("WhiteBalance", "Auto")
@@ -180,10 +181,8 @@ def export_recipe_card(
     wb_display = f"{ct}K" if ct and ct.strip() else wb_val
 
     wb_fine = recipe.get("WhiteBalanceFineTune", "")
-    # Parse "Red +2, Blue -2" → "R: +2  B: -2"
     wb_fine_short = ""
     if wb_fine and wb_fine != "Red +0, Blue +0":
-        #parts = wb_fine.replace("Red", "R").replace("Blue", "B")
         wb_fine_short = wb_fine
 
     grain_r = recipe.get("GrainEffectRoughness", "Off")
@@ -208,15 +207,11 @@ def export_recipe_card(
         y1 = y0 + big_pill_h
         draw.rounded_rectangle([(x0, y0), (x1, y1)], radius=PILL_RADIUS, fill=pill_bg)
 
-        # Top text (value)
         tb = draw.textbbox((0, 0), p["top"], font=f_pill_lg)
         tw = tb[2] - tb[0]
-        th = tb[3] - tb[1]
         cx = x0 + (pill_w - tw) // 2
-        cy = y0 + 10
-        draw.text((cx, cy), p["top"], font=f_pill_lg, fill=(240, 240, 240))
+        draw.text((cx, y0 + 10), p["top"], font=f_pill_lg, fill=(240, 240, 240))
 
-        # Bottom label
         lb = draw.textbbox((0, 0), p["bot"], font=f_label)
         lw = lb[2] - lb[0]
         draw.text((x0 + (pill_w - lw) // 2, y1 - 26), p["bot"], font=f_label, fill=(170, 170, 170))
@@ -235,8 +230,6 @@ def export_recipe_card(
     ]
 
     COLS = 5
-    small_pill_h = 72
-    small_gap = 10
     small_y = big_pill_y + big_pill_h + 20
     small_pill_w = (CARD_W - 2 * PADDING - small_gap * (COLS - 1)) // COLS
 
@@ -251,7 +244,6 @@ def export_recipe_card(
         draw.rounded_rectangle([(x0, y0), (x1, y1)], radius=12, fill=pill_bg)
 
         val = recipe.get(field, "—") or "—"
-        # Shorten long values: keep only the first token (e.g. "0 (normal)" → "0")
         short_val = val.split(" ")[0] if " " in val else val
 
         vb = draw.textbbox((0, 0), short_val, font=f_pill_lg)

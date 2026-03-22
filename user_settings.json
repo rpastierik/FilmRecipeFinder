@@ -1,8 +1,8 @@
 {
-    "theme": "Dracula",
+    "theme": "Nord",
     "show_histogram": true,
     "rgb_histogram": true,
-    "histogram_type": "step",
+    "histogram_type": "bar",
     "active_sensors": [
         "X-Trans I",
         "X-Trans II",
@@ -10,7 +10,7 @@
         "X-Trans IV",
         "X-Trans V"
     ],
-    "last_dir": "G:/Photos/2026/20260311_pri_rieke/jpg",
+    "last_dir": "G:/Photos/2026/20260320_kamenny_most/jpg",
     "histogram_grid": true,
-    "recipe_browser_sort": "Default (XML reversed)"
+    "recipe_browser_sort": "Favourites"
 }
