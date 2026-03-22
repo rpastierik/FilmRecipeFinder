@@ -114,7 +114,7 @@ def export_recipe_card(
     draw = ImageDraw.Draw(card, "RGBA")
 
     # ── 3. Fonts ────────────────────────────────────
-    f_title   = _try_font(38, bold=True)
+    f_title   = _try_font(30, bold=True)
     f_sub     = _try_font(20)
     f_brand   = _try_font(22, bold=True)
     f_pill_lg = _try_font(26, bold=True)
