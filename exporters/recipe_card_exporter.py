@@ -225,7 +225,7 @@ def export_recipe_card(
         ("ShadowTone",         "Shadow"),
         ("Saturation",         "Color"),
         ("Sharpness",          "Sharpness"),
-        ("NoiseReduction",     "ISO Denoise"),
+        ("NoiseReduction",     "Noise Reduction"),
         ("Clarity",            "Clarity"),
     ]
 
