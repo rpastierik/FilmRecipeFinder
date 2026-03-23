@@ -236,6 +236,8 @@ Recipes are stored in `film_simulations.xml`. Each recipe contains:
 | Sharpness | Sharpness setting |
 | NoiseReduction | Noise reduction level |
 | Clarity | Clarity adjustment |
+| Favourite | Favourite |
+| URL | URL link |
 | Sensor | X-Trans generation (I–V) |
 
 ---
