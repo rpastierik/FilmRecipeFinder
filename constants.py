@@ -19,8 +19,8 @@ class Constants:
         RecipeField("Name", ""),
         RecipeField("FilmMode", "None", "combo",
                    ["Classic Chrome", "Eterna", "Classic Negative", "Reala ACE", "Nostalgic Neg",
-                    "Bleach Bypass", "PRO Neg Hi", "PRO Neg Std", "None", "F0/Standard (Provia)",
-                    "F1/Studio Portrait", "F1a/Studio Portrait Enhanced Saturation",
+                    "Bleach Bypass", "Pro Neg. Hi", "Pro Neg. Std", "Astia", "None",
+                    "F0/Standard (Provia)", "F1/Studio Portrait", "F1a/Studio Portrait Enhanced Saturation",
                     "F1b/Studio Portrait Smooth Skin Tone (Astia)", "F1c/Studio Portrait Increased Sharpness",
                     "F2/Fujichrome (Velvia)", "F3/Studio Portrait Ex", "F4/Velvia"]),
         RecipeField("GrainEffectRoughness", "Off", "combo", ["Off", "Weak", "Strong"]),
@@ -59,4 +59,3 @@ class Constants:
     ]
 
     ALL_SENSORS = ["X-Trans I", "X-Trans II", "X-Trans III", "X-Trans IV", "X-Trans V"]
-

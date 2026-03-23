@@ -2,7 +2,12 @@
 All notable changes to this project will be documented in this file.
 
 ## [0.5.8] - 2026.03.23
-- Added: RAW file support (.raf) – thumbnails rendered via rawpy
+- Added: RAW file support (.raf, .nef) – thumbnails rendered via rawpy
+- Added: Advanced filter panel in Recipe Browser – combine multiple conditions (AND between fields, OR within field)
+- Added: Saved filters – name and persist filter combinations across sessions
+- Added: Favourites only toggle button in Recipe Browser (replaces Favourites sort option)
+- Fixed: Recipe count in header now reflects actual displayed recipes (was incorrect with Favourites filter)
+- Fixed: FilmMode values in constants corrected to match XML (Pro Neg. Hi, Pro Neg. Std, added Astia)
 
 ## [0.5.7] - 2026.03.22
 - Changed: Recipe Card Exporter output aspect ratio changed to 4:5 portrait (900×1125 px)
