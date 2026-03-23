@@ -24,6 +24,45 @@ THUMB_WIDTH  = 390
 INFO_MIN_W   = 280
 INFO_MAX_W   = 390
 
+RAW_EXTENSIONS = ('.raf', '.nef', '.cr2', '.arw', '.dng')
+
+
+def _open_image(filename):
+    """Open any supported image file and return a PIL Image (RGB).
+    Falls back to rawpy for RAW formats not supported by Pillow."""
+    ext = os.path.splitext(filename)[1].lower()
+    if ext in RAW_EXTENSIONS:
+        try:
+            import rawpy
+            import numpy as np
+            with rawpy.imread(filename) as raw:
+                rgb = raw.postprocess(use_camera_wb=True, no_auto_bright=False, output_bps=8)
+            return Image.fromarray(rgb)
+        except ImportError:
+            raise RuntimeError(
+                "rawpy is required to open RAW files.\n"
+                "Install it with: pip install rawpy"
+            )
+        except Exception as e:
+            raise RuntimeError(f"Failed to open RAW file: {e}")
+    return Image.open(filename)
+
+
+def _fix_orientation(img_pil, filename):
+    """Apply EXIF orientation correction. Skips for RAW files (already corrected by rawpy)."""
+    ext = os.path.splitext(filename)[1].lower()
+    if ext in RAW_EXTENSIONS:
+        return img_pil
+    exif = img_pil.getexif()
+    orientation = exif.get(ExifTags.Base.Orientation, 1)
+    if orientation == 8:
+        img_pil = img_pil.rotate(90, expand=True)
+    elif orientation == 6:
+        img_pil = img_pil.rotate(-90, expand=True)
+    elif orientation == 3:
+        img_pil = img_pil.rotate(180, expand=True)
+    return img_pil
+
 
 class ImageCard(QFrame):
     def __init__(self, filename, sim_data, exif_fallback, settings, dark=True):
@@ -42,15 +81,8 @@ class ImageCard(QFrame):
         layout.setContentsMargins(12, 12, 12, 12)
 
         # ── Image ──
-        self.img_pil = Image.open(filename)
-        exif = self.img_pil.getexif()
-        orientation = exif.get(ExifTags.Base.Orientation, 1)
-        if orientation == 8:
-            self.img_pil = self.img_pil.rotate(90, expand=True)
-        elif orientation == 6:
-            self.img_pil = self.img_pil.rotate(-90, expand=True)
-        elif orientation == 3:
-            self.img_pil = self.img_pil.rotate(180, expand=True)
+        self.img_pil = _open_image(filename)
+        self.img_pil = _fix_orientation(self.img_pil, filename)
 
         img_thumb = self.img_pil.copy()
         img_thumb.thumbnail((THUMB_WIDTH, CARD_HEIGHT), Image.LANCZOS)

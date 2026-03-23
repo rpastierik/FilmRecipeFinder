@@ -1,5 +1,5 @@
 {
-    "theme": "Nord",
+    "theme": "Dracula",
     "show_histogram": true,
     "rgb_histogram": true,
     "histogram_type": "bar",
@@ -10,7 +10,7 @@
         "X-Trans IV",
         "X-Trans V"
     ],
-    "last_dir": "G:/Photos/2026/20260320_kamenny_most/jpg",
+    "last_dir": "G:/Photos/2026/20260320_kamenny_most/raf",
     "histogram_grid": true,
     "recipe_browser_sort": "Favourites"
 }

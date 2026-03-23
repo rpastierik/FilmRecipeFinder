@@ -11,6 +11,7 @@ A desktop application for identifying and managing Fujifilm film simulation reci
 ## Features
 
 - **Identify film simulation recipes** from Fujifilm JPEG photos by reading EXIF data
+- **RAW file support** – open and identify recipes from RAW files (.raf, .nef) via rawpy
 - **Drag & Drop** support – simply drag photos into the application window
 - **Recipe browser** – browse, search, add, edit and delete recipes
 - **Sensor filter** – filter recipes by X-Trans generation (I–V) via toolbar or Settings
@@ -63,13 +64,16 @@ A desktop application for identifying and managing Fujifilm film simulation reci
 ```
 PyQt6
 Pillow
+rawpy
 ```
 
 Install with:
 
 ```bash
-pip install PyQt6 Pillow
+pip install PyQt6 Pillow rawpy
 ```
+
+> **Note:** `rawpy` is optional – required only for RAW file support (.raf, .nef). JPEG workflow works without it.
 
 ---
 
@@ -85,7 +89,7 @@ cd FilmRecipeFinder
 2. Install dependencies:
 
 ```bash
-pip install PyQt6 Pillow
+pip install PyQt6 Pillow rawpy
 ```
 
 3. Make sure **ExifTool** is available:
@@ -123,7 +127,7 @@ python film_recipe_finder.py
 ```bash
 python3 -m venv venv
 source venv/bin/activate
-pip install PyQt6 Pillow
+pip install PyQt6 Pillow rawpy
 python film_recipe_finder.py
 ```
 
