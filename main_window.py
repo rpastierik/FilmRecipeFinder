@@ -98,7 +98,7 @@ class MainWindow(QMainWindow):
 
         actions = [
             ("🔍", "Identify Recipe",  self.identify_recipe),
-            ("📋", "Show All Recipes", self.open_recipe_browser),
+            ("📋", "Recipe Browser", self.open_recipe_browser),
             None,
             ("➕", "Add Recipe",       self.open_add_recipe),
             ("✏️", "Edit Recipe",      self.open_edit_recipe),
@@ -154,7 +154,7 @@ class MainWindow(QMainWindow):
 
         recipes_menu = menubar.addMenu("Recipes")
         recipes_menu.addAction(self._action("Identify Recipe",  self.identify_recipe))
-        recipes_menu.addAction(self._action("Show All Recipes", self.open_recipe_browser))
+        recipes_menu.addAction(self._action("Recipe Browser",   self.open_recipe_browser))
         recipes_menu.addSeparator()
         recipes_menu.addAction(self._action("Add New Recipe",   self.open_add_recipe))
         recipes_menu.addAction(self._action("Edit Recipe",      self.open_edit_recipe))
