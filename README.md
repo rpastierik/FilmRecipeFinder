@@ -47,7 +47,7 @@ A desktop application for identifying and managing Fujifilm film simulation reci
 ![Edit Recipe](screenshots/edit_recipe.png)
 
 ### Export Recipe Card
-![Export Recipe Card](screenshots/Classic_Cuban_Negative_card.png)
+![Export Recipe Card](screenshots/card.png)
 
 ### Settings
 ![Settings](screenshots/settings.png)
