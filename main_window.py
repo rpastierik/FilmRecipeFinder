@@ -130,23 +130,7 @@ class MainWindow(QMainWindow):
             btn.clicked.connect(slot)
             toolbar.addWidget(btn)
 
-        # ── Sensor filter ──
-        toolbar.addSeparator()
-        toolbar.addWidget(QLabel("  Sensor: "))
 
-        self.sensor_combo = QComboBox()
-        self.sensor_combo.addItem("All")
-        self.sensor_combo.addItems(Constants.ALL_SENSORS)
-        self.sensor_combo.setMinimumWidth(120)
-
-        active = self.settings.get("active_sensors", Constants.ALL_SENSORS)
-        if len(active) == 1:
-            idx = self.sensor_combo.findText(active[0])
-            if idx >= 0:
-                self.sensor_combo.setCurrentIndex(idx)
-
-        self.sensor_combo.currentTextChanged.connect(self._on_sensor_combo_changed)
-        toolbar.addWidget(self.sensor_combo)
         
     # ── MENU BUILD ────────────────────────────
     def _build_menu(self):
@@ -154,7 +138,7 @@ class MainWindow(QMainWindow):
 
         recipes_menu = menubar.addMenu("Recipes")
         recipes_menu.addAction(self._action("Identify Recipe",  self.identify_recipe))
-        recipes_menu.addAction(self._action("Recipe Browser",   self.open_recipe_browser))
+        recipes_menu.addAction(self._action("Recipe Browser", self.open_recipe_browser))
         recipes_menu.addSeparator()
         recipes_menu.addAction(self._action("Add New Recipe",   self.open_add_recipe))
         recipes_menu.addAction(self._action("Edit Recipe",      self.open_edit_recipe))
@@ -172,16 +156,6 @@ class MainWindow(QMainWindow):
         action = QAction(name, self)
         action.triggered.connect(slot)
         return action
-
-    # ── SENSOR COMBO ──────────────────────────
-    def _on_sensor_combo_changed(self, text):
-        if text == "All":
-            self.settings["active_sensors"] = Constants.ALL_SENSORS
-        else:
-            self.settings["active_sensors"] = [text]
-        SettingsManager.save(self.settings)
-        for widget in self.findChildren(RecipeBrowserDialog):
-            widget._filter(widget.search_edit.text())
 
     # ── THEME ─────────────────────────────────
     def _apply_theme(self):
@@ -297,13 +271,7 @@ class MainWindow(QMainWindow):
             toolbar.deleteLater()
         self._build_toolbar()
         self._update_status()
-        active = self.settings.get("active_sensors", [])
-        if hasattr(self, 'sensor_combo'):
-            if len(active) == 1:
-                idx = self.sensor_combo.findText(active[0])
-                self.sensor_combo.setCurrentIndex(idx if idx >= 0 else 0)
-            else:
-                self.sensor_combo.setCurrentIndex(0)
+
                 
     def _on_theme_combo_changed(self, theme_name):
         if theme_name == self.current_theme:
