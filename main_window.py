@@ -271,6 +271,13 @@ class MainWindow(QMainWindow):
             toolbar.deleteLater()
         self._build_toolbar()
         self._update_status()
+        self._refresh_histograms()
+
+    def _refresh_histograms(self):
+        for i in range(self.cards_layout.count()):
+            widget = self.cards_layout.itemAt(i).widget()
+            if isinstance(widget, ImageCard):
+                widget.update_histogram(self.settings)
 
                 
     def _on_theme_combo_changed(self, theme_name):

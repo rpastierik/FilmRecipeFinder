@@ -4,6 +4,8 @@ All notable changes to this project will be documented in this file.
 ## [0.5.9] - 2026.03.24
 - Removed: Sensor filter dropdown from toolbar
 - Removed: Sensor filter from Settings – use Sensor field in Recipe Browser advanced filter instead
+- Changed: Renamed "Show All Recipes" to "Recipe Browser" in toolbar and menu
+- Fixed: Histogram now shows/hides immediately when toggled in Settings (no reload required)
 
 ## [0.5.8] - 2026.03.23
 - Added: RAW file support (.raf) – thumbnails rendered via rawpy

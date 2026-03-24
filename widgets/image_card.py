@@ -28,39 +28,36 @@ RAW_EXTENSIONS = ('.raf', '.nef', '.cr2', '.arw', '.dng')
 
 
 def _open_image(filename):
-    """Open any supported image file and return a PIL Image (RGB).
-    Falls back to rawpy for RAW formats not supported by Pillow."""
     ext = os.path.splitext(filename)[1].lower()
-    if ext in RAW_EXTENSIONS:
-        try:
-            import rawpy
-            import numpy as np
-            with rawpy.imread(filename) as raw:
-                rgb = raw.postprocess(use_camera_wb=True, no_auto_bright=False, output_bps=8)
-            return Image.fromarray(rgb)
-        except ImportError:
-            raise RuntimeError(
-                "rawpy is required to open RAW files.\n"
-                "Install it with: pip install rawpy"
-            )
-        except Exception as e:
-            raise RuntimeError(f"Failed to open RAW file: {e}")
-    return Image.open(filename)
+    if ext not in RAW_EXTENSIONS:
+        return Image.open(filename)
+    try:
+        import rawpy
+        import numpy as np
+        with rawpy.imread(filename) as raw:
+            rgb = raw.postprocess(use_camera_wb=True, no_auto_bright=False, output_bps=8)
+        return Image.fromarray(rgb)
+    except ImportError:
+        raise RuntimeError(
+            "rawpy is required to open RAW files.\n"
+            "Install it with: pip install rawpy"
+        )
+    except Exception as e:
+        raise RuntimeError(f"Failed to open RAW file: {e}")
 
 
 def _fix_orientation(img_pil, filename):
-    """Apply EXIF orientation correction. Skips for RAW files (already corrected by rawpy)."""
-    ext = os.path.splitext(filename)[1].lower()
-    if ext in RAW_EXTENSIONS:
-        return img_pil
-    exif = img_pil.getexif()
-    orientation = exif.get(ExifTags.Base.Orientation, 1)
-    if orientation == 8:
-        img_pil = img_pil.rotate(90, expand=True)
-    elif orientation == 6:
-        img_pil = img_pil.rotate(-90, expand=True)
-    elif orientation == 3:
-        img_pil = img_pil.rotate(180, expand=True)
+    try:
+        exif = img_pil.getexif()
+        orientation = exif.get(ExifTags.Base.Orientation, 1)
+        if orientation == 8:
+            img_pil = img_pil.rotate(90, expand=True)
+        elif orientation == 6:
+            img_pil = img_pil.rotate(-90, expand=True)
+        elif orientation == 3:
+            img_pil = img_pil.rotate(180, expand=True)
+    except Exception:
+        pass
     return img_pil
 
 
@@ -168,6 +165,25 @@ class ImageCard(QFrame):
             self.hist.setFixedHeight(CARD_HEIGHT)
             self.hist.setSizePolicy(QSizePolicy.Policy.Expanding, QSizePolicy.Policy.Fixed)
             layout.addWidget(self.hist)
+
+    def update_histogram(self, settings):
+        """Show or hide histogram based on settings; also refreshes theme/type changes."""
+        self.settings = settings
+        show = settings.get("show_histogram", True)
+        layout = self.layout()
+        if not show:
+            if self.hist is not None:
+                layout.removeWidget(self.hist)
+                self.hist.deleteLater()
+                self.hist = None
+        else:
+            img_thumb = self.img_pil.copy()
+            img_thumb.thumbnail((THUMB_WIDTH, CARD_HEIGHT), Image.LANCZOS)
+            if self.hist is not None:
+                layout.removeWidget(self.hist)
+                self.hist.deleteLater()
+                self.hist = None
+            self._add_histogram(layout, img_thumb)
 
     def mousePressEvent(self, event):
         if event.button() == Qt.MouseButton.LeftButton:
