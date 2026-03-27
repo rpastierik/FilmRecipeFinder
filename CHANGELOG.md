@@ -1,7 +1,7 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
-## [Unreleased] - Code Quality Improvements
+## [0.6.1] - 2026.03.27 - Code Quality Improvements
 - Added: 76 comprehensive unit tests with 88% code coverage
   - XMLManager: 100% coverage (25 tests for CRUD operations)
   - ExifManager: 96% coverage (25 tests for EXIF parsing)
