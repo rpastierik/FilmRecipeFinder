@@ -3,13 +3,14 @@
 # ──────────────────────────────────────────────
 import json
 import os
+from typing import Dict, Any
 
 from constants import Constants
 
 
 class SettingsManager:
     @staticmethod
-    def load():
+    def load() -> Dict[str, Any]:
         defaults = {
             "theme": "Gruvbox Dark",
             "show_histogram": True,
@@ -32,7 +33,7 @@ class SettingsManager:
         return defaults
 
     @staticmethod
-    def save(settings):
+    def save(settings: Dict[str, Any]) -> None:
         try:
             with open(Constants.SETTINGS_FILE, "w") as f:
                 json.dump(settings, f, indent=4)

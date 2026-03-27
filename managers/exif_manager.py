@@ -5,11 +5,12 @@ import os
 import shutil
 import subprocess
 import sys
+from typing import Dict, Optional, List
 
 from utils import resource_path, parse_wbft
 
 
-def _find_exiftool():
+def _find_exiftool() -> str:
     """Locate the exiftool executable – check PATH, beside the exe or script."""
     path = shutil.which('exiftool')
     if path:
@@ -35,7 +36,7 @@ def _find_exiftool():
     )
 
 
-def _parse_lines(lines, filter_keys=None):
+def _parse_lines(lines: List[str], filter_keys: Optional[List[str]] = None) -> Dict[str, str]:
     """Parse lines from exiftool output into a dictionary; convert WBFT ÷20."""
     exif_data = {}
     for line in lines:
@@ -54,7 +55,7 @@ def _parse_lines(lines, filter_keys=None):
 
 class ExifManager:
     @staticmethod
-    def get_exif_data(filename, relevant_keys):
+    def get_exif_data(filename: str, relevant_keys: Optional[List[str]]) -> Dict[str, str]:
         """Load EXIF data relevant for comparison with recipes."""
         exiftool_path = _find_exiftool()
         result = subprocess.run(
@@ -64,7 +65,7 @@ class ExifManager:
         return _parse_lines(result.stdout.splitlines(), filter_keys=relevant_keys)
 
     @staticmethod
-    def get_exif(filename, exif_type='short'):
+    def get_exif(filename: str, exif_type: str = 'short') -> Dict[str, str]:
         """Read either a short or full EXIF dump."""
         exiftool_path = _find_exiftool()
 

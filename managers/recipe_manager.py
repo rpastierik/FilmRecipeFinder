@@ -1,10 +1,12 @@
 # ──────────────────────────────────────────────
 # RECIPE MANAGER
 # ──────────────────────────────────────────────
+from typing import Dict, Optional
+
 
 class RecipeManager:
     @staticmethod
-    def find_duplicate_content(recipe_data, simulations):
+    def find_duplicate_content(recipe_data: Dict[str, str], simulations: Dict[str, Dict[str, str]]) -> Optional[str]:
         """Return the recipe name if duplicate content exists, otherwise None."""
         for sim_name, sim_data in simulations.items():
             match = all(

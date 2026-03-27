@@ -3,6 +3,7 @@
 # ──────────────────────────────────────────────
 import os
 import xml.etree.ElementTree as ET
+from typing import Dict, Optional
 
 from PyQt6.QtWidgets import QMessageBox
 
@@ -12,7 +13,7 @@ from utils import resource_path
 
 class XMLManager:
     @staticmethod
-    def load_simulations(filename):
+    def load_simulations(filename: str) -> Dict[str, Dict[str, str]]:
         """Load recipes from the XML; values are stored in ÷20 format."""
         full_path = resource_path(filename)
         if not os.path.exists(full_path):
@@ -20,12 +21,14 @@ class XMLManager:
         with open(full_path, 'r') as f:
             tree = ET.parse(f)
             root = tree.getroot()
-        simulations = {}
+        simulations: Dict[str, Dict[str, str]] = {}
         for profile in root.findall('profile'):
             name_el = profile.find('Name')
             if name_el is None:
                 continue
             sim_name = name_el.text
+            if sim_name is None:
+                continue
             simulations[sim_name] = {}
             for param in profile.iter():
                 if param.tag == 'profile':
@@ -34,7 +37,7 @@ class XMLManager:
         return simulations
 
     @staticmethod
-    def add_recipe(recipe_data):
+    def add_recipe(recipe_data: Dict[str, str]) -> bool:
         """Add a recipe to the XML; WhiteBalanceFineTune is saved in ÷20 format."""
         xml_file = resource_path(Constants.XML_FILE)
         try:
@@ -52,7 +55,7 @@ class XMLManager:
             return False
 
     @staticmethod
-    def update_recipe(recipe_data, original_name=None):
+    def update_recipe(recipe_data: Dict[str, str], original_name: Optional[str] = None) -> bool:
         xml_file = resource_path(Constants.XML_FILE)
         try:
             tree = ET.parse(xml_file)
@@ -79,7 +82,7 @@ class XMLManager:
             return False
 
     @staticmethod
-    def delete_recipe(recipe_name):
+    def delete_recipe(recipe_name: str) -> bool:
         """Delete a recipe from the XML."""
         xml_file = resource_path(Constants.XML_FILE)
         try:

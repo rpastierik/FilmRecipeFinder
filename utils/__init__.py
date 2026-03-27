@@ -6,7 +6,7 @@ import re
 import sys
 
 
-def resource_path(relative_path):
+def resource_path(relative_path: str) -> str:
     """Return the correct file path, working with a PyInstaller build too."""
     if hasattr(sys, '_MEIPASS'):
         base = os.path.dirname(sys.executable)
@@ -16,7 +16,7 @@ def resource_path(relative_path):
     return os.path.join(base, relative_path)
 
 
-def parse_wbft(raw_value):
+def parse_wbft(raw_value: str) -> str:
     """
     Convert an EXIF WhiteBalanceFineTune value to the display form (÷20).
     e.g. 'Red +60, Blue -100' -> 'Red +3, Blue -5'
