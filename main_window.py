@@ -29,7 +29,15 @@ class MainWindow(QMainWindow):
         self.setWindowIcon(QIcon(resource_path("icon.png")))
         ver = Constants.APP_VERSION
         self.setWindowTitle(f"Film Recipe Finder [{ver}]")
-        self.resize(1200, 850)
+        
+        screen = QApplication.primaryScreen().geometry()
+        w = min(1200, int(screen.width()  * 0.85))
+        h = min(850,  int(screen.height() * 0.85))
+        self.resize(w, h)
+        self.move(
+            (screen.width()  - w) // 2,
+            (screen.height() - h) // 2,
+        )
 
         self.settings      = SettingsManager.load()
         self.simulations   = XMLManager.load_simulations(Constants.XML_FILE)
