@@ -48,7 +48,7 @@ class RecipeDialog(QDialog):
             if parent and parent.screen()
             else QApplication.primaryScreen().geometry()
         )
-        self.setMinimumWidth(min(560, int(screen.width() * 0.45)))
+        self.setMinimumWidth(min(700, int(screen.width() * 0.45)))
 
         outer = QVBoxLayout(self)
         outer.setSpacing(0)
