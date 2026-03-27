@@ -164,11 +164,20 @@ class ImageCard(QFrame):
         info_label.setContentsMargins(12, 8, 0, 0)
         info_label.setSizePolicy(QSizePolicy.Policy.Expanding, QSizePolicy.Policy.Preferred)
 
-        text = f"<b>{os.path.basename(filename)}</b><br><br>"
+        text = ""
+        filename_base = os.path.basename(filename)
+
         if sim_data:
+            # Display recipe name in header
+            recipe_name = sim_data.get("Name", "Unknown Recipe")
+            text = f"<b>{recipe_name}</b><br><br>"
+            text += f"File: {filename_base}<br>"
+            # Display all recipe data except Name (already in header)
             for key, value in sim_data.items():
-                text += f"{key}: {value}<br>"
+                if key != "Name":
+                    text += f"{key}: {value}<br>"
         else:
+            text = f"<b>File: {filename_base}</b><br><br>"
             text += "<i>No matching simulation found</i><br><br>"
             for key, value in exif_fallback.items():
                 text += f"{key}: {value}<br>"

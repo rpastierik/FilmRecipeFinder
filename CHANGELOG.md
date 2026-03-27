@@ -8,6 +8,10 @@ All notable changes to this project will be documented in this file.
 - Optimized: EXIF tooltip uses lazy loading – data fetched only on first mouse hover
   - Significantly faster UI responsiveness when loading multiple images
   - ExifTool subprocess called only when needed
+- Changed: Preview card UI layout
+  - Recipe name now displayed in header as main title
+  - Filename moved to data list as "File" field
+  - Name field removed from data list (displayed in header)
 - Added: Testing & Development section to README
   - Instructions for running tests with pytest
   - Test coverage breakdown and statistics
