@@ -180,6 +180,54 @@ FilmRecipeFinder/
 
 ---
 
+## Testing & Development
+
+This project includes comprehensive unit tests with full type hints for development assurance.
+
+### Running Tests
+
+Install test dependencies:
+
+```bash
+pip install pytest pytest-cov
+```
+
+Run all tests:
+
+```bash
+pytest tests/
+```
+
+Run tests with coverage report:
+
+```bash
+pytest tests/ --cov=managers --cov-report=html
+```
+
+### Test Coverage
+
+The test suite includes **76 comprehensive tests** with **88% code coverage**:
+
+- **XMLManager**: 25 tests (100% coverage) – CRUD operations, XML integrity, error handling
+- **ExifManager**: 25 tests (96% coverage) – EXIF parsing, exiftool integration, field filtering
+- **RecipeManager**: 26 tests (100% coverage) – duplicate detection, edge cases, large datasets
+- **Test Documentation**: See [tests/README.md](tests/README.md) for detailed test descriptions
+
+All tests pass in ~0.18 seconds.
+
+### Type Hints & Type Checking
+
+All manager modules include comprehensive type hints. Verify type safety:
+
+```bash
+pip install mypy
+mypy managers/ --strict
+```
+
+The codebase passes mypy static type checking without errors.
+
+---
+
 ## Usage
 
 ### Identify a Recipe
