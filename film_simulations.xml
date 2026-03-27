@@ -4750,4 +4750,25 @@
     <URL>https://film.recipes/2022/08/21/pastel-vibes-film-recipe-by-willow-rotter/</URL>
     <Sensor>X-Trans V</Sensor>
   </profile>
+  <profile>
+    <Name>1971 Kodak</Name>
+    <FilmMode>Nostalgic Neg</FilmMode>
+    <GrainEffectRoughness>Weak</GrainEffectRoughness>
+    <GrainEffectSize>Large</GrainEffectSize>
+    <ColorChromeEffect>Strong</ColorChromeEffect>
+    <ColorChromeFXBlue>Weak</ColorChromeFXBlue>
+    <WhiteBalance>Kelvin</WhiteBalance>
+    <WhiteBalanceFineTune>Red -1, Blue -6</WhiteBalanceFineTune>
+    <ColorTemperature>5900</ColorTemperature>
+    <DevelopmentDynamicRange>100</DevelopmentDynamicRange>
+    <HighlightTone>+2 (hard)</HighlightTone>
+    <ShadowTone>-2 (soft)</ShadowTone>
+    <Saturation>-2 (low)</Saturation>
+    <Sharpness>-4</Sharpness>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Clarity>-4</Clarity>
+    <Favourite>No</Favourite>
+    <URL>https://fujixweekly.com/2026/03/25/1971-kodak-a-fujifilm-recipe-for-x-trans-v-cameras/</URL>
+    <Sensor>X-Trans V</Sensor>
+  </profile>
 </profiles>
