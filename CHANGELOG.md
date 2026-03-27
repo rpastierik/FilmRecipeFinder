@@ -1,6 +1,19 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## [Unreleased] - Code Quality Improvements
+- Added: 76 comprehensive unit tests with 88% code coverage
+  - XMLManager: 100% coverage (25 tests for CRUD operations)
+  - ExifManager: 96% coverage (25 tests for EXIF parsing)
+  - RecipeManager: 100% coverage (26 tests for duplicate detection)
+- Added: Pytest and pytest-cov to requirements.txt
+- Added: Type hints to all manager modules
+  - XMLManager, ExifManager, RecipeManager, SettingsManager, utils
+  - Passes mypy static type checking without errors
+- Added: Test documentation in tests/README.md
+- Improved: Code clarity through type annotations
+- Improved: IDE support and error detection with type hints
+
 ## [0.6.0] - 2026.03.27
 - Fixed: Main window size now scales dynamically to screen resolution (no longer fixed 1200×850)
 - Fixed: Recipe dialogs (Add, Edit, Delete) no longer overflow on smaller screens – height adapts to screen size
