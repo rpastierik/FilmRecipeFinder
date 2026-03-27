@@ -27,6 +27,57 @@ INFO_MAX_W   = 390
 RAW_EXTENSIONS = ('.raf', '.nef', '.cr2', '.arw', '.dng')
 
 
+class TooltipImageLabel(QLabel):
+    """Custom QLabel that loads EXIF tooltip lazily on first hover."""
+    def __init__(self, filename, img_pil):
+        super().__init__()
+        self.filename = filename
+        self.img_pil = img_pil
+        self._exif_loaded = False
+
+    def enterEvent(self, event):
+        """Load and set EXIF tooltip on first mouse enter."""
+        if not self._exif_loaded:
+            try:
+                exif_data = ExifManager.get_exif_data(
+                    self.filename,
+                    ['Model', 'ISO', 'FNumber', 'ExposureTime', 'FocalLength']
+                )
+                tooltip = self._format_exif_tooltip(exif_data, self.img_pil)
+                self.setToolTip(tooltip)
+            except Exception:
+                self.setToolTip("No EXIF data")
+            self._exif_loaded = True
+        super().enterEvent(event)
+
+    def _format_exif_tooltip(self, exif_data, img_pil):
+        """Format camera parameters for tooltip display."""
+        if not exif_data:
+            return "No EXIF data"
+
+        lines = []
+
+        # Camera model
+        if 'Model' in exif_data:
+            lines.append(f"Camera: {exif_data['Model']}")
+
+        # Image dimensions (original)
+        width, height = img_pil.size
+        lines.append(f"Resolution: {width}x{height}")
+
+        # Camera parameters
+        if 'ISO' in exif_data:
+            lines.append(f"ISO: {exif_data['ISO']}")
+        if 'FNumber' in exif_data:
+            lines.append(f"Aperture: {exif_data['FNumber']}")
+        if 'ExposureTime' in exif_data:
+            lines.append(f"Shutter: {exif_data['ExposureTime']}")
+        if 'FocalLength' in exif_data:
+            lines.append(f"Focal Length: {exif_data['FocalLength']}")
+
+        return "\n".join(lines) if lines else "No data"
+
+
 def _open_image(filename):
     ext = os.path.splitext(filename)[1].lower()
     if ext not in RAW_EXTENSIONS:
@@ -91,13 +142,14 @@ class ImageCard(QFrame):
                       bytes_per_line, QImage.Format.Format_RGB888)
         pixmap = QPixmap.fromImage(qimg)
 
-        self.img_label = QLabel()
+        self.img_label = TooltipImageLabel(filename, self.img_pil)
         img_label = self.img_label
         img_label.setObjectName("imageLabel")
         img_label.setPixmap(pixmap)
         img_label.setFixedSize(THUMB_WIDTH, CARD_HEIGHT)
         img_label.setScaledContents(False)
         img_label.setAlignment(Qt.AlignmentFlag.AlignCenter)
+
         layout.addWidget(img_label)
 
         # ── Info text ──

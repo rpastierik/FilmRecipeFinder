@@ -1,6 +1,18 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## [0.6.2] - 2026.03.27 - EXIF Tooltip & Performance
+- Added: EXIF tooltip on image hover in preview mode
+  - Displays camera parameters: Model, ISO, Aperture, Shutter Speed, Focal Length
+  - Shows original image resolution in pixels
+- Optimized: EXIF tooltip uses lazy loading – data fetched only on first mouse hover
+  - Significantly faster UI responsiveness when loading multiple images
+  - ExifTool subprocess called only when needed
+- Added: Testing & Development section to README
+  - Instructions for running tests with pytest
+  - Test coverage breakdown and statistics
+  - Type checking guide with mypy
+
 ## [0.6.1] - 2026.03.27 - Code Quality Improvements
 - Added: 76 comprehensive unit tests with 88% code coverage
   - XMLManager: 100% coverage (25 tests for CRUD operations)
