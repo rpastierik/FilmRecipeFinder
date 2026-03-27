@@ -4,7 +4,7 @@
 from PyQt6.QtCore import Qt
 from PyQt6.QtGui import QColor, QFont, QTextCharFormat
 from PyQt6.QtWidgets import (
-    QComboBox, QCompleter, QDialog, QHBoxLayout, QLabel, QPushButton,
+    QApplication, QComboBox, QCompleter, QDialog, QHBoxLayout, QLabel, QPushButton,
     QTextEdit, QVBoxLayout, QFrame, QInputDialog, QMessageBox, QSizePolicy
 )
 
@@ -118,7 +118,17 @@ class RecipeBrowserDialog(QDialog):
     def __init__(self, parent, simulations, on_change):
         super().__init__(parent)
         self.setWindowTitle("Recipe Browser")
-        self.setMinimumSize(640, 750)
+        screen = (
+            parent.screen().geometry()
+            if parent and parent.screen()
+            else QApplication.primaryScreen().geometry()
+        )
+        
+        self.setMinimumSize(
+            min(640, int(screen.width()  * 0.50)),
+            min(750, int(screen.height() * 0.85)),
+        )
+        
         self.setModal(False)
         self.simulations = simulations
         self.on_change = on_change

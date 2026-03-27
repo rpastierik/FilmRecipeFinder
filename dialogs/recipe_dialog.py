@@ -1,9 +1,10 @@
 # ──────────────────────────────────────────────
 # BASE RECIPE DIALOG
 # ──────────────────────────────────────────────
+from PIL.ImageChops import screen
 from PyQt6.QtCore import Qt
 from PyQt6.QtWidgets import (
-    QComboBox, QDialog, QFormLayout, QHBoxLayout,
+    QApplication, QComboBox, QDialog, QFormLayout, QHBoxLayout,
     QLabel, QLineEdit, QPushButton, QScrollArea, QVBoxLayout, QWidget
 )
 
@@ -39,9 +40,15 @@ class RecipeDialog(QDialog):
     def __init__(self, parent, title):
         super().__init__(parent)
         self.setWindowTitle(title)
-        self.setMinimumWidth(560)
         self.setModal(True)
         self.widgets = {}
+
+        screen = (
+            parent.screen().geometry()
+            if parent and parent.screen()
+            else QApplication.primaryScreen().geometry()
+        )
+        self.setMinimumWidth(min(560, int(screen.width() * 0.45)))
 
         outer = QVBoxLayout(self)
         outer.setSpacing(0)
@@ -50,7 +57,9 @@ class RecipeDialog(QDialog):
         scroll = QScrollArea()
         scroll.setWidgetResizable(True)
         scroll.setHorizontalScrollBarPolicy(Qt.ScrollBarPolicy.ScrollBarAlwaysOff)
-        scroll.setMinimumHeight(730)
+        
+        scroll.setMinimumHeight(500)  
+        scroll.setMaximumHeight(int(screen.height() * 0.75))
 
         form_widget = QWidget()
         self.form_layout = QFormLayout(form_widget)
@@ -65,6 +74,7 @@ class RecipeDialog(QDialog):
         btn_layout = QHBoxLayout(self.btn_box)
         btn_layout.setContentsMargins(16, 12, 16, 12)
         outer.addWidget(self.btn_box)
+        self.adjustSize()
 
     def _build_fields(self, fields, disabled=False):
         for field in fields:

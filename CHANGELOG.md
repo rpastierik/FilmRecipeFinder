@@ -1,6 +1,12 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## [0.6.0] - 2026.03.27
+- Fixed: Main window size now scales dynamically to screen resolution (no longer fixed 1200×850)
+- Fixed: Recipe dialogs (Add, Edit, Delete) no longer overflow on smaller screens – height adapts to screen size
+- Fixed: Recipe Browser dialog minimum size now scales to screen resolution
+- Fixed: Dialog content area no longer shows excessive empty space below last field
+
 ## [0.5.9] - 2026.03.24
 - Removed: Sensor filter dropdown from toolbar
 - Removed: Sensor filter from Settings – use Sensor field in Recipe Browser advanced filter instead
