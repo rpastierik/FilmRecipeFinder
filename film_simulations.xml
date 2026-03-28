@@ -4792,4 +4792,45 @@
     <URL>https://filmsimrecipes.com/project/soft-ember/</URL>
     <Sensor>X-Trans V</Sensor>
   </profile>
+  <profile>
+    <Name>Urban Gold</Name>
+    <FilmMode>Classic Chrome</FilmMode>
+    <GrainEffectRoughness>Weak</GrainEffectRoughness>
+    <GrainEffectSize>Small</GrainEffectSize>
+    <ColorChromeEffect>Strong</ColorChromeEffect>
+    <ColorChromeFXBlue>Strong</ColorChromeFXBlue>
+    <WhiteBalance>Kelvin</WhiteBalance>
+    <WhiteBalanceFineTune>Red +1, Blue -2</WhiteBalanceFineTune>
+    <ColorTemperature>7400</ColorTemperature>
+    <DevelopmentDynamicRange>400</DevelopmentDynamicRange>
+    <HighlightTone>-2 (soft)</HighlightTone>
+    <ShadowTone>-1 (medium soft)</ShadowTone>
+    <Saturation>-1 (medium low)</Saturation>
+    <Sharpness>-1</Sharpness>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Clarity>0</Clarity>
+    <Favourite>No</Favourite>
+    <URL>https://filmsimrecipes.com/project/urban-gold/</URL>
+    <Sensor>X-Trans V</Sensor>
+  </profile>
+  <profile>
+    <Name>Classic Sunglasses View</Name>
+    <FilmMode>Classic Negative</FilmMode>
+    <GrainEffectRoughness>Off</GrainEffectRoughness>
+    <GrainEffectSize>Off</GrainEffectSize>
+    <ColorChromeEffect>Strong</ColorChromeEffect>
+    <ColorChromeFXBlue>Strong</ColorChromeFXBlue>
+    <WhiteBalance>Auto</WhiteBalance>
+    <WhiteBalanceFineTune>Red +2, Blue -4</WhiteBalanceFineTune>
+    <DevelopmentDynamicRange>400</DevelopmentDynamicRange>
+    <HighlightTone>-2 (soft)</HighlightTone>
+    <ShadowTone>0 (normal)</ShadowTone>
+    <Saturation>+3 (very high)</Saturation>
+    <Sharpness>0</Sharpness>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Clarity>0</Clarity>
+    <Favourite>No</Favourite>
+    <URL>https://filmsimrecipes.com/project/classic-sunglasses-view/</URL>
+    <Sensor>X-Trans V</Sensor>
+  </profile>
 </profiles>
