@@ -4771,4 +4771,25 @@
     <URL>https://fujixweekly.com/2026/03/25/1971-kodak-a-fujifilm-recipe-for-x-trans-v-cameras/</URL>
     <Sensor>X-Trans V</Sensor>
   </profile>
+  <profile>
+    <Name>Soft Ember</Name>
+    <FilmMode>Classic Negative</FilmMode>
+    <GrainEffectRoughness>Weak</GrainEffectRoughness>
+    <GrainEffectSize>Large</GrainEffectSize>
+    <ColorChromeEffect>Weak</ColorChromeEffect>
+    <ColorChromeFXBlue>Weak</ColorChromeFXBlue>
+    <WhiteBalance>Kelvin</WhiteBalance>
+    <WhiteBalanceFineTune>Red -3, Blue +3</WhiteBalanceFineTune>
+    <ColorTemperature>6500</ColorTemperature>
+    <DevelopmentDynamicRange>400</DevelopmentDynamicRange>
+    <HighlightTone>-2 (soft)</HighlightTone>
+    <ShadowTone>-1 (medium soft)</ShadowTone>
+    <Saturation>+4 (highest)</Saturation>
+    <Sharpness>-1</Sharpness>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Clarity>-3</Clarity>
+    <Favourite>No</Favourite>
+    <URL>https://filmsimrecipes.com/project/soft-ember/</URL>
+    <Sensor>X-Trans V</Sensor>
+  </profile>
 </profiles>

@@ -12,6 +12,8 @@ All notable changes to this project will be documented in this file.
   - Recipe name now displayed in header as main title
   - Filename moved to data list as "File" field
   - Name field removed from data list (displayed in header)
+- Changed: Clarity field in recipe editor is now combo with range +5..-5
+- Changed: Tone/Saturation/Noise Reduction options reordered to show positive values first when applicable
 - Added: Testing & Development section to README
   - Instructions for running tests with pytest
   - Test coverage breakdown and statistics
