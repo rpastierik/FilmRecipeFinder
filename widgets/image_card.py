@@ -177,8 +177,10 @@ class ImageCard(QFrame):
                 if key != "Name":
                     text += f"{key}: {value}<br>"
         else:
-            text = f"<b>File: {filename_base}</b><br><br>"
+            pcm = exif_fallback.get("Picture Control Name") 
+            text = f"<b>{pcm}</b><br>"
             text += "<i>No matching simulation found</i><br><br>"
+            text += f"File: {filename_base}<br>"
             for key, value in exif_fallback.items():
                 text += f"{key}: {value}<br>"
 
