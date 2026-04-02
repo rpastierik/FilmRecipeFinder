@@ -4833,4 +4833,44 @@
     <URL>https://filmsimrecipes.com/project/classic-sunglasses-view/</URL>
     <Sensor>X-Trans V</Sensor>
   </profile>
+  <profile>
+    <Name>Springfield</Name>
+    <FilmMode>Classic Chrome</FilmMode>
+    <GrainEffectRoughness>Strong</GrainEffectRoughness>
+    <GrainEffectSize>Large</GrainEffectSize>
+    <ColorChromeEffect>Weak</ColorChromeEffect>
+    <ColorChromeFXBlue>Weak</ColorChromeFXBlue>
+    <WhiteBalance>Auto</WhiteBalance>
+    <WhiteBalanceFineTune>Red +2, Blue -3</WhiteBalanceFineTune>
+    <DevelopmentDynamicRange>400</DevelopmentDynamicRange>
+    <HighlightTone>+1 (medium hard)</HighlightTone>
+    <ShadowTone>+1 (medium hard)</ShadowTone>
+    <Saturation>+4 (highest)</Saturation>
+    <Sharpness>-1</Sharpness>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Clarity>0</Clarity>
+    <Favourite>No</Favourite>
+    <URL>https://filmsimrecipes.com/project/springfield/</URL>
+    <Sensor>X-Trans V</Sensor>
+  </profile>
+  <profile>
+    <Name>Aurea</Name>
+    <FilmMode>Nostalgic Neg</FilmMode>
+    <GrainEffectRoughness>Weak</GrainEffectRoughness>
+    <GrainEffectSize>Small</GrainEffectSize>
+    <ColorChromeEffect>Weak</ColorChromeEffect>
+    <ColorChromeFXBlue>Weak</ColorChromeFXBlue>
+    <WhiteBalance>Auto</WhiteBalance>
+    <WhiteBalanceFineTune>Red +4, Blue -5</WhiteBalanceFineTune>
+    <DevelopmentDynamicRange>400</DevelopmentDynamicRange>
+    <HighlightTone>-1.5</HighlightTone>
+    <ShadowTone>0 (normal)</ShadowTone>
+    <Saturation>+2 (high)</Saturation>
+    <Sharpness>-4</Sharpness>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Clarity>0</Clarity>
+    <Favourite>No</Favourite>
+    <URL>https://filmsimrecipes.com/project/aurea/</URL>
+    <Sensor>X-Trans V</Sensor>
+  </profile>
 </profiles>
