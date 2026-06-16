@@ -88,8 +88,10 @@ def _parse_tone(value: str) -> str:
     """'+2' or '2' or '-1' → best match from options like '+2 (hard)'"""
     n = _extract_number(value)
     tone_map = {
-        "-2": "-2 (soft)", "-1": "-1 (medium soft)", "-0.5": "-0.5",
-        "0": "0 (normal)", "+1": "+1 (medium hard)", "+2": "+2 (hard)",
+        "-2": "-2 (soft)", "-1": "-1 (medium soft)", "-1.5": "-1.5", 
+        "-0.5": "-0.5", 
+        "0": "0 (normal)", "+0.5": "+0.5", "+1": "+1 (medium hard)",  "+1.5": "+1.5",
+        "+2": "+2 (hard)",
         "+3": "+3 (very hard)", "+4": "+4 (hardest)",
     }
     return tone_map.get(n, n)

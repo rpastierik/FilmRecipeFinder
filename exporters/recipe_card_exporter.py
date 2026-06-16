@@ -125,6 +125,28 @@ def export_recipe_card(
     name = recipe.get("Name", "Unknown Recipe")
     film_mode = recipe.get("FilmMode", "")
 
+    # Skráť dlhé FilmMode názvy na čitateľný alias
+    FILM_MODE_ALIASES = {
+        "Provia":          "Provia",
+        "Velvia":          "Velvia",
+        "Astia":           "Astia",
+        "Classic Chrome":  "Classic Chrome",
+        "Classic Neg":     "Classic Neg",
+        "Nostalgic Neg":   "Nostalgic Neg",
+        "Eterna Bleach":   "Eterna Bleach",
+        "Eterna":          "Eterna",
+        "Acros":           "Acros",
+        "Monochrome":      "Monochrome",
+        "Sepia":           "Sepia",
+        "Pro Neg Hi":      "Pro Neg Hi",
+        "Pro Neg Std":     "Pro Neg Std",
+        "Reala ACE":       "Reala ACE",
+    }
+    for key, alias in FILM_MODE_ALIASES.items():
+        if key.lower() in film_mode.lower():
+            film_mode = alias
+            break
+    
     # Recipe name
     draw.text((PADDING, PADDING), name, font=f_title, fill=(255, 255, 255))
     title_h = f_title.size + 6

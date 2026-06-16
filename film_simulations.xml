@@ -2138,7 +2138,7 @@
     <Name>Fujicolor C200 (IV)</Name>
     <FilmMode>Classic Negative</FilmMode>
     <DevelopmentDynamicRange>400</DevelopmentDynamicRange>
-    <HighlightTone>+0.5</HighlightTone>
+    <HighlightTone>0.5</HighlightTone>
     <ShadowTone>-0.5</ShadowTone>
     <Saturation>+2 (high)</Saturation>
     <NoiseReduction>-4 (weakest)</NoiseReduction>
@@ -2345,7 +2345,7 @@
     <ColorChromeFXBlue>Weak</ColorChromeFXBlue>
     <WhiteBalance>Auto</WhiteBalance>
     <WhiteBalanceFineTune>Red +1, Blue -3</WhiteBalanceFineTune>
-    <HighlightTone>+0.5</HighlightTone>
+    <HighlightTone>0.5</HighlightTone>
     <ShadowTone>-1.5</ShadowTone>
     <Saturation>+4 (highest)</Saturation>
     <Sharpness>-1</Sharpness>
@@ -2821,7 +2821,7 @@
     <ColorTemperature>6000</ColorTemperature>
     <WhiteBalance>Kelvin</WhiteBalance>
     <WhiteBalanceFineTune>Red -9, Blue -6</WhiteBalanceFineTune>
-    <HighlightTone>+0.5</HighlightTone>
+    <HighlightTone>0.5</HighlightTone>
     <ShadowTone>-1 (medium soft)</ShadowTone>
     <Saturation>+1 (medium high)</Saturation>
     <Sharpness>-3</Sharpness>
@@ -4522,6 +4522,8 @@
     <Sharpness>+2</Sharpness>
     <NoiseReduction>-2 (weak)</NoiseReduction>
     <Clarity>+3</Clarity>
+    <Favourite>No</Favourite>
+    <URL>https://filmsimrecipes.com/project/chrome-memory/</URL>
     <Sensor>X-Trans V</Sensor>
   </profile>
   <profile>
@@ -4871,6 +4873,125 @@
     <Clarity>0</Clarity>
     <Favourite>No</Favourite>
     <URL>https://filmsimrecipes.com/project/aurea/</URL>
+    <Sensor>X-Trans V</Sensor>
+  </profile>
+  <profile>
+    <Name>Lisa Glow by Lisa Portinari</Name>
+    <FilmMode>F1b/Studio Portrait Smooth Skin Tone (Astia)</FilmMode>
+    <GrainEffectRoughness>Weak</GrainEffectRoughness>
+    <GrainEffectSize>Small</GrainEffectSize>
+    <ColorChromeEffect>Off</ColorChromeEffect>
+    <ColorChromeFXBlue>Off</ColorChromeFXBlue>
+    <WhiteBalance>Daylight</WhiteBalance>
+    <WhiteBalanceFineTune>Red +4, Blue -5</WhiteBalanceFineTune>
+    <DevelopmentDynamicRange>200</DevelopmentDynamicRange>
+    <HighlightTone>-1.5</HighlightTone>
+    <ShadowTone>0.5</ShadowTone>
+    <Saturation>-2 (low)</Saturation>
+    <Sharpness>-2</Sharpness>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Clarity>-4</Clarity>
+    <Favourite>No</Favourite>
+    <Sensor>X-Trans V</Sensor>
+  </profile>
+  <profile>
+    <Name>Reala Stillness</Name>
+    <FilmMode>Reala ACE</FilmMode>
+    <GrainEffectRoughness>Off</GrainEffectRoughness>
+    <GrainEffectSize>Off</GrainEffectSize>
+    <ColorChromeEffect>Strong</ColorChromeEffect>
+    <ColorChromeFXBlue>Weak</ColorChromeFXBlue>
+    <WhiteBalance>Kelvin</WhiteBalance>
+    <WhiteBalanceFineTune>Red -4, Blue +5</WhiteBalanceFineTune>
+    <ColorTemperature>6700</ColorTemperature>
+    <DevelopmentDynamicRange>400</DevelopmentDynamicRange>
+    <HighlightTone>-1 (medium soft)</HighlightTone>
+    <ShadowTone>+1 (medium hard)</ShadowTone>
+    <Saturation>+1 (medium high)</Saturation>
+    <Sharpness>-1</Sharpness>
+    <NoiseReduction>-2 (weak)</NoiseReduction>
+    <Clarity>0</Clarity>
+    <Favourite>No</Favourite>
+    <Description>set Smooth Skin Effect: WEAK</Description>
+    <Sensor>X-Trans V</Sensor>
+  </profile>
+  <profile>
+    <Name>Vivid Chrome</Name>
+    <FilmMode>F2/Fujichrome (Velvia)</FilmMode>
+    <GrainEffectRoughness>Weak</GrainEffectRoughness>
+    <GrainEffectSize>Small</GrainEffectSize>
+    <ColorChromeEffect>Strong</ColorChromeEffect>
+    <ColorChromeFXBlue>Off</ColorChromeFXBlue>
+    <WhiteBalance>Daylight</WhiteBalance>
+    <WhiteBalanceFineTune>Red +2, Blue -2</WhiteBalanceFineTune>
+    <DevelopmentDynamicRange>400</DevelopmentDynamicRange>
+    <HighlightTone>-1 (medium soft)</HighlightTone>
+    <ShadowTone>-0.5</ShadowTone>
+    <Saturation>+2 (high)</Saturation>
+    <Sharpness>-2</Sharpness>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Clarity>+3</Clarity>
+    <Favourite>No</Favourite>
+    <URL>https://fujixweekly.com/2026/04/13/vivid-chrome-a-fujifilm-recipe-for-x-and-gfx-cameras/</URL>
+    <Sensor>X-Trans V</Sensor>
+  </profile>
+  <profile>
+    <Name>Nostalgic Air</Name>
+    <FilmMode>Nostalgic Neg</FilmMode>
+    <GrainEffectRoughness>Strong</GrainEffectRoughness>
+    <GrainEffectSize>Small</GrainEffectSize>
+    <ColorChromeEffect>Off</ColorChromeEffect>
+    <ColorChromeFXBlue>Off</ColorChromeFXBlue>
+    <WhiteBalance>Auto</WhiteBalance>
+    <WhiteBalanceFineTune>Red +5, Blue -1</WhiteBalanceFineTune>
+    <HighlightTone>-1 (medium soft)</HighlightTone>
+    <ShadowTone>0 (normal)</ShadowTone>
+    <Saturation>+4 (highest)</Saturation>
+    <Sharpness>-2</Sharpness>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Clarity>-3</Clarity>
+    <Favourite>No</Favourite>
+    <URL>https://fujixweekly.com/2026/04/19/nostalgic-air-a-fujifilm-recipe-for-x-trans-v-cameras/</URL>
+    <Sensor>X-Trans V</Sensor>
+  </profile>
+  <profile>
+    <Name>Dreaming</Name>
+    <FilmMode>Classic Negative</FilmMode>
+    <GrainEffectRoughness>Strong</GrainEffectRoughness>
+    <GrainEffectSize>Small</GrainEffectSize>
+    <ColorChromeEffect>Off</ColorChromeEffect>
+    <ColorChromeFXBlue>Off</ColorChromeFXBlue>
+    <WhiteBalance>Daylight</WhiteBalance>
+    <WhiteBalanceFineTune>Red +4, Blue -5</WhiteBalanceFineTune>
+    <DevelopmentDynamicRange>200</DevelopmentDynamicRange>
+    <HighlightTone>-2 (soft)</HighlightTone>
+    <ShadowTone>+1 (medium hard)</ShadowTone>
+    <Saturation>+3 (very high)</Saturation>
+    <Sharpness>-2</Sharpness>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Clarity>-2</Clarity>
+    <Favourite>No</Favourite>
+    <Description>youtube: @clicks_with_alex</Description>
+    <Sensor>X-Trans V</Sensor>
+  </profile>
+  <profile>
+    <Name>Lisa Portra by Lisa Portinari</Name>
+    <FilmMode>Classic Negative</FilmMode>
+    <GrainEffectRoughness>Weak</GrainEffectRoughness>
+    <GrainEffectSize>Small</GrainEffectSize>
+    <ColorChromeEffect>Weak</ColorChromeEffect>
+    <ColorChromeFXBlue>Weak</ColorChromeFXBlue>
+    <WhiteBalance>Daylight</WhiteBalance>
+    <WhiteBalanceFineTune>Red +1, Blue -2</WhiteBalanceFineTune>
+    <DevelopmentDynamicRange>400</DevelopmentDynamicRange>
+    <HighlightTone>-1.5</HighlightTone>
+    <ShadowTone>-1 (medium soft)</ShadowTone>
+    <Saturation>-1 (medium low)</Saturation>
+    <Sharpness>-2</Sharpness>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Clarity>-3</Clarity>
+    <Favourite>No</Favourite>
+    <URL>https://www.youtube.com/watch?v=9YMK5mvmSj0</URL>
     <Sensor>X-Trans V</Sensor>
   </profile>
 </profiles>
