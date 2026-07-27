@@ -4781,7 +4781,7 @@
     <ColorChromeEffect>Weak</ColorChromeEffect>
     <ColorChromeFXBlue>Weak</ColorChromeFXBlue>
     <WhiteBalance>Kelvin</WhiteBalance>
-    <WhiteBalanceFineTune>Red -3, Blue +3</WhiteBalanceFineTune>
+    <WhiteBalanceFineTune>Red +2, Blue -3</WhiteBalanceFineTune>
     <ColorTemperature>6500</ColorTemperature>
     <DevelopmentDynamicRange>400</DevelopmentDynamicRange>
     <HighlightTone>-2 (soft)</HighlightTone>
@@ -4791,6 +4791,7 @@
     <NoiseReduction>-4 (weakest)</NoiseReduction>
     <Clarity>-3</Clarity>
     <Favourite>No</Favourite>
+    <Description>@dannys.frames</Description>
     <URL>https://filmsimrecipes.com/project/soft-ember/</URL>
     <Sensor>X-Trans V</Sensor>
   </profile>
@@ -4992,6 +4993,128 @@
     <Clarity>-3</Clarity>
     <Favourite>No</Favourite>
     <URL>https://www.youtube.com/watch?v=9YMK5mvmSj0</URL>
+    <Sensor>X-Trans V</Sensor>
+  </profile>
+  <profile>
+    <Name>VELOURA</Name>
+    <FilmMode>Classic Negative</FilmMode>
+    <GrainEffectRoughness>Strong</GrainEffectRoughness>
+    <GrainEffectSize>Large</GrainEffectSize>
+    <ColorChromeEffect>Strong</ColorChromeEffect>
+    <ColorChromeFXBlue>Strong</ColorChromeFXBlue>
+    <WhiteBalance>Auto</WhiteBalance>
+    <WhiteBalanceFineTune>Red +5, Blue -5</WhiteBalanceFineTune>
+    <DevelopmentDynamicRange>400</DevelopmentDynamicRange>
+    <HighlightTone>-2 (soft)</HighlightTone>
+    <ShadowTone>+2 (hard)</ShadowTone>
+    <Saturation>+4 (highest)</Saturation>
+    <Sharpness>-1</Sharpness>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Clarity>-1</Clarity>
+    <Favourite>No</Favourite>
+    <Description>@dannys.frames</Description>
+    <Sensor>X-Trans V</Sensor>
+  </profile>
+  <profile>
+    <Name>Cinder Chrome</Name>
+    <FilmMode>Classic Chrome</FilmMode>
+    <GrainEffectRoughness>Weak</GrainEffectRoughness>
+    <GrainEffectSize>Small</GrainEffectSize>
+    <ColorChromeEffect>Strong</ColorChromeEffect>
+    <ColorChromeFXBlue>Off</ColorChromeFXBlue>
+    <WhiteBalance>Auto</WhiteBalance>
+    <WhiteBalanceFineTune>Red +4, Blue -5</WhiteBalanceFineTune>
+    <DevelopmentDynamicRange>400</DevelopmentDynamicRange>
+    <HighlightTone>-1 (medium soft)</HighlightTone>
+    <ShadowTone>-0.5</ShadowTone>
+    <Saturation>+3 (very high)</Saturation>
+    <Sharpness>-3</Sharpness>
+    <NoiseReduction>0 (normal)</NoiseReduction>
+    <Clarity>0</Clarity>
+    <Favourite>No</Favourite>
+    <Description>@dannys.frames</Description>
+    <Sensor>X-Trans V</Sensor>
+  </profile>
+  <profile>
+    <Name>Classic Retro Film</Name>
+    <FilmMode>Classic Negative</FilmMode>
+    <GrainEffectRoughness>Strong</GrainEffectRoughness>
+    <GrainEffectSize>Small</GrainEffectSize>
+    <ColorChromeEffect>Strong</ColorChromeEffect>
+    <ColorChromeFXBlue>Strong</ColorChromeFXBlue>
+    <WhiteBalance>Daylight</WhiteBalance>
+    <WhiteBalanceFineTune>Red +0, Blue -3</WhiteBalanceFineTune>
+    <DevelopmentDynamicRange>400</DevelopmentDynamicRange>
+    <HighlightTone>+4 (hardest)</HighlightTone>
+    <ShadowTone>-2 (soft)</ShadowTone>
+    <Saturation>-1 (medium low)</Saturation>
+    <Sharpness>-2</Sharpness>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Clarity>+2</Clarity>
+    <Favourite>No</Favourite>
+    <URL>https://fujixweekly.com/2026/07/11/classic-retro-a-fujifilm-recipe-for-fifth-generation-cameras/</URL>
+    <Sensor>X-Trans V</Sensor>
+  </profile>
+  <profile>
+    <Name>Kodak Gold II</Name>
+    <FilmMode>Classic Chrome</FilmMode>
+    <GrainEffectRoughness>Weak</GrainEffectRoughness>
+    <GrainEffectSize>Small</GrainEffectSize>
+    <ColorChromeEffect>Weak</ColorChromeEffect>
+    <ColorChromeFXBlue>Off</ColorChromeFXBlue>
+    <WhiteBalance>Daylight</WhiteBalance>
+    <WhiteBalanceFineTune>Red +4, Blue -5</WhiteBalanceFineTune>
+    <DevelopmentDynamicRange>200</DevelopmentDynamicRange>
+    <HighlightTone>-1 (medium soft)</HighlightTone>
+    <ShadowTone>+1 (medium hard)</ShadowTone>
+    <Saturation>+1 (medium high)</Saturation>
+    <Sharpness>-2</Sharpness>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Clarity>0</Clarity>
+    <Favourite>No</Favourite>
+    <Sensor>X-Trans V</Sensor>
+  </profile>
+  <profile>
+    <Name>Cashmere</Name>
+    <FilmMode>Classic Negative</FilmMode>
+    <GrainEffectRoughness>Weak</GrainEffectRoughness>
+    <GrainEffectSize>Small</GrainEffectSize>
+    <ColorChromeEffect>Off</ColorChromeEffect>
+    <ColorChromeFXBlue>Weak</ColorChromeFXBlue>
+    <WhiteBalance>Auto</WhiteBalance>
+    <WhiteBalanceFineTune>Red +2, Blue -3</WhiteBalanceFineTune>
+    <DevelopmentDynamicRange>400</DevelopmentDynamicRange>
+    <HighlightTone>0.5</HighlightTone>
+    <ShadowTone>-1 (medium soft)</ShadowTone>
+    <Saturation>+2 (high)</Saturation>
+    <Sharpness>-1</Sharpness>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Clarity>0</Clarity>
+    <Favourite>No</Favourite>
+    <Description>Michele Macaluso</Description>
+    <URL>https://filmsimrecipes.com/project/cashmere/</URL>
+    <Sensor>X-Trans V</Sensor>
+  </profile>
+  <profile>
+    <Name>Mallorca Retro</Name>
+    <FilmMode>Classic Chrome</FilmMode>
+    <GrainEffectRoughness>Weak</GrainEffectRoughness>
+    <GrainEffectSize>Small</GrainEffectSize>
+    <ColorChromeEffect>Strong</ColorChromeEffect>
+    <ColorChromeFXBlue>Off</ColorChromeFXBlue>
+    <WhiteBalance>Kelvin</WhiteBalance>
+    <WhiteBalanceFineTune>Red +4, Blue -5</WhiteBalanceFineTune>
+    <ColorTemperature>6200</ColorTemperature>
+    <DevelopmentDynamicRange>400</DevelopmentDynamicRange>
+    <HighlightTone>-2 (soft)</HighlightTone>
+    <ShadowTone>0 (normal)</ShadowTone>
+    <Saturation>+3 (very high)</Saturation>
+    <Sharpness>-2</Sharpness>
+    <NoiseReduction>-4 (weakest)</NoiseReduction>
+    <Clarity>0</Clarity>
+    <Favourite>No</Favourite>
+    <Description>Perfect for golden hour and sunny days. The 6200K white balance combined with Color +3 gives you that beautiful, warm analogue vibe while keeping the iconic depth of the classic chrome base.</Description>
+    <URL>https://filmsimrecipes.com/project/mallorca-retro/</URL>
     <Sensor>X-Trans V</Sensor>
   </profile>
 </profiles>
